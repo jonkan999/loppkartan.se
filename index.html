@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Mapbox Filtering Example</title>
+    <meta
+      name="viewport"
+      content="initial-scale=1,maximum-scale=1,user-scalable=no"
+    />
+    <link
+      rel="stylesheet"
+      href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css"
+    />
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+    <!--     <script src="https://api.mapbox.com/mapbox-gl-js/v1.11.0/mapbox-gl.js"></script>
+    <link
+      href="https://api.mapbox.com/mapbox-gl-js/v1.11.0/mapbox-gl.css"
+      rel="stylesheet"
+    /> -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
+      integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI="
+      crossorigin=""
+    />
+    <!-- Make sure you put this AFTER Leaflet's CSS -->
+    <script
+      src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
+      integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM="
+      crossorigin=""
+    ></script>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule=""
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <script type="module" defer src="slider.js"></script>
+    <script type="module" defer src="sliderDistance.js"></script>
+    <script type="module" defer src="leafletMapNew.js"></script>
+    <script type="module" defer src="toggleCheckboxes.js"></script>
+
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/queries.css" />
+
+    <style></style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="inner-container">
+        <div class="filter-section margin-bottom--default">
+          <div class="checkboxes">
+            <div id="relayCheckboxContainer" class="checkbox-container">
+              <div id="relayCheckbox" class="header-checkbox active">
+                <ion-icon
+                  name="ellipse"
+                  class="check-icon check-icon-relay"
+                ></ion-icon>
+              </div>
+              <span for="relayCheckbox">Stafett</span>
+            </div>
+            <div id="terrainCheckboxContainer" class="checkbox-container">
+              <div id="terrainCheckbox" class="header-checkbox active">
+                <ion-icon
+                  name="square"
+                  class="check-icon check-icon-terrain"
+                ></ion-icon>
+              </div>
+              <span for="terrainCheckbox">Terräng</span>
+            </div>
+            <div id="trailCheckboxContainer" class="checkbox-container">
+              <div id="trailCheckbox" class="header-checkbox active">
+                <ion-icon
+                  name="triangle"
+                  class="check-icon check-icon-trail"
+                ></ion-icon>
+              </div>
+              <span for="trailCheckbox">Trail</span>
+            </div>
+            <div id="roadCheckboxContainer" class="checkbox-container">
+              <div id="roadCheckbox" class="header-checkbox active">
+                <ion-icon
+                  name="shield"
+                  class="check-icon check-icon-road"
+                ></ion-icon>
+              </div>
+              <span for="roadCheckbox">Road</span>
+            </div>
+            <div id="trackCheckboxContainer" class="checkbox-container">
+              <div id="trackCheckbox" class="header-checkbox active">
+                <ion-icon
+                  name="ellipse"
+                  class="check-icon check-icon-track"
+                ></ion-icon>
+              </div>
+              <span for="trackCheckbox">Track</span>
+            </div>
+          </div>
+          <div class="slider-container">
+            <div class="slider-box">
+              <p>
+                <label for="daysFilterText">Lopp mellan: </label>
+                <input type="text" id="daysFilterText" readonly />
+              </p>
+              <div id="sliderDays"></div>
+            </div>
+            <div class="slider-box">
+              <p>
+                <label for="distanceFilterText">Distans mellan: </label>
+                <input type="text" id="distanceFilterText" readonly />
+              </p>
+              <div id="sliderDistance"></div>
+            </div>
+          </div>
+        </div>
+
+        <div id="map" class="margin-bottom--default"></div>
+
+        <div class="race-container"></div>
+      </div>
+    </div>
+  </body>
+</html>
