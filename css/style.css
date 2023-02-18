@@ -21,9 +21,10 @@ body {
 }
 
 .marker-relay {
-  background-image: url("/svg/relay.svg");
-  background-repeat: no-repeat;
-
+  background: #3b5bdb;
+  /* background-image: url("/svg/track.svg"); */
+  border-radius: 50%;
+  opacity: 70%;
   animation: easeIn ease 0.3s;
   -webkit-animation: easeIn ease 0.3s;
   -moz-animation: easeIn ease 0.3s;
@@ -32,10 +33,11 @@ body {
 }
 
 .marker-road {
-  background-image: url("/svg/road.svg");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
+  opacity: 50%;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-top: 17px solid #495057;
+  border-radius: 2px;
   animation: easeIn ease 0.3s;
   -webkit-animation: easeIn ease 0.3s;
   -moz-animation: easeIn ease 0.3s;
@@ -44,12 +46,10 @@ body {
 }
 
 .marker-track {
-  background: white;
-  background-image: url("/svg/track.svg");
-
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
+  background: #f03e3e;
+  /* background-image: url("/svg/track.svg"); */
+  border-radius: 50%;
+  opacity: 70%;
   animation: easeIn ease 0.3s;
   -webkit-animation: easeIn ease 0.3s;
   -moz-animation: easeIn ease 0.3s;
@@ -58,10 +58,12 @@ body {
 }
 
 .marker-trail {
-  background-image: url("/svg/trail.svg");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
+  opacity: 70%;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-bottom: 18px solid #ff922b;
+  border-radius: 2px;
+
   animation: easeIn ease 0.3s;
   -webkit-animation: easeIn ease 0.3s;
   -moz-animation: easeIn ease 0.3s;
@@ -70,9 +72,9 @@ body {
 }
 
 .marker-terrain {
-  background-image: url("/svg/terrain.svg");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+  background-color: #66a80f;
+  /* background-image: url("/svg/terrain.svg"); */
+  border-radius: 2px;
   background-position: center;
   animation: easeIn ease 0.3s;
   -webkit-animation: easeIn ease 0.3s;
