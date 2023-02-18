@@ -23,8 +23,11 @@ export function filterMarkersOnDistance(minDistance, maxDistance) {
             break;
           }
         }
-        // If none of the values in distance_m is between minDistance and maxDistance, add "hideMarkerOnDays" to markerIcons[i].classList
+        if (distanceM === "") {
+          isInRange = true;
+        }
         if (!isInRange) {
+          // If none of the values in distance_m is between minDistance and maxDistance, add "hideMarkerOnDays" to markerIcons[i].classList
           markerIcons[i].classList.add("hideMarkerOnDistance");
         } else {
           // Otherwise, remove "hideMarkerOnDays" from markerIcons[i].classList

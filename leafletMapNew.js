@@ -1,4 +1,5 @@
 /* Initializing leaflet map map */
+import { smoothScrollDown } from "/smoothScrollDown.js";
 
 let map = L.map("map", { attributionControl: false }).setView(
   [60.346972, 15.748689],
@@ -144,6 +145,8 @@ fetch("all_races.json")
               }
             }
           });
+          /*scroll down so we see markers*/
+          smoothScrollDown();
         });
       }
     });
