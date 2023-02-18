@@ -1,6 +1,9 @@
 /* Initializing leaflet map map */
 
-let map = L.map("map").setView([62.346972, 15.748689], 5.4);
+let map = L.map("map", { attributionControl: false }).setView(
+  [62.346972, 15.748689],
+  5.4
+);
 window.globalMap = map;
 L.tileLayer(
   "https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Base/MapServer/tile/{z}/{y}/{x}",

@@ -44,8 +44,9 @@ body {
 }
 
 .marker-track {
-  background-image: url("/svg/track.svg");
   background: white;
+  background-image: url("/svg/track.svg");
+
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
