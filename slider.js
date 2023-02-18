@@ -1,57 +1,5 @@
 import { filterMarkersOnDays } from "/filterMarkersOnDays.js";
 
-$.event.special.swipe = {
-  setup: function () {
-    var thisObject = this;
-    var $this = $(thisObject);
-
-    $this
-      .bind("touchstart", function (event) {
-        var data = event.originalEvent.touches
-          ? event.originalEvent.touches[0]
-          : event;
-        start = {
-          time: new Date().getTime(),
-          coords: [data.pageX, data.pageY],
-          origin: $(event.target),
-        };
-      })
-      .bind("touchmove", function (event) {
-        var data = event.originalEvent.touches
-          ? event.originalEvent.touches[0]
-          : event;
-        if (!start) {
-          return;
-        }
-        var end = {
-          time: new Date().getTime(),
-          coords: [data.pageX, data.pageY],
-        };
-        var deltaX = end.coords[0] - start.coords[0];
-        var deltaY = end.coords[1] - start.coords[1];
-        if (Math.abs(deltaX) > 30) {
-          $this
-            .trigger("swipe")
-            .trigger(
-              start.coords[0] > end.coords[0] ? "swipeleft" : "swiperight"
-            );
-          start = null;
-        } else if (Math.abs(deltaY) > 30) {
-          $this
-            .trigger("swipe")
-            .trigger(start.coords[1] > end.coords[1] ? "swipeup" : "swipedown");
-          start = null;
-        }
-      })
-      .bind("touchend", function (event) {
-        if (start) {
-          $this.trigger("tap");
-        }
-        start = null;
-      });
-  },
-};
-
 $(function () {
   $("#sliderDays").slider({
     range: true,
