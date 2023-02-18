@@ -240,10 +240,10 @@
 
 @media (max-width: 44em) {
   .container {
-    padding: 0 1rem;
+    padding: 0 1.6rem;
   }
   .inner-container {
-    padding: 0 1rem;
+    padding: 0 1.6rem;
   }
   #sliderDays {
     height: 1.6rem;
@@ -253,7 +253,7 @@
   }
 
   #map {
-    width: 100%;
+    width: 90%;
     height: 50rem;
     margin: 0 auto;
   }
