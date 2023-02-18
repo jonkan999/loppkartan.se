@@ -41,4 +41,11 @@ $(function () {
   let endDateString = endDate.toLocaleDateString("sv-SE", options);
   filterMarkersOnDays(startDay, endDay);
   $("#daysFilterText").val(startDateString + " - " + endDateString);
+
+  // Add touch support
+  $("#sliderDays").draggable();
+  $("#sliderDays .ui-slider-handle").on("touchstart mousedown", function () {
+    // Trigger the slider handle's mouseenter event
+    $(this).trigger("mouseenter");
+  });
 });

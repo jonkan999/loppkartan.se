@@ -202,6 +202,9 @@ body {
 .hideMarkerOnDays {
   display: none;
 }
+.hideMarkerOnDistance {
+  display: none;
+}
 
 /* Info box section */
 
