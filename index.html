@@ -61,7 +61,25 @@
   <body>
     <div class="container">
       <div class="inner-container">
+        <div id="map" class="margin-bottom--small"></div>
+
         <div class="filter-section margin-bottom--default">
+          <div class="slider-container">
+            <div class="slider-box">
+              <p>
+                <label for="daysFilterText">Lopp mellan: </label>
+                <input type="text" id="daysFilterText" readonly />
+              </p>
+              <div id="sliderDays"></div>
+            </div>
+            <div class="slider-box">
+              <p>
+                <label for="distanceFilterText">Distans mellan: </label>
+                <input type="text" id="distanceFilterText" readonly />
+              </p>
+              <div id="sliderDistance"></div>
+            </div>
+          </div>
           <div class="checkboxes">
             <div id="relayCheckboxContainer" class="checkbox-container">
               <div id="relayCheckbox" class="header-checkbox active">
@@ -109,25 +127,7 @@
               <span for="trackCheckbox">Track</span>
             </div>
           </div>
-          <div class="slider-container">
-            <div class="slider-box">
-              <p>
-                <label for="daysFilterText">Lopp mellan: </label>
-                <input type="text" id="daysFilterText" readonly />
-              </p>
-              <div id="sliderDays"></div>
-            </div>
-            <div class="slider-box">
-              <p>
-                <label for="distanceFilterText">Distans mellan: </label>
-                <input type="text" id="distanceFilterText" readonly />
-              </p>
-              <div id="sliderDistance"></div>
-            </div>
-          </div>
         </div>
-
-        <div id="map" class="margin-bottom--default"></div>
 
         <div class="race-container"></div>
       </div>
