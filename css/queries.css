@@ -239,6 +239,23 @@
 /**************************/
 
 @media (max-width: 44em) {
+  .container {
+    padding: 0 1rem;
+  }
+  .inner-container {
+    padding: 0 1rem;
+  }
+  #sliderDays {
+    height: 1.6rem;
+  }
+  #sliderDistance {
+    height: 1.6rem;
+  }
+  #sliderDays .ui-slider-handle,
+  #sliderDistance .ui-slider-handle {
+    width: 1.6rem;
+    height: 1.9rem;
+  }
   .grid--3-cols,
   .grid--4-cols {
     grid-template-columns: repeat(2, 1fr);
