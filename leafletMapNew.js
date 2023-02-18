@@ -3,8 +3,9 @@
 let map = L.map("map").setView([62.346972, 15.748689], 5.4);
 window.globalMap = map;
 L.tileLayer(
-  "https://tiles.stadiamaps.com/tiles/alidade_smooth/{z}/{x}/{y}{r}.png",
+  "https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Base/MapServer/tile/{z}/{y}/{x}",
   {
+    attribution: "Tiles &copy; Esri &mdash; Esri, DeLorme, NAVTEQ",
     maxZoom: 19,
     attribution:
       '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>',

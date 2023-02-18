@@ -7,8 +7,8 @@
     "type": "Väg",
     "place": "Mora",
     "website": "http://www.vasaloppet.se/lopp/skidlopp/vasaloppet/",
-    "latitude": 61.004878,
-    "longitude": 14.537003
+    "latitude": 0,
+    "longitude": 0
   },
   {
     "date": "20230305",
@@ -88,6 +88,17 @@
     "longitude": 17.750921
   },
   {
+    "date": "20230422",
+    "day": "22",
+    "month": "April",
+    "name": "Isaberg 500",
+    "type": "Väg",
+    "place": "Hestra",
+    "website": "http://www.isabergtrail.se/",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
     "date": "20230502",
     "day": "2",
     "month": "Maj",
@@ -106,8 +117,8 @@
     "type": "Väg",
     "place": "Enköping",
     "website": "http://www.arosmarathon.se/",
-    "latitude": 59.63569090000001,
-    "longitude": 17.0778228
+    "latitude": 0,
+    "longitude": 0
   },
   {
     "date": "20230506",
@@ -289,6 +300,17 @@
     "date": "20230701",
     "day": "1",
     "month": "Juli",
+    "name": "Bocksten Trailrun",
+    "type": "Väg",
+    "place": "Åkulla",
+    "website": "http://bockstentrailrun.se/",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "date": "20230701",
+    "day": "1",
+    "month": "Juli",
     "name": "Kalmar Malkars 21 km",
     "type": "Väg",
     "place": "Kalmar",
@@ -348,8 +370,8 @@
     "type": "Väg",
     "place": "Åre",
     "website": "https://fjallmaraton.se/fjallmaratonveckan/vertical-k/",
-    "latitude": 63.3990428,
-    "longitude": 13.0815059
+    "latitude": 0,
+    "longitude": 0
   },
   {
     "date": "20230803",
@@ -370,8 +392,8 @@
     "type": "Väg",
     "place": "Halland",
     "website": "https://hubtrail.se/",
-    "latitude": 56.8966805,
-    "longitude": 12.8033993
+    "latitude": 0,
+    "longitude": 0
   },
   {
     "date": "20230805",
@@ -381,8 +403,8 @@
     "type": "Väg",
     "place": "Vålådalen",
     "website": "https://fjallmaraton.se/fjallmaratonveckan/fjallmaraton/",
-    "latitude": 63.14835660000001,
-    "longitude": 12.9663721
+    "latitude": 63.15145,
+    "longitude": 12.97103
   },
   {
     "date": "20230805",
@@ -482,6 +504,17 @@
     "website": "http://hasselbyloppet.se/",
     "latitude": 59.3662135,
     "longitude": 17.8599926
+  },
+  {
+    "date": "20231127",
+    "day": "27",
+    "month": "November",
+    "name": "Hammarby Alpin Marathon",
+    "type": "Väg",
+    "place": "Hammarby",
+    "website": "https://www.hammarbyalpin.se/",
+    "latitude": 0,
+    "longitude": 0
   },
   {
     "date": "20231231",
