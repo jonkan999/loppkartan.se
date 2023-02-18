@@ -33,7 +33,7 @@ fetch("all_races.json")
             } marker-${markerRace.name.replace(/\s/g, "")}-${
               markerRace.date
             } raceMarker`,
-            iconSize: [25, 25],
+            iconSize: [18, 18],
             html: `
               <div 
                 data-marker-id="${markerRace.id}"
