@@ -184,6 +184,10 @@
     gap: 2rem;
   }
 
+  .slider-container {
+    align-self: flex-start;
+  }
+
   #sliderDays {
     height: 1.6rem;
   }
