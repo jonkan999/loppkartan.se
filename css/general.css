@@ -156,6 +156,14 @@ body {
   margin-bottom: 0.6rem !important;
 }
 
+.margin-top--default {
+  margin-top: 3.2rem !important;
+}
+
+.margin-top--small {
+  margin-top: 1.2rem !important;
+}
+
 .btn:link,
 .btn:visited {
   display: inline-block;
