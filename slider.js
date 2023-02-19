@@ -4,7 +4,7 @@ $(function () {
   $("#sliderDays").slider({
     range: true,
     min: 0,
-    max: 230,
+    max: 300,
     values: [0, 100],
     slide: function (event, ui) {
       let now = new Date();

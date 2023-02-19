@@ -6,6 +6,12 @@ import re
 
 access_token = config.GOOGLE_GEOCODING_API_KEY
 
+#retrieve manually adjusted races
+with open('all_races.json', encoding='utf-8') as f:
+    all_races = json.load(f)
+
+adjusted_races = [race for race in all_races if race.get('adjusted') == 1]
+
 # Load the data from the two input files
 with open('events_fri_Arena.json', encoding='utf-8') as f:
     events_fri_Arena = json.load(f)

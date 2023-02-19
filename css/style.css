@@ -151,6 +151,7 @@ body {
 }
 
 .checkbox-container {
+  position: relative;
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -161,8 +162,8 @@ body {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-  width: 1.8rem;
-  height: 1.8rem;
+  width: 22px;
+  height: 22px;
 
   display: flex;
   align-items: center;
@@ -175,43 +176,86 @@ body {
 
 .header-checkbox.active {
   border-color: #333;
-  animation: easeIn ease 0.5s;
-  -webkit-animation: easeIn ease 0.5s;
-  -moz-animation: easeIn ease 0.5s;
-  -o-animation: easeIn ease 0.5s;
-  -ms-animation: easeIn ease 0.5s;
+  animation: easeIn ease 0.2s;
+  -webkit-animation: easeIn ease 0.2s;
+  -moz-animation: easeIn ease 0.2s;
+  -o-animation: easeIn ease 0.2s;
+  -ms-animation: easeIn ease 0.2s;
 }
 .check-icon {
   display: none;
 }
 
 .header-checkbox.active .check-icon {
-  display: block;
-  font-size: large;
-  animation: easeIn ease 0.5s;
-  -webkit-animation: easeIn ease 0.5s;
-  -moz-animation: easeIn ease 0.5s;
-  -o-animation: easeIn ease 0.5s;
-  -ms-animation: easeIn ease 0.5s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 16px;
+  height: 16px;
+  animation: easeIn ease 0.2s;
+  -webkit-animation: easeIn ease 0.2s;
+  -moz-animation: easeIn ease 0.2s;
+  -o-animation: easeIn ease 0.2s;
+  -ms-animation: easeIn ease 0.2s;
 }
 
 .check-icon-road {
   color: #495057;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-top: 14px solid #495057;
+  border-radius: 2px;
+  margin: 3px 1px 0 0;
+
+  animation: easeIn ease 0.2s;
+  -webkit-animation: easeIn ease 0.2s;
+  -moz-animation: easeIn ease 0.2s;
+  -o-animation: easeIn ease 0.2s;
+  -ms-animation: easeIn ease 0.2s;
 }
 .check-icon-trail {
   color: #fd7e14;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-bottom: 14px solid #fd7e14;
+  border-radius: 2px;
+  margin: 0 1px 2px 0;
+
+  animation: easeIn ease 0.2s;
+  -webkit-animation: easeIn ease 0.2s;
+  -moz-animation: easeIn ease 0.2s;
+  -o-animation: easeIn ease 0.2s;
+  -ms-animation: easeIn ease 0.2s;
 }
 
 .check-icon-relay {
-  color: #3b5bdb;
+  background-color: #3b5bdb;
+  border-radius: 50%;
+
+  animation: easeIn ease 0.2s;
+  -webkit-animation: easeIn ease 0.2s;
+  -moz-animation: easeIn ease 0.2s;
+  -o-animation: easeIn ease 0.2s;
+  -ms-animation: easeIn ease 0.2s;
 }
 
 .check-icon-terrain {
-  color: #2f9e44;
+  background-color: #2f9e44;
+  width: 14px !important;
+  height: 14px !important;
+  /* background-image: url("/svg/terrain.svg"); */
+  border-radius: 2px;
 }
 
 .check-icon-track {
-  color: #e03131;
+  background: #e03131;
+  border-radius: 50%;
+
+  animation: easeIn ease 0.2s;
+  -webkit-animation: easeIn ease 0.2s;
+  -moz-animation: easeIn ease 0.2s;
+  -o-animation: easeIn ease 0.2s;
+  -ms-animation: easeIn ease 0.2s;
 }
 
 .header-checkbox span {

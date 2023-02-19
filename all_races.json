@@ -2630,14 +2630,16 @@
     "day": "9",
     "type": "track",
     "name": "Sollentuna",
+    "adjusted_name": "Sollentuna",
     "distance": "event-100-m event-200-m event-400-m event-800-m event-1500-m event-3000-m event-3000-m-hinder event-100110-m-hack event-400-m-hack event-hojdhopp event-stavhopp event-langdhopp event-tresteg event-kula event-diskus event-slagga event-spjut event-2000-m-hinder event-60-m event-600-m event-60-m-hack event-80-m event-300-m event-2000-m event-80-m-hack",
-    "distance_m": [3000, 3000],
+    "distance_m": [1500, 3000],
     "place": "Turebergs Fri-ik",
     "latitude": 59.436314,
     "longitude": 17.9529183,
     "organizer": "",
     "website": "https://turebergfriidrott.se/arrangemang/sayo/",
-    "id": "c536eceb-5263-46a7-9211-e1073397b3b4"
+    "id": "c536eceb-5263-46a7-9211-e1073397b3b4",
+    "adjusted": 1
   },
   {
     "date": "20230610",
@@ -3893,11 +3895,13 @@
     "distance": "event-10-km",
     "distance_m": [10000],
     "place": "Mora",
-    "latitude": 0,
-    "longitude": 0,
+    "latitude": 61.007136,
+    "longitude": 14.5172103,
     "organizer": "IFK Mora FIK",
     "website": "https://vasaloppet.se/",
-    "id": "a3513181-96e4-4d9a-9b44-0cd0d77a001f"
+    "id": "a3513181-96e4-4d9a-9b44-0cd0d77a001f",
+    "src_url": "https://friidrott.euwest01.umbraco.io/tavling-landslag/tavling/tavlingskalender/tavlingar-i-sverige/langlopp/",
+    "adjusted": 1
   },
   {
     "date": "20230818",
@@ -3953,11 +3957,13 @@
     "distance": "event-30-km",
     "distance_m": [30000],
     "place": "Mora",
-    "latitude": 0,
-    "longitude": 0,
+    "latitude": 61.007136,
+    "longitude": 14.5172103,
     "organizer": "IFK Mora FIK",
     "website": "https://vasaloppet.se/",
-    "id": "216d816a-d0bb-4643-ad9e-1eade0cbbe7f"
+    "id": "216d816a-d0bb-4643-ad9e-1eade0cbbe7f",
+    "src_url": "https://friidrott.euwest01.umbraco.io/tavling-landslag/tavling/tavlingskalender/tavlingar-i-sverige/langlopp/",
+    "adjusted": 1
   },
   {
     "date": "20230819",
@@ -3978,16 +3984,18 @@
     "date": "20230819",
     "month": "AUGUSTI",
     "day": "19",
-    "type": "trail",
+    "type": "relay",
     "name": "Vasastafetten",
     "distance": "event-90-km",
     "distance_m": [90000],
     "place": "Mora",
-    "latitude": 0,
-    "longitude": 0,
+    "latitude": 61.007136,
+    "longitude": 14.5172103,
     "organizer": "IFK Mora FIK",
     "website": "https://vasaloppet.se/",
-    "id": "4802b891-6de8-4336-a5c4-a257a77985e8"
+    "id": "4802b891-6de8-4336-a5c4-a257a77985e8",
+    "src_url": "https://friidrott.euwest01.umbraco.io/tavling-landslag/tavling/tavlingskalender/tavlingar-i-sverige/langlopp/",
+    "adjusted": 1
   },
   {
     "date": "20230819",
@@ -3998,11 +4006,13 @@
     "distance": "event-45-km",
     "distance_m": [45000],
     "place": "Mora",
-    "latitude": 0,
-    "longitude": 0,
+    "latitude": 61.007136,
+    "longitude": 14.5172103,
     "organizer": "IFK Mora FIK",
     "website": "https://vasaloppet.se/",
-    "id": "9c0e83d7-3039-4120-a62f-44de844088ab"
+    "id": "9c0e83d7-3039-4120-a62f-44de844088ab",
+    "src_url": "https://friidrott.euwest01.umbraco.io/tavling-landslag/tavling/tavlingskalender/tavlingar-i-sverige/langlopp/",
+    "adjusted": 1
   },
   {
     "date": "20230819",
@@ -4013,11 +4023,13 @@
     "distance": "event-90-km",
     "distance_m": [90000],
     "place": "Mora",
-    "latitude": 0,
-    "longitude": 0,
+    "latitude": 61.007136,
+    "longitude": 14.5172103,
     "organizer": "IFK Mora FIK",
     "website": "https://vasaloppet.se/",
-    "id": "5f9258fb-0bb3-4741-9e99-a54662dc4a1d"
+    "id": "5f9258fb-0bb3-4741-9e99-a54662dc4a1d",
+    "src_url": "https://friidrott.euwest01.umbraco.io/tavling-landslag/tavling/tavlingskalender/tavlingar-i-sverige/langlopp/",
+    "adjusted": 1
   },
   {
     "date": "20230819",
@@ -4373,11 +4385,12 @@
     "distance": "event-100-m event-800-m event-5000-m event-hojdhopp event-langdhopp event-kula event-diskus event-slagga event-spjut event-gang-1000-m event-stafett-4x200-m event-60-m event-600-m event-stafett-4x100-m event-80-m event-2000-m event-lopgrenar event-hoppgrenar event-kastgrenar",
     "distance_m": [5000],
     "place": "IFK Mora FIK",
-    "latitude": 0,
-    "longitude": 0,
+    "latitude": 61.007136,
+    "longitude": 14.5172103,
     "organizer": "",
     "website": "https://www.svenskalag.se/ifkmora-friidrott",
-    "id": "1ed51595-a67e-4430-b1b6-510ee9bd9704"
+    "id": "1ed51595-a67e-4430-b1b6-510ee9bd9704",
+    "adjusted": 1
   },
   {
     "date": "20230902",
