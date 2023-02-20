@@ -5,7 +5,7 @@ $(function () {
     range: true,
     min: 0,
     max: 300,
-    values: [0, 100],
+    values: [9, 161],
     slide: function (event, ui) {
       let now = new Date();
       let dayInMilliseconds = 24 * 60 * 60 * 1000;
@@ -39,13 +39,15 @@ $(function () {
   let options = { day: "numeric", month: "short" };
   let startDateString = startDate.toLocaleDateString("sv-SE", options);
   let endDateString = endDate.toLocaleDateString("sv-SE", options);
-  filterMarkersOnDays(startDay, endDay);
-  $("#daysFilterText").val(startDateString + " - " + endDateString);
 
+  $("#daysFilterText").val(startDateString + " - " + endDateString);
   // Add touch support
   $("#sliderDays").draggable();
   $("#sliderDays .ui-slider-handle").on("touchstart mousedown", function () {
     // Trigger the slider handle's mouseenter event
     $(this).trigger("mouseenter");
   });
+
+  filterMarkersOnDays(startDay, endDay);
+  console.log(startDay + ", " + endDay);
 });

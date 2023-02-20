@@ -313,6 +313,15 @@ body {
   overflow: hidden;
 }
 
+.highlighted-box {
+  position: relative;
+  box-shadow: 0 0.3rem 0.9rem #3b924cab;
+}
+
+.highlight-text-box {
+  position: absolute;
+}
+
 .race-date {
   font-size: 1.8rem;
 }

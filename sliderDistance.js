@@ -1,4 +1,5 @@
 import { filterMarkersOnDistance } from "/filterMarkersOnDistance.js";
+import { initialFilter } from "/initialFilter.js";
 
 const power = 3;
 
@@ -8,7 +9,7 @@ $(function () {
     min: 0,
     max: 6,
     step: 0.1,
-    values: [0.8, 2],
+    values: [1.8, 2.5],
     slide: function (event, ui) {
       let minDistance = Math.pow(ui.values[0], power);
       let maxDistance = Math.pow(ui.values[1], power);
@@ -32,4 +33,15 @@ $(function () {
 
   filterMarkersOnDistance(minDistance, maxDistance);
   $("#distanceFilterText").val(minDistance + " - " + maxDistance + "km");
+  // Add touch support
+  $("#sliderDistance").draggable();
+  $("#sliderDistance .ui-slider-handle").on(
+    "touchstart mousedown",
+    function () {
+      // Trigger the slider handle's mouseenter event
+      $(this).trigger("mouseenter");
+    }
+  );
+
+  initialFilter();
 });

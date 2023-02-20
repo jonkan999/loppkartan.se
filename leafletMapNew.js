@@ -78,6 +78,13 @@ fetch("all_races.json")
                 let div = document.createElement("div");
                 div.classList.add("race-info-box");
                 div.classList.add("margin-bottom--small");
+                if (race.name === "KfS Kungsholmen Runt") {
+                  div.classList.add("highlighted-box");
+                  let highlightText = document.createElement("div");
+                  highlightText.classList.add("highlight-text-box");
+                  highlightText.textContent = `featured race`;
+                  div.appendChild(highlightText);
+                }
 
                 let dateP = document.createElement("p");
                 dateP.classList.add("race-date");

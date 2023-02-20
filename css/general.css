@@ -271,3 +271,12 @@ body {
 strong {
   color: #9953a9;
 }
+
+/* Coloroed spans */
+
+.green-letter {
+  color: #3b924d;
+}
+.orange-letter {
+  color: #e2701b;
+}

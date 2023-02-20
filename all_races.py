@@ -8,9 +8,8 @@ access_token = config.GOOGLE_GEOCODING_API_KEY
 
 #retrieve manually adjusted races
 with open('all_races.json', encoding='utf-8') as f:
-    all_races = json.load(f)
+    already_crawled_races = json.load(f)
 
-adjusted_races = [race for race in all_races if race.get('adjusted') == 1]
 
 # Load the data from the two input files
 with open('events_fri_Arena.json', encoding='utf-8') as f:
@@ -25,8 +24,11 @@ with open('events_fri_jogg_trail.json', encoding='utf-8') as f:
 with open('events_fri_jogg_road.json', encoding='utf-8') as f:
     events_fri_jogg_road = json.load(f)
 
+with open('events_trailkalendern.json', encoding='utf-8') as f:
+    events_trailkalendern = json.load(f)
+
 # Merge the two dictionaries into one
-all_races = events_fri_Arena + events_fri_LL + events_fri_jogg_trail + events_fri_jogg_road
+all_races = events_fri_Arena + events_fri_LL + events_fri_jogg_trail + events_fri_jogg_road + events_trailkalendern + already_crawled_races
 
 # geolocate place and add a unique ID to each row
 for i in range(len(all_races)):
