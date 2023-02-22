@@ -65,6 +65,10 @@ body {
   color: #555;
 }
 
+:root {
+  --highlight-color: #eff6ff;
+}
+
 /***************************** */
 /* GENERAL REUSABLE COMPONENTS */
 /***************************** */
@@ -279,4 +283,8 @@ strong {
 }
 .orange-letter {
   color: #e2701b;
+}
+.border-style {
+  border: solid 0.2rem #333;
+  box-shadow: 0.2rem 0.2rem 0.2rem 0 #333;
 }

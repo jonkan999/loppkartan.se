@@ -1,6 +1,6 @@
 export function filterMarkersOnDistance(minDistance, maxDistance) {
   // Fetch all_races.json and parse it into a JavaScript object
-  fetch("all_races.json")
+  fetch("all_races_w_formatted_summary.json")
     .then((response) => response.json())
     .then((allRaces) => {
       // Get all marker icons

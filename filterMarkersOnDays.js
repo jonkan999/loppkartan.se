@@ -2,7 +2,7 @@ export function filterMarkersOnDays(daysLow, daysHigh) {
   // Get all marker icons
   let markerIcons = document.getElementsByClassName("leaflet-marker-icon");
 
-  fetch("all_races.json")
+  fetch("all_races_w_formatted_summary.json")
     /* Unneccessary fetch but serves the purpose of delaying this function 
     to after the initial document has finished loading. 
     This allows the initial filtering to run properly. Probably a better way of delaying*/
@@ -33,7 +33,6 @@ export function filterMarkersOnDays(daysLow, daysHigh) {
         const diffInDays = diff / (1000 * 60 * 60 * 24);
 
         // Compare the marker date to the current date
-        console.log(daysLow + ", " + daysHigh + ", " + diffInDays + raceDate);
         if (diffInDays > daysLow && diffInDays < daysHigh) {
           //If diffInDays (between current date and scehduled race date)
           //is between slider dates, we remove the hide class and show marker

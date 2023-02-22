@@ -1,5 +1,6 @@
 /* Initializing leaflet map map */
 import { smoothScrollDown } from "/smoothScrollDown.js";
+import { toggleBoxExpansion } from "/toggleBoxExpansion.js";
 
 let map = L.map("map", { attributionControl: false }).setView(
   [60.346972, 15.748689],
@@ -19,7 +20,7 @@ L.tileLayer(
 /* Adding markers to the map */
 let markers = [];
 
-fetch("all_races.json")
+fetch("all_races_w_formatted_summary.json")
   .then((response) => response.json())
   .then((races) => {
     races.forEach((markerRace) => {
@@ -75,14 +76,22 @@ fetch("all_races.json")
                 Math.abs(markerLatLng.lng - raceLatLng[1]) <= tolerance
               ) {
                 // Add the information about the race to the race-text-box
+
                 let div = document.createElement("div");
                 div.classList.add("race-info-box");
                 div.classList.add("margin-bottom--small");
+                div.classList.add("border-style");
+
+                let upperDiv = document.createElement("div");
+                upperDiv.classList.add("race-info-box-upper-content");
+
                 if (race.name === "KfS Kungsholmen Runt") {
                   div.classList.add("highlighted-box");
                   let highlightText = document.createElement("div");
-                  highlightText.classList.add("highlight-text-box");
-                  highlightText.textContent = `featured race`;
+                  highlightText.classList.add(
+                    `highlight-text-box-${race.type}`
+                  );
+                  highlightText.textContent = `featured ${race.type} race`;
                   div.appendChild(highlightText);
                 }
 
@@ -138,15 +147,28 @@ fetch("all_races.json")
 
                 websiteA.textContent = "Mer info";
 
-                div.appendChild(dateP);
-                div.appendChild(divText);
+                let summary = document.createElement("div");
+                summary.classList.add("race-info-summary");
+                let summaryP = document.createElement("p");
+                summaryP.classList.add("race-info-summary-content");
+                summaryP.innerHTML = `${race.summary}`;
+                console.log("race.summary");
+                console.log(race.summary);
+
+                upperDiv.appendChild(dateP);
+                upperDiv.appendChild(divText);
                 divText.appendChild(nameP);
                 divText.appendChild(typeDiv);
                 typeDiv.appendChild(typeIcon);
                 typeDiv.appendChild(typeP);
 
                 divText.appendChild(distanceP);
-                div.appendChild(websiteA);
+                upperDiv.appendChild(websiteA);
+
+                div.appendChild(upperDiv);
+
+                summary.appendChild(summaryP);
+                div.appendChild(summary);
 
                 container.appendChild(div);
               }
@@ -154,6 +176,11 @@ fetch("all_races.json")
           });
           /*scroll down so we see markers*/
           smoothScrollDown();
+          /*Adding event listeners to the boxes*/
+          const raceInfoBoxes = document.querySelectorAll(".race-info-box");
+          raceInfoBoxes.forEach((raceInfoBox) => {
+            raceInfoBox.addEventListener("click", toggleBoxExpansion);
+          });
         });
       }
     });
