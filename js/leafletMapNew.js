@@ -1,6 +1,6 @@
 /* Initializing leaflet map map */
-import { smoothScrollDown } from "/smoothScrollDown.js";
-import { toggleBoxExpansion } from "/toggleBoxExpansion.js";
+import { smoothScrollDown } from "/js/smoothScrollDown.js";
+import { toggleBoxExpansion } from "/js/toggleBoxExpansion.js";
 
 let map = L.map("map", { attributionControl: false }).setView(
   [60.346972, 15.748689],
@@ -20,7 +20,7 @@ L.tileLayer(
 /* Adding markers to the map */
 let markers = [];
 
-fetch("all_races_w_formatted_summary.json")
+fetch("/all_races_w_formatted_summary.json")
   .then((response) => response.json())
   .then((races) => {
     races.forEach((markerRace) => {

@@ -82,5 +82,5 @@ for container in event_soup.find_all("div", class_="calendar__container"):
                 
 
 
-with open("events_fri_LL.json", "w", encoding='utf-8') as f:
+with open("backend/events_fri_LL.json", "w", encoding='utf-8') as f:
     json.dump(data, f, ensure_ascii=False)

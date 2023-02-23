@@ -52,14 +52,14 @@
       nomodule=""
       src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
     ></script>
-    <script type="module" src="slider.js"></script>
-    <script type="module" src="sliderDistance.js"></script>
-    <script type="module" defer src="leafletMapNew.js"></script>
-    <script type="module" defer src="toggleCheckboxes.js"></script>
+    <script type="module" src="/js/slider.js"></script>
+    <script type="module" src="/js/sliderDistance.js"></script>
+    <script type="module" defer src="/js/leafletMapNew.js"></script>
+    <script type="module" defer src="/js/toggleCheckboxes.js"></script>
 
-    <link rel="stylesheet" href="css/general.css" />
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/queries.css" />
+    <link rel="stylesheet" href="/css/general.css" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/queries.css" />
 
     <style></style>
   </head>
@@ -84,7 +84,7 @@
             </a>
           </div>
         </div>
-        <div id="map" class="margin-bottom--small border-style"></div>
+        <div id="map" class="margin-bottom--small"></div>
 
         <div class="filter-section margin-bottom--default">
           <div class="slider-container">
@@ -138,6 +138,18 @@
         </div>
 
         <div class="race-container"></div>
+        <div class="add-new-race-box margin-bottom--default">
+          <h2 class="add-new-race-header">
+            Saknar du ditt lopp på kartan? Lägg till det här!
+          </h2>
+          <a
+            id="addRaceButton"
+            href="/lagg-till-lopp.html"
+            class="add-race-button border-style"
+          >
+            Lägg till lopp
+          </a>
+        </div>
       </div>
     </div>
   </body>

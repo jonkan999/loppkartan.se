@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Loppkartan som får Sverige att springa fler lopp</title>
+    <link rel="icon" href="/img/logo100px.jpg" />
+    <meta
+      name="description"
+      content="Vi har samlat alla svenska löplopp i en interaktiv karta. Hitta ditt nästa millopp, tidslopp, traillopp, halvmara, marathon eller ultra marathon hos oss idag."
+    />
+    <meta
+      name="viewport"
+      content="initial-scale=1,maximum-scale=1,user-scalable=no"
+    />
+    <link
+      rel="stylesheet"
+      href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css"
+    />
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui-touch-punch/0.2.3/jquery.ui.touch-punch.min.js"
+      integrity="sha512-0bEtK0USNd96MnO4XhH8jhv3nyRF0eK87pJke6pkYf3cM0uDIhNJy9ltuzqgypoIFXw3JSuiy04tVk4AjpZdZw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <!--     <script src="https://api.mapbox.com/mapbox-gl-js/v1.11.0/mapbox-gl.js"></script>
+    <link
+      href="https://api.mapbox.com/mapbox-gl-js/v1.11.0/mapbox-gl.css"
+      rel="stylesheet"
+    /> -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
+      integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI="
+      crossorigin=""
+    />
+    <!-- Make sure you put this AFTER Leaflet's CSS -->
+    <script
+      src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
+      integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM="
+      crossorigin=""
+    ></script>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule=""
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+
+    <link rel="stylesheet" href="/css/general.css" />
+    <link rel="stylesheet" href="/css/add-race.css" />
+    <link rel="stylesheet" href="/css/add-race-queries.css" />
+
+    <style></style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="inner-container">
+        <div class="header-section margin-top--small margin-bottom--small">
+          <div class="header-and-logo-box">
+            <a href="/index.html" class="logo-box"></a>
+            <h1>
+              <span class="green-letter">Lopp</span
+              ><span class="orange-letter">Kartan</span>.se
+            </h1>
+          </div>
+          <div class="promotion-box">
+            <span>Samarbete med:</span>
+            <a
+              href="http://www.kungsholmenrunt.se/Main/Start.asp"
+              target="_blank"
+            >
+              <img src="/img/logokr_bluebg.jpg" class="promo-logo-box" />
+            </a>
+          </div>
+        </div>
+
+        <h1 class="submission-header">
+          Tack för ditt bidrag! Alla tillägg behöver granskas, men vi går
+          löpande igenom loppen vi får in och kommer publicera ert snarast.
+        </h1>
+        <div class="back-to-map-box margin-bottom--default">
+          <h2 class="submission-subheader">
+            Gå gärna tillbaka till vår loppkarta och kolla in alla andra lopp
+            sålänge:
+          </h2>
+          <a href="/index.html" class="back-to-map-button border-style">
+            Loppkartan
+          </a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

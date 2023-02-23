@@ -1,11 +1,11 @@
 import json
 
 # Read in the all_races.json file with UTF-8 encoding
-with open("all_races.json", "r", encoding="utf-8") as f:
+with open("backend/all_races.json", "r", encoding="utf-8") as f:
     all_races = json.load(f)
 
 # Read in the URL_Summary.json file with UTF-8 encoding
-with open("URL_Summary_Formatted.json", "r", encoding="utf-8") as f:
+with open("backend/URL_Summary_Formatted.json", "r", encoding="utf-8") as f:
     url_summary = json.load(f)
 
 # Create a dictionary of the URLs and summaries

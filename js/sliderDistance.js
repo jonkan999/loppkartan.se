@@ -1,5 +1,5 @@
-import { filterMarkersOnDistance } from "/filterMarkersOnDistance.js";
-import { initialFilter } from "/initialFilter.js";
+import { filterMarkersOnDistance } from "/js/filterMarkersOnDistance.js";
+/* import { initialFilter } from "/js/initialFilter.js"; */
 
 const power = 3;
 
@@ -43,5 +43,5 @@ $(function () {
     }
   );
 
-  initialFilter();
+  /* initialFilter(); */
 });

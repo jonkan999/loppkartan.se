@@ -1,7 +1,7 @@
 import json
 
 def check_existing_race(date, name, distance, src_url):
-    with open('all_races.json', encoding='utf-8') as f:
+    with open('backend/all_races.json', encoding='utf-8') as f:
         all_races = json.load(f)
 
     #adjusted_races = [race for race in all_races if race.get('adjusted') == 1]

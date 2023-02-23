@@ -65,8 +65,52 @@ body {
   color: #555;
 }
 
+*:focus {
+  outline: none;
+  /*   outline: 4px dotted #e67e22;
+  outline-offset: 8px; */
+  box-shadow: 0 0 0 0.2rem #606266;
+  border: solid #606266 2px;
+  border-radius: 2px;
+}
+
 :root {
   --highlight-color: #eff6ff;
+  --focus-color: #606266;
+}
+/***************************** */
+/* SAME HEADER STYLING */
+/***************************** */
+
+.header-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 3rem;
+}
+.header-and-logo-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+}
+.logo-box {
+  background-image: url("/img/logo.svg");
+  width: 5rem;
+  height: 5rem;
+  background-size: contain;
+  background-position: center;
+}
+.promotion-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 0.2rem;
+}
+.promo-logo-box {
+  height: 5rem;
+}
+.promo-link {
 }
 
 /***************************** */
@@ -287,4 +331,24 @@ strong {
 .border-style {
   border: solid 0.2rem #333;
   box-shadow: 0.2rem 0.2rem 0.2rem 0 #333;
+}
+/* 
+KEYFRAMES
+*/
+@keyframes easeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes easeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
 }

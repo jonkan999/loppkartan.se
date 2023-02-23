@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup
 import json
 import check_existing_race
 
-url = "https://www.jogg.se/Kalender/Tavlingar.aspx?aar=2023&mon=13&fdist=0&tdist=1000&type=0&country=1&region=0&tlopp=False&relay=False&surface=ter&tridist=0&title=1"
+url = "https://www.jogg.se/Kalender/Tavlingar.aspx?aar=2023&mon=13&fdist=0&tdist=1000&type=0&country=1&region=0&tlopp=False&relay=False&surface=asf&tridist=0&title=1"
 response = requests.get(url)
 
 data = []
@@ -52,7 +52,7 @@ if response.status_code == 200:
             organizer = ""
             latitude = 0
             longitude = 0
-            event_data = {"date": proper_date, "month": month_name, "day": day, "type": "trail", "name": name, "distance": distance_str,"distance_m": distance_m, "place": place,"latitude": latitude, "longitude": longitude, "organizer": organizer, "website": website, "src_url": url}
+            event_data = {"date": proper_date, "month": month_name, "day": day, "type": "road", "name": name, "distance": distance_str,"distance_m": distance_m, "place": place,"latitude": latitude, "longitude": longitude, "organizer": organizer, "website": website, "src_url": url}
             #Checks if race is already crawled
             if check_existing_race.check_existing_race(event_data['date'], event_data['name'], event_data['distance'], event_data['src_url']):
                 print("already crawled: " + proper_date + ", " + name + ", " +  distance_str + ", " + url)
@@ -63,5 +63,5 @@ if response.status_code == 200:
 else:
     print("Error: Could not retrieve page")
 
-with open("events_fri_jogg_trail.json", "w", encoding='utf-8') as f:
+with open("backend/events_fri_jogg_road.json", "w", encoding='utf-8') as f:
     json.dump(data, f, ensure_ascii=False)

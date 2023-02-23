@@ -6,7 +6,7 @@ access_token = config.MEANINGCLOUD_SUMMARY_API
 url = "https://api.meaningcloud.com/summarization-1.0"
 
 # Open the all_races.json file and load its contents into a Python object
-with open('all_races.json', encoding='utf-8') as f:
+with open('backend/all_races.json', encoding='utf-8') as f:
     races = json.load(f)
 
 url_summary = {}
@@ -41,7 +41,7 @@ for race in races:
 
 
 # Save the url_summary dictionary as a JSON file
-with open("URL_Summary.json", "w", encoding='utf-8') as f:
+with open("backend/URL_Summary.json", "w", encoding='utf-8') as f:
     json.dump(url_summary, f, ensure_ascii=False)
 
 

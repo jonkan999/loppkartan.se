@@ -86,5 +86,5 @@ if response.status_code == 200:
 else:
     print("Error: Could not retrieve page")
 
-with open("events_trailkalendern.json", "w", encoding='utf-8') as f:
+with open("backend/events_trailkalendern.json", "w", encoding='utf-8') as f:
     json.dump(data, f, ensure_ascii=False)

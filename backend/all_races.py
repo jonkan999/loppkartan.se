@@ -7,24 +7,24 @@ import re
 access_token = config.GOOGLE_GEOCODING_API_KEY
 
 #retrieve manually adjusted races
-with open('all_races.json', encoding='utf-8') as f:
+with open('backend/all_races.json', encoding='utf-8') as f:
     already_crawled_races = json.load(f)
 
 
 # Load the data from the two input files
-with open('events_fri_Arena.json', encoding='utf-8') as f:
+with open('backend/events_fri_Arena.json', encoding='utf-8') as f:
     events_fri_Arena = json.load(f)
 
-with open('events_fri_LL.json', encoding='utf-8') as f:
+with open('backend/events_fri_LL.json', encoding='utf-8') as f:
     events_fri_LL = json.load(f)
 
-with open('events_fri_jogg_trail.json', encoding='utf-8') as f:
+with open('backend/events_fri_jogg_trail.json', encoding='utf-8') as f:
     events_fri_jogg_trail = json.load(f)
 
-with open('events_fri_jogg_road.json', encoding='utf-8') as f:
+with open('backend/events_fri_jogg_road.json', encoding='utf-8') as f:
     events_fri_jogg_road = json.load(f)
 
-with open('events_trailkalendern.json', encoding='utf-8') as f:
+with open('backend/events_trailkalendern.json', encoding='utf-8') as f:
     events_trailkalendern = json.load(f)
 
 # Merge the two dictionaries into one
@@ -43,5 +43,5 @@ for i in range(len(all_races)):
 
 
 # Write the merged data to a new file, using UTF-8 encoding
-with open('all_races.json', 'w', encoding='utf-8') as f:
+with open('backend/all_races.json', 'w', encoding='utf-8') as f:
     json.dump(all_races, f, ensure_ascii=False)

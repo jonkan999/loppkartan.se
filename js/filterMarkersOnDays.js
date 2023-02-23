@@ -2,7 +2,7 @@ export function filterMarkersOnDays(daysLow, daysHigh) {
   // Get all marker icons
   let markerIcons = document.getElementsByClassName("leaflet-marker-icon");
 
-  fetch("all_races_w_formatted_summary.json")
+  fetch("/all_races_w_formatted_summary.json")
     /* Unneccessary fetch but serves the purpose of delaying this function 
     to after the initial document has finished loading. 
     This allows the initial filtering to run properly. Probably a better way of delaying*/

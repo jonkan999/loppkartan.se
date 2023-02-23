@@ -1,0 +1,19 @@
+Backend:
+crawl pages
+-extract_data_fri_Arena.py
+-extract_data_fri_LL.py
+-extract_data_jogg_road.py
+-extract_data_jogg_trail.py
+-extract_data_trailkalendern.py
+
+Only crawl entities not already crawled, as specified in check_existing_race.py. Crawled races will be stored in all_races.json
+
+combine all json extracts, and find geolocation coordinates in all_races.py and get_lat_long_goog.py
+
+Sort all_races.json on descending date with all_races_sort.py
+
+For each crawled entity we have stored a race URL, usually associated with the organizer, in summary_by_url.py we go through all these URLs and try to get a summary using api.meaningcloud.com service that extracts the most important sentences from a website. We store the result in URL_Summary.json
+
+In format_URL_Summary.py we take each summary and replaces inline links in the summary to HTML a anchor element and also shorten summaries that are longer than 800 char. The result is stored in URL_Summary_Formatted.json
+
+Lastly we combine the all_races.json with URL_Summary_Formatted in all_races_w_summary.py and store the result in the top folder as all_races_w_formatted_summary.json which we then use as the foundation for the map app.

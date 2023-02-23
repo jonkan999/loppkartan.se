@@ -1,4 +1,4 @@
-import { filterMarkersOnDays } from "/filterMarkersOnDays.js";
+import { filterMarkersOnDays } from "/js/filterMarkersOnDays.js";
 
 $(function () {
   $("#sliderDays").slider({

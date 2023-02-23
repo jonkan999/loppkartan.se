@@ -1,4 +1,4 @@
-import { filterMarkersOnChecks } from "/filterMarkersOnChecks.js";
+import { filterMarkersOnChecks } from "/js/filterMarkersOnChecks.js";
 
 const relay = document.getElementById("relayCheckbox");
 const terrain = document.getElementById("terrainCheckbox");
