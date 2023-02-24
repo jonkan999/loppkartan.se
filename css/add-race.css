@@ -141,8 +141,14 @@
   width: 15rem;
   border: solid 2px #333;
   border-radius: 0;
+  text-align: center;
+  color: #333;
 }
-
+.race-form-input-box input[type="date"]::-webkit-calendar-picker-indicator {
+  background: url(/svg/calendar-clear-outline.svg) no-repeat;
+  background-size: contain;
+  background-position: center center;
+}
 .race-form-input-box input {
   height: 3rem;
   padding: 0 0.5rem;
