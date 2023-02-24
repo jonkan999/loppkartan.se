@@ -151,7 +151,7 @@
   background-image: none;
 }
 .race-form-input-box input[type="date"] {
-  background-image: url(/svg/calendar-clear-outline.svg);
+  background-image: url(/svg/calendar-clear-sharp.svg);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: right center;
