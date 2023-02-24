@@ -139,20 +139,15 @@
   height: 3rem;
   background-color: var(--highlight-color);
   width: 15rem;
-  border-width: 2px;
-  border-style: inset;
-  border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
-  border-image: initial;
+  border: solid 2px #333;
 }
 
 .race-form-input-box input {
   height: 3rem;
   padding: 0 0.5rem;
   background-color: var(--highlight-color);
-  border-width: 2px;
-  border-style: inset;
-  border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
-  border-image: initial;
+
+  border: solid 2px #333;
 }
 
 .race-form-input-box input:focus {
@@ -170,6 +165,7 @@
   resize: none;
   vertical-align: top;
   background-color: var(--highlight-color);
+  border: solid 2px #333;
 }
 
 .race-summary-input textarea:focus {
