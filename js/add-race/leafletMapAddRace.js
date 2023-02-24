@@ -1,20 +1,33 @@
 import { toggleBoxExpansion } from "/js/toggleBoxExpansion.js";
 // Create a map centered on a specific location
 let map = L.map("map", { attributionControl: false }).setView(
-  [60.346972, 15.748689],
-  5
+  [59.346972, 15.748689],
+  6
 );
 window.globalMap = map;
-// Add a tile layer to the map
-L.tileLayer(
-  "https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Base/MapServer/tile/{z}/{y}/{x}",
-  {
-    minZoom: 5,
-    maxZoom: 19,
-    attribution:
-      '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>',
-  }
-).addTo(map);
+
+let MAPBOX_API_KEY = "";
+
+// Fetching mapbox API
+fetch("/backend/config.json")
+  .then((response) => response.json())
+  .then((data) => {
+    const MAPBOX_API_KEY = data.MAPBOX_BASIC_STYLE_API_KEY;
+    // Add a tile layer to the map
+    L.tileLayer(
+      "https://api.mapbox.com/styles/v1/jonkanx3/cleil8zxx001201o9krzob8a5/tiles/{z}/{x}/{y}?access_token=" +
+        MAPBOX_API_KEY,
+      {
+        minZoom: 5,
+        maxZoom: 19,
+        attribution:
+          '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>',
+      }
+    ).addTo(map);
+  })
+  .catch((error) => {
+    console.error("Error loading config file", error);
+  });
 
 let marker;
 
