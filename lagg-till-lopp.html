@@ -119,15 +119,31 @@
           </div>
           <div class="race-form-input-box">
             <label for="name">Loppets namn:</label>
-            <input type="text" id="name" name="name" required />
+            <input
+              type="text"
+              id="name"
+              name="name"
+              required
+              placeholder="t ex Kungsholmen runt"
+            />
           </div>
           <div class="race-form-input-box">
-            <label for="distance">Distanser (frivilligt):</label>
-            <input type="text" id="distance" name="distance" />
+            <label for="distance">Distanser:</label>
+            <input
+              type="text"
+              id="distance"
+              name="distance"
+              placeholder="10 km, halvmara och knattelopp"
+            />
           </div>
           <div class="race-form-input-box">
-            <label for="place">Plats (stad eller dylikt, frivilligt):</label>
-            <input type="text" id="place" name="place" />
+            <label for="place">Plats:</label>
+            <input
+              type="text"
+              id="place"
+              name="place"
+              placeholder="Rålambshovsparken, Stockholm"
+            />
           </div>
           <div class="race-form-input-box">
             <label for="organizer">Arrangör:</label>
@@ -135,29 +151,40 @@
               type="text"
               id="organizer-contact"
               name="organizer-contact"
+              placeholder="FK Studenterna"
               required
             />
           </div>
           <div class="race-form-input-box">
-            <label for="organizer">Arrangör (mail):</label>
+            <label for="organizer">Mail till kontaktperson:</label>
             <input
               type="mail"
               id="organizer-mail"
               name="organizer-mail"
+              placeholder="info@LoppKartan.se"
               required
             />
           </div>
 
           <div class="race-form-input-box">
-            <label for="website">Arrangörshemsida (frivilligt):</label>
-            <input type="text" id="website" name="website" />
+            <label for="website">Arrangörshemsida:</label>
+            <input
+              type="text"
+              id="website"
+              name="website"
+              placeholder="https://fkstudenterna.se/"
+            />
           </div>
 
           <div class="race-form-input-box race-summary-input">
-            <label for="website"
-              >Beskriv loppet (Frivilligt, max 800 tecken)</label
-            >
-            <input type="textarea" id="summary" name="summary" />
+            <label for="summary">Beskriv loppet</label>
+            <textarea
+              id="summary"
+              name="summary"
+              rows="4"
+              maxlength="800"
+              placeholder="KfS Kungsholmen Runt är en milbana med långa, flacka rakor ..."
+            ></textarea>
           </div>
 
           <input type="hidden" id="latitude" name="latitude" value="" />

@@ -291,7 +291,7 @@ body {
 }
 
 .race-info-box--expanded {
-  height: 35rem;
+  height: 30rem;
 }
 
 .race-info-box:hover,
@@ -490,5 +490,3 @@ body {
 .add-race-button:hover {
   background-color: #fff;
 }
-
-
