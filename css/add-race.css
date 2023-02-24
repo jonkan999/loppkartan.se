@@ -140,6 +140,7 @@
   background-color: var(--highlight-color);
   width: 15rem;
   border: solid 2px #333;
+  border-radius: 0;
 }
 
 .race-form-input-box input {
@@ -148,6 +149,7 @@
   background-color: var(--highlight-color);
 
   border: solid 2px #333;
+  border-radius: 0;
 }
 
 .race-form-input-box input:focus {
@@ -166,6 +168,7 @@
   vertical-align: top;
   background-color: var(--highlight-color);
   border: solid 2px #333;
+  border-radius: 0;
 }
 
 .race-summary-input textarea:focus {
