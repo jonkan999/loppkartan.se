@@ -9,7 +9,10 @@ window.globalMap = map;
 let MAPBOX_API_KEY = "";
 
 // Fetching mapbox API
-fetch("/backend/config.json")
+fetch(
+  "/.netlify/functions/get-api-key"
+  /* "/backend/config.json" */
+)
   .then((response) => response.json())
   .then((data) => {
     const MAPBOX_API_KEY = data.MAPBOX_BASIC_STYLE_API_KEY;
