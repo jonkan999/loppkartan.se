@@ -150,11 +150,33 @@ fetch("/all_races_w_formatted_summary.json")
 
                 let distanceP = document.createElement("p");
                 distanceP.classList.add("race-distance");
-                if (!isNaN(race.distance_m)) {
-                  distanceP.textContent = `Distanser: ${
-                    race.distance_m / 1000
-                  } k`;
+
+                let distance = race.distance_m;
+
+                if (Array.isArray(distance)) {
+                  distance = distance.map((d) => d / 1000);
+                  distance = distance.map((d) => {
+                    if (d >= 21.0 && d <= 21.3) {
+                      return "Halvmarathon";
+                    } else if (d >= 42.0 && d <= 42.4) {
+                      return "Marathon";
+                    } else {
+                      return d + " km";
+                    }
+                  });
+                  distance = distance.join(", ");
+                } else if (!isNaN(distance)) {
+                  distance = distance / 1000;
+                  if (distance >= 21.0 && distance <= 21.3) {
+                    distance = "Halvmarathon";
+                  } else if (distance >= 42.0 && distance <= 42.4) {
+                    distance = "Marathon";
+                  } else {
+                    distance = distance + " km";
+                  }
                 }
+
+                distanceP.textContent = "" + distance;
 
                 let websiteA = document.createElement("a");
                 websiteA.classList.add("race-website");

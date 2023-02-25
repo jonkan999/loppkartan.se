@@ -376,8 +376,8 @@ strong {
   /* background-image: url("/svg/terrain.svg"); */
   border-radius: 2px;
   background-position: center;
-  width: 11px !important;
-  height: 11px !important;
+  width: 10px !important;
+  height: 10px !important;
 
   animation: easeIn ease 0.3s;
   -webkit-animation: easeIn ease 0.3s;
@@ -387,28 +387,28 @@ strong {
 }
 
 .leaflet-marker-icon.zoom-6.marker-terrain {
+  width: 11px !important;
+  height: 11px !important;
+}
+.leaflet-marker-icon.zoom-7.marker-terrain {
   width: 12px !important;
   height: 12px !important;
 }
-.leaflet-marker-icon.zoom-7.marker-terrain {
+.leaflet-marker-icon.zoom-8.marker-terrain {
   width: 13px !important;
   height: 13px !important;
 }
-.leaflet-marker-icon.zoom-8.marker-terrain {
+.leaflet-marker-icon.zoom-9.marker-terrain {
   width: 14px !important;
   height: 14px !important;
 }
-.leaflet-marker-icon.zoom-9.marker-terrain {
+.leaflet-marker-icon.zoom-10.marker-terrain {
   width: 15px !important;
   height: 15px !important;
 }
-.leaflet-marker-icon.zoom-10.marker-terrain {
+.leaflet-marker-icon.zoom-11.marker-terrain {
   width: 16px !important;
   height: 16px !important;
-}
-.leaflet-marker-icon.zoom-11.marker-terrain {
-  width: 17px !important;
-  height: 17px !important;
 }
 
 .leaflet-marker-icon.zoom-6 {
@@ -470,6 +470,10 @@ strong {
   opacity: 0.7 !important;
 }
 
+/* RACEBOX STYLING */
+.race-distance {
+  font-weight: 600;
+}
 /* Coloroed spans */
 
 .green-letter {
