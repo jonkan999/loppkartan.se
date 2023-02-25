@@ -67,8 +67,7 @@ body {
 
 *:focus {
   outline: none;
-  /*   outline: 4px dotted #e67e22;
-  outline-offset: 8px; */
+
   box-shadow: 0 0 0 0.2rem #606266;
   border: solid #606266 2px;
   border-radius: 2px;
@@ -318,6 +317,130 @@ body {
 
 strong {
   color: #9953a9;
+}
+
+/* MARKERS FOR MAP */
+
+.marker-relay {
+  background: #336bb9e5;
+  /* background-image: url("/svg/track.svg"); */
+  border-radius: 50%;
+
+  animation: easeIn ease 0.3s;
+  -webkit-animation: easeIn ease 0.3s;
+  -moz-animation: easeIn ease 0.3s;
+  -o-animation: easeIn ease 0.3s;
+  -ms-animation: easeIn ease 0.3s;
+}
+
+.marker-road {
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-top: 12px solid #495057c2;
+  border-radius: 2px;
+
+  animation: easeIn ease 0.3s;
+  -webkit-animation: easeIn ease 0.3s;
+  -moz-animation: easeIn ease 0.3s;
+  -o-animation: easeIn ease 0.3s;
+  -ms-animation: easeIn ease 0.3s;
+}
+
+.marker-trail {
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-bottom: 12px solid #e2711bd5;
+  border-radius: 2px;
+
+  animation: easeIn ease 0.3s;
+  -webkit-animation: easeIn ease 0.3s;
+  -moz-animation: easeIn ease 0.3s;
+  -o-animation: easeIn ease 0.3s;
+  -ms-animation: easeIn ease 0.3s;
+}
+
+.marker-track {
+  background: #ca2c2cd7;
+  /* background-image: url("/svg/track.svg"); */
+  border-radius: 50%;
+
+  animation: easeIn ease 0.3s;
+  -webkit-animation: easeIn ease 0.3s;
+  -moz-animation: easeIn ease 0.3s;
+  -o-animation: easeIn ease 0.3s;
+  -ms-animation: easeIn ease 0.3s;
+}
+
+.marker-terrain {
+  background-color: #3b924cd7;
+  /* background-image: url("/svg/terrain.svg"); */
+  border-radius: 2px;
+  background-position: center;
+
+  animation: easeIn ease 0.3s;
+  -webkit-animation: easeIn ease 0.3s;
+  -moz-animation: easeIn ease 0.3s;
+  -o-animation: easeIn ease 0.3s;
+  -ms-animation: easeIn ease 0.3s;
+}
+
+.leaflet-marker-icon.zoom-6 {
+  width: 13px !important;
+  height: 13px !important;
+  opacity: 0.95 !important;
+}
+
+.marker-road.zoom-6 {
+  border-left: 7px solid transparent !important;
+  border-right: 7px solid transparent !important;
+  border-top: 13px solid #495057c2 !important;
+}
+
+.marker-trail.zoom-6 {
+  border-left: 7px solid transparent !important;
+  border-right: 7px solid transparent !important;
+  border-bottom: 13px solid #e2711bd5 !important;
+}
+
+.leaflet-marker-icon.zoom-7 {
+  width: 14px !important;
+  height: 14px !important;
+  opacity: 0.9 !important;
+}
+
+.leaflet-marker-icon.zoom-8 {
+  width: 15px !important;
+  height: 15px !important;
+  opacity: 0.85 !important;
+}
+
+.leaflet-marker-icon.zoom-9 {
+  width: 16px !important;
+  height: 16px !important;
+  opacity: 0.8 !important;
+}
+.marker-road.zoom-9 {
+  border-left: 8px solid transparent !important;
+  border-right: 8px solid transparent !important;
+  border-top: 16px solid #495057c2 !important;
+}
+
+.marker-trail.zoom-9 {
+  border-left: 8px solid transparent !important;
+  border-right: 8px solid transparent !important;
+  border-bottom: 16px solid #e2711bd5 !important;
+}
+
+.leaflet-marker-icon.zoom-10 {
+  width: 17px !important;
+  height: 17px !important;
+  opacity: 0.75 !important;
+}
+
+.leaflet-marker-icon.zoom-11 {
+  width: 18px !important;
+  height: 18px !important;
+  opacity: 0.7 !important;
 }
 
 /* Coloroed spans */

@@ -1,9 +1,10 @@
 /* Initializing leaflet map map */
 import { smoothScrollDown } from "/js/smoothScrollDown.js";
 import { toggleBoxExpansion } from "/js/toggleBoxExpansion.js";
+import { enlargeMarkersOnZoom } from "/js/enlargeMarkersOnZoom.js";
 
 let map = L.map("map", { attributionControl: false }).setView(
-  [61.346972, 15.748689],
+  [60.346972, 15.748689],
   5
 );
 window.globalMap = map;
@@ -54,7 +55,7 @@ fetch("/all_races_w_formatted_summary.json")
             } marker-${markerRace.name.replace(/\s/g, "")}-${
               markerRace.date
             } raceMarker`,
-            iconSize: [18, 18],
+            iconSize: [12, 12],
             html: `
               <div 
                 data-marker-id="${markerRace.id}"
@@ -200,3 +201,6 @@ fetch("/all_races_w_formatted_summary.json")
       }
     });
   });
+
+/* Adding functionality for enlarging markers on zoom */
+enlargeMarkersOnZoom(map);

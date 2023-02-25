@@ -21,69 +21,6 @@ body {
   border-radius: 3px;
 }
 
-.marker-relay {
-  background: #336bb9cc;
-  /* background-image: url("/svg/track.svg"); */
-  border-radius: 50%;
-
-  animation: easeIn ease 0.3s;
-  -webkit-animation: easeIn ease 0.3s;
-  -moz-animation: easeIn ease 0.3s;
-  -o-animation: easeIn ease 0.3s;
-  -ms-animation: easeIn ease 0.3s;
-}
-
-.marker-road {
-  border-left: 8px solid transparent;
-  border-right: 8px solid transparent;
-  border-top: 17px solid #495057a1;
-  border-radius: 2px;
-
-  animation: easeIn ease 0.3s;
-  -webkit-animation: easeIn ease 0.3s;
-  -moz-animation: easeIn ease 0.3s;
-  -o-animation: easeIn ease 0.3s;
-  -ms-animation: easeIn ease 0.3s;
-}
-
-.marker-track {
-  background: #ca2c2cad;
-  /* background-image: url("/svg/track.svg"); */
-  border-radius: 50%;
-
-  animation: easeIn ease 0.3s;
-  -webkit-animation: easeIn ease 0.3s;
-  -moz-animation: easeIn ease 0.3s;
-  -o-animation: easeIn ease 0.3s;
-  -ms-animation: easeIn ease 0.3s;
-}
-
-.marker-trail {
-  border-left: 8px solid transparent;
-  border-right: 8px solid transparent;
-  border-bottom: 18px solid #e2711ba9;
-  border-radius: 2px;
-
-  animation: easeIn ease 0.3s;
-  -webkit-animation: easeIn ease 0.3s;
-  -moz-animation: easeIn ease 0.3s;
-  -o-animation: easeIn ease 0.3s;
-  -ms-animation: easeIn ease 0.3s;
-}
-
-.marker-terrain {
-  background-color: #3b924c9d;
-  /* background-image: url("/svg/terrain.svg"); */
-  border-radius: 2px;
-  background-position: center;
-
-  animation: easeIn ease 0.3s;
-  -webkit-animation: easeIn ease 0.3s;
-  -moz-animation: easeIn ease 0.3s;
-  -o-animation: easeIn ease 0.3s;
-  -ms-animation: easeIn ease 0.3s;
-}
-
 .hideMarkerOnCheck {
   display: none;
 }
