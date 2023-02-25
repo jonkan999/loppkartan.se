@@ -13,6 +13,18 @@
   cursor: pointer;
 }
 
+.marker-default {
+  background: #777;
+  /* background-image: url("/svg/track.svg"); */
+  border-radius: 50%;
+
+  animation: easeIn ease 0.3s;
+  -webkit-animation: easeIn ease 0.3s;
+  -moz-animation: easeIn ease 0.3s;
+  -o-animation: easeIn ease 0.3s;
+  -ms-animation: easeIn ease 0.3s;
+}
+
 #latlongBox {
   height: 2rem;
   display: flex;

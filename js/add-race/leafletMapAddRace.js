@@ -1,4 +1,6 @@
 import { toggleBoxExpansion } from "/js/toggleBoxExpansion.js";
+import { enlargeMarkersOnZoom } from "/js/enlargeMarkersOnZoom.js";
+
 // Create a map centered on a specific location
 let map = L.map("map", { attributionControl: false }).setView(
   [59.346972, 15.748689],
@@ -41,10 +43,11 @@ map.on("click", function (event) {
   }
   const markerClass = document.getElementById("type").value || "default";
   const latlng = event.latlng;
+  console.log("clicked");
   marker = L.marker(latlng, {
     icon: new L.DivIcon({
       className: `marker-${markerClass}`,
-      iconSize: [18, 18],
+      iconSize: [12, 12],
     }),
   }).addTo(map);
 
@@ -71,3 +74,6 @@ const raceInfoBoxes = document.querySelectorAll(".race-info-box");
 raceInfoBoxes.forEach((raceInfoBox) => {
   raceInfoBox.addEventListener("click", toggleBoxExpansion);
 });
+
+/* Adding functionality for enlarging markers on zoom */
+enlargeMarkersOnZoom(map);
