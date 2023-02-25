@@ -99,6 +99,7 @@ body {
   height: 5rem;
   background-size: contain;
   background-position: center;
+  background-repeat: no-repeat;
 }
 .promotion-box {
   display: flex;
