@@ -1209,7 +1209,7 @@
     "type": "relay",
     "name": "Humlestafetten",
     "distance": "event-27-km6-strackor",
-    "distance_m": [],
+    "distance_m": "relay",
     "place": "Bromölla",
     "latitude": 56.0743618,
     "longitude": 14.477659,
@@ -1260,7 +1260,7 @@
     "type": "relay",
     "name": "Ölands Kyrkstafett",
     "distance": "event-674-km11-strackor event-235-km6-strackor",
-    "distance_m": [],
+    "distance_m": "relay",
     "place": "Färjestaden",
     "latitude": 56.6498961,
     "longitude": 16.4645993,
@@ -1380,7 +1380,7 @@
     "type": "relay",
     "name": "Stafettvarvet",
     "distance": "event-32-km4-strackor",
-    "distance_m": [],
+    "distance_m": "relay",
     "place": "Göteborg",
     "latitude": 57.70887,
     "longitude": 11.97456,
@@ -2549,10 +2549,10 @@
     "latitude": 57.70887,
     "longitude": 11.97456,
     "organizer": "IF Kville",
-    "website": "https://www.ifkville.se/sida/?ID=220314",
+    "website": "https://www.ifkville.se/start/?ID=180801",
     "src_url": "https://friidrott.euwest01.umbraco.io/tavling-landslag/tavling/tavlingskalender/tavlingar-i-sverige/langlopp/",
     "id": "3f5f5977-0efb-4744-bba2-b43499a273a4",
-    "summary": "nationaldagsloppet.com is registered, but the owner currently does not have an active website here. Other services, such as e-mail, may be actively used by the owner. <a href=\"https://www.domainnameshop.com/whois\" target=\"_blank\" class=\"inline-link\">domainnameshop</a>"
+    "summary": "6 jun, Nationaldagsloppet, IF Kville, Björlandavallen"
   },
   {
     "date": "20230606",
@@ -2595,7 +2595,7 @@
     "type": "road",
     "name": "Blodomloppet",
     "distance": "event-10-km event-49-km",
-    "distance_m": [10000, 49000],
+    "distance_m": [10000, 4900],
     "place": "Karlskrona",
     "latitude": 56.161224,
     "longitude": 15.5869,
@@ -2612,7 +2612,7 @@
     "type": "relay",
     "name": "Sandbäckens Norrköpingsstafetten",
     "distance": "event-16-km4-strackor",
-    "distance_m": [],
+    "distance_m": "relay",
     "place": "Norrköping",
     "latitude": 58.587745,
     "longitude": 16.192421,
@@ -2620,7 +2620,7 @@
     "website": "https://norrkopingsstafetten.se/",
     "src_url": "https://friidrott.euwest01.umbraco.io/tavling-landslag/tavling/tavlingskalender/tavlingar-i-sverige/langlopp/",
     "id": "aa2fedac-3b69-4b80-9bea-75bf45428da0",
-    "summary": "Dags att visa motionsglädje igen! Stefan Fransson och Mikael Grip är två löparvänner som vill att alla ska känna glädje och gemenskap i en skön stafett <a href=\"https://www.sandbackens.se/norrkoping-vvs\" target=\"_blank\" class=\"inline-link\">sandbackens</a> <a href=\"<a href=\"https://www.fbb.se/\" target=\"_blank\" class=\"inline-link\">fbb</a>\" target=\"_blank\" class=\"inline-link\">fbb</a> <a href=\"<a href=\"https://www.fbb.se/\" target=\"_blank\" class=\"inline-link\">fbb</a>\" target=\"_blank\" class=\"inline-link\">fbb</a>  Ni väljer själva tält ur deras utbud och det står uppsatt och klart på tävlingsområdet när ni kommer."
+    "summary": "Välkommen till femte upplagan av Sandbäckens Norrköpingsstafetten Onsdag 7 juni 2023! andbäckens Norrköpingsstafetten avgörs med start,växling och mål i Folkparken i Norrköping. Samla ihop ett lag med fyra deltagare i ett herr- dam, - eller mixedlag. Med eller utan tidtagning. Varje lagmedlem går, joggar eller springer fyra kilometer var. Bansträckningen är så nära tävlingscentrum det bara går. Starten-växlingarna,- och målgången sker mitt i tävlingscentrum där lagmedlemmar och publik ger det bästa stödet. Utmed banan kommer det också att finnas skön peppmusik som får dig på bästa humör. Häng med på en kväll med motion, friskvård, gemenskap och glädje."
   },
   {
     "date": "20230607",
@@ -2739,25 +2739,9 @@
     "website": "https://idrottonline.se/FinspangsAIKFriidrottsklubb-Friidrott/",
     "src_url": "https://friidrott.euwest01.umbraco.io/tavling-landslag/tavling/tavlingskalender/tavlingar-i-sverige/arenatavlingar/",
     "id": "fff43953-8ed1-41bd-8e36-6c44c55cf10b",
-    "summary": "Från och med den 2 januari 2023 har alla publika hemsidor i idrottsrörelsens gemensamma verksamhetssystem IdrottOnline stängts ner och flyttats. Om du sökte efter en idrottsförenings hemsida så rekommenderar vi dig att kontakta föreningen för att få information om deras nya webbadress.  Om du har frågor om IdrottOnline eller söker information om driftsstörningar och kontaktuppgifter till supporten, klicka på knappen nedan."
+    "summary": "1500 meter och andra friidrottsgrenar i Finspång."
   },
-  {
-    "date": "20230610",
-    "month": "juni",
-    "day": "10",
-    "type": "road",
-    "name": "Söder Runt",
-    "distance": "10,00 km",
-    "distance_m": 10000,
-    "place": "Hornstull",
-    "latitude": 59.315189,
-    "longitude": 18.0430073,
-    "organizer": "",
-    "website": "https://www.jogg.se//Tavling/Tavling.aspx?id=656498",
-    "src_url": "https://www.jogg.se/Kalender/Tavlingar.aspx?aar=2023&mon=13&fdist=0&tdist=1000&type=0&country=1&region=0&tlopp=False&relay=False&surface=asf&tridist=0&title=1",
-    "id": "b3da6d40-f6ce-4915-9e2c-41c78036cb60",
-    "summary": "Ett varv runt Södermalm. Av många ansedd som Stockholms vackraste. Varje år slår cirka 50% personbästa på Söder Runt."
-  },
+
   {
     "date": "20230610",
     "month": "JUNI",
@@ -2773,7 +2757,7 @@
     "website": "http://www.soderrunt.se",
     "src_url": "https://friidrott.euwest01.umbraco.io/tavling-landslag/tavling/tavlingskalender/tavlingar-i-sverige/langlopp/",
     "id": "cfc7337f-3318-4663-b40f-55eef322111e",
-    "summary": "Den elfte upplagan av Söder Runt äger rum lördagen den 10 juni 2023 kl 19:45. Välkommen till Södermalm!"
+    "summary": "Den elfte upplagan av Söder Runt äger rum lördagen den 10 juni 2023 kl 19:45.Ett varv runt Södermalm. Av många ansedd som Stockholms vackraste. Varje år slår cirka 50% personbästa på Söder Runt. Välkommen till Södermalm!"
   },
   {
     "date": "20230610",
@@ -2817,9 +2801,9 @@
     "name": "Blue Mountain TrailRun",
     "distance": "3 km, 10 km, 21km",
     "distance_m": [3000, 10000, 21000],
-    "place": "",
-    "latitude": 40.81073,
-    "longitude": -75.520864,
+    "place": "First Camp Ånnaboda",
+    "latitude": 59.3391787,
+    "longitude": 14.9358503,
     "organizer": "",
     "website": "https://trailmakaren.webnode.se/",
     "src_url": "https://trailrunningsweden.se/trailkalendern/",
@@ -2841,25 +2825,9 @@
     "website": "http://herrljungafriidrott.se",
     "src_url": "https://friidrott.euwest01.umbraco.io/tavling-landslag/tavling/tavlingskalender/tavlingar-i-sverige/arenatavlingar/",
     "id": "0c5bc56a-d7fc-4ae2-8ef4-83f078c3c68c",
-    "summary": "Error: Could not generate summary"
+    "summary": "1500 meter och andra friidrottsgrenar i Herrljunga."
   },
-  {
-    "date": "20230611",
-    "month": "juni",
-    "day": "11",
-    "type": "trail",
-    "name": "Blue Mountain TrailRun",
-    "distance": "Tidslopp",
-    "distance_m": 0,
-    "place": "Ånnaboda",
-    "latitude": 59.33917870000001,
-    "longitude": 14.938039,
-    "organizer": "",
-    "website": "https://www.jogg.se//Tavling/Tavling.aspx?id=656525",
-    "src_url": "https://www.jogg.se/Kalender/Tavlingar.aspx?aar=2023&mon=13&fdist=0&tdist=1000&type=0&country=1&region=0&tlopp=False&relay=False&surface=ter&tridist=0&title=1",
-    "id": "fd48f699-2356-4de4-a936-28cd4339e2fd",
-    "summary": "Träningsprogram Blue Mountain TrailRun Du får träningen serverad dag för dag under 10 veckor.  Pris: 250:- (150:- för <a href=\"https://www.jogg.se/stjarnmedlem)\" target=\"_blank\" class=\"inline-link\">jogg</a> <a href=\"https://mittlopp.se/traningsprogram/?progid=20&progstart=2023-04-04\" target=\"_blank\" class=\"inline-link\">mittlopp</a>"
-  },
+
   {
     "date": "20230612",
     "month": "JUNI",
@@ -2884,7 +2852,7 @@
     "type": "road",
     "name": "Vårruset",
     "distance": "event-5-km event-25-km",
-    "distance_m": [5000, 25000],
+    "distance_m": [5000, 2500],
     "place": "Östersund",
     "latitude": 63.1766832,
     "longitude": 14.6360681,
@@ -2916,7 +2884,7 @@
     "month": "JUNI",
     "day": "16",
     "type": "track",
-    "name": "Huddinge",
+    "name": "Huddingespelen 2023",
     "distance": "event-100-m event-200-m event-400-m event-800-m event-1500-m event-5000-m event-100110-m-hack event-400-m-hack event-hojdhopp event-stavhopp event-langdhopp event-tresteg event-kula event-diskus event-slagga event-spjut event-3000-m event-2000-m-hinder event-300-m-hack event-1500-m-hinder event-60-m event-600-m event-60-m-hack event-200-m-hack event-80-m event-300-m event-2000-m event-80-m-hack",
     "distance_m": [1500, 5000, 3000],
     "place": "Huddinge AIS",
@@ -2926,7 +2894,7 @@
     "website": "http://www.huddingeais.se",
     "src_url": "https://friidrott.euwest01.umbraco.io/tavling-landslag/tavling/tavlingskalender/tavlingar-i-sverige/arenatavlingar/",
     "id": "9524f25a-2361-4e9f-b989-16fc3a41f556",
-    "summary": "Vi har en liten men mycket spännande trupp som åker till inomhus-SM i Malmö nu till helgen den 17-19/2 i Malmö, Joakim Hellbratt, Alva Von Gerber och Madeleine Söderqvist.  Sista helgen i februari åker en stor trupp från oss gemensamt till Karlstad för att delta i junior-SM och Ungdoms-SM 17 inomhus.  Vi ser gärna att föräldrar anmäler sig som hjälp <a href=\"https://huddingeais.se/2023/01/ny-verksamhetsansvarig-pa-vart-kansli/\" target=\"_blank\" class=\"inline-link\">huddingeais</a> Publicerad 2023-01-12 | Skriven av Lasse Krieg"
+    "summary": "Huddingespelen 2023. 1500, 3000, 5000 meter och andra friidrottsgrenar. Välkommen till Källbrinks idrottsplats den 16-18 juni 2022"
   },
   {
     "date": "20230617",
@@ -2935,22 +2903,22 @@
     "type": "trail",
     "name": "Nalta Backyard Ultra",
     "distance": "6,706 km",
-    "distance_m": [6000],
+    "distance_m": ["backyard"],
     "place": "",
-    "latitude": 30.18521299999999,
-    "longitude": -95.4904801,
+    "latitude": 65.3079836,
+    "longitude": 21.3796853,
     "organizer": "",
     "website": "https://naltabackyardultra.se/",
     "src_url": "https://trailrunningsweden.se/trailkalendern/",
     "id": "41cc3330-2005-4633-b3bd-c5b26e72f83d",
-    "summary": "<a href=\"https://raceid.com/sv/races/9507/about\" target=\"_blank\" class=\"inline-link\">raceid</a>"
+    "summary": "Start lördag den 17 juni kl. 09:00 vid Ursbergets skidstuga nära Tolvmansskolan i Piteå. Loppet går på en 6.706m lång rundbana med ny start varje hel timme. Första varvet startar 09:00 och andra 10:00. Man måste slutföra första varvet och befinna sig i startfållan när andra varvet startar för att få fortsätta loppet. Loppet fortsätter sedan med start för tredje varvet 11:00 osv. Den som inte tar sig runt i tid till nästa start är alltså ute ur tävlingen (DNF). Vinnare är den löpare som ensam slutför ett varv. Vi följer reglerna från backyardultra.com där ni hittar alla detaljer."
   },
   {
     "date": "20230617",
     "month": "JUNI",
     "day": "17",
     "type": "track",
-    "name": "Halmstad",
+    "name": "Laxaspelen 2023",
     "distance": "event-100-m event-200-m event-400-m event-3000-m event-100110-m-hack event-400-m-hack event-hojdhopp event-stavhopp event-langdhopp event-tresteg event-kula event-diskus event-slagga event-spjut event-1000-m event-800-m event-1500-m event-300-m-hack event-60-m event-600-m event-60-m-hack event-80-m event-300-m event-80-m-hack",
     "distance_m": [3000, 1500],
     "place": "IFK IV Halmstad",
@@ -2960,7 +2928,7 @@
     "website": "https://www.ifkhalmstad.se/Page/123838",
     "src_url": "https://friidrott.euwest01.umbraco.io/tavling-landslag/tavling/tavlingskalender/tavlingar-i-sverige/arenatavlingar/",
     "id": "4276a4e1-c71c-49b2-bdef-5c05104c7b75",
-    "summary": "IFK Halmstad inbjuder till Laxaspelen 2022 Välkommen till den 50:e upplagan av Laxaspelen på Halmstad Arena IP den 2-3/7 2022. Laxaspelen är IFK:s stora internationella sommartävling med tävlanden från 9 år upp till seniorelit."
+    "summary": "IFK Halmstad inbjuder till Laxaspelen 2023 Välkommen till den 50:e upplagan av Laxaspelen på Halmstad Arena IP. Laxaspelen är IFK:s stora internationella sommartävling med tävlanden från 9 år upp till seniorelit. 3000, 1500 meter och andra friidrottsgrenar."
   },
   {
     "date": "20230617",
@@ -2977,7 +2945,7 @@
     "website": "https://eur04.safelinks.protection.outlook.com/?url=https%3A%2F%2Ftjejmilen.se%2Ftjejmilen-salen%2F&data=05%7C01%7Cmarinett.svenningsson%40salensif.se%7Cab191b9295b44a8e54bc08dafe285e88%7C4c10334e2c1848f8ae4d80e4b7c9ce77%7C1%7C0%7C638101746632674528%7CUnk",
     "src_url": "https://friidrott.euwest01.umbraco.io/tavling-landslag/tavling/tavlingskalender/tavlingar-i-sverige/langlopp/",
     "id": "1fa23ed7-f46d-4eeb-bb39-0f7508dd6a19",
-    "summary": "Due to an internal error, this web page could not be loaded. We recommend that you close this page. Microsoft Defender for Office 365 has encountered an error."
+    "summary": "Spring årets härligaste fjällopp. Lördag 17 juni 2023. Här får du en perfekt utmaning i storslagen och inspirerande fjällmiljö. Tjejmilen Sälen by EQPE är inte bara ett lopp, utan en hel njutarhelg med rörelseglädje, avkoppling och gemenskap i fokus. Samla tjejgänget, döttrarna, mamma eller några andra tjejer du gillar och skapa en outdoor-upplevelse att minnas! Behöver du boende? Det bokar du enkelt via SkiStar."
   },
   {
     "date": "20230617",
@@ -2986,15 +2954,15 @@
     "type": "trail",
     "name": "Älvdalen Backyard Ultra",
     "distance": "6,706 km",
-    "distance_m": [6000],
+    "distance_m": ["backyard"],
     "place": "",
-    "latitude": 61.22730600000001,
-    "longitude": 14.0419871,
+    "latitude": 61.2276209,
+    "longitude": 14.0285201,
     "organizer": "",
-    "website": "https://www.backyardultrasr.se/",
+    "website": "https://www.backyardultrasr.se/alvdalen-backyard-ultra",
     "src_url": "https://trailrunningsweden.se/trailkalendern/",
     "id": "2894faf5-deb1-4da1-b29f-50c6197988a7",
-    "summary": "Backyard Ultra är absolut en av världens trevligaste och socialaste löparkoncept och ett koncept för alla oavsett ambitionsnivå! Backyard Ultra går på en slinga som mäter 6706 meter och du som deltagare har en timme på dig att ta dig runt banan. Sedan sker en ny start varje heltimme och så länge du klarar av att ta dig runt på banan inom en timme är du fortsatt med i tävlingen."
+    "summary": "Älvdalen backyard ultra. Loppet går på en 6,7km lång rundbana med start varje hel timme. Loppet startar kl 10:00 och alla som hunnit runt banan startar igen om man vill för nästa varv kl 11:00, sen kl 12:00 osv. Den som inte tar sig runt till nästa start är ute ur loppet. Så fortsätter loppet till endast en är kvar i tävlingen. Alla som deltar springer så många varv man vill och deltar på egen risk."
   },
   {
     "date": "20230617",
@@ -3011,7 +2979,7 @@
     "website": "https://ka2if.sportadmin.se/sida/?ID=404984",
     "src_url": "https://friidrott.euwest01.umbraco.io/tavling-landslag/tavling/tavlingskalender/tavlingar-i-sverige/arenatavlingar/",
     "id": "bd9cddef-1f3d-48b1-bdd3-ad3f8c0b5183",
-    "summary": "Rosenbomspelen 17-18 juni 2023"
+    "summary": "Rosenbomspelen 17-18 juni 2023. 1500, 3000 meter och andra friidrottsgrenar."
   },
   {
     "date": "20230617",
@@ -3045,7 +3013,7 @@
     "website": "http://olandrunning.se",
     "src_url": "https://friidrott.euwest01.umbraco.io/tavling-landslag/tavling/tavlingskalender/tavlingar-i-sverige/langlopp/",
     "id": "6d1b8661-b31e-4503-8b5b-b83bfabfd1ef",
-    "summary": "You've requested a page on a website that is part of the <a href=\"https://www.cloudflare.com/5xx-error-landing/\" target=\"_blank\" class=\"inline-link\">cloudflare</a> network. The host is configured as a CNAME across accounts on Cloudflare, which is not allowed by Cloudflare's security policy.  If you have attempted to manually point a CNAME DNS record to your R2 bucket, you must do it using a custom domain."
+    "summary": "En fantastisk trailupplevelse i en underbar Ölandsnatur. Längs banan passerar ni bla. Skäftekärr, Byrums raukar, Neptuni åkrar och Trollskogen. Är du föranmäld ingår T-shirt i startavgiften."
   },
   {
     "date": "20230617",
@@ -3062,7 +3030,7 @@
     "website": "https://www.svenskalag.se/sollefteagiffi",
     "src_url": "https://friidrott.euwest01.umbraco.io/tavling-landslag/tavling/tavlingskalender/tavlingar-i-sverige/arenatavlingar/",
     "id": "d9ff58be-bf81-4bc4-ad50-2163017463d5",
-    "summary": "<a href=\"https://www.svenskalag.se/sollefteagiffi/nyheter/1914700/dags-att-betala-medlemsavgift-for-2023\" target=\"_blank\" class=\"inline-link\">svenskalag</a> Nu är det dags att betala medlemsavgift och tränings-/tävlingsavgift för 2023.  Den här sidan kommer att vara navet i all vår kommunikation och det är även här vi lägger upp aktiviteter och för närvaro (för aktivitetsstöd)."
+    "summary": "1500 meter och andra friidrottsgrenar i Sollefteå."
   },
   {
     "date": "20230617",
@@ -3071,15 +3039,15 @@
     "type": "trail",
     "name": "EcoTrail Stockholm",
     "distance": "0,2 km, 0,7 km, 8 km, 16 km, 33 km, 45 km, 80 km",
-    "distance_m": [0, 0, 8000, 16000, 33000, 45000, 80000],
-    "place": "",
+    "distance_m": [8000, 16000, 33000, 45000, 80000],
+    "place": "Stockholm",
     "latitude": 59.32932349999999,
     "longitude": 18.0685808,
     "organizer": "",
     "website": "https://stockholm.ecotrail.com/sv",
     "src_url": "https://trailrunningsweden.se/trailkalendern/",
     "id": "afe95ef1-f034-4f8a-b698-5fabe3796682",
-    "summary": "<a href=\"http://ecotrail. com/\" target=\"_blank\" class=\"inline-link\">ecotrail</a> <a href=\"<a href=\"http://stockholm. ecotrail. com/\" target=\"_blank\" class=\"inline-link\">stockholm</a>\" target=\"_blank\" class=\"inline-link\">stockholm</a> Menu # <a href=\"http://paris. ecotrail. com/\" target=\"_blank\" class=\"inline-link\">paris</a> <a href=\"http://porto. ecotrail. com/\" target=\"_blank\" class=\"inline-link\">porto</a> <a href=\"http://copenhagen. ecotrail."
+    "summary": "En av grundtankarna med Ecotrail Stockholm är att visa hur mycket fin natur och fina stigar för löpning det finns väldigt nära staden. Att ha målet i stadens centrala delar är viktigt för att målgången ska bli en riktig löparfest med mycket publik. De kungliga skogarna på Djurgården, Kaknäs och Hundudden är en del av alla tre distanserna. Den \"vilda\" skogen där känns helt unik för Stockholm och syftet är få fler att upptäcka de fina stigarna och den vackra naturen. De längre distanserna (45k och 80k) loopar norrut från staden mot sköna Törnskogen med mossbeklädda stenar, stora rotvältor och små glittrande kärr. Banan går sedan västerut in i Ursviks motionsspår med mycket kuperad terräng. För att få utsikt över Stockholm lades både Väsjöbacken och Hagatoppen till, därifrån har man fin utsikt över hela norra Stockholm innan de sköna nerförsbackarna tillbaka in i skogarna."
   },
   {
     "date": "20230617",
@@ -3088,7 +3056,7 @@
     "type": "terrain",
     "name": "Urskogsloppet",
     "distance": "event-197-km",
-    "distance_m": [197000],
+    "distance_m": [19700],
     "place": "Björna",
     "latitude": 63.56666699999999,
     "longitude": 18.55,
@@ -3096,25 +3064,9 @@
     "website": "http://www.urskogsloppet.se",
     "src_url": "https://friidrott.euwest01.umbraco.io/tavling-landslag/tavling/tavlingskalender/tavlingar-i-sverige/langlopp/",
     "id": "00a9f93b-da64-4219-ab5d-6ac73dd878fb",
-    "summary": "Annika Andersson segrade på damsidan och Lukas Borgemo blev herrsegrare. Urskogsloppet är ett motionslopp på enkla stigar som går genom en fantastisk urskogsmiljö i Örnsköldsviks kommun.  Viktigt att tänka på, är att loppet till största del går på väldigt enkla stigar över stockar sten och ris, vilket gör att banan inte är helt jämn."
+    "summary": "Urskogsloppet är ett motionslopp på enkla stigar som går genom en fantastisk urskogsmiljö i  Örnsköldsviks kommun. Längden är 19,7 kilometer. Starten är i Backe/Berg och målgången är i Björna centrum vid Biggevallen. Alldeles i närheten av målområdet pågår också Björnadagen med dess aktiviteter där prisutdelningen för Urskogsloppet sker. Motionsloppet går längs en del av vandringsleden Urskogsleden."
   },
-  {
-    "date": "20230617",
-    "month": "juni",
-    "day": "17",
-    "type": "trail",
-    "name": "Nalta Backyard Ultra",
-    "distance": "0,00 km",
-    "distance_m": 0,
-    "place": "Piteå",
-    "latitude": 65.316698,
-    "longitude": 21.4800364,
-    "organizer": "",
-    "website": "https://www.jogg.se//Tavling/Tavling.aspx?id=656623",
-    "src_url": "https://www.jogg.se/Kalender/Tavlingar.aspx?aar=2023&mon=13&fdist=0&tdist=1000&type=0&country=1&region=0&tlopp=False&relay=False&surface=ter&tridist=0&title=1",
-    "id": "ad48a8ca-a937-4c6e-aed9-b61e2b64b0a3",
-    "summary": "Första varvet startar 09:00 och andra 10:00. Man måste slutföra första varvet och befinna sig i startfållan när andra varvet startar för att få fortsätta loppet.  Den som inte tar sig runt i tid till nästa start är alltså ute ur tävlingen (DNF)."
-  },
+
   {
     "date": "20230620",
     "month": "JUNI",
@@ -3147,24 +3099,7 @@
     "website": "https://sthlmchallenge.se/sthlm10/",
     "src_url": "https://friidrott.euwest01.umbraco.io/tavling-landslag/tavling/tavlingskalender/tavlingar-i-sverige/langlopp/",
     "id": "82ae5d1d-9299-45e2-a432-a43952c5b062",
-    "summary": "We use cookies to enhance your experience while using our website. If you are using our Services via a browser you can restrict, block or remove cookies through your web browser settings.  For complete information about the cookies we use, data we collect and how we process them, please check our"
-  },
-  {
-    "date": "20230620",
-    "month": "juni",
-    "day": "20",
-    "type": "road",
-    "name": "STHLM 10",
-    "distance": "10,00 km",
-    "distance_m": 10000,
-    "place": "Stockholm",
-    "latitude": 59.32932349999999,
-    "longitude": 18.0685808,
-    "organizer": "",
-    "website": "https://www.jogg.se//Tavling/Tavling.aspx?id=656410",
-    "src_url": "https://www.jogg.se/Kalender/Tavlingar.aspx?aar=2023&mon=13&fdist=0&tdist=1000&type=0&country=1&region=0&tlopp=False&relay=False&surface=asf&tridist=0&title=1",
-    "id": "b9d3bb9d-c598-4b9b-b1ac-8d34a3676fdb",
-    "summary": "Tisdagen den 20 juni 2023 är det äntligen dags igen för 10-kilometersloppet som går i Stockholm, mitt i citypulsen intill den vackra Mälaren. Banan är dessutom är kontrollmätt av en professionell banmätare.  För dig som vill öka distansen och hinner med tre pass per vecka."
+    "summary": "Tisdagen den 20 juni 2023 är det äntligen dags igen för 10-kilometersloppet som går i Stockholm, mitt i citypulsen intill den vackra Mälaren. Det blir en av sommarens härligaste kvällar! Banan är dessutom är kontrollmätt av en professionell banmätare. STHLM 10 är loppet med störtsköna sommarvibbar, trevlig stämning och grym musik som får dig att bli mer än peppad på att springa iväg ut på banan. Efter loppet kör vi After Run med DJ:s och mingel. Mat finns att köpa i Food Trucks på området. Bjud in vänner, familj eller kollegor till ett härligt lopp med skön After Run."
   },
   {
     "date": "20230621",
@@ -3174,9 +3109,9 @@
     "name": "Night Trail Run - Sommar",
     "distance": "30 km",
     "distance_m": [30000],
-    "place": "",
-    "latitude": 0,
-    "longitude": 0,
+    "place": "Bögs gård i Sollentuna",
+    "latitude": 59.4409142,
+    "longitude": 17.9093918,
     "organizer": "",
     "website": "https://www.nighttrailrun.se/sommar",
     "src_url": "https://trailrunningsweden.se/trailkalendern/",
@@ -3188,7 +3123,7 @@
     "month": "JUNI",
     "day": "21",
     "type": "track",
-    "name": "Stenkullen",
+    "name": "Lerum friidrott En Midsommarnattsdrom",
     "distance": "event-100-m event-200-m event-400-m event-1500-m event-5000-m event-100110-m-hack event-hojdhopp event-stavhopp event-langdhopp event-tresteg event-kula event-slagga event-spjut",
     "distance_m": [1500, 5000],
     "place": "IK Lerum Friidrott",
@@ -3198,7 +3133,7 @@
     "website": "https://lerumfriidrott.myclub.se/enmidsommarnattsdrom",
     "src_url": "https://friidrott.euwest01.umbraco.io/tavling-landslag/tavling/tavlingskalender/tavlingar-i-sverige/arenatavlingar/",
     "id": "a4755051-14ec-4c0b-bf70-221727551a76",
-    "summary": "Tyvärr har inte resultaten laddats upp på friidrottsstatistik.se ännu - anledning till detta ser du nedan. Då det är 35 min mellan starterna, är det bra att ha koll på sin starttid.  Förra året fick diskuskastarna entra kastburen och i år är det släggkastarnas tur."
+    "summary": "Lerum Friidrott välkomnar till den 24:a upplagan av kvällstävlingen En Midsommarnattsdröm - tävlingen som startade som en resultattävling och som nu blivit en uppskattad kvällstävling för seniorer, juniorer, ungdomar och veteraner! Nytt för i år är att vår tävling kommer finnas med i World Athletics Global Calendar vilket gör att du som aktiv på vår tävling har möjlighet att kvala till internationella mästerskap för seniorer och juniorer (22+19 år) med de resultaten du åstadkommer på vår tävling. Vi beräknar att dra igång tävlingen ca 17.30 och avsluta ca 21.30."
   },
   {
     "date": "20230621",
@@ -3215,25 +3150,9 @@
     "website": "https://malmoloppet.se/",
     "src_url": "https://friidrott.euwest01.umbraco.io/tavling-landslag/tavling/tavlingskalender/tavlingar-i-sverige/langlopp/",
     "id": "8aa63280-1431-4ba2-9e7a-14d5e0d14fb3",
-    "summary": "ett lopp för malmö älskaren Med Malmö | I Malmö | För Malmö  Det är med sådana som du som vi kan fortsätta med att skapa rörelse och god hälsa i stan!"
+    "summary": "Ett lopp för malmö älskaren Med Malmö | I Malmö | För Malmö  Det är med sådana som du som vi kan fortsätta med att skapa rörelse och god hälsa i stan!"
   },
-  {
-    "date": "20230621",
-    "month": "juni",
-    "day": "21",
-    "type": "road",
-    "name": "Malmöloppet",
-    "distance": "10,00 km",
-    "distance_m": 10000,
-    "place": "Malmö",
-    "latitude": 55.604981,
-    "longitude": 13.003822,
-    "organizer": "",
-    "website": "https://www.jogg.se//Tavling/Tavling.aspx?id=656491",
-    "src_url": "https://www.jogg.se/Kalender/Tavlingar.aspx?aar=2023&mon=13&fdist=0&tdist=1000&type=0&country=1&region=0&tlopp=False&relay=False&surface=asf&tridist=0&title=1",
-    "id": "5e505086-b7f0-47c7-b52e-2dba0349ec8d",
-    "summary": "Gren: Löpning Distans: 10 km Datum: 21 juni 2023 Träningsprogram Malmöloppet 10 km van löpare  För dig som vill öka distansen och hinner med tre pass per vecka."
-  },
+
   {
     "date": "20230621",
     "month": "JUNI",
@@ -3249,7 +3168,7 @@
     "website": "http://idrottonline.se/HovslattsIK-Friidrott",
     "src_url": "https://friidrott.euwest01.umbraco.io/tavling-landslag/tavling/tavlingskalender/tavlingar-i-sverige/arenatavlingar/",
     "id": "5a8c4d9b-b944-4870-8ff9-856b3ce14e3b",
-    "summary": "Från och med den 2 januari 2023 har alla publika hemsidor i idrottsrörelsens gemensamma verksamhetssystem IdrottOnline stängts ner och flyttats. Om du sökte efter en idrottsförenings hemsida så rekommenderar vi dig att kontakta föreningen för att få information om deras nya webbadress.  Om du har frågor om IdrottOnline eller söker information om driftsstörningar och kontaktuppgifter till supporten, klicka på knappen nedan."
+    "summary": "5000 meter och övriga friidrottsgrenar i Jönköping, arrangeras av Hovslätts IK."
   },
   {
     "date": "20230621",
@@ -3266,7 +3185,7 @@
     "website": "http://tjalvefriidrott.se",
     "src_url": "https://friidrott.euwest01.umbraco.io/tavling-landslag/tavling/tavlingskalender/tavlingar-i-sverige/arenatavlingar/",
     "id": "44f846a1-c118-41ee-a24e-2af5511786d6",
-    "summary": "Lite information från styrelse och kansli: Året har rivstartat, med eget Arrangemang också, Surbulle Indoor 6 januari. Flera aktiva har tävlat på flera tävlingar i januari, och hittills kan vi bl.a.  Du som medlem har möjlighet att skicka in förslag/MOTIONER att behandla på årsmötet, och då ska det vara hos styrelsen senast FYRA veckor före årsmötet."
+    "summary": "5000 meter och övriga friidrottsgrenar, arrangeras av Tjalve Friidrottsförening i Norrköping"
   },
   {
     "date": "20230625",
@@ -3275,7 +3194,7 @@
     "type": "terrain",
     "name": "Nackhällerundan",
     "distance": "event-95-km event-42-km",
-    "distance_m": [95000, 42000],
+    "distance_m": [9500, 4200],
     "place": "Tvååker",
     "latitude": 57.0422295,
     "longitude": 12.3984054,
@@ -3283,7 +3202,7 @@
     "website": "http://www.oknackhe.se",
     "src_url": "https://friidrott.euwest01.umbraco.io/tavling-landslag/tavling/tavlingskalender/tavlingar-i-sverige/langlopp/",
     "id": "0b4a0e0d-f533-40aa-9df9-b5fa62c96cd7",
-    "summary": "OK Nackhe är en klubb verksam i framförallt orientering men även löpning och skidor. Nu närmar sig Sverigepremiären i orientering.  Vi är stolta över våra härliga medlemmar, vår gemenskap och över att vi är en klubb dit alla är välkomna."
+    "summary": "Nackhällerundan är ett terränglopp som arrangeras av Ok Nackhe varje midsommarhelg. Sträckningen är 9,5 km och följer grusvägar, skogsvägar och skogsstigar i ett kuperat område norr och nordväst om Nackhestugan. Ett kortare alternativ är Högåsenrundan som är 4,2 km och bjuder på en lång backe över Högåsen. För ungdomar upp till 12 år finns Lilla Nackhällerundan som är 1,8 km och följer ett betydligt mindre kuperat motionsspår i anslutning till Nackhestugan."
   },
   {
     "date": "20230628",
@@ -3292,15 +3211,15 @@
     "type": "relay",
     "name": "St Olavsloppet",
     "distance": "event-3446-km51-strackor",
-    "distance_m": [],
+    "distance_m": "relay",
     "place": "Östersund-Trondheim",
-    "latitude": 63.437081,
-    "longitude": 10.4222752,
+    "latitude": 63.175284,
+    "longitude": 14.5107028,
     "organizer": "Trångsvikens IF",
     "website": "http://www.st-olavsloppet.com",
     "src_url": "https://friidrott.euwest01.umbraco.io/tavling-landslag/tavling/tavlingskalender/tavlingar-i-sverige/langlopp/",
     "id": "aa53d2b4-27ec-4136-acce-ce849efaeb95",
-    "summary": "St Olavsloppet© Copyright 2022"
+    "summary": "St Olavsloppet är en landsvägsstafett där man kan delta oavsett om man är elitlöpare eller motionär. Det finns tre klasser att välja mellan, en herreklass, Mixklass, en damklass, samt en virtuell klass. I Mix klassen kan alla vara med oavsett ålder, kön och löpstyrka, alla varianter av lagbildningar är möjlig, tex klubblag, företagslag, kompisgäng mm. I damklassen gäller samma sak med undantag att endast damer/tjejer kan delta. Den virtuella klassen detsamma som i mix klassen men skillnaden är att den är bara hemma hos dig."
   },
   {
     "date": "20230628",
@@ -3309,7 +3228,7 @@
     "type": "trail",
     "name": "Böda Beach Run",
     "distance": "event-10-km event-5-km event-25-km",
-    "distance_m": [10000, 5000, 25000],
+    "distance_m": [10000, 5000, 2500],
     "place": "Löttorp",
     "latitude": 57.1660956,
     "longitude": 16.9930091,
@@ -3317,7 +3236,7 @@
     "website": "http://olandrunning.se",
     "src_url": "https://friidrott.euwest01.umbraco.io/tavling-landslag/tavling/tavlingskalender/tavlingar-i-sverige/langlopp/",
     "id": "73d4404f-c31d-47c2-a37a-258358ac25ba",
-    "summary": "You've requested a page on a website that is part of the <a href=\"https://www.cloudflare.com/5xx-error-landing/\" target=\"_blank\" class=\"inline-link\">cloudflare</a> network. The host is configured as a CNAME across accounts on Cloudflare, which is not allowed by Cloudflare's security policy.  If you have attempted to manually point a CNAME DNS record to your R2 bucket, you must do it using a custom domain."
+    "summary": "Tuff löpning i sand och vatten!  En tävling för den som vill satsa allt eller bara ha riktigt skoj! Var med på Böda Beach Run, ett lopp som verkligen sticker ut lite extra. En utmaning utöver det vanliga för hela familjen med banor från 500 m till 10 km. Medalj väntar deltagarna."
   },
   {
     "date": "20230630",
@@ -3326,7 +3245,7 @@
     "type": "road",
     "name": "Trosa Stadslopp",
     "distance": "event-89-km event-4-km event-23-km",
-    "distance_m": [89000, 4000, 23000],
+    "distance_m": [8900, 4000, 2300],
     "place": "Trosa",
     "latitude": 36.0383434,
     "longitude": -78.8925079,
@@ -3334,24 +3253,24 @@
     "website": "https://trosastadslopp.se/",
     "src_url": "https://friidrott.euwest01.umbraco.io/tavling-landslag/tavling/tavlingskalender/tavlingar-i-sverige/langlopp/",
     "id": "d9960ae5-293f-42c2-8ffa-47f32c11b658",
-    "summary": "Trosa Stadslopp fredag 30 juni 2023 – 37 år! Trosa Stadslopp är en traditionell sommarföreteelse i Trosa.  Trosa Stadslopp är en sommarklassiker som måste upplevas."
+    "summary": "Trosa Stadslopp fredag 30 juni 2023 – 37 år! Trosa Stadslopp är en traditionell sommarföreteelse i Trosa. Banans sträckning genom det sommarfagra staden, närheten till vattnet, all publik samt tätheten i loppet förstärker de positiva upplevelserna runt loppet. Trosa Stadslopp är en sommarklassiker som måste upplevas."
   },
   {
     "date": "20230630",
     "month": "JUNI",
     "day": "30",
     "type": "track",
-    "name": "Göteborg",
+    "name": "Världsungdomsspelen 2023",
     "distance": "event-100-m event-200-m event-400-m event-800-m event-1500-m event-5000-m event-3000-m-hinder event-100110-m-hack event-400-m-hack event-hojdhopp event-stavhopp event-langdhopp event-tresteg event-kula event-diskus event-slagga event-spjut event-3000-m event-2000-m-hinder event-300-m-hack event-1500-m-hinder event-60-m event-600-m event-60-m-hack event-80-m event-300-m event-2000-m event-80-m-hack",
     "distance_m": [1500, 5000, 3000],
-    "place": "Örgryte IS FIK",
+    "place": "Göteborg",
     "latitude": 57.70887,
     "longitude": 11.97456,
     "organizer": "",
     "website": "http://www.vuspel.se",
     "src_url": "https://friidrott.euwest01.umbraco.io/tavling-landslag/tavling/tavlingskalender/tavlingar-i-sverige/arenatavlingar/",
     "id": "85ee3b15-f69f-4f71-a34d-d36f8ddf9775",
-    "summary": "If you are the owner of the website: The Website Application Firewall that is protecting your website has blocked this request for being suspicious. If you are the visitor: The public IP address assigned to you, by your internet provider, might be suffering from poor reputation: <a href=\"https://www.simply.com/rbl/?ip=3.80.24.208.\" target=\"_blank\" class=\"inline-link\">simply</a> IP addresses from VPN providers or public networks often have poor reputation."
+    "summary": "Efter 27 år på nya Ullevi kommer Världsungdomsspelen 2023 att genomföras på Hundraårsjubilerande Slottsskogsvallen den 30/6-2/7. Orsaken till flytten beror på att vi inte erbjudits ett datum på Ullevi som fungerar i friidrottens tävlingsprogram. Vi arbetar i nuläget intensivt på att planera och förbereda flytten till ”Vallen”. Det finns fördelar med Slottsskogsvallen, såsom tillgången till en kastplan och inomhusarenan Friidrottens Hus."
   },
   {
     "date": "20230701",
@@ -3361,14 +3280,14 @@
     "name": "Bocksten Trailrun",
     "distance": "5 km, 12 km, 22 km, 44 km",
     "distance_m": [5000, 12000, 22000, 44000],
-    "place": "",
-    "latitude": 0,
-    "longitude": 0,
+    "place": "Ästad Vingård",
+    "latitude": 57.0648899,
+    "longitude": 12.5551597,
     "organizer": "",
     "website": "http://www.bockstentrailrun.se",
     "src_url": "https://trailrunningsweden.se/trailkalendern/",
     "id": "7f14a205-07c2-4411-b3ea-a38a9868944d",
-    "summary": "<a href=\"http://www.bockstentrailrun.se/none\" target=\"_blank\" class=\"inline-link\">bockstentrailrun</a> BTR vill tacka alla härliga löpare, markägare, partners,funktionärer och vänner som gör det möjligt att skapa Trailmagi i Verkligheten Välkomna till Bockstensmannens o de talande stenarnas rike i Sveriges vackraste bokskogar!"
+    "summary": "Välkomna till Bockstensmannens o de talande stenarnas rike i Sveriges vackraste bokskogar!  Njut av tekniska stigar, sjungande bokskogar, trolska granskogar, glittrande sjöar och många härliga höjdmeter! Mannen, myten o legendens eget lopp i historisk miljö är en upplevelse för alla sinnen! Välkomna till Hallands vackraste Traillopp!"
   },
   {
     "date": "20230701",
@@ -3378,14 +3297,14 @@
     "name": "Tresjölunken",
     "distance": "3 km, 7 km, 14 km",
     "distance_m": [3000, 7000, 14000],
-    "place": "",
-    "latitude": 0,
-    "longitude": 0,
+    "place": "Trehörningsjö",
+    "latitude": 63.7318419,
+    "longitude": 18.5145233,
     "organizer": "",
-    "website": "trehorningsjo.if@telia.com",
+    "website": "https://www.facebook.com/events/treh%C3%B6rningsj%C3%B6-v%C3%A4sternorrlands-l%C3%A4n-sweden/tresj%C3%B6lunken/970076553110920/",
     "src_url": "https://trailrunningsweden.se/trailkalendern/",
     "id": "cddda75d-5987-4e76-809e-d206220c2712",
-    "summary": "Error: Could not generate summary"
+    "summary": "Tre sträckor där den längsta år 15 km och startar i Djuptjärn via Hemliden 417 möh med målgång på Trehörningsjö skolan. Andra sträckan startar i Åliden och är 7 km. Den tredje sträckan börjar i Kyrkbyn är 3 km och uppskattas av de yngre gardet. Målgång för samtliga sträckor är Tresjöskolan där dusch och fika finns."
   },
   {
     "date": "20230701",
@@ -3402,82 +3321,15 @@
     "website": "http://www.okskogsvargarna.se",
     "src_url": "https://trailrunningsweden.se/trailkalendern/",
     "id": "b8ed9d73-de3e-4381-9ff5-0fbe3273df83",
-    "summary": "Error: Could not generate summary"
+    "summary": "Trailrun: 6 km, 11 km ,22 km och 45 km Ultra. Banorna är uppmarkerade med blå pilar och blåvita snitslar. Banorna för 11 km, 22 km och 45 km är lite ändrade i början och följer sjön Eldmörjan ca 1 km se nedan i bilden."
   },
+
   {
     "date": "20230701",
     "month": "juli",
     "day": "01",
     "type": "trail",
-    "name": "BOCKSTEN  TRAILRUN 12 KM",
-    "distance": "12,00 km",
-    "distance_m": 12000,
-    "place": "Öströö",
-    "latitude": 57.0687055,
-    "longitude": 12.5065709,
-    "organizer": "",
-    "website": "https://www.jogg.se//Tavling/Tavling.aspx?id=656131",
-    "src_url": "https://www.jogg.se/Kalender/Tavlingar.aspx?aar=2023&mon=13&fdist=0&tdist=1000&type=0&country=1&region=0&tlopp=False&relay=False&surface=ter&tridist=0&title=1",
-    "id": "cdad1cf4-82d6-4738-b0af-7d74572543da",
-    "summary": "Rundan erbjuder varierad terräng på stigar genom bokskogens lövtak, trolska granskogar, längs glittrande sjöar och över vackra fält med ca. Om vi tvingas ställa in loppet flyttas er anmälan till 2024. Bocksten TrailRun kommer åberopa Force Majeure vid tex undantagstillstånd som krig, sjukdomar, åska, oväder, orkan, hårda vindar, blixtnedslag, eller vid tät dimma."
-  },
-  {
-    "date": "20230701",
-    "month": "juli",
-    "day": "01",
-    "type": "trail",
-    "name": "BOCKSTEN TRAILRUN 22 KM",
-    "distance": "22,00 km",
-    "distance_m": 22000,
-    "place": "Öströö",
-    "latitude": 57.0687055,
-    "longitude": 12.5065709,
-    "organizer": "",
-    "website": "https://www.jogg.se//Tavling/Tavling.aspx?id=656133",
-    "src_url": "https://www.jogg.se/Kalender/Tavlingar.aspx?aar=2023&mon=13&fdist=0&tdist=1000&type=0&country=1&region=0&tlopp=False&relay=False&surface=ter&tridist=0&title=1",
-    "id": "c1d69c76-5b2f-4f9b-abcd-02cf935dac68",
-    "summary": "Rundan följer delvis 12 km banan men gör en fantastiskt vacker 10 km extra loop längs ytterligare tre vackra sjöar och magisk natur. 480 hm slingrande tekniska stigar, offtrail, skogsbilvägar och grusväg väntar er som tar er an denna utmanande bana!  Bocksten TrailRun kommer åberopa Force Majeure vid tex undantagstillstånd som krig, sjukdomar, åska, oväder, orkan, hårda vindar, blixtnedslag, eller vid tät dimma."
-  },
-  {
-    "date": "20230701",
-    "month": "juli",
-    "day": "01",
-    "type": "trail",
-    "name": "BOCKSTEN TRAILRUN 44 KM",
-    "distance": "44,00 km",
-    "distance_m": 44000,
-    "place": "Öströö",
-    "latitude": 57.0687055,
-    "longitude": 12.5065709,
-    "organizer": "",
-    "website": "https://www.jogg.se//Tavling/Tavling.aspx?id=656134",
-    "src_url": "https://www.jogg.se/Kalender/Tavlingar.aspx?aar=2023&mon=13&fdist=0&tdist=1000&type=0&country=1&region=0&tlopp=False&relay=False&surface=ter&tridist=0&title=1",
-    "id": "777bd2f4-bb6e-4c9e-bc66-8354cff9be17",
-    "summary": "Ultra 44 km följer bansträckningen för 22 km x 2. Med varvning vid vackra Öströö fårfarm och Öströö slott längs Ottersjöns glittrande vatten blir det som balsam för själen! Varvbana innebär en bättre service för er löpare och publik som får möjlighet att följa loppet mer intensivt!"
-  },
-  {
-    "date": "20230701",
-    "month": "juli",
-    "day": "01",
-    "type": "trail",
-    "name": "BOCKSTEN TRAILRUN 5 KM",
-    "distance": "5,00 km",
-    "distance_m": 5000,
-    "place": "Öströö",
-    "latitude": 57.0687055,
-    "longitude": 12.5065709,
-    "organizer": "",
-    "website": "https://www.jogg.se//Tavling/Tavling.aspx?id=656132",
-    "src_url": "https://www.jogg.se/Kalender/Tavlingar.aspx?aar=2023&mon=13&fdist=0&tdist=1000&type=0&country=1&region=0&tlopp=False&relay=False&surface=ter&tridist=0&title=1",
-    "id": "53927f62-8d6d-4bf2-b8d0-6245cc010781",
-    "summary": "Rundan erbjuder varierad terräng på stigar genom bokskogens lövtak, längs glittrande sjöar och över vackra fält med ca. Banan är snitslad/markerad med vita mäklarskyltar, rödvita snitslar och med orange pilar vid vägskäl.  Program för formtoppning på 5 km För dig med bra träningsbas som håller för fem pass per vecka."
-  },
-  {
-    "date": "20230701",
-    "month": "juli",
-    "day": "01",
-    "type": "trail",
-    "name": "Järv Äventyr Sälen by EQPE",
+    "name": "Järv Äventyr Sälen",
     "distance": "12,00 km",
     "distance_m": 12000,
     "place": "Lindvallen - Sälen",
@@ -3487,16 +3339,16 @@
     "website": "https://www.jogg.se//Tavling/Tavling.aspx?id=656593",
     "src_url": "https://www.jogg.se/Kalender/Tavlingar.aspx?aar=2023&mon=13&fdist=0&tdist=1000&type=0&country=1&region=0&tlopp=False&relay=False&surface=ter&tridist=0&title=1",
     "id": "e6c4ea40-b13e-4b68-9026-45f92a95df42",
-    "summary": "ÄVENTYRSTÄVLING FÖR FAMILJER OCH KOMPISAR Sälenfjällen på sommaren måste upplevas! Trail varvas med uppdrag inspirerade av Mästarnas Mästare och Wild Kids.  Totalt har 1 medlemmar Järv Äventyr Sälen by EQPE under sina planerade tävlingar."
+    "summary": "ÄVENTYRSTÄVLING FÖR FAMILJER OCH KOMPISAR Sälenfjällen på sommaren måste upplevas! Trail varvas med uppdrag inspirerade av Mästarnas Mästare och Wild Kids."
   },
   {
     "date": "20230701",
     "month": "JULI",
     "day": "1",
     "type": "terrain",
-    "name": "JORDGUBBSLUNKEN",
+    "name": "Jordgubbslunken",
     "distance": "event-102-km event-6-km",
-    "distance_m": [102000, 6000],
+    "distance_m": [11000, 6000],
     "place": "Kristinehamn",
     "latitude": 59.3100677,
     "longitude": 14.1089192,
@@ -3504,41 +3356,7 @@
     "website": "https://www.laget.se/RUDSKOGA_IF",
     "src_url": "https://friidrott.euwest01.umbraco.io/tavling-landslag/tavling/tavlingskalender/tavlingar-i-sverige/langlopp/",
     "id": "d9adfbdb-b7d3-4a29-8b88-9535187ebef7",
-    "summary": "Det enda föreningssystemet som har hamnat på IDG:s lista över Sveriges 100 bästa sajter sju år i rad."
-  },
-  {
-    "date": "20230701",
-    "month": "juli",
-    "day": "01",
-    "type": "trail",
-    "name": "Silverleden på 1dag 2023",
-    "distance": "Tidslopp",
-    "distance_m": 0,
-    "place": "Hällefors",
-    "latitude": 59.783688,
-    "longitude": 14.5225692,
-    "organizer": "",
-    "website": "https://www.jogg.se//Tavling/Tavling.aspx?id=656535",
-    "src_url": "https://www.jogg.se/Kalender/Tavlingar.aspx?aar=2023&mon=13&fdist=0&tdist=1000&type=0&country=1&region=0&tlopp=False&relay=False&surface=ter&tridist=0&title=1",
-    "id": "40bc9f1e-4e6e-4313-abc0-d4f4af305977",
-    "summary": "I år firar vi 10 år med ”Silverleden på 1 dag” På det har vi haft en test prolog 2012 och en corona version 2020. Vi kommer även år 10 att bjuda på 64 kilometer härlig terränglöpning med alternativ målgång.  Racetid 08;00-20:00 Vi kommer att använda tidsstämpling med nån typ av system för att ha koll på deltagarna och för er som vill kolla tider under och efter löpningen."
-  },
-  {
-    "date": "20230701",
-    "month": "juli",
-    "day": "01",
-    "type": "trail",
-    "name": "Silverleden på 1dag 2023",
-    "distance": "Tidslopp",
-    "distance_m": 0,
-    "place": "Hällefors",
-    "latitude": 59.783688,
-    "longitude": 14.5225692,
-    "organizer": "",
-    "website": "https://www.jogg.se//Tavling/Tavling.aspx?id=656536",
-    "src_url": "https://www.jogg.se/Kalender/Tavlingar.aspx?aar=2023&mon=13&fdist=0&tdist=1000&type=0&country=1&region=0&tlopp=False&relay=False&surface=ter&tridist=0&title=1",
-    "id": "00efdb87-f0b4-42a7-a289-6871e8d82c37",
-    "summary": "I år firar vi 10 år med ”Silverleden på 1 dag” På det har vi haft en test prolog 2012 och en corona version 2020. Vi kommer även år 10 att bjuda på 64 kilometer härlig terränglöpning med alternativ målgång.  Racetid 08;00-20:00 Vi kommer att använda tidsstämpling med nån typ av system för att ha koll på deltagarna och för er som vill kolla tider under och efter löpningen."
+    "summary": "Jordgubbslunken. Alltid första lördagen efter midsommar. Här kan du välja mellan 6 km eller 11 km i loppet som lockar alltifrån elitmotionärer till den som bara vill få en härlig promenad."
   },
   {
     "date": "20230701",
@@ -3547,15 +3365,15 @@
     "type": "trail",
     "name": "Silverleden på 1 dag 2023",
     "distance": "7,1- 64 km",
-    "distance_m": [7000],
-    "place": "",
-    "latitude": 59.7878301,
-    "longitude": 14.5430533,
+    "distance_m": [7100, 64000],
+    "place": "Hurtigtorpets Motionsanläggning",
+    "latitude": 59.7868607,
+    "longitude": 14.5410867,
     "organizer": "",
     "website": "https://www.silverleden.se/",
     "src_url": "https://trailrunningsweden.se/trailkalendern/",
     "id": "5d36e8a2-5e33-494e-89c7-dfdf8049b97d",
-    "summary": "Start 1 juli 2023 i ”Hurtigtorpet”, Hällefors. Startavgiften 500 kr betalas i samband med anmälan senast 2022-06-01 och därefter är det 600 kr som gäller.  Anmälan gäller stafettlag"
+    "summary": "Silverleden på en dag 2023. Hela leden är 64 km men du väljer själv hur långt du ska springa. Från 7,1 km – till 64 km härlig löpning i kuperad terräng, ca 1400 höjdmeter. Spring hela sträckan eller så länge du orkar  eller varför inte ett kompisgäng som delar på kilometrarna.  Det kommer att finnas mat/vätskekontroller ca var 7-10:e km och från dessa kan man få skjuts tillbaka till målet om löparglöden svalnat och kroppen inte vill/orkar mer."
   },
   {
     "date": "20230701",
@@ -3572,25 +3390,9 @@
     "website": "http://irunkalmar.com",
     "src_url": "https://friidrott.euwest01.umbraco.io/tavling-landslag/tavling/tavlingskalender/tavlingar-i-sverige/langlopp/",
     "id": "54dd336d-189a-4e8d-8e9e-4ae132f3f12d",
-    "summary": "I år kan du ställa upp i lopp som Kalmar Malkars, Lilla Atea Kalmarmilen och Sylvesterloppet som avslutar löparåret på nyårsafton. Här på I Run Kalmar kan du läsa mer om alla lopp och anmäla dig, men också se hur dina kompisar, grannar och resten av Kalmar springer.  David Nilsson är en av Sveriges bästa långdistanslöpare, han har ett flertal SM-medaljer och är landslagsman på 10 000 meter och terräng."
+    "summary": "I år kan du ställa upp i lopp som Kalmar Malkars, Lilla Atea Kalmarmilen och Sylvesterloppet som avslutar löparåret på nyårsafton. Här på I Run Kalmar kan du läsa mer om alla lopp och anmäla dig, men också se hur dina kompisar, grannar och resten av Kalmar springer."
   },
-  {
-    "date": "20230701",
-    "month": "juli",
-    "day": "01",
-    "type": "road",
-    "name": "Kalmar Malkars 21 km",
-    "distance": "21,10 km",
-    "distance_m": 21100,
-    "place": "Kalmar",
-    "latitude": 56.6634447,
-    "longitude": 16.356779,
-    "organizer": "",
-    "website": "https://www.jogg.se//Tavling/Tavling.aspx?id=656424",
-    "src_url": "https://www.jogg.se/Kalender/Tavlingar.aspx?aar=2023&mon=13&fdist=0&tdist=1000&type=0&country=1&region=0&tlopp=False&relay=False&surface=asf&tridist=0&title=1",
-    "id": "54dfc08c-13c6-4807-8f9d-6200f66f1175",
-    "summary": "Träningsprogram Kalmar Malkars 21 km Du får träningen serverad dag för dag under 10 veckor.  Pris: 250:- (150:- för <a href=\"https://www.jogg.se/stjarnmedlem)\" target=\"_blank\" class=\"inline-link\">jogg</a> <a href=\"https://mittlopp.se/traningsprogram/?progid=20&progstart=2023-04-24\" target=\"_blank\" class=\"inline-link\">mittlopp</a>"
-  },
+
   {
     "date": "20230701",
     "month": "juli",
@@ -3606,25 +3408,9 @@
     "website": "http://ateatrailovik.se/",
     "src_url": "https://trailrunningsweden.se/trailkalendern/",
     "id": "007be550-ea58-4c8a-bf03-e5129bbaf6c8",
-    "summary": "Posts navigation <a href=\"https://trailovik.se/page/2/\" target=\"_blank\" class=\"inline-link\">trailovik</a> <a href=\"https://trailovik.se/page/3/\" target=\"_blank\" class=\"inline-link\">trailovik</a> …"
+    "summary": "ATEA TrailÖvik är med sina fyra olika banor en trailtävling för alla! Förutom utmaningen så utlovas, storslagen natur, magnifika stigar och sagolik utsikt över världsarvet Höga Kusten till samtliga deltagare. TrailÖviks terräng och banor har lovordas av motionärer och elit, såsom trailproffset Andreas Svanebo. Eller för att citera Helena Bergman, en av världens bästa orienterare, \"det är så här trailterräng ska vara!\""
   },
-  {
-    "date": "20230701",
-    "month": "juli",
-    "day": "01",
-    "type": "trail",
-    "name": "Atea TrailÖvik 2023",
-    "distance": "22,00 km",
-    "distance_m": 22000,
-    "place": "Örnsköldsvik, Höga Kusten",
-    "latitude": 63.29004740000001,
-    "longitude": 18.7166166,
-    "organizer": "",
-    "website": "https://www.jogg.se//Tavling/Tavling.aspx?id=656547",
-    "src_url": "https://www.jogg.se/Kalender/Tavlingar.aspx?aar=2023&mon=13&fdist=0&tdist=1000&type=0&country=1&region=0&tlopp=False&relay=False&surface=ter&tridist=0&title=1",
-    "id": "8695cdf3-b035-4d09-8dad-3371fa70dab1",
-    "summary": "Atea Trail Övik är med sina fyra olika banor en trail-tävling för alla! Atea TrailÖviks terräng och banor har lovordas av motionärer och elit, såsom trail-proffset Andreas Svanebo. Eller för att citera Helena Bergman (fd Jansson), en av världens bästa orienterare, ”det är så här trail-terräng ska vara!”"
-  },
+
   {
     "date": "20230702",
     "month": "juli",
@@ -3633,32 +3419,16 @@
     "name": "Genarps IF Trail - GIFT",
     "distance": "4,5 km, 10 km, 25 km",
     "distance_m": [4000, 10000, 25000],
-    "place": "",
-    "latitude": 0,
-    "longitude": 0,
+    "place": "Ekevallen",
+    "latitude": 55.5969269,
+    "longitude": 13.4153004,
     "organizer": "",
     "website": "https://www.sportstiming.se/event/11665",
     "src_url": "https://trailrunningsweden.se/trailkalendern/",
     "id": "db9e11b0-7711-4441-9474-de0cec669c66",
     "summary": "GIFT 2023 är utsedd till SKM-tävling i trail och kommer att erbjuda alla klasser inklusive ungdom. Loppen är öppna för alla löpare, elit som motionär (för 25 km krävs att du i år fyller minst 17 år). Den löpare som anmäler sig till 25 km och är medlem i en klubb ansluten till Skånska Friidrottsförbundet deltar automatiskt i Ungdom SKM/SKM/VSKM."
   },
-  {
-    "date": "20230702",
-    "month": "JULI",
-    "day": "2",
-    "type": "trail",
-    "name": "GIFT-Genarps IF Trail",
-    "distance": "event-10-km event-25-km",
-    "distance_m": [10000, 25000],
-    "place": "Genarp",
-    "latitude": 55.6002993,
-    "longitude": 13.3975053,
-    "organizer": "Genarps IF",
-    "website": "https://www.genarpsif.se/start/?ID=58091",
-    "src_url": "https://friidrott.euwest01.umbraco.io/tavling-landslag/tavling/tavlingskalender/tavlingar-i-sverige/langlopp/",
-    "id": "56ac5907-a9c2-4d99-8cfc-852dc6f9678f",
-    "summary": "V�lkommen till v�r klubb DU behöver inte vara topptränad för att vara med, vi har löpare i alla nivåer på våra gemensamma pass.  Det är inte alltid våra omklädningsrum är öppna, eftersom många kommer ombytta till träningen, hör av dig om du är osäker."
-  },
+
   {
     "date": "20230704",
     "month": "JULI",
@@ -3666,7 +3436,7 @@
     "type": "road",
     "name": "Wallanderloppet",
     "distance": "event-38-km event-6-km",
-    "distance_m": [38000, 6000],
+    "distance_m": [3800, 6000],
     "place": "Ystad",
     "latitude": 55.4295051,
     "longitude": 13.8200308,
@@ -3674,7 +3444,7 @@
     "website": "http://www.friidrott.ystadsif.se",
     "src_url": "https://friidrott.euwest01.umbraco.io/tavling-landslag/tavling/tavlingskalender/tavlingar-i-sverige/langlopp/",
     "id": "0382d928-8348-41f1-abff-4537c56917ad",
-    "summary": "Drygt 400 sprang Nyårsloppet i tiogradig vårvärme Inte mindre än 404 personer passade på att avsluta 2022 med en tur i motionsspåret.  Eftersom jag även bor i Ystad är jag här ganska regelbundet och det kändes speciellt bra i dag för att få ett fint avslut på året."
+    "summary": "Sveriges vackraste stadslopp! Du passerar flera platser från böckerna och filmerna om Wallander, men också ett Ystad i sommarskrud. Genom kullerstensgator kantade av korsvirkeshus och förbi vackert blomstrande parker."
   },
   {
     "date": "20230705",
@@ -3683,15 +3453,15 @@
     "type": "road",
     "name": "Frosta OK",
     "distance": "event-126-km event-61-km event-34-km",
-    "distance_m": [126000, 61000, 34000],
+    "distance_m": [12600, 6100, 3400],
     "place": "Hörby",
     "latitude": 55.851716,
     "longitude": 13.6619255,
     "organizer": "Frosta OK",
-    "website": "http://maarknadsloppet.nu",
+    "website": "http://marknadsloppet.nu",
     "src_url": "https://friidrott.euwest01.umbraco.io/tavling-landslag/tavling/tavlingskalender/tavlingar-i-sverige/langlopp/",
     "id": "d2d620ae-36b6-42e8-a607-e872bad67bb5",
-    "summary": "Error: Could not generate summary"
+    "summary": "Hörby Marknadslopp kommer att arrangeras för 51a gången onsdagskvällen 5 juli i samband med årets Hörby Marknad. Ett mycket populärt motionslopp som startar mitt i marknadsvimlet med många tusentals marknadsbesökare längs banans inledning och målgång."
   },
   {
     "date": "20230707",
@@ -3708,7 +3478,7 @@
     "website": "http://www.ifkhelsingborg.se",
     "src_url": "https://friidrott.euwest01.umbraco.io/tavling-landslag/tavling/tavlingskalender/tavlingar-i-sverige/arenatavlingar/",
     "id": "0dd8af71-55c6-4f3e-87d5-488cef86252b",
-    "summary": "<a href=\"<a href=\"https://ifkhelsingborg.myclub.se/site_node/4843/nyheter/tack-for-en-mycket-fin-juluppvisning\" target=\"_blank\" class=\"inline-link\">ifkhelsingborg</a>\" target=\"_blank\" class=\"inline-link\">ifkhelsingborg</a> 21 dec, 2022 - <a href=\"https://ifkhelsingborg.myclub.se/konstakning\" target=\"_blank\" class=\"inline-link\">ifkhelsingborg</a> Vi vill rikta ett stort tack till alla som deltog, var funktionär och publik.  <a href=\"<a href=\"https://ifkhelsingborg.myclub.se/site_node/4843/nyheter/tack-for-en-mycket-fin-juluppvisning\" target=\"_blank\" class=\"inline-link\">ifkhelsingborg</a>\" target=\"_blank\" class=\"inline-link\">ifkhelsingborg</a>"
+    "summary": "1500, 5000, 3000 meter och andra friidrottsgrenar på Hedens IP, arrangeras av IFK Helsingborg "
   },
   {
     "date": "20230707",
@@ -3742,7 +3512,7 @@
     "website": "http://olandrunning.com",
     "src_url": "https://friidrott.euwest01.umbraco.io/tavling-landslag/tavling/tavlingskalender/tavlingar-i-sverige/langlopp/",
     "id": "b2f7fe11-599a-49fb-a0ee-99047b8cefda",
-    "summary": "Error: Could not generate summary"
+    "summary": "Ett lopp för hela familjen i härlig skogsterräng. 6,5 km och 4 km, ungdom 1,8 km och 1 km. Alla som fullföljer loppet får medalj och bjuds på grillad korv."
   },
   {
     "date": "20230708",
@@ -3759,7 +3529,7 @@
     "website": "https://www.ifkville.se/sida/?ID=379069",
     "src_url": "https://friidrott.euwest01.umbraco.io/tavling-landslag/tavling/tavlingskalender/tavlingar-i-sverige/arenatavlingar/",
     "id": "198b7322-f7aa-4c21-8b60-6c3d0d2300d1",
-    "summary": "SportAdmin anv�nder Cookies f�r att f�rb�ttra din anv�ndarupplevelse. <a href=\"https://www.sportadmin.se/cookies\" target=\"_blank\" class=\"inline-link\">sportadmin</a> kan du l�sa mer om cookies och hur SportAdmin anv�nder dem.  Björlanda Track & Field Games är en tävling av högsta kvalitet med löpningar på lördagen och kast på söndagen!"
+    "summary": "Björlanda Track & Field Games är en tävling av högsta kvalitet med löpningar på lördagen och kast på söndagen!"
   },
   {
     "date": "20230708",
@@ -3776,7 +3546,7 @@
     "website": "https://varbergsloppet.se/",
     "src_url": "https://friidrott.euwest01.umbraco.io/tavling-landslag/tavling/tavlingskalender/tavlingar-i-sverige/langlopp/",
     "id": "b72efd0a-3480-4920-abab-8b1343edc04c",
-    "summary": "#content <a href=\"<a href=\"https://varbergsloppet. se\" target=\"_blank\" class=\"inline-link\">varbergsloppet</a><a href=\"https://varbergsloppet. se\" target=\"_blank\" class=\"inline-link\">varbergsloppet</a>/<a href=\"https://varbergsloppet. se\" target=\"_blank\" class=\"inline-link\">varbergsloppet</a>/aktuellt/<a href=\"https://varbergsloppet. se\" target=\"_blank\" class=\"inline-link\">varbergsloppet</a>/om-loppen/<a href=\"https://varbergsloppet."
+    "summary": "Varje sommar sedan 1982 har varbergsbor, hallänningar och gästande sprungit vårt motionslopp utmed fina strandpromenaden och med start och mål vid anrika Varbergs fästning."
   },
   {
     "date": "20230708",
@@ -3793,7 +3563,7 @@
     "website": "https://www.lkgranslost.se/semesterhalvmaran",
     "src_url": "https://friidrott.euwest01.umbraco.io/tavling-landslag/tavling/tavlingskalender/tavlingar-i-sverige/langlopp/",
     "id": "18b8145d-d24a-4f5d-8456-f154aca5c471",
-    "summary": "[vc_row row_type=”row” use_row_as_full_screen_section=”no” type=”full_width” angled_section=”no” text_align=”left” background_image_as_pattern=”without_pattern” css_animation=””][vc_column][vc_single_image image=”22211″ img_size=”full” qode_css_animation=””][/vc_column][/vc_row][vc_row row_type=”row” use_row_as_full_screen_section=”no” type=”grid” angled_section=”no” text_align=”left” background_image_as_pattern=”without_pattern” background_color=”#f6f6f5″ padding_top=”90″ padding_bottom=”90″ css_animation=””][vc_column][vc_column_text] Tack för i år!  Tävlingskommittén vill rikta ett stort tack till alla tappra deltagare och ovärdeliga funktionärer för era insatser i samband med 2022 års upplaga av Semesterhalvmaran, Sommarmilen och Solruset."
+    "summary": "Semesterhalvmaran är ett lopp arrangerat av LK Gränslöst, som går i Närkes FIF, Fjugesta, Närke och äger rum den 8:e juli 2023."
   },
   {
     "date": "20230708",
@@ -3802,7 +3572,7 @@
     "type": "road",
     "name": "Kustmaran",
     "distance": "event-5-km event-10-km event-halvmarathon event-marathon event-25-km",
-    "distance_m": [5000, 10000, 21098, 42195, 25000],
+    "distance_m": [5000, 10000, 21098, 42195],
     "place": "Kristianopel, Blekinge",
     "latitude": 56.2578701,
     "longitude": 16.0411673,
@@ -3810,7 +3580,7 @@
     "website": "https://www.teamblekinge.nu/varalopp/KustmaranochKristianopelRunt/",
     "src_url": "https://friidrott.euwest01.umbraco.io/tavling-landslag/tavling/tavlingskalender/tavlingar-i-sverige/langlopp/",
     "id": "9867f6da-ce8a-469c-9d5a-36a75b867d74",
-    "summary": "Sidan du försöker nå finns inte. Det kan bero på att du klickat på en felaktig länk. Team Blekinge LF använder Svenskalag.se som hemsidesplattform."
+    "summary": "Kustmaran och Kristianopel runt är en löparfest för hela familjen med distanser från 0,9 km till 42,2 km. Välkomna till ostkustens pärla när det är som vackrast!"
   },
   {
     "date": "20230708",
@@ -3819,7 +3589,7 @@
     "type": "road",
     "name": "Musköloppet",
     "distance": "event-5-km event-10-km event-25-km",
-    "distance_m": [5000, 10000, 25000],
+    "distance_m": [5000, 10000, 2500],
     "place": "Muskö",
     "latitude": 58.9999599,
     "longitude": 18.1262048,
@@ -3827,7 +3597,7 @@
     "website": "https://www.muskoloppet.se/",
     "src_url": "https://friidrott.euwest01.umbraco.io/tavling-landslag/tavling/tavlingskalender/tavlingar-i-sverige/langlopp/",
     "id": "1b5fd4f3-f57d-4ef9-8bce-0fa4968d56ea",
-    "summary": "Kl 10.30 – 2,5 km, ungdom födda 09-10, 11-12 – Klass 7-10 – 2,5 km, stavgång  Kl 12.00 – 5 km, män, kvinnor och ungdom födda 07-08 – Klass 3-6  Kl 14.30 cirka – Stafett – 3 x ca 1 km"
+    "summary": "Musköloppet är ett lopp arrangerat av Muskö IF, som går i Stockholms FIF, Muskö, Stockholm och äger rum den 8 juli 2023. Loppet är godkänt av Svensk Friidrott."
   },
   {
     "date": "20230708",
@@ -3844,7 +3614,7 @@
     "website": "http://vingarna.se",
     "src_url": "https://friidrott.euwest01.umbraco.io/tavling-landslag/tavling/tavlingskalender/tavlingar-i-sverige/arenatavlingar/",
     "id": "970a31a6-5776-46f6-bfe4-b71b51d7c138",
-    "summary": "Från och med den 2 januari 2023 har alla publika hemsidor i idrottsrörelsens gemensamma verksamhetssystem IdrottOnline stängts ner och flyttats. Om du sökte efter en idrottsförenings hemsida så rekommenderar vi dig att kontakta föreningen för att få information om deras nya webbadress.  Om du har frågor om IdrottOnline eller söker information om driftsstörningar och kontaktuppgifter till supporten, klicka på knappen nedan."
+    "summary": "3000 meter och andra friidrottsgrenar i Örnsköldsvik, arrangeras av IF Vingarna."
   },
   {
     "date": "20230709",
@@ -3854,14 +3624,14 @@
     "name": "Mora Trail",
     "distance": "2 km, 4 km, 8 km, 17 km, 30 km",
     "distance_m": [2000, 4000, 8000, 17000, 30000],
-    "place": "",
-    "latitude": 37.3344082,
-    "longitude": -122.0988119,
+    "place": "mora skidstadion",
+    "latitude": 61.0074205,
+    "longitude": 14.4982507,
     "organizer": "",
     "website": "http://www.moratrail.se/",
     "src_url": "https://trailrunningsweden.se/trailkalendern/",
     "id": "88652b38-b128-4ae9-9a29-21ed27164a03",
-    "summary": "-Klart att det känns bra och positivt och nu laddar vi om och ska utveckla vissa bitar för att kunna öka till nästa år, säger tävlingsledare Björn Wrahme. Positiva miner var det också bland löparna som tyckte banorna var roliga och jättefina, med bra service och positiv pepp längs banan på många håll.  Vi håller på att sortera och fixa med bilder från dagen och hoppas bli klara och ha det uppladdat ikväll, men senast imorgon."
+    "summary": "Till MoraTrailbanorna har vi valt att välja ut godbitarna av de många rundor som finns i området och kombinerat ihop det till härliga och omväxlande banor. Bitvis har vi brutit ny mark för att sätta vårt eget MoraTrailavtryck och erbjuda alla MoraTrailare en naturnära upplevelse. Några steg kommer ni få ta på Vasaloppsspåret också."
   },
   {
     "date": "20230709",
@@ -3878,7 +3648,7 @@
     "website": "https://www.svenskalag.se/kvarnsvedenfriidrott/sida/33469/kvarnsvedenspelen",
     "src_url": "https://friidrott.euwest01.umbraco.io/tavling-landslag/tavling/tavlingskalender/tavlingar-i-sverige/arenatavlingar/",
     "id": "cd61a03c-e806-4926-8425-006cad04b4f3",
-    "summary": "Välkommen!"
+    "summary": "1500, 5000 meter och övriga friidrottsgrenar i Borlänge, arrangeras av Kvarnsvedens GOIF FIK."
   },
   {
     "date": "20230715",
@@ -3887,15 +3657,15 @@
     "type": "trail",
     "name": "Lurs Backyard Ultra",
     "distance": "6,706 km",
-    "distance_m": [6000],
+    "distance_m": ["backyard"],
     "place": "",
-    "latitude": 0,
-    "longitude": 0,
+    "latitude": 58.8167037,
+    "longitude": 11.3227221,
     "organizer": "",
     "website": "https://www.teamet.se/Lurs-Ultra",
     "src_url": "https://trailrunningsweden.se/trailkalendern/",
     "id": "ce485ede-fb77-4c3c-a380-f671858f5b00",
-    "summary": "Efter att ha fått ställa in två år i rad (2020 och 2021) och inte riktigt haft tid eller ork under våren 2022 att starta upp igen, har vi konstaterat att saknaden är för stor. Det har känts väldigt tråkigt att två år i rad behöva meddela alla anmälda att loppet är inställt. Vi kommer därför i första hand att skicka ut inbjudan till alla som var anmälda till loppet 2021."
+    "summary": "Lurs backyard Ultra är ett annorlunda ultralopp som går på en ca 6,7 km lång rundbana med start varje hel timme. Starten går kl 10:00 och alla som hunnit runt banan startar igen för nästa varv kl 11:00, sen kl 12:00 o s v. Den som inte tar sig runt till nästa start är ute ur loppet. Så fortsätter loppet till endast en man och en kvinna är kvar i tävlingen. Var och en springer så många varv man vill eller orkar."
   },
   {
     "date": "20230715",
@@ -3912,7 +3682,7 @@
     "website": "https://www.rehnsbk.se/friidrott",
     "src_url": "https://friidrott.euwest01.umbraco.io/tavling-landslag/tavling/tavlingskalender/tavlingar-i-sverige/arenatavlingar/",
     "id": "bfe3886a-73b9-4e20-8b6c-ba6dc35c4836",
-    "summary": "Rehns BK bedriver numera även friidrott. I en snar framtid kommer verksamheten att utökas med ungdomar i från 11/12 års åldern.  Ni som är intresserad av att börja friidrott kan höra av er till följande personer."
+    "summary": "Rehns BK bedriver numera även friidrott. Här arrangeras 3000, 5000 meter och andra friidrottsgrenar i Bollnäs."
   },
   {
     "date": "20230715",
@@ -3936,7 +3706,7 @@
     "month": "JULI",
     "day": "15",
     "type": "track",
-    "name": "Löttorp",
+    "name": "Ölandsspelen",
     "distance": "event-100-m event-800-m event-3000-m event-100110-m-hack event-hojdhopp event-stavhopp event-langdhopp event-kula event-diskus event-spjut event-200-m event-5000-m event-60-m event-600-m event-60-m-hack event-80-m event-2000-m event-80-m-hack",
     "distance_m": [3000, 5000],
     "place": "Högby IF",
@@ -3946,7 +3716,7 @@
     "website": "http://friidrott@hogbyif.se",
     "src_url": "https://friidrott.euwest01.umbraco.io/tavling-landslag/tavling/tavlingskalender/tavlingar-i-sverige/arenatavlingar/",
     "id": "72b482be-85c1-4eab-8eea-bad66ee6cd5d",
-    "summary": "<a href=\"https://www. hogbyif. sehttps://hogbyif. se/bli-medlem/https://hogbyif. se/#sektioner\" target=\"_blank\" class=\"inline-link\">hogbyif</a> <a href=\"https://www. hogbyif. se/friidrotthttps://hogbyif. se/lottorps-lopargrupp/https://hogbyif. se/kondition-styrka/&https://hogbyif. se/fotboll/https://hogbyif. se/innebnady/https://hogbyif. se/racketsport/\" target=\"_blank\" class=\"inline-link\">hogbyif</a> <a href=\"<a href=\"https://hogbyif."
+    "summary": "Ölandsspelen med tävlingar i bland annat 3000 meter, 5000 meter och andra friidrottsgrenar. Arrangeras av Högby IF i Löttorp"
   },
   {
     "date": "20230718",
@@ -3963,7 +3733,7 @@
     "website": "http://olandrunning.se",
     "src_url": "https://friidrott.euwest01.umbraco.io/tavling-landslag/tavling/tavlingskalender/tavlingar-i-sverige/langlopp/",
     "id": "ddcbd5b8-3d87-4e9e-9f3f-565456200bb8",
-    "summary": "You've requested a page on a website that is part of the <a href=\"https://www.cloudflare.com/5xx-error-landing/\" target=\"_blank\" class=\"inline-link\">cloudflare</a> network. The host is configured as a CNAME across accounts on Cloudflare, which is not allowed by Cloudflare's security policy.  If you have attempted to manually point a CNAME DNS record to your R2 bucket, you must do it using a custom domain."
+    "summary": "På First Camp Löttorp kan du springa ett lopp i härlig terräng. Njut av skogs- och ängsmark samt underbar vy längs Östersjön. Ett lopp för hela familjen. Medalj till alla som fullföljer loppet."
   },
   {
     "date": "20230720",
@@ -3980,7 +3750,7 @@
     "website": "http://www.rabyrekarne.se",
     "src_url": "https://friidrott.euwest01.umbraco.io/tavling-landslag/tavling/tavlingskalender/tavlingar-i-sverige/arenatavlingar/",
     "id": "b07295e8-3926-427f-ac50-57c795f7bf29",
-    "summary": "<a href=\"http://www.rabyrekarne.se/rabyrekarnefif/nyheter/1922448/dags-for-ism\" target=\"_blank\" class=\"inline-link\">rabyrekarne</a> I helgen är det dags för ISM i Malmö! Säsongen har varit lite blandad för våra fyra deltagare och förhoppningvis har formen infunnit sig lagom till säsongens höjdpunkt!  Maja Åskag är i form och har slagit personligt rekord i både längd och tresteg den här säsongen!"
+    "summary": "1500 meter och andra friidrottsgrenar i Eskilstuna. Arrangeras av Råby-Rekarne FIF."
   },
   {
     "date": "20230721",
@@ -3989,7 +3759,7 @@
     "type": "road",
     "name": "Kraftprovet",
     "distance": "event-116-km event-63-km event-26-km",
-    "distance_m": [116000, 63000, 26000],
+    "distance_m": [11600, 6300, 2600],
     "place": "Trollhättan",
     "latitude": 58.28348939999999,
     "longitude": 12.2858206,
@@ -3997,7 +3767,7 @@
     "website": "http://www.kraftprovet.se",
     "src_url": "https://friidrott.euwest01.umbraco.io/tavling-landslag/tavling/tavlingskalender/tavlingar-i-sverige/langlopp/",
     "id": "9debc455-867d-4abc-9236-29f1ad8b23c0",
-    "summary": "<a href=\"https://kraftprovet.tsok.se/2023/01/30/anmaaln-2023-oppen/\" target=\"_blank\" class=\"inline-link\">kraftprovet</a> Nu finns inbjudan publicerad och anmälan är öppen till Kraftprovet 21 juli 2023.  Det finns både vatten och sportdryck vid 4.5 km och 8 km på Kraftprovet och vid 3 km på Slussprovet samt vid målet för alla lopp."
+    "summary": "Äntligen genomförs Kraftprovet återigen som upptakten på Fallens Dagar 21 juli. Det är starten på tre dagars feststämning i Trollhättan! Fredagen den 21 juli 2023 arrangeras den 37:e upplagan av tävlingen i Trollhättan och vi bjuder på en unik upplevelse i sluss- och fallområdet. Tävlingen genomförs traditionsenligt i upptakten på Fallens dagar, som skapar en fantastisk feststämning i staden under tre dagar. Utefter hela banan möts du av skön underhållning med mycket musik."
   },
   {
     "date": "20230722",
@@ -4007,21 +3777,21 @@
     "name": "Bjäre trail",
     "distance": "12 km, 17 km, 34 km, 51 km",
     "distance_m": [12000, 17000, 34000, 51000],
-    "place": "",
-    "latitude": 0,
-    "longitude": 0,
+    "place": "Båstad Företagsby",
+    "latitude": 56.4103428,
+    "longitude": 12.8383754,
     "organizer": "",
     "website": "http://www.bjarerun.se",
     "src_url": "https://trailrunningsweden.se/trailkalendern/",
     "id": "36b823a0-ba20-4872-8ef8-97cd8dd3f8fb",
-    "summary": "Loppet för dig som vill ha en extra utmaning! Vågar du anmäla dig till ett trail-lopp som erbjuder det mesta och lite till …  Det utlovas förutom massor av mjölksyra i benen en otaliga tillfällen till leenden och sagolik utsikt som slår det mesta."
+    "summary": "Bjäre Trail – ett terränglopp utöver det vanliga. Vågar du anmäla dig till ett trail-lopp som erbjuder det mesta och lite till. Banan är VÄLDIGT kuperad! Ni springer upp och ner längs Hallandsåsens norrsida, ni kommer springa genom Sinarpsdalen, närmare Astrid Lindgrens ”Körsbärsdalen” kommer man inte i verkligheten (enda skillnaden är att körsbärsträden inte blommar i juli). Ni springer genom täta bokskogar med forsande vattenfall, beteshagar med betande djur, nedlagd skidbacke, nedlagd järnväg."
   },
   {
     "date": "20230722",
     "month": "JULI",
     "day": "22",
     "type": "track",
-    "name": "Arvika",
+    "name": "Stjärnspelen Arvika",
     "distance": "event-100-m event-200-m event-400-m event-800-m event-hojdhopp event-stavhopp event-langdhopp event-kula event-diskus event-slagga event-spjut event-1500-m event-60-m event-600-m event-80-m event-lopgrenar event-kastgrenar event-hoppgrenar",
     "distance_m": [1500],
     "place": "KFUM Arvika FIF",
@@ -4031,7 +3801,7 @@
     "website": "http://arvikafriidrott.se",
     "src_url": "https://friidrott.euwest01.umbraco.io/tavling-landslag/tavling/tavlingskalender/tavlingar-i-sverige/arenatavlingar/",
     "id": "8e0708fa-1329-4092-a496-f64c42d811cf",
-    "summary": "Error: Could not generate summary"
+    "summary": "Stjärnspelen med bland annat 1500 meter men såklart också andra friidrottsgrenar, i Arvika. Arrangeras av KFUM Arvika FIF"
   },
   {
     "date": "20230722",
@@ -4048,7 +3818,7 @@
     "website": "https://helagsfjallmara.se",
     "src_url": "https://trailrunningsweden.se/trailkalendern/",
     "id": "b7ed9bc1-174e-48df-bac6-6c21817d7a16",
-    "summary": "Var med och skapa stigen! För dig som vill ha en extra utmaning För dig som vill njuta av fjället"
+    "summary": "Helags Fjällmara är terrängloppet för dig som gillar utmaningar och vacker fjällnatur. Tävlingen bjuder på olika utmaningar på olika banor där det finns något som passar för alla. Ta med familjen, vännerna eller kollegorna och upplev Helags Fjällmara och Ljungdalsfjällen!"
   },
   {
     "date": "20230722",
@@ -4057,7 +3827,7 @@
     "type": "trail",
     "name": "Hornsjön Runt",
     "distance": "event-11-km event-55-km event-29-km",
-    "distance_m": [11000, 55000, 29000],
+    "distance_m": [11000, 5500, 2900],
     "place": "Löttorp",
     "latitude": 57.1660956,
     "longitude": 16.9930091,
@@ -4065,7 +3835,7 @@
     "website": "http://olandrunning.se",
     "src_url": "https://friidrott.euwest01.umbraco.io/tavling-landslag/tavling/tavlingskalender/tavlingar-i-sverige/langlopp/",
     "id": "d9edb8c0-9b2f-481c-932f-5cf08c19f94d",
-    "summary": "You've requested a page on a website that is part of the <a href=\"https://www.cloudflare.com/5xx-error-landing/\" target=\"_blank\" class=\"inline-link\">cloudflare</a> network. The host is configured as a CNAME across accounts on Cloudflare, which is not allowed by Cloudflare's security policy.  If you have attempted to manually point a CNAME DNS record to your R2 bucket, you must do it using a custom domain."
+    "summary": "Gå, lunka, löp – runt Ölands enda insjö. I år går loppet för 46:e året! Mycket vacker och varierande öländsk natur! Allt från grusvägar med öländsk kalksten som underlag, till gräs, kohagar, lövskog, barrskog och sanddyner! Alla som fullföljer HORNSJÖN RUNT får medalj. Prisutdelning till de tre främsta i alla klasser. Dessutom många utlottade priser."
   },
   {
     "date": "20230726",
@@ -4074,7 +3844,7 @@
     "type": "road",
     "name": "ATEA Kalmarmilen",
     "distance": "event-10-km event-12-km",
-    "distance_m": [10000, 12000],
+    "distance_m": [10000, 1200],
     "place": "Kalmar",
     "latitude": 56.6634447,
     "longitude": 16.356779,
@@ -4082,7 +3852,7 @@
     "website": "http://irunkalmar.com",
     "src_url": "https://friidrott.euwest01.umbraco.io/tavling-landslag/tavling/tavlingskalender/tavlingar-i-sverige/langlopp/",
     "id": "411ceb00-d773-4e6e-a4ad-d0c712d9e041",
-    "summary": "I år kan du ställa upp i lopp som Kalmar Malkars, Lilla Atea Kalmarmilen och Sylvesterloppet som avslutar löparåret på nyårsafton. Här på I Run Kalmar kan du läsa mer om alla lopp och anmäla dig, men också se hur dina kompisar, grannar och resten av Kalmar springer.  David Nilsson är en av Sveriges bästa långdistanslöpare, han har ett flertal SM-medaljer och är landslagsman på 10 000 meter och terräng."
+    "summary": "Atea Kalmarmilen är ett etablerat millopp där alla kan vara med, både motionärer och elit. Loppet går genom Kalmars många vackra miljöer. Starten sker vid Teatervallen. Löparna passerar sedan Kalmar slott, Stensö, Gamla stan, hamnen, Fredrikskans, Lindö, Ängö och tillbaka på Kvarnholmen för att sedan möta publikens applåder längs Storgatan och spurten in mot målet på Larmtorget."
   },
   {
     "date": "20230728",
@@ -4099,7 +3869,7 @@
     "website": "https://hassleholmsais.se/",
     "src_url": "https://friidrott.euwest01.umbraco.io/tavling-landslag/tavling/tavlingskalender/tavlingar-i-sverige/arenatavlingar/",
     "id": "9995b1e5-0088-41d7-b2cd-549959c484bb",
-    "summary": "Hässleholms Allmänna Idrottssällskap har, sedan starten 1945, utvecklat och inspirerat ungdomar att träna friidrott. För dig som är ny och vill känna på hur det är att träna så är du välkommen att vara med några gånger utan att du behöver betala medlemsavgift och binda dig för en längre tid.  NU ÄR DET JUL IGEN OCH NU ÄR DET JUL IGEN!"
+    "summary": "Hässleholms Allmänna Idrottssällskap har, sedan starten 1945, utvecklat och inspirerat ungdomar att träna friidrott. Här arrangeras den 28:e juli friidrottstävlingar med bland annat löpning över 1500 och 300 meter, välkommna till Hässleholm!"
   },
   {
     "date": "20230729",
@@ -4109,14 +3879,14 @@
     "name": "Hermanövarvet",
     "distance": "15 km",
     "distance_m": [15000],
-    "place": "",
-    "latitude": 0,
-    "longitude": 0,
+    "place": "Mor Johannas Äng gullholmen",
+    "latitude": 58.1806719,
+    "longitude": 11.398032,
     "organizer": "",
     "website": "http://www.hermanovarvet.se/",
     "src_url": "https://trailrunningsweden.se/trailkalendern/",
     "id": "ed4171cf-1445-41f9-a020-d2f2f956367b",
-    "summary": "This site has been temporarily disabled, please try again later."
+    "summary": "Västkustens gulligaste trail- och millopp. Mitt i sommaren. Mitt i Bohuslän. Kom och spring!"
   },
   {
     "date": "20230729",
@@ -4140,7 +3910,7 @@
     "month": "AUGUSTI",
     "day": "2",
     "type": "track",
-    "name": "Huddinge",
+    "name": "Viking Line spelen i Huddinge",
     "distance": "event-100-m event-200-m event-400-m event-800-m event-3000-m event-400-m-hack event-stavhopp event-langdhopp event-kula event-diskus event-slagga",
     "distance_m": [3000],
     "place": "Huddinge AIS",
@@ -4737,7 +4507,7 @@
     "type": "relay",
     "name": "Convinistafetten",
     "distance": "event-5-km5-strackor",
-    "distance_m": [],
+    "distance_m": "relay",
     "place": "Stockholm",
     "latitude": 59.32932349999999,
     "longitude": 18.0685808,
@@ -5128,15 +4898,15 @@
     "type": "trail",
     "name": "BOCKSTEN VINEYARD BACKYARD ULTRA",
     "distance": "6,706 km",
-    "distance_m": [6000],
-    "place": "",
-    "latitude": 0,
-    "longitude": 0,
+    "distance_m": ["backyard"],
+    "place": "Ästad Vingård",
+    "latitude": 57.0648899,
+    "longitude": 12.5551597,
     "organizer": "",
     "website": "http://www.bockstentrailrun.se",
     "src_url": "https://trailrunningsweden.se/trailkalendern/",
     "id": "b11c7937-1f6b-4043-b135-1ef642d83029",
-    "summary": "<a href=\"http://www.bockstentrailrun.se/none\" target=\"_blank\" class=\"inline-link\">bockstentrailrun</a> BTR vill tacka alla härliga löpare, markägare, partners,funktionärer och vänner som gör det möjligt att skapa Trailmagi i Verkligheten Välkomna till Bockstensmannens o de talande stenarnas rike i Sveriges vackraste bokskogar!"
+    "summary": "Varmt välkomna till den tredje upplagan av BTR Vineyard Backyard Ultra 2/9 2023. Loppet följer en 6.706 km lång rundbana med start varje hel timme. Första starten går kl. 09:00 och alla som hunnit runt banan startar igen för nästa varv kl. 10:00, sedan kl. 11:00 osv. Den som inte tar sig runt till nästa start är ute ur loppet. Så fortsätter loppet till dess endast en deltagare är kvar i tävlingen som springer ett avslutande eget varv."
   },
   {
     "date": "20230902",
@@ -5417,7 +5187,7 @@
     "type": "relay",
     "name": "Mjärdevistafetten",
     "distance": "event-12-km4-strackor",
-    "distance_m": [],
+    "distance_m": "relay",
     "place": "Linköping",
     "latitude": 58.41080700000001,
     "longitude": 15.6213727,
@@ -5553,7 +5323,7 @@
     "type": "relay",
     "name": "Kraftloppet",
     "distance": "event-31-km7-strackor",
-    "distance_m": [],
+    "distance_m": "relay",
     "place": "Finspång",
     "latitude": 58.7074884,
     "longitude": 15.773595,
@@ -5689,7 +5459,7 @@
     "type": "relay",
     "name": "AW loppet",
     "distance": "event-5-km4-strackor",
-    "distance_m": [],
+    "distance_m": "relay",
     "place": "Göteborg",
     "latitude": 57.70887,
     "longitude": 11.97456,

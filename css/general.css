@@ -86,9 +86,9 @@ body {
 }
 .header-section {
   display: flex;
-  align-items: center;
+  align-items: flex-end;
   justify-content: space-between;
-  gap: 3rem;
+  gap: 0rem;
 }
 .header-and-logo-box {
   display: flex;
@@ -96,6 +96,7 @@ body {
   justify-content: center;
   gap: 1.5rem;
 }
+
 .logo-box {
   background-image: url("/img/logo.svg");
   width: 5rem;
@@ -103,6 +104,9 @@ body {
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
+}
+.main-header {
+  width: 40rem;
 }
 .promotion-box {
   display: flex;
@@ -197,6 +201,10 @@ body {
 
 .margin-bottom--default {
   margin-bottom: 3.2rem !important;
+}
+
+.margin-bottom--smaller {
+  margin-bottom: 2rem !important;
 }
 
 .margin-bottom--small {
@@ -337,10 +345,10 @@ strong {
   -ms-animation: easeIn ease 0.3s;
 }
 .marker-backyard {
-  background: #ffffffd8;
+  background: #ffffff00;
   /* background-image: url("/svg/track.svg"); */
   border-radius: 50%;
-  border: solid 5px #e2711bd5;
+  border: solid 3px #e2711bd5;
 
   animation: easeIn ease 0.3s;
   -webkit-animation: easeIn ease 0.3s;
@@ -443,6 +451,10 @@ strong {
   border-left: 7px solid transparent !important;
   border-right: 7px solid transparent !important;
   border-bottom: 13px solid #e2711bd5 !important;
+}
+
+.marker-backyard.zoom-6 {
+  border: solid 4px #e2711bd5 !important;
 }
 
 .leaflet-marker-icon.zoom-7 {

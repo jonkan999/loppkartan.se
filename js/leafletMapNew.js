@@ -133,7 +133,7 @@ fetch("/all_races_w_formatted_summary.json")
                 divText.classList.add("race-text-box");
                 divText.classList.add("margin-bottom--tiny");
 
-                let nameP = document.createElement("p");
+                let nameP = document.createElement("h3");
                 nameP.classList.add("race-name");
 
                 nameP.textContent = `${race.name}`;
@@ -158,22 +158,26 @@ fetch("/all_races_w_formatted_summary.json")
                   distance = "Backyard Ultra";
                 } else if (distance === "time") {
                   distance = "Tidslopp";
+                } else if (distance === "relay") {
+                  distance = "Stafett";
                 } else if (Array.isArray(distance)) {
                   distance = distance.map((d) => {
                     if (d === "backyard") {
                       return "Backyard Ultra";
                     } else if (d === "time") {
                       return "Tidslopp";
+                    } else if (d === "relay") {
+                      return "Stafett";
                     } else {
                       return d / 1000;
                     }
                   });
                   distance = distance.map((d) => {
-                    if (d >= 21.0 && d <= 21.3) {
+                    if (d >= 20.9 && d <= 21.3) {
                       return "Halvmarathon";
-                    } else if (d >= 42.0 && d <= 42.4) {
+                    } else if (d >= 41.9 && d <= 42.4) {
                       return "Marathon";
-                    } else if (typeof distance === "number") {
+                    } else if (typeof d === "number") {
                       return d + " km";
                     } else {
                       return d;
@@ -182,9 +186,9 @@ fetch("/all_races_w_formatted_summary.json")
                   distance = distance.join(", ");
                 } else {
                   distance = distance / 1000;
-                  if (distance >= 21.0 && distance <= 21.3) {
+                  if (distance >= 20.9 && distance <= 21.3) {
                     distance = "Halvmarathon";
-                  } else if (distance >= 42.0 && distance <= 42.4) {
+                  } else if (distance >= 41.9 && distance <= 42.4) {
                     distance = "Marathon";
                   } else {
                     distance = distance + " km";

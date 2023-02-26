@@ -220,6 +220,10 @@
   .race-info-box--expanded .highlight-text-box-road {
     top: 85%;
   }
+
+  .main-header {
+    width: 25rem;
+  }
 }
 
 /**************************/
