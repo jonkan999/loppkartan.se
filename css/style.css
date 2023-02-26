@@ -187,6 +187,17 @@ body {
   -o-animation: easeIn ease 0.2s;
   -ms-animation: easeIn ease 0.2s;
 }
+.check-icon-backyard {
+  background-color: #fff;
+  border-radius: 50%;
+  border: solid 5px #e2701b;
+
+  animation: easeIn ease 0.2s;
+  -webkit-animation: easeIn ease 0.2s;
+  -moz-animation: easeIn ease 0.2s;
+  -o-animation: easeIn ease 0.2s;
+  -ms-animation: easeIn ease 0.2s;
+}
 
 .check-icon-terrain {
   background-color: #3b924d;
@@ -362,6 +373,13 @@ body {
   height: 1.5rem;
   background-color: #336ab9;
   border-radius: 50%;
+}
+.text-icon-backyard {
+  width: 1.5rem;
+  height: 1.5rem;
+  background-color: #fff;
+  border-radius: 50%;
+  border: solid 5px #e2701b;
 }
 
 .race-type {

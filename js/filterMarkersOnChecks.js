@@ -8,7 +8,7 @@ export function filterMarkersOnChecks(type, action) {
     // Get the third class name
     let className = markerIcons[i].classList[1];
     /* console.log(className); */
-    console.log(compareString);
+
     if (compareString === className) {
       // If the marker class is the same type as input, we do
       if (action === "show") {

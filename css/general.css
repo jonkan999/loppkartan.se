@@ -333,6 +333,18 @@ strong {
   -o-animation: easeIn ease 0.3s;
   -ms-animation: easeIn ease 0.3s;
 }
+.marker-backyard {
+  background: #ffffffd8;
+  /* background-image: url("/svg/track.svg"); */
+  border-radius: 50%;
+  border: solid 5px #e2711bd5;
+
+  animation: easeIn ease 0.3s;
+  -webkit-animation: easeIn ease 0.3s;
+  -moz-animation: easeIn ease 0.3s;
+  -o-animation: easeIn ease 0.3s;
+  -ms-animation: easeIn ease 0.3s;
+}
 
 .marker-road {
   border-left: 6px solid transparent;

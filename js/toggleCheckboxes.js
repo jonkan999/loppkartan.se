@@ -4,6 +4,7 @@ const relay = document.getElementById("relayCheckbox");
 const terrain = document.getElementById("terrainCheckbox");
 const trail = document.getElementById("trailCheckbox");
 const road = document.getElementById("roadCheckbox");
+const backyard = document.getElementById("backyardCheckbox");
 const track = document.getElementById("trackCheckbox");
 
 relay.addEventListener("click", function () {
@@ -14,6 +15,16 @@ relay.addEventListener("click", function () {
     filterMarkersOnChecks("relay", "show");
   } else {
     filterMarkersOnChecks("relay", "hide");
+  }
+});
+backyard.addEventListener("click", function () {
+  this.classList.toggle("active");
+  /* If it was untoggled then it is toggled now */
+  if (this.classList.contains("active")) {
+    /* Was untoggled so after clicking we show */
+    filterMarkersOnChecks("backyard", "show");
+  } else {
+    filterMarkersOnChecks("backyard", "hide");
   }
 });
 terrain.addEventListener("click", function () {

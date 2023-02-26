@@ -45,6 +45,7 @@ fetch("/all_races_w_formatted_summary.json")
         markerRace.type.includes("trail") ||
         markerRace.type.includes("track") ||
         markerRace.type.includes("relay") ||
+        markerRace.type.includes("backyard") ||
         markerRace.type.includes("terrain") ||
         markerRace.type.includes("road")
       ) {
@@ -153,19 +154,33 @@ fetch("/all_races_w_formatted_summary.json")
 
                 let distance = race.distance_m;
 
-                if (Array.isArray(distance)) {
-                  distance = distance.map((d) => d / 1000);
+                if (distance === "backyard") {
+                  distance = "Backyard Ultra";
+                } else if (distance === "time") {
+                  distance = "Tidslopp";
+                } else if (Array.isArray(distance)) {
+                  distance = distance.map((d) => {
+                    if (d === "backyard") {
+                      return "Backyard Ultra";
+                    } else if (d === "time") {
+                      return "Tidslopp";
+                    } else {
+                      return d / 1000;
+                    }
+                  });
                   distance = distance.map((d) => {
                     if (d >= 21.0 && d <= 21.3) {
                       return "Halvmarathon";
                     } else if (d >= 42.0 && d <= 42.4) {
                       return "Marathon";
-                    } else {
+                    } else if (typeof distance === "number") {
                       return d + " km";
+                    } else {
+                      return d;
                     }
                   });
                   distance = distance.join(", ");
-                } else if (!isNaN(distance)) {
+                } else {
                   distance = distance / 1000;
                   if (distance >= 21.0 && distance <= 21.3) {
                     distance = "Halvmarathon";

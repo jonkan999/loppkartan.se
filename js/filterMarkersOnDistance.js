@@ -23,7 +23,8 @@ export function filterMarkersOnDistance(minDistance, maxDistance) {
             break;
           }
         }
-        if (distanceM === "") {
+        if (distanceM === "backyard" || distanceM === "time") {
+          /* if distanceM is "backyard" or "time" we show it independently of distance slider, such as backyard and time races */
           isInRange = true;
         }
         if (!isInRange) {
