@@ -79,7 +79,8 @@ fetch("/all_races_w_formatted_summary.json")
             // Check if markerIcon has either "hideMarkerOnCheck" or "hideMarkerOnDays" class
             if (
               !markerIcon.classList.contains("hideMarkerOnCheck") &&
-              !markerIcon.classList.contains("hideMarkerOnDays")
+              !markerIcon.classList.contains("hideMarkerOnDays") &&
+              !markerIcon.classList.contains("hideMarkerOnDistance")
             ) {
               const markerDiv = markerIcon.querySelector("div");
               const markerId = markerDiv.getAttribute("data-marker-id");
