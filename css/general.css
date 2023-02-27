@@ -377,7 +377,7 @@ strong {
   cursor: pointer;
 
   display: block;
-  z-index: 401;
+  z-index: 402;
 }
 
 .btn-mobile-nav:focus {
@@ -407,7 +407,7 @@ strong {
   padding: 2rem 2rem 0 0;
   margin: 0 3.2rem 0 0;
   background-color: #fff;
-  z-index: 401;
+  z-index: 402;
   transition: top 0.3s ease-in-out;
   background-color: var(--highlight-color);
   border: solid 2px #333;
