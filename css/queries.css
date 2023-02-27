@@ -113,10 +113,14 @@
   .main-header {
   }
   .main-nav {
-    width: 30%;
-    height: 40%;
-    padding: 2rem 2rem 0 0;
+    top: -53%;
+    width: 50%;
+    height: 50%;
+    padding: 1rem 2rem 0 0;
     margin: 0 1rem 0 0;
+  }
+  .nav-open .main-nav {
+    top: -2%;
   }
 
   .main-nav-header {
