@@ -5,11 +5,14 @@ body {
 
 /* STYLING HEADER BUTTONS */
 .map-or-list-view {
+  position: fixed;
+  left: 50%;
   width: 20rem;
   height: 4rem;
   display: flex;
   align-items: center;
   justify-content: center;
+  z-index: 800;
 }
 .view-button {
   border: none;

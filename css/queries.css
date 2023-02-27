@@ -111,7 +111,6 @@
   }
 
   .main-header {
-    width: 25rem;
   }
   .main-nav {
     width: 30%;
@@ -123,6 +122,12 @@
   .main-nav-header {
     font-size: 2rem;
     margin: 2.2rem 3.2rem;
+  }
+  .map-or-list-view {
+    position: fixed;
+    left: 48%;
+    width: 16rem;
+    height: 4rem;
   }
 }
 
