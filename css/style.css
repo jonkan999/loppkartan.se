@@ -3,11 +3,59 @@ body {
   padding: 0;
 }
 
+/* STYLING HEADER BUTTONS */
+.map-or-list-view {
+  width: 20rem;
+  height: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.view-button {
+  border: none;
+  border-top: solid 2px #333;
+  border-bottom: solid 2px #333;
+}
+.view-button:hover,
+.view-button:active {
+  background-color: var(--highlight-color);
+  box-shadow: inset 0.2rem 0.2rem 0.2rem 0 #333;
+}
+
+.list-view-button {
+  background-color: #fff;
+  width: 100%;
+  height: 100%;
+  padding-right: 1px;
+}
+.map-view-button {
+  background-color: #fff;
+  width: 100%;
+  height: 100%;
+  padding-right: 1px;
+}
+.list-view-button:focus,
+.active-button {
+  background-color: var(--highlight-color);
+  box-shadow: inset 0.2rem 0.2rem 0.2rem 0 #333;
+}
+
+.map-view-button:focus,
+.active-button {
+  background-color: var(--highlight-color);
+  box-shadow: inset 0.2rem 0.2rem 0.2rem 0 #333;
+}
+
+/* STYLING MAP */
+
 #map {
   width: 100%;
   height: 70rem;
   margin: 0 auto;
   border: solid #333 2px;
+}
+#map:focus {
+  box-shadow: none;
 }
 .controls {
   position: absolute;

@@ -52,6 +52,8 @@
       nomodule=""
       src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
     ></script>
+    <script defer src="/js/toggleView.js"></script>
+    <script defer src="/js/mobile-nav.js"></script>
     <script type="module" src="/js/slider.js"></script>
     <script type="module" src="/js/sliderDistance.js"></script>
     <script type="module" defer src="/js/leafletMapNew.js"></script>
@@ -66,23 +68,57 @@
   <body>
     <div class="container">
       <div class="inner-container">
-        <div class="header-section margin-top--small margin-bottom--smaller">
+        <header class="header-section margin-top--small margin-bottom--smaller">
           <div class="header-and-logo-box">
             <a href="/index.html" class="logo-box"></a>
-            <h1 class="main-header">
-              Sveriges mest kompletta loppkalender för löpare
-            </h1>
+            <div class="promotion-box">
+              <span>Samarbete med:</span>
+              <a
+                href="http://www.kungsholmenrunt.se/Main/Start.asp"
+                target="_blank"
+              >
+                <img src="/img/logokr_bluebg.jpg" class="promo-logo-box" />
+              </a>
+            </div>
           </div>
-          <div class="promotion-box">
-            <span>Samarbete med:</span>
-            <a
-              href="http://www.kungsholmenrunt.se/Main/Start.asp"
-              target="_blank"
-            >
-              <img src="/img/logokr_bluebg.jpg" class="promo-logo-box" />
-            </a>
+
+          <div class="map-or-list-view margin-bottom--tiny">
+            <button class="view-button list-view-button">Lopplista</button>
+            <button class="view-button map-view-button active-button">
+              Loppkarta
+            </button>
           </div>
-        </div>
+          <nav class="main-nav">
+            <ul class="main-nav-list">
+              <li>
+                <h2 class="main-nav-header">Meny</h2>
+              </li>
+              <li>
+                <a class="main-nav-link" href="#" id="navAbout"
+                  >Om Loppkartan</a
+                >
+              </li>
+
+              <li>
+                <a class="main-nav-link" href="#" id="navContact"
+                  >Kontaktuppgifter</a
+                >
+              </li>
+              <li>
+                <a class="main-nav-link" href="#" id="navAddRace"
+                  >Lägg till lopp</a
+                >
+              </li>
+            </ul>
+          </nav>
+          <button class="btn-mobile-nav">
+            <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+            <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+          </button>
+        </header>
+        <h1 class="main-header margin-bottom--tiny">
+          Sveriges mest kompletta loppkalender för löpare
+        </h1>
         <h2 class="secondary-header map-header margin-bottom--tiny">
           Loppkartan 2023 - Hitta ditt nästa lopp! Välj distans, som millopp
           eller marathon, samt underlag som trail eller landsväg.
