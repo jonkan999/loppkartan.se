@@ -343,7 +343,7 @@ strong {
   display: inline-block;
   text-decoration: none;
   padding: 1.2rem 0 1.2rem 0;
-  color: #666;
+  color: #333;
   font-weight: 500;
   font-size: 1.8rem;
   transition: background-color 0.3s;
@@ -354,7 +354,7 @@ strong {
   display: inline-block;
   text-decoration: none;
   padding: 1.2rem 0 1.2rem 0;
-  color: #666;
+  color: #333;
   font-weight: 500;
   font-size: 1.5rem;
   transition: background-color 0.3s;

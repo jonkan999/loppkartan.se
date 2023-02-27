@@ -112,6 +112,16 @@
 
   .main-header {
   }
+
+  .main-nav-header {
+    font-size: 2rem;
+  }
+
+  .main-nav-link:link,
+  .main-nav-link:visited {
+    font-size: 1.7rem;
+  }
+
   .main-nav {
     top: -53%;
     width: 50%;
