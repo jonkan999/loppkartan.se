@@ -69,8 +69,14 @@ fetch("/all_races_w_formatted_summary.json")
         markers.push(marker);
         // Add a popup to the marker
         marker.on("click", () => {
+          //remove old boxes
+          const mapGeneratedBoxes =
+            document.querySelectorAll(".map-generated-box");
+          mapGeneratedBoxes.forEach((mapGeneratedBox) => {
+            mapGeneratedBox.remove();
+          });
+
           let container = document.querySelector(".race-container");
-          container.innerHTML = "";
 
           let markerIcons = document.getElementsByClassName("raceMarker");
 
@@ -99,6 +105,7 @@ fetch("/all_races_w_formatted_summary.json")
                 div.classList.add("race-info-box");
                 div.classList.add("margin-bottom--small");
                 div.classList.add("border-style");
+                div.classList.add("map-generated-box");
 
                 let upperDiv = document.createElement("div");
                 upperDiv.classList.add("race-info-box-upper-content");
@@ -210,8 +217,15 @@ fetch("/all_races_w_formatted_summary.json")
                 let summaryP = document.createElement("p");
                 summaryP.classList.add("race-info-summary-content");
                 summaryP.innerHTML = `${race.summary}`;
-                console.log("race.summary");
-                console.log(race.summary);
+
+                /* div.setAttribute("data-marker-id", race.id);
+                div.setAttribute(
+                  "data-marker-lat-long",
+                  `${race.latitude}, ${race.longitude}`
+                );
+                div.setAttribute("data-marker-distance_m", race.distance_m);
+                div.setAttribute("data-marker-date", race.date);
+                div.setAttribute("data-marker-type", race.type); */
 
                 upperDiv.appendChild(dateP);
                 upperDiv.appendChild(divText);

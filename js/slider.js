@@ -1,4 +1,5 @@
 import { filterMarkersOnDays } from "/js/filterMarkersOnDays.js";
+import { filterRaces } from "/js/filterRaces.js";
 
 $(function () {
   $("#sliderDays").slider({
@@ -22,6 +23,8 @@ $(function () {
 
       // Use the startDay and endDay values for the downstream function
       filterMarkersOnDays(startDay, endDay);
+      const button = document.querySelector(".view-button.list-view-button");
+      filterRaces();
     },
   });
   let now = new Date();

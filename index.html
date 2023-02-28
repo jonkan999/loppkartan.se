@@ -52,8 +52,9 @@
       nomodule=""
       src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
     ></script>
-    <script defer src="/js/toggleView.js"></script>
     <script defer src="/js/mobile-nav.js"></script>
+    <script type="module" src="/js/loadHiddenRAces.js"></script>
+    <script type="module" src="/js/toggleView.js"></script>
     <script type="module" src="/js/slider.js"></script>
     <script type="module" src="/js/sliderDistance.js"></script>
     <script type="module" defer src="/js/leafletMapNew.js"></script>
@@ -83,6 +84,30 @@
           </div>
 
           <div class="map-or-list-view margin-bottom--tiny">
+            <select id="county-selector" class="view-button lan-filter-button">
+              <option value="">Län</option>
+              <option value="Stockholms">Stockholms</option>
+              <option value="Uppsala">Uppsala</option>
+              <option value="Södermanlands">Södermanlands</option>
+              <option value="Östergötlands">Östergötlands</option>
+              <option value="Jönköpings">Jönköpings</option>
+              <option value="Kronobergs">Kronobergs</option>
+              <option value="Kalmar">Kalmar</option>
+              <option value="Gotlands">Gotlands</option>
+              <option value="Blekinge">Blekinge</option>
+              <option value="Skåne">Skåne</option>
+              <option value="Hallands">Hallands</option>
+              <option value="Västra Götalands">Västra Götalands</option>
+              <option value="Värmlands">Värmlands</option>
+              <option value="Örebro">Örebro</option>
+              <option value="Västmanlands">Västmanlands</option>
+              <option value="Dalarnas">Dalarnas</option>
+              <option value="Gävleborgs">Gävleborgs</option>
+              <option value="Västernorrlands">Västernorrlands</option>
+              <option value="Jämtlands">Jämtlands</option>
+              <option value="Västerbottens">Västerbottens</option>
+              <option value="Norrbottens">Norrbottens</option>
+            </select>
             <button class="view-button list-view-button">Lista</button>
             <button class="view-button map-view-button active-button">
               Karta
@@ -122,6 +147,11 @@
         <h2 class="secondary-header map-header margin-bottom--tiny">
           Loppkartan 2023 - Hitta ditt nästa lopp! Välj distans, som millopp
           eller marathon, samt underlag som trail eller landsväg.
+        </h2>
+        <h2 class="secondary-header list-header margin-bottom--tiny">
+          Lopplistan 2023 - Hitta ditt nästa lopp! Välj distans, som millopp
+          eller marathon, samt underlag som trail eller landsväg. Filtrera på
+          län för att begränsa urvalet.
         </h2>
         <div id="map" class="margin-bottom--small"></div>
 
@@ -182,7 +212,7 @@
           </div>
         </div>
 
-        <div class="race-container"></div>
+        <div id="raceContainer" class="race-container"></div>
         <div class="add-new-race-box margin-bottom--default">
           <h2 class="add-new-race-header">
             Saknar du ditt lopp på kartan? Lägg till det här!

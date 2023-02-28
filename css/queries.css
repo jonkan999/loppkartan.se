@@ -138,8 +138,6 @@
     margin: 2.2rem 3.2rem;
   }
   .map-or-list-view {
-    position: fixed;
-    left: 53%;
     width: 12rem;
     height: 3rem;
   }

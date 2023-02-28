@@ -1,5 +1,6 @@
 import { filterMarkersOnDistance } from "/js/filterMarkersOnDistance.js";
 /* import { initialFilter } from "/js/initialFilter.js"; */
+import { filterRaces } from "/js/filterRaces.js";
 
 const power = 3;
 
@@ -21,6 +22,7 @@ $(function () {
       $("#distanceFilterText").val(minDistance + " - " + maxDistance + "km");
 
       filterMarkersOnDistance(minDistance, maxDistance);
+      filterRaces();
     },
   });
 

@@ -139,6 +139,14 @@ body {
   max-width: 66.4rem;
   margin: 0 auto;
   padding: 0 3.2rem;
+  min-height: 100vh;
+}
+
+.hide {
+  display: none;
+}
+.show {
+  display: block;
 }
 
 .grid {
@@ -192,6 +200,14 @@ body {
 
 .secondary-header {
   line-height: 1.15;
+}
+
+.map-header {
+  display: block;
+}
+
+.list-header {
+  display: none;
 }
 
 .heading--upper {
