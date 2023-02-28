@@ -60,21 +60,9 @@ function toggleActiveClass(event) {
     element.style.width = "32rem";
     element.style.paddingRight = "8rem";
 
-    /*     // Add an event listener to the selector
-    countySelector.addEventListener("change", () => {
-      // Get the selected county
-      const selectedCounty = countySelector.value;
-
-      // Filter the races by county
-      const filteredRaces = races.filter((race) => {
-        return race.county === selectedCounty;
-      });
-
-      // Update the display with the filtered races
-      displayRaces(filteredRaces);
-    }); */
-
-    /* end test */
+    countySelector.addEventListener("change", function () {
+      filterRaces();
+    });
   } else {
     listHeader.style.display = "none";
     mapHeader.style.display = "block";

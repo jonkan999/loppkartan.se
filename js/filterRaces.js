@@ -12,6 +12,7 @@ export function filterRaces() {
   const trackCheckbox = document.querySelector("#trackCheckbox");
   const roadCheckbox = document.querySelector("#roadCheckbox");
   const relayCheckbox = document.querySelector("#relayCheckbox");
+  const countySelector = document.querySelector(".lan-filter-button");
   console.log("filtering");
 
   // Load the JSON data
@@ -89,7 +90,32 @@ export function filterRaces() {
             }
             break;
         }
+        /* checking county */
+        let isCounty = false;
+        const selectedValue = countySelector.value;
+        console.log(selectedValue);
+        if (selectedValue) {
+          if (selectedValue === "LÄN") {
+            isCounty = true;
+          } else {
+            const raceCounty = race.county;
+            console.log(raceCounty);
+            console.log(raceCounty === selectedValue);
+            if (raceCounty) {
+              if (raceCounty === selectedValue) {
+                isCounty = true;
+                console.log("returning true");
+              } else {
+                isCounty = false;
+              }
+            }
+          }
+        } else {
+          isCounty = true;
+        }
+
         if (
+          isCounty &&
           isInRange &&
           typeIsChecked &&
           diffInDays > daysLow &&
