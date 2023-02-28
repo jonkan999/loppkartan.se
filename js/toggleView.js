@@ -24,7 +24,20 @@ function toggleActiveClass(event) {
     listHeader.style.display = "block";
     mapHeader.style.display = "none";
 
+    const checkboxes = document.querySelector(".checkboxes");
+
     const filterSection = document.querySelector(".filter-section");
+    // Check if the window size is narrower than 704px
+    const mediaQuery = window.matchMedia("(max-width: 704px)");
+
+    // If the window size is narrower than 704px, apply the media query style
+    if (mediaQuery.matches) {
+      // Your media query style here
+      filterSection.style.marginTop = "6rem";
+      checkboxes.style.marginTop = "-4rem";
+    } else {
+      filterSection.style.marginTop = "3rem";
+    }
 
     // Collapse the map
     map.style.height = "0";
@@ -39,9 +52,13 @@ function toggleActiveClass(event) {
     // add county filter
     const countySelector = document.getElementById("county-selector");
     countySelector.style.display = "block";
+    setTimeout(function () {
+      countySelector.style.opacity = "1";
+    }, 10);
+
     const element = document.querySelector(".map-or-list-view");
-    element.style.width = "40rem";
-    element.style.paddingRight = "10rem";
+    element.style.width = "32rem";
+    element.style.paddingRight = "8rem";
 
     /*     // Add an event listener to the selector
     countySelector.addEventListener("change", () => {
@@ -62,17 +79,27 @@ function toggleActiveClass(event) {
     listHeader.style.display = "none";
     mapHeader.style.display = "block";
     const countySelector = document.getElementById("county-selector");
-    countySelector.style.display = "none";
-    const element = document.querySelector(".map-or-list-view");
-    element.style.width = "20rem";
-    element.style.paddingRight = "0";
+    countySelector.style.opacity = "0";
+    const checkboxes = document.querySelector(".checkboxes");
+    setTimeout(function () {
+      countySelector.style.display = "none";
+      const element = document.querySelector(".map-or-list-view");
+      element.style.width = "16rem";
+      element.style.paddingRight = "0";
+      checkboxes.style.marginTop = "0rem";
+    }, 200);
+
     // Open up the map again
-    map.style.height = "70rem";
+    map.style.height = "50rem";
     map.style.border = "solid #333 2px";
     //drop racecontainer content
     const raceInfoBoxes = document.querySelectorAll(".race-info-box");
     raceInfoBoxes.forEach((raceInfoBox) => {
       raceInfoBox.style.display = "none";
     });
+    const filterSection = document.querySelector(".filter-section");
+    setTimeout(function () {
+      filterSection.style.marginTop = "0";
+    }, 200);
   }
 }

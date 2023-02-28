@@ -59,7 +59,7 @@ html {
 }
 
 body {
-  font-family: "Inter", sans-serif;
+  font-family: "Lato", sans-serif;
   line-height: 1;
   font-weight: 400;
   color: #555;
@@ -83,6 +83,7 @@ body {
 
 .main-header {
   font-size: 1.7rem;
+  color: #333;
 }
 .header-section {
   display: flex;
@@ -199,7 +200,8 @@ body {
 }
 
 .secondary-header {
-  line-height: 1.15;
+  line-height: 1.2;
+  color: #333;
 }
 
 .map-header {

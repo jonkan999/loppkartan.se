@@ -5,6 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>Loppkartan som får Sverige att springa fler lopp</title>
     <link rel="icon" href="/img/logo100px.jpg" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
     <meta
       name="description"
       content="Vi har samlat alla svenska löplopp i en interaktiv karta. Hitta ditt nästa millopp, tidslopp, traillopp, halvmara, marathon eller ultra marathon hos oss idag."
@@ -84,35 +88,42 @@
           </div>
 
           <div class="map-or-list-view margin-bottom--tiny">
-            <select id="county-selector" class="view-button lan-filter-button">
-              <option value="">Län</option>
-              <option value="Stockholms">Stockholms</option>
-              <option value="Uppsala">Uppsala</option>
-              <option value="Södermanlands">Södermanlands</option>
-              <option value="Östergötlands">Östergötlands</option>
-              <option value="Jönköpings">Jönköpings</option>
-              <option value="Kronobergs">Kronobergs</option>
-              <option value="Kalmar">Kalmar</option>
-              <option value="Gotlands">Gotlands</option>
-              <option value="Blekinge">Blekinge</option>
-              <option value="Skåne">Skåne</option>
-              <option value="Hallands">Hallands</option>
-              <option value="Västra Götalands">Västra Götalands</option>
-              <option value="Värmlands">Värmlands</option>
-              <option value="Örebro">Örebro</option>
-              <option value="Västmanlands">Västmanlands</option>
-              <option value="Dalarnas">Dalarnas</option>
-              <option value="Gävleborgs">Gävleborgs</option>
-              <option value="Västernorrlands">Västernorrlands</option>
-              <option value="Jämtlands">Jämtlands</option>
-              <option value="Västerbottens">Västerbottens</option>
-              <option value="Norrbottens">Norrbottens</option>
-            </select>
+            <div id="county-selector" class="select-wrapper">
+              <select class="view-button lan-filter-button">
+                <option value="">Län</option>
+                <option value="Stockholms">Stockholms</option>
+                <option value="Uppsala">Uppsala</option>
+                <option value="Södermanlands">Södermanlands</option>
+                <option value="Östergötlands">Östergötlands</option>
+                <option value="Jönköpings">Jönköpings</option>
+                <option value="Kronobergs">Kronobergs</option>
+                <option value="Kalmar">Kalmar</option>
+                <option value="Gotlands">Gotlands</option>
+                <option value="Blekinge">Blekinge</option>
+                <option value="Skåne">Skåne</option>
+                <option value="Hallands">Hallands</option>
+                <option value="Västra Götalands">Västra Götalands</option>
+                <option value="Värmlands">Värmlands</option>
+                <option value="Örebro">Örebro</option>
+                <option value="Västmanlands">Västmanlands</option>
+                <option value="Dalarnas">Dalarnas</option>
+                <option value="Gävleborgs">Gävleborgs</option>
+                <option value="Västernorrlands">Västernorrlands</option>
+                <option value="Jämtlands">Jämtlands</option>
+                <option value="Västerbottens">Västerbottens</option>
+                <option value="Norrbottens">Norrbottens</option>
+              </select>
+              <ion-icon
+                class="menu-icon"
+                name="chevron-down-outline"
+              ></ion-icon>
+            </div>
             <button class="view-button list-view-button">Lista</button>
             <button class="view-button map-view-button active-button">
               Karta
             </button>
           </div>
+
           <nav class="main-nav">
             <ul class="main-nav-list">
               <li>
@@ -149,9 +160,8 @@
           eller marathon, samt underlag som trail eller landsväg.
         </h2>
         <h2 class="secondary-header list-header margin-bottom--tiny">
-          Lopplistan 2023 - Hitta ditt nästa lopp! Välj distans, som millopp
-          eller marathon, samt underlag som trail eller landsväg. Filtrera på
-          län för att begränsa urvalet.
+          Lopplistan 2023 - Här listar vi alla Sveriges Lopp. Filtrera fram ditt
+          nästa millopp, halvmara eller backyard ultra.
         </h2>
         <div id="map" class="margin-bottom--small"></div>
 
