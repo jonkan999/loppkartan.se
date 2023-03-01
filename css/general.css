@@ -681,11 +681,13 @@ strong {
 
 .race-website:hover,
 .race-website:active {
-  border-bottom: solid 2px #336ab9;
+  color: #295594;
+  border-bottom: solid 2px #295594;
 }
-.inline-link:link,
-.inline-link:visited {
-  border-bottom: solid 2px #336ab9;
+.inline-link:hover,
+.inline-link:active {
+  color: #295594;
+  border-bottom: solid 2px #295594;
 }
 
 .race-name {
