@@ -1,6 +1,21 @@
 import { toggleBoxExpansion } from "/js/toggleBoxExpansion.js";
 
 const container = document.querySelector(".race-container");
+const months = [
+  "januari",
+  "februari",
+  "mars",
+  "april",
+  "maj",
+  "juni",
+  "juli",
+  "augusti",
+  "september",
+  "oktober",
+  "november",
+  "december",
+];
+let prevMonthYear = null;
 
 // Load the JSON data
 fetch("all_races_w_formatted_summary.json")
@@ -10,6 +25,26 @@ fetch("all_races_w_formatted_summary.json")
 
     // Create the race-info-boxes with display:none
     for (let race of data) {
+      // Getting month name if its the first race occurance of the month
+      const date = new Date(
+        race.date.substring(0, 4),
+        race.date.substring(4, 6) - 1,
+        race.date.substring(6, 8)
+      );
+      const currentMonthYear = `${
+        months[date.getMonth()]
+      } ${date.getFullYear()}`;
+
+      if (prevMonthYear !== currentMonthYear) {
+        const monthName = document.createElement("div");
+        monthName.classList.add("month-name");
+        const monthHeader = document.createElement("h2");
+        monthName.style.display = "none";
+        monthHeader.textContent = currentMonthYear;
+        monthName.appendChild(monthHeader);
+        container.appendChild(monthName);
+        prevMonthYear = currentMonthYear;
+      }
       let div = document.createElement("div");
       div.classList.add("race-info-box");
       div.classList.add("margin-bottom--small");

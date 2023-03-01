@@ -41,9 +41,9 @@ body {
 }
 .select-wrapper .menu-icon {
   position: absolute;
-  top: 55%;
-  right: 0.8rem;
-  transform: translateY(-50%);
+  top: 65%;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 #county-selector select {

@@ -13,7 +13,6 @@ export function filterRaces() {
   const roadCheckbox = document.querySelector("#roadCheckbox");
   const relayCheckbox = document.querySelector("#relayCheckbox");
   const countySelector = document.querySelector(".lan-filter-button");
-  console.log("filtering");
 
   // Load the JSON data
   fetch("all_races_w_formatted_summary.json")
@@ -93,18 +92,15 @@ export function filterRaces() {
         /* checking county */
         let isCounty = false;
         const selectedValue = countySelector.value;
-        console.log(selectedValue);
+
         if (selectedValue) {
-          if (selectedValue === "LÄN") {
+          if (selectedValue === "Alla län") {
             isCounty = true;
           } else {
             const raceCounty = race.county;
-            console.log(raceCounty);
-            console.log(raceCounty === selectedValue);
             if (raceCounty) {
               if (raceCounty === selectedValue) {
                 isCounty = true;
-                console.log("returning true");
               } else {
                 isCounty = false;
               }
@@ -126,6 +122,12 @@ export function filterRaces() {
         return false;
       });
 
+      //Turn off all months each time, maybe a more efficient way of doing this?
+      const monthNames = document.querySelectorAll(".month-name");
+      monthNames.forEach((monthName) => {
+        monthName.style.display = "none";
+      });
+
       // Select all elements with the class "race-info-box"
       const raceInfoBoxes = document.querySelectorAll(".race-info-box");
 
@@ -139,10 +141,25 @@ export function filterRaces() {
         if (!race) {
           raceInfoBox.style.display = "none";
         }
-        // If the race object exists, show the element
+        // If the race object exists, show the element and check for nearest month name sibling and turn it on
         else {
           raceInfoBox.style.display = "block";
+          const monthNameSibling = getNearestMonthNameSibling(raceInfoBox);
+          if (monthNameSibling && monthNameSibling.style.display === "none") {
+            monthNameSibling.style.display = "block";
+          }
         }
       });
+
+      function getNearestMonthNameSibling(element) {
+        let sibling = element.previousElementSibling;
+        while (sibling) {
+          if (sibling.classList.contains("month-name")) {
+            return sibling;
+          }
+          sibling = sibling.previousElementSibling;
+        }
+        return null;
+      }
     });
 }
