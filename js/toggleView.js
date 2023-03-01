@@ -89,5 +89,11 @@ function toggleActiveClass(event) {
     setTimeout(function () {
       filterSection.style.marginTop = "0";
     }, 200);
+
+    //Turn off all months each time, maybe a more efficient way of doing this?
+    const monthNames = document.querySelectorAll(".month-name");
+    monthNames.forEach((monthName) => {
+      monthName.style.display = "none";
+    });
   }
 }

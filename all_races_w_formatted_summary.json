@@ -6,9 +6,7 @@
     "type": "trail",
     "name": "Kungsbygget Lightning Series",
     "distance": "5 km",
-    "distance_m": [
-      5000
-    ],
+    "distance_m": [5000],
     "place": "",
     "latitude": 56.383333,
     "longitude": 13.133333,
@@ -26,10 +24,7 @@
     "type": "trail",
     "name": "Stävie Trail 2023",
     "distance": "6,5 km, 13 km",
-    "distance_m": [
-      6000,
-      13000
-    ],
+    "distance_m": [6000, 13000],
     "place": "Furulund",
     "latitude": 55.774387,
     "longitude": 13.0747955,
@@ -47,12 +42,7 @@
     "type": "trail",
     "name": "Ronneby Reflect Run #4",
     "distance": "3 km, 6 km, 9 km, 18 km",
-    "distance_m": [
-      3000,
-      6000,
-      9000,
-      18000
-    ],
+    "distance_m": [3000, 6000, 9000, 18000],
     "place": "Ronneby",
     "latitude": 56.3,
     "longitude": 15.283333,
@@ -70,9 +60,7 @@
     "type": "road",
     "name": "Vårtävlingarna 8 km",
     "distance": "event-8-km",
-    "distance_m": [
-      8000
-    ],
+    "distance_m": [8000],
     "place": "Göteborg",
     "latitude": 57.70887,
     "longitude": 11.97456,
@@ -90,10 +78,7 @@
     "type": "trail",
     "name": "Fylleryd Trail",
     "distance": "10 km, 5 km",
-    "distance_m": [
-      10000,
-      5000
-    ],
+    "distance_m": [10000, 5000],
     "place": "",
     "latitude": 56.8966471,
     "longitude": 14.8454963,
@@ -111,9 +96,7 @@
     "type": "trail",
     "name": "SpriT Frontyard - Genarp 2023",
     "distance": "1 - 21 km",
-    "distance_m": [
-      "time"
-    ],
+    "distance_m": ["time"],
     "place": "Genarp",
     "latitude": 55.6002993,
     "longitude": 13.3975053,
@@ -131,11 +114,7 @@
     "type": "trail",
     "name": "GotRun Winter Trail 2023",
     "distance": "36 km, 50 miles, 100 miles",
-    "distance_m": [
-      36000,
-      80450,
-      160900
-    ],
+    "distance_m": [36000, 80450, 160900],
     "place": "Vinterviken, Stockholm",
     "latitude": 59.31079995,
     "longitude": 17.98295171,
@@ -153,10 +132,7 @@
     "type": "road",
     "name": "Nora Marathon",
     "distance": "event-halvmarathon event-marathon",
-    "distance_m": [
-      21098,
-      42195
-    ],
+    "distance_m": [21098, 42195],
     "place": "Nora",
     "latitude": 59.533333,
     "longitude": 15.016667,
@@ -174,10 +150,7 @@
     "type": "road",
     "name": "Vårtävlingarna 16/32 km",
     "distance": "event-16-km event-32-km",
-    "distance_m": [
-      16000,
-      32000
-    ],
+    "distance_m": [16000, 32000],
     "place": "Göteborg",
     "latitude": 57.70887,
     "longitude": 11.97456,
@@ -195,9 +168,7 @@
     "type": "trail",
     "name": "Ursvik Ultra",
     "distance": "75 km, 45 km & 15 km",
-    "distance_m": [
-      75000
-    ],
+    "distance_m": [75000],
     "place": "",
     "latitude": 59.38333300000001,
     "longitude": 17.966667,
@@ -215,12 +186,7 @@
     "type": "terrain",
     "name": "Två Sjöar Runt",
     "distance": "event-55-km event-109-km event-162-km event-22-km",
-    "distance_m": [
-      55000,
-      109000,
-      162000,
-      22000
-    ],
+    "distance_m": [55000, 109000, 162000, 22000],
     "place": "Sundbyberg",
     "latitude": 59.3670471,
     "longitude": 17.9663093,
@@ -238,9 +204,7 @@
     "type": "trail",
     "name": "Edsvidsleden Trailrun 2023",
     "distance": "14 km",
-    "distance_m": [
-      14000
-    ],
+    "distance_m": [14000],
     "place": "",
     "latitude": 59.7686002,
     "longitude": 18.6649239,
@@ -258,13 +222,7 @@
     "type": "trail",
     "name": "Tjust Trail Run",
     "distance": "2 km, 5km, 10km, 21km, 45km",
-    "distance_m": [
-      2000,
-      5000,
-      10000,
-      21000,
-      45000
-    ],
+    "distance_m": [2000, 5000, 10000, 21000, 45000],
     "place": "",
     "latitude": 57.75318066721526,
     "longitude": 16.65891552198604,
@@ -282,9 +240,7 @@
     "type": "trail",
     "name": "Hoka Torekov-Båstad",
     "distance": "21,4 km",
-    "distance_m": [
-      21400
-    ],
+    "distance_m": [21400],
     "place": "",
     "latitude": 56.423635,
     "longitude": 12.6273003,
@@ -302,9 +258,7 @@
     "type": "road",
     "name": "adidas Premiärmilen",
     "distance": "event-10-km",
-    "distance_m": [
-      10000
-    ],
+    "distance_m": [10000],
     "place": "Stockholm",
     "latitude": 59.32932349999999,
     "longitude": 18.0685808,
@@ -322,9 +276,7 @@
     "type": "backyard",
     "name": "WTF Backyard Ultra",
     "distance": "6,7 km",
-    "distance_m": [
-      "backyard"
-    ],
+    "distance_m": ["backyard"],
     "place": "",
     "latitude": 56.5140233,
     "longitude": 14.0145896,
@@ -342,10 +294,7 @@
     "type": "trail",
     "name": "Falktouren",
     "distance": "5 km, 10 km",
-    "distance_m": [
-      5000,
-      10000
-    ],
+    "distance_m": [5000, 10000],
     "place": "",
     "latitude": 56.9869301,
     "longitude": 12.5422883,
@@ -363,10 +312,7 @@
     "type": "terrain",
     "name": "Premiärloppet",
     "distance": "event-5-km event-10-km",
-    "distance_m": [
-      5000,
-      10000
-    ],
+    "distance_m": [5000, 10000],
     "place": "Göteborg",
     "latitude": 57.70887,
     "longitude": 11.97456,
@@ -384,10 +330,7 @@
     "type": "road",
     "name": "Startmilen",
     "distance": "event-5-km event-10-km",
-    "distance_m": [
-      5000,
-      10000
-    ],
+    "distance_m": [5000, 10000],
     "place": "Örebro",
     "latitude": 59.2752626,
     "longitude": 15.2134105,
@@ -423,11 +366,7 @@
     "type": "road",
     "name": "Uddloppet",
     "distance": "event-10-km event-halvmarathon event-4-km",
-    "distance_m": [
-      10000,
-      21098,
-      4000
-    ],
+    "distance_m": [10000, 21098, 4000],
     "place": "Karlshamn",
     "latitude": 56.170303,
     "longitude": 14.863073,
@@ -445,11 +384,7 @@
     "type": "terrain",
     "name": "Ryssbergsloppet",
     "distance": "event-129-km event-51-km event-22-km",
-    "distance_m": [
-      129000,
-      51000,
-      22000
-    ],
+    "distance_m": [129000, 51000, 22000],
     "place": "Sölvesborg",
     "latitude": 56.0537433,
     "longitude": 14.5796878,
@@ -467,13 +402,7 @@
     "type": "terrain",
     "name": "Hallarydsloppet",
     "distance": "event-21-km event-98-km event-6-km event-34-km event-13-km",
-    "distance_m": [
-      21000,
-      98000,
-      6000,
-      34000,
-      13000
-    ],
+    "distance_m": [21000, 98000, 6000, 34000, 13000],
     "place": "Hallaryd",
     "latitude": 56.48437759999999,
     "longitude": 13.8806567,
@@ -491,9 +420,7 @@
     "type": "road",
     "name": "Varvetmilen - Jönköping",
     "distance": "event-10-km",
-    "distance_m": [
-      10000
-    ],
+    "distance_m": [10000],
     "place": "Jönköping",
     "latitude": 57.78261370000001,
     "longitude": 14.1617876,
@@ -511,10 +438,7 @@
     "type": "road",
     "name": "Påsksmällen",
     "distance": "event-5-km event-10-km",
-    "distance_m": [
-      5000,
-      10000
-    ],
+    "distance_m": [5000, 10000],
     "place": "Enhörna",
     "latitude": 59.294214,
     "longitude": 17.409962,
@@ -532,9 +456,7 @@
     "type": "road",
     "name": "Varvetmilen Göteborg",
     "distance": "event-10-km",
-    "distance_m": [
-      10000
-    ],
+    "distance_m": [10000],
     "place": "Göteborg",
     "latitude": 57.70887,
     "longitude": 11.97456,
@@ -552,12 +474,7 @@
     "type": "trail",
     "name": "Österlen Spring Trail",
     "distance": "60km, 2x30km, 21km, 13km, 5km",
-    "distance_m": [
-      60000,
-      21000,
-      13000,
-      5000
-    ],
+    "distance_m": [60000, 21000, 13000, 5000],
     "place": "",
     "latitude": 55.5557278,
     "longitude": 14.3415706,
@@ -575,11 +492,7 @@
     "type": "terrain",
     "name": "JL Bilar Skälbyloppet",
     "distance": "event-4-km event-8-km event-19-km",
-    "distance_m": [
-      4000,
-      8000,
-      19000
-    ],
+    "distance_m": [4000, 8000, 19000],
     "place": "Kalmar",
     "latitude": 56.6634447,
     "longitude": 16.356779,
@@ -633,9 +546,7 @@
     "type": "backyard",
     "name": "Utö Backyard 2023",
     "distance": "3,2km",
-    "distance_m": [
-      "backyard"
-    ],
+    "distance_m": ["backyard"],
     "place": "",
     "latitude": 58.9684559,
     "longitude": 18.3256021,
@@ -653,11 +564,7 @@
     "type": "road",
     "name": "Kungsbackaloppet",
     "distance": "event-halvmarathon event-105-km event-32-km",
-    "distance_m": [
-      21098,
-      105000,
-      32000
-    ],
+    "distance_m": [21098, 105000, 32000],
     "place": "Kungsbacka",
     "latitude": 57.48749189999999,
     "longitude": 12.0761927,
@@ -675,9 +582,7 @@
     "type": "road",
     "name": "Varvetmilen",
     "distance": "event-10-km",
-    "distance_m": [
-      10000
-    ],
+    "distance_m": [10000],
     "place": "Malmö",
     "latitude": 55.604981,
     "longitude": 13.003822,
@@ -695,12 +600,7 @@
     "type": "trail",
     "name": "Herrestad fjällmaraton 2023",
     "distance": "42 km, 23 km, 14 km, 7 km",
-    "distance_m": [
-      42000,
-      23000,
-      14000,
-      7000
-    ],
+    "distance_m": [42000, 23000, 14000, 7000],
     "place": "",
     "latitude": 63.21675800000001,
     "longitude": 13.0448807,
@@ -718,11 +618,7 @@
     "type": "terrain",
     "name": "Skrylleloppet",
     "distance": "event-10-km event-5-km event-3-km",
-    "distance_m": [
-      10000,
-      5000,
-      3000
-    ],
+    "distance_m": [10000, 5000, 3000],
     "place": "Södra Sandby",
     "latitude": 55.7168577,
     "longitude": 13.347231,
@@ -740,11 +636,7 @@
     "type": "road",
     "name": "Skövdeloppet",
     "distance": "event-5-km event-halvmarathon event-105-km",
-    "distance_m": [
-      5000,
-      21098,
-      105000
-    ],
+    "distance_m": [5000, 21098, 105000],
     "place": "Skövde",
     "latitude": 58.3902782,
     "longitude": 13.8461208,
@@ -762,9 +654,7 @@
     "type": "backyard",
     "name": "Kalmar Backyard Ultra",
     "distance": "event-67-km",
-    "distance_m": [
-      "backyard"
-    ],
+    "distance_m": ["backyard"],
     "place": "Kalmar",
     "latitude": 56.6634447,
     "longitude": 16.356779,
@@ -782,9 +672,7 @@
     "type": "road",
     "name": "adidas Premiärhalvan",
     "distance": "event-halvmarathon",
-    "distance_m": [
-      21098
-    ],
+    "distance_m": [21098],
     "place": "Stockholm",
     "latitude": 59.32932349999999,
     "longitude": 18.0685808,
@@ -802,11 +690,7 @@
     "type": "trail",
     "name": "Hässleholmsloppet Trail",
     "distance": "21 km, 10 km och 5,4 km",
-    "distance_m": [
-      21000,
-      10000,
-      5400
-    ],
+    "distance_m": [21000, 10000, 5400],
     "place": "",
     "latitude": 56.10473105,
     "longitude": 13.71276784,
@@ -824,9 +708,7 @@
     "type": "road",
     "name": "Varvetmilen Trollhättan",
     "distance": "event-10-km",
-    "distance_m": [
-      10000
-    ],
+    "distance_m": [10000],
     "place": "Trollhättan",
     "latitude": 58.28348939999999,
     "longitude": 12.2858206,
@@ -844,10 +726,7 @@
     "type": "trail",
     "name": "Isaberg 500",
     "distance": "2 km, 10,5 km",
-    "distance_m": [
-      2000,
-      10000
-    ],
+    "distance_m": [2000, 10000],
     "place": "",
     "latitude": 57.43673800000001,
     "longitude": 13.623872,
@@ -883,10 +762,7 @@
     "type": "trail",
     "name": "Kvantumloppet",
     "distance": "event-7-km event-17-km",
-    "distance_m": [
-      7000,
-      17000
-    ],
+    "distance_m": [7000, 17000],
     "place": "Huddinge",
     "latitude": 59.23633,
     "longitude": 17.9821561,
@@ -904,9 +780,7 @@
     "type": "trail",
     "name": "Kolmården Vertical",
     "distance": "5 km",
-    "distance_m": [
-      5000
-    ],
+    "distance_m": [5000],
     "place": "",
     "latitude": 58.6605369,
     "longitude": 16.3990328,
@@ -924,9 +798,7 @@
     "type": "trail",
     "name": "Munkastigen trailrun",
     "distance": "44 km",
-    "distance_m": [
-      44000
-    ],
+    "distance_m": [44000],
     "place": "",
     "latitude": 0,
     "longitude": 0,
@@ -980,11 +852,7 @@
     "type": "road",
     "name": "Lerumsloppet",
     "distance": "event-10-km event-51-km event-33-km",
-    "distance_m": [
-      10000,
-      51000,
-      33000
-    ],
+    "distance_m": [10000, 51000, 33000],
     "place": "Lerum",
     "latitude": 57.7694839,
     "longitude": 12.2688197,
@@ -1020,10 +888,7 @@
     "type": "road",
     "name": "Springtime Mariestads stadslopp",
     "distance": "event-60-m event-5000-m event-10-000-m",
-    "distance_m": [
-      5000,
-      10000
-    ],
+    "distance_m": [5000, 10000],
     "place": "Mariestad",
     "latitude": 58.7101119,
     "longitude": 13.8213327,
@@ -1041,10 +906,7 @@
     "type": "road",
     "name": "Bålsta Stadslopp 2023",
     "distance": "5,00 km 10,00 km",
-    "distance_m": [
-      5000,
-      10000
-    ],
+    "distance_m": [5000, 10000],
     "place": "Bålsta",
     "latitude": 59.5669027,
     "longitude": 17.5300882,
@@ -1062,10 +924,7 @@
     "type": "terrain",
     "name": "Vårmilen",
     "distance": "event-5-km event-10-km",
-    "distance_m": [
-      5000,
-      10000
-    ],
+    "distance_m": [5000, 10000],
     "place": "Lidingö",
     "latitude": 59.36295999999999,
     "longitude": 18.1468,
@@ -1083,11 +942,7 @@
     "type": "trail",
     "name": "Orion Trail",
     "distance": "1km, 5km, 10km",
-    "distance_m": [
-      1000,
-      5000,
-      10000
-    ],
+    "distance_m": [1000, 5000, 10000],
     "place": "",
     "latitude": 56.1746486,
     "longitude": 15.5789551,
@@ -1105,11 +960,7 @@
     "type": "terrain",
     "name": "Växjöloppet",
     "distance": "event-47-km event-10-km event-211-km",
-    "distance_m": [
-      4700,
-      10000,
-      21100
-    ],
+    "distance_m": [4700, 10000, 21100],
     "place": "Växjö",
     "latitude": 56.8790044,
     "longitude": 14.8058522,
@@ -1127,10 +978,7 @@
     "type": "road",
     "name": "VårRuset",
     "distance": "event-5-km event-25-km",
-    "distance_m": [
-      5000,
-      2500
-    ],
+    "distance_m": [5000, 2500],
     "place": "Malmö",
     "latitude": 55.604981,
     "longitude": 13.003822,
@@ -1148,10 +996,7 @@
     "type": "road",
     "name": "Vårruset Helsingborg",
     "distance": "event-5-km",
-    "distance_m": [
-      5000,
-      2500
-    ],
+    "distance_m": [5000, 2500],
     "place": "Helsingborg",
     "latitude": 56.0464674,
     "longitude": 12.6945121,
@@ -1169,10 +1014,7 @@
     "type": "road",
     "name": "Vårruset",
     "distance": "event-5-km event-2,5-km",
-    "distance_m": [
-      5000,
-      2500
-    ],
+    "distance_m": [5000, 2500],
     "place": "Halmstad",
     "latitude": 56.6743748,
     "longitude": 12.8577884,
@@ -1190,10 +1032,7 @@
     "type": "road",
     "name": "Lundaloppet",
     "distance": "event-5-km event-10-km",
-    "distance_m": [
-      5000,
-      10000
-    ],
+    "distance_m": [5000, 10000],
     "place": "Lund",
     "latitude": 55.7050226,
     "longitude": 13.1629767,
@@ -1211,10 +1050,7 @@
     "type": "trail",
     "name": "Sevede Trail Run 2023",
     "distance": "10 km, 26 km",
-    "distance_m": [
-      10000,
-      26000
-    ],
+    "distance_m": [10000, 26000],
     "place": "",
     "latitude": 57.6155655,
     "longitude": 15.5893466,
@@ -1232,11 +1068,7 @@
     "type": "trail",
     "name": "Hallandsloppet",
     "distance": "1 km, 5 km, 10 km",
-    "distance_m": [
-      1000,
-      5000,
-      10000
-    ],
+    "distance_m": [1000, 5000, 10000],
     "place": "Vessigebro",
     "latitude": 56.9785461,
     "longitude": 12.6564807,
@@ -1254,9 +1086,7 @@
     "type": "trail",
     "name": "Koster Trail 15 km",
     "distance": "15 km, 6,706 km",
-    "distance_m": [
-      15000
-    ],
+    "distance_m": [15000],
     "place": "",
     "latitude": 0,
     "longitude": 0,
@@ -1274,9 +1104,7 @@
     "type": "backyard",
     "name": "Koster Trail Backyard",
     "distance": "15 km, 6,706 km",
-    "distance_m": [
-      "backyard"
-    ],
+    "distance_m": ["backyard"],
     "place": "",
     "latitude": 0,
     "longitude": 0,
@@ -1294,9 +1122,7 @@
     "type": "backyard",
     "name": "WINTER BAY Backyard Ultra",
     "distance": "6,706 km",
-    "distance_m": [
-      "backyard"
-    ],
+    "distance_m": ["backyard"],
     "place": "Vinterviken, Stockholm",
     "latitude": 59.31079995,
     "longitude": 17.98295171,
@@ -1314,12 +1140,7 @@
     "type": "trail",
     "name": "Kolmårdstrailen",
     "distance": "0,5 km, 6 km, 10 km, 21km",
-    "distance_m": [
-      500,
-      6000,
-      10000,
-      21000
-    ],
+    "distance_m": [500, 6000, 10000, 21000],
     "place": "",
     "latitude": 58.6605369,
     "longitude": 16.3990328,
@@ -1337,15 +1158,7 @@
     "type": "trail",
     "name": "Nordens Ark TrailRun",
     "distance": "1 km, 2 km, 2,4 km, 3,0 km, 8 km, 15 km, 30 km",
-    "distance_m": [
-      1000,
-      2000,
-      2000,
-      3000,
-      8000,
-      15000,
-      30000
-    ],
+    "distance_m": [1000, 2000, 2000, 3000, 8000, 15000, 30000],
     "place": "Hunnebostrand",
     "latitude": 58.4421481,
     "longitude": 11.3015771,
@@ -1363,11 +1176,7 @@
     "type": "road",
     "name": "Springtime",
     "distance": "event-5-km event-10-km event-16-km",
-    "distance_m": [
-      5000,
-      10000,
-      16000
-    ],
+    "distance_m": [5000, 10000, 16000],
     "place": "Helsingborg",
     "latitude": 56.0464674,
     "longitude": 12.6945121,
@@ -1385,11 +1194,7 @@
     "type": "road",
     "name": "Lidköpings Stadslopp",
     "distance": "event-5-km event-10-km event-2-km",
-    "distance_m": [
-      5000,
-      10000,
-      2000
-    ],
+    "distance_m": [5000, 10000, 2000],
     "place": "Lidköping",
     "latitude": 58.5035047,
     "longitude": 13.1570768,
@@ -1425,10 +1230,7 @@
     "type": "road",
     "name": "Wärnamomilen",
     "distance": "event-5-km event-10-km event-grenar-finns-for-para-klass",
-    "distance_m": [
-      5000,
-      10000
-    ],
+    "distance_m": [5000, 10000],
     "place": "Värnamo",
     "latitude": 57.1831605,
     "longitude": 14.0478214,
@@ -1446,9 +1248,7 @@
     "type": "track",
     "name": "Jönköping",
     "distance": "event-100-m event-800-m event-3000-m event-hojdhopp event-langdhopp event-kula event-diskus event-60-m event-600-m event-60-m-hack event-spjut event-80-m event-80-m-hack",
-    "distance_m": [
-      3000
-    ],
+    "distance_m": [3000],
     "place": "IKHP Huskvarna Idrottsklubb",
     "latitude": 57.80821229999999,
     "longitude": 14.2819376,
@@ -1484,9 +1284,7 @@
     "type": "road",
     "name": "Östgötatidningen Mjölby Stadslopp",
     "distance": "event-6-km",
-    "distance_m": [
-      6000
-    ],
+    "distance_m": [6000],
     "place": "Mjölby",
     "latitude": 58.3226908,
     "longitude": 15.1335348,
@@ -1504,10 +1302,7 @@
     "type": "road",
     "name": "SäterMaran",
     "distance": "event-halvmarathon event-marathon",
-    "distance_m": [
-      21098,
-      42195
-    ],
+    "distance_m": [21098, 42195],
     "place": "Säter",
     "latitude": 60.34665,
     "longitude": 15.7479,
@@ -1561,10 +1356,7 @@
     "type": "road",
     "name": "Stadsloppet",
     "distance": "event-63-km event-23-km",
-    "distance_m": [
-      6300,
-      2300
-    ],
+    "distance_m": [6300, 2300],
     "place": "ÖSTHAMMAR",
     "latitude": 60.2593019,
     "longitude": 18.3653411,
@@ -1582,9 +1374,7 @@
     "type": "trail",
     "name": "Trailvarvet",
     "distance": "event-115-km",
-    "distance_m": [
-      11500
-    ],
+    "distance_m": [11500],
     "place": "Göteborg",
     "latitude": 57.70887,
     "longitude": 11.97456,
@@ -1602,9 +1392,7 @@
     "type": "track",
     "name": "Econ Games 2023",
     "distance": "event-100-m event-300-m event-5000-m event-hojdhopp event-langdhopp event-kula event-slagga event-stafett-4x100-m event-60-m event-200-m event-80-m event-stafett-4x80-m",
-    "distance_m": [
-      5000
-    ],
+    "distance_m": [5000],
     "place": "Västerås FK",
     "latitude": 59.60990049999999,
     "longitude": 16.5448091,
@@ -1622,10 +1410,7 @@
     "type": "road",
     "name": "Vårruset",
     "distance": "event-5-km event-25-km",
-    "distance_m": [
-      5000,
-      2500
-    ],
+    "distance_m": [5000, 2500],
     "place": "Kalmar",
     "latitude": 56.6634447,
     "longitude": 16.356779,
@@ -1643,9 +1428,7 @@
     "type": "road",
     "name": "Vårruset",
     "distance": "event-5-km",
-    "distance_m": [
-      5000
-    ],
+    "distance_m": [5000],
     "place": "Växjö",
     "latitude": 56.8790044,
     "longitude": 14.8058522,
@@ -1681,10 +1464,7 @@
     "type": "road",
     "name": "Blodomloppet Malmö",
     "distance": "event-5-km event-10-km",
-    "distance_m": [
-      5000,
-      10000
-    ],
+    "distance_m": [5000, 10000],
     "place": "Malmö",
     "latitude": 55.604981,
     "longitude": 13.003822,
@@ -1702,10 +1482,7 @@
     "type": "road",
     "name": "Vårruset",
     "distance": "event-5-km event-25-km",
-    "distance_m": [
-      5000,
-      2500
-    ],
+    "distance_m": [5000, 2500],
     "place": "Jönköping",
     "latitude": 57.78261370000001,
     "longitude": 14.1617876,
@@ -1723,10 +1500,7 @@
     "type": "road",
     "name": "Vårruset",
     "distance": "event-5-km event-25-km",
-    "distance_m": [
-      5000,
-      2500
-    ],
+    "distance_m": [5000, 2500],
     "place": "Norrköping",
     "latitude": 58.587745,
     "longitude": 16.192421,
@@ -1744,10 +1518,7 @@
     "type": "road",
     "name": "Specialvarvet",
     "distance": "event-21-km event-33-km",
-    "distance_m": [
-      21000,
-      33000
-    ],
+    "distance_m": [21000, 33000],
     "place": "Göteborg",
     "latitude": 57.70887,
     "longitude": 11.97456,
@@ -1765,9 +1536,7 @@
     "type": "road",
     "name": "ultra Marathon 50km Bro Galopp",
     "distance": "event-50-km",
-    "distance_m": [
-      50000
-    ],
+    "distance_m": [50000],
     "place": "Bro",
     "latitude": 59.5247471,
     "longitude": 17.6117178,
@@ -1803,9 +1572,7 @@
     "type": "road",
     "name": "Cityvarvet",
     "distance": "event-43-km",
-    "distance_m": [
-      4300
-    ],
+    "distance_m": [4300],
     "place": "Göteborg",
     "latitude": 57.70887,
     "longitude": 11.97456,
@@ -1823,9 +1590,7 @@
     "type": "road",
     "name": "Göteborgsvarvet",
     "distance": "event-halvmarathon",
-    "distance_m": [
-      21098
-    ],
+    "distance_m": [21098],
     "place": "Göteborg",
     "latitude": 57.70887,
     "longitude": 11.97456,
@@ -1843,9 +1608,7 @@
     "type": "track",
     "name": "Danderydsspelen",
     "distance": "event-100-m event-400-m event-800-m event-1500-m event-1500-m-hinder event-100110-m-hack event-hojdhopp event-stavhopp event-langdhopp event-kula event-spjut event-60-m event-600-m event-60-m-hack event-80-m event-300-m event-80-m-hack",
-    "distance_m": [
-      1500
-    ],
+    "distance_m": [1500],
     "place": "Danderyds SK FIF",
     "latitude": 59.40589339999999,
     "longitude": 18.0258329,
@@ -1863,10 +1626,7 @@
     "type": "road",
     "name": "KfS Kungsholmen Runt",
     "distance": "event-10-km event-halvmarathon",
-    "distance_m": [
-      10000,
-      21098
-    ],
+    "distance_m": [10000, 21098],
     "place": "Stockholm",
     "latitude": 59.32932349999999,
     "longitude": 18.0685808,
@@ -1902,10 +1662,7 @@
     "type": "trail",
     "name": "Sthlm Trail Run",
     "distance": "5,2 km, 10 km",
-    "distance_m": [
-      5200,
-      10000
-    ],
+    "distance_m": [5200, 10000],
     "place": "",
     "latitude": 59.32932349999999,
     "longitude": 18.0685808,
@@ -1923,9 +1680,7 @@
     "type": "road",
     "name": "Lilla Varvet",
     "distance": "event-24-km",
-    "distance_m": [
-      24000
-    ],
+    "distance_m": [24000],
     "place": "Göteborg",
     "latitude": 57.70887,
     "longitude": 11.97456,
@@ -1943,10 +1698,7 @@
     "type": "road",
     "name": "Vårruset",
     "distance": "event-5-km event-25-km",
-    "distance_m": [
-      5000,
-      2500
-    ],
+    "distance_m": [5000, 2500],
     "place": "Vänersborg",
     "latitude": 58.3797283,
     "longitude": 12.3248032,
@@ -1964,11 +1716,7 @@
     "type": "road",
     "name": "Tillväxt Finspångs Stadslopp",
     "distance": "event-71-km event-35-km event-14-km",
-    "distance_m": [
-      7100,
-      3500,
-      1400
-    ],
+    "distance_m": [7100, 3500, 1400],
     "place": "Finspång",
     "latitude": 58.7074884,
     "longitude": 15.773595,
@@ -1986,12 +1734,7 @@
     "type": "trail",
     "name": "Ottarsloppet",
     "distance": "5 km, 15 km, 23 km, 46 km",
-    "distance_m": [
-      5000,
-      15000,
-      23000,
-      46000
-    ],
+    "distance_m": [5000, 15000, 23000, 46000],
     "place": "",
     "latitude": 60.0739786,
     "longitude": 17.4639562,
@@ -2009,9 +1752,7 @@
     "type": "road",
     "name": "Viadal Ultra 24/48",
     "distance": "event-24-h event-48-h",
-    "distance_m": [
-      "time"
-    ],
+    "distance_m": ["time"],
     "place": "Förslöv",
     "latitude": 56.3493945,
     "longitude": 12.8151676,
@@ -2029,9 +1770,7 @@
     "type": "track",
     "name": "B-Tex Cup",
     "distance": "event-100-m event-200-m event-800-m event-5000-m event-100110-m-hack event-hojdhopp event-langdhopp event-kula event-diskus event-spjut event-slagga event-80-m event-80-m-hack event-stavhopp event-60-m event-600-m event-60-m-hack",
-    "distance_m": [
-      5000
-    ],
+    "distance_m": [5000],
     "place": "Villstad GOIF",
     "latitude": 57.2079489,
     "longitude": 13.4439881,
@@ -2049,9 +1788,7 @@
     "type": "road",
     "name": "Vintrosaloppet",
     "distance": "event-5-km",
-    "distance_m": [
-      5000
-    ],
+    "distance_m": [5000],
     "place": "Vintrosa",
     "latitude": 59.25354189999999,
     "longitude": 14.9573252,
@@ -2087,9 +1824,7 @@
     "type": "track",
     "name": "Spåret 5000",
     "distance": "event-5000-m",
-    "distance_m": [
-      5000
-    ],
+    "distance_m": [5000],
     "place": "Spårvägens FK",
     "latitude": 59.32932349999999,
     "longitude": 18.0685808,
@@ -2107,9 +1842,7 @@
     "type": "backyard",
     "name": "Backyard Ultra Vänge",
     "distance": "6,706 km",
-    "distance_m": [
-      "backyard"
-    ],
+    "distance_m": ["backyard"],
     "place": "",
     "latitude": 59.8579108,
     "longitude": 17.4301962,
@@ -2127,9 +1860,7 @@
     "type": "road",
     "name": "Mjörnmilen",
     "distance": "event-10-km",
-    "distance_m": [
-      10000
-    ],
+    "distance_m": [10000],
     "place": "SJÖVIK",
     "latitude": 57.91540690000001,
     "longitude": 12.3685714,
@@ -2147,9 +1878,7 @@
     "type": "track",
     "name": "Triangiaspelen",
     "distance": "event-100-m event-800-m event-3000-m event-hojdhopp event-langdhopp event-kula event-diskus event-60-m event-600-m event-80-m",
-    "distance_m": [
-      3000
-    ],
+    "distance_m": [3000],
     "place": "Trångsvikens IF",
     "latitude": 63.3230153,
     "longitude": 14.4555416,
@@ -2167,9 +1896,7 @@
     "type": "track",
     "name": "Majspelen",
     "distance": "event-100-m event-3000-m event-langdhopp event-kula event-60-m event-80-m",
-    "distance_m": [
-      3000
-    ],
+    "distance_m": [3000],
     "place": "Oskarshamns SK",
     "latitude": 57.26569929999999,
     "longitude": 16.4473984,
@@ -2187,10 +1914,7 @@
     "type": "road",
     "name": "Blodomloppet",
     "distance": "event-5-km event-10-km",
-    "distance_m": [
-      5000,
-      10000
-    ],
+    "distance_m": [5000, 10000],
     "place": "Hudiksvall",
     "latitude": 61.7273909,
     "longitude": 17.107401,
@@ -2208,10 +1932,7 @@
     "type": "road",
     "name": "Vårruset",
     "distance": "event-5-km event-25-km",
-    "distance_m": [
-      5000,
-      2500
-    ],
+    "distance_m": [5000, 2500],
     "place": "Falun",
     "latitude": 60.60646000000001,
     "longitude": 15.6355,
@@ -2229,10 +1950,7 @@
     "type": "road",
     "name": "Blodomloppet",
     "distance": "event-5-km event-10-km",
-    "distance_m": [
-      5000,
-      10000
-    ],
+    "distance_m": [5000, 10000],
     "place": "Umeå",
     "latitude": 63.8258471,
     "longitude": 20.2630354,
@@ -2250,9 +1968,7 @@
     "type": "road",
     "name": "Västerviksmilen",
     "distance": "event-10-km",
-    "distance_m": [
-      10000
-    ],
+    "distance_m": [10000],
     "place": "Västervik",
     "latitude": 57.75771559999999,
     "longitude": 16.6369759,
@@ -2270,10 +1986,7 @@
     "type": "road",
     "name": "Vårruset",
     "distance": "event-5-km event-25-km",
-    "distance_m": [
-      5000,
-      2500
-    ],
+    "distance_m": [5000, 2500],
     "place": "Stockholm",
     "latitude": 59.32932349999999,
     "longitude": 18.0685808,
@@ -2291,10 +2004,7 @@
     "type": "road",
     "name": "Blodomloppet",
     "distance": "event-5-km event-10-km",
-    "distance_m": [
-      5000,
-      10000
-    ],
+    "distance_m": [5000, 10000],
     "place": "Örebro",
     "latitude": 59.2752626,
     "longitude": 15.2134105,
@@ -2312,12 +2022,7 @@
     "type": "trail",
     "name": "Uka Pain",
     "distance": "28km, 50km, 100km, 170km",
-    "distance_m": [
-      28000,
-      50000,
-      100000,
-      170000
-    ],
+    "distance_m": [28000, 50000, 100000, 170000],
     "place": "Hotell Älvdalen",
     "latitude": 61.228812,
     "longitude": 14.0353223,
@@ -2335,10 +2040,7 @@
     "type": "road",
     "name": "Eksjö Stadslopp",
     "distance": "event-5-km event-10-km",
-    "distance_m": [
-      5000,
-      10000
-    ],
+    "distance_m": [5000, 10000],
     "place": "Eksjö",
     "latitude": 57.6651652,
     "longitude": 14.9732214,
@@ -2356,9 +2058,7 @@
     "type": "trail",
     "name": "Roslagens Ultra",
     "distance": "181 km",
-    "distance_m": [
-      181000
-    ],
+    "distance_m": [181000],
     "place": "Grisslehamn",
     "latitude": 60.0960793,
     "longitude": 18.7882426,
@@ -2376,10 +2076,7 @@
     "type": "terrain",
     "name": "BUM Borås Ultramaraton",
     "distance": "event-88-km event-48-km",
-    "distance_m": [
-      88000,
-      48000
-    ],
+    "distance_m": [88000, 48000],
     "place": "Skatås - Hindås - Borås",
     "latitude": 57.7038963,
     "longitude": 12.0336964,
@@ -2397,9 +2094,7 @@
     "type": "track",
     "name": "Eslöv",
     "distance": "event-100-m event-200-m event-400-m event-800-m event-1500-m event-100110-m-hack event-hojdhopp event-stavhopp event-langdhopp event-tresteg event-kula event-diskus event-slagga event-spjut event-2000-m-hinder event-60-m event-60-m-hack event-80-m event-1500-m-hinder event-80-m-hack",
-    "distance_m": [
-      1500
-    ],
+    "distance_m": [1500],
     "place": "EAI Friidrottsförening",
     "latitude": 55.8391198,
     "longitude": 13.3033914,
@@ -2417,11 +2112,7 @@
     "type": "trail",
     "name": "Billingen Trail",
     "distance": "event-45-km event-21-km event-12-km",
-    "distance_m": [
-      45000,
-      21000,
-      12000
-    ],
+    "distance_m": [45000, 21000, 12000],
     "place": "Skövde",
     "latitude": 58.3902782,
     "longitude": 13.8461208,
@@ -2439,9 +2130,7 @@
     "type": "track",
     "name": "Karlskoga",
     "distance": "event-5000-m event-60-m event-langdhopp event-kula event-400-m-",
-    "distance_m": [
-      5000
-    ],
+    "distance_m": [5000],
     "place": "Karlskoga FIF",
     "latitude": 59.32863399999999,
     "longitude": 14.536414,
@@ -2459,9 +2148,7 @@
     "type": "track",
     "name": "Östersund",
     "distance": "event-100-m event-200-m event-400-m event-800-m event-1500-m event-1-mile event-100110-m-hack event-400-m-hack event-hojdhopp event-stavhopp event-langdhopp event-tresteg event-kula event-diskus event-slagga event-spjut event-300-m-hack event-60-m event-600-m event-60-m-hack event-200-m-hack event-80-m event-300-m event-2000-m event-80-m-hack",
-    "distance_m": [
-      1500
-    ],
+    "distance_m": [1500],
     "place": "Östersunds GIF",
     "latitude": 63.1766832,
     "longitude": 14.6360681,
@@ -2479,9 +2166,7 @@
     "type": "track",
     "name": "Linköping",
     "distance": "event-100-m event-400-m event-1500-m event-hojdhopp event-stavhopp event-langdhopp event-kula event-diskus event-slagga event-spjut event-60-m event-200-m event-80-m event-lopgrenar",
-    "distance_m": [
-      1500
-    ],
+    "distance_m": [1500],
     "place": "Linköpings GIF",
     "latitude": 58.41080700000001,
     "longitude": 15.6213727,
@@ -2499,9 +2184,7 @@
     "type": "track",
     "name": "Falun",
     "distance": "event-100-m event-200-m event-800-m event-5000-m event-100110-m-hack event-hojdhopp event-langdhopp event-kula event-spjut event-60-m event-600-m event-60-m-hack event-80-m event-300-m event-80-m-hack event-stavhopp",
-    "distance_m": [
-      5000
-    ],
+    "distance_m": [5000],
     "place": "Falu IK",
     "latitude": 60.60646000000001,
     "longitude": 15.6355,
@@ -2519,12 +2202,7 @@
     "type": "trail",
     "name": "Virsborun",
     "distance": "21,20 km",
-    "distance_m": [
-      21200,
-      5300,
-      10600,
-      15900
-    ],
+    "distance_m": [21200, 5300, 10600, 15900],
     "place": "Virsbo",
     "latitude": 59.8730726,
     "longitude": 16.0444141,
@@ -2542,10 +2220,7 @@
     "type": "road",
     "name": "Å-Varvet",
     "distance": "event-5-km event-10-km",
-    "distance_m": [
-      5000,
-      10000
-    ],
+    "distance_m": [5000, 10000],
     "place": "ESKILSTUNA",
     "latitude": 59.37124859999999,
     "longitude": 16.5098045,
@@ -2563,10 +2238,7 @@
     "type": "trail",
     "name": "Sundsvall Minitour",
     "distance": "2,0 km + 23 km",
-    "distance_m": [
-      2000,
-      23000
-    ],
+    "distance_m": [2000, 23000],
     "place": "Sundsvall",
     "latitude": 62.390811,
     "longitude": 17.306927,
@@ -2584,10 +2256,7 @@
     "type": "trail",
     "name": "Nolby Sky Race",
     "distance": "2,0 km, 1,0 km",
-    "distance_m": [
-      2000,
-      1000
-    ],
+    "distance_m": [2000, 1000],
     "place": "",
     "latitude": 62.2908278,
     "longitude": 17.3686626,
@@ -2605,11 +2274,7 @@
     "type": "road",
     "name": "Tolvanloppet",
     "distance": "event-12-km event-6-km event-2-km",
-    "distance_m": [
-      12000,
-      6000,
-      2000
-    ],
+    "distance_m": [12000, 6000, 2000],
     "place": "Bromma",
     "latitude": 59.3397832,
     "longitude": 17.9397131,
@@ -2627,11 +2292,7 @@
     "type": "road",
     "name": "Luleå Stadsmara",
     "distance": "event-5-km event-10-km event-halvmarathon",
-    "distance_m": [
-      5000,
-      10000,
-      21098
-    ],
+    "distance_m": [5000, 10000, 21098],
     "place": "Luleå",
     "latitude": 65.584819,
     "longitude": 22.1567026,
@@ -2649,11 +2310,7 @@
     "type": "trail",
     "name": "Blekinge River Trail",
     "distance": "event-50-km event-20-km event-95-km",
-    "distance_m": [
-      50000,
-      20000,
-      95000
-    ],
+    "distance_m": [50000, 20000, 95000],
     "place": "Mörrum",
     "latitude": 56.1938314,
     "longitude": 14.748156,
@@ -2671,11 +2328,7 @@
     "type": "trail",
     "name": "Sundsvall Trail",
     "distance": "event-23-km event-10-km event-5-km",
-    "distance_m": [
-      23000,
-      10000,
-      5000
-    ],
+    "distance_m": [23000, 10000, 5000],
     "place": "Sundsvall",
     "latitude": 62.390811,
     "longitude": 17.306927,
@@ -2693,11 +2346,7 @@
     "type": "road",
     "name": "Vårruset",
     "distance": "event-5-km event-10-km event-25-km",
-    "distance_m": [
-      5000,
-      10000,
-      2500
-    ],
+    "distance_m": [5000, 10000, 2500],
     "place": "Göteborg",
     "latitude": 57.70887,
     "longitude": 11.97456,
@@ -2715,10 +2364,7 @@
     "type": "road",
     "name": "Blodomloppet",
     "distance": "event-5-km event-10-km",
-    "distance_m": [
-      5000,
-      10000
-    ],
+    "distance_m": [5000, 10000],
     "place": "Borlänge",
     "latitude": 60.484304,
     "longitude": 15.433969,
@@ -2736,10 +2382,7 @@
     "type": "road",
     "name": "Vårruset",
     "distance": "event-5-km event-25-km",
-    "distance_m": [
-      5000,
-      2500
-    ],
+    "distance_m": [5000, 2500],
     "place": "Örebro",
     "latitude": 59.2752626,
     "longitude": 15.2134105,
@@ -2757,10 +2400,7 @@
     "type": "road",
     "name": "Blodomloppet Uppsala",
     "distance": "event-5-km event-10-km",
-    "distance_m": [
-      5000,
-      10000
-    ],
+    "distance_m": [5000, 10000],
     "place": "Uppsala",
     "latitude": 59.85856380000001,
     "longitude": 17.6389267,
@@ -2778,9 +2418,7 @@
     "type": "road",
     "name": "Broarna runt 2023 \"Extralopp\"",
     "distance": "event-5-km event-grenar-finns-for-para-klass",
-    "distance_m": [
-      5000
-    ],
+    "distance_m": [5000],
     "place": "Skellefteå",
     "latitude": 64.750244,
     "longitude": 20.950917,
@@ -2798,9 +2436,7 @@
     "type": "road",
     "name": "Gubbracet",
     "distance": "event-5-km",
-    "distance_m": [
-      5000
-    ],
+    "distance_m": [5000],
     "place": "Örebro",
     "latitude": 59.2752626,
     "longitude": 15.2134105,
@@ -2818,10 +2454,7 @@
     "type": "road",
     "name": "Blodomloppet Linköping",
     "distance": "event-5-km event-10-km",
-    "distance_m": [
-      5000,
-      10000
-    ],
+    "distance_m": [5000, 10000],
     "place": "Linköping",
     "latitude": 58.41080700000001,
     "longitude": 15.6213727,
@@ -2839,10 +2472,7 @@
     "type": "road",
     "name": "Vårruset",
     "distance": "event-5-km event-25-km",
-    "distance_m": [
-      5000,
-      2500
-    ],
+    "distance_m": [5000, 2500],
     "place": "Västerås",
     "latitude": 59.60990049999999,
     "longitude": 16.5448091,
@@ -2860,10 +2490,7 @@
     "type": "trail",
     "name": "High Coast Ultra 130",
     "distance": "56 km, 130 km",
-    "distance_m": [
-      56000,
-      130000
-    ],
+    "distance_m": [56000, 130000],
     "place": "",
     "latitude": 62.8029522,
     "longitude": 17.9494883,
@@ -2881,9 +2508,7 @@
     "type": "road",
     "name": "adidas Stockholm High Five",
     "distance": "event-5-km",
-    "distance_m": [
-      5000
-    ],
+    "distance_m": [5000],
     "place": "Stockholm",
     "latitude": 59.32932349999999,
     "longitude": 18.0685808,
@@ -2901,11 +2526,7 @@
     "type": "trail",
     "name": "Skatås ryggar",
     "distance": "7 km, 14 km, 21 km",
-    "distance_m": [
-      7000,
-      14000,
-      21000
-    ],
+    "distance_m": [7000, 14000, 21000],
     "place": "",
     "latitude": 57.7038963,
     "longitude": 12.0336964,
@@ -2923,10 +2544,7 @@
     "type": "trail",
     "name": "The Alpaca Race",
     "distance": "106 km, 53 km, 32 km och 10,6 km",
-    "distance_m": [
-      106000,
-      53000
-    ],
+    "distance_m": [106000, 53000],
     "place": "Hisingsparken",
     "latitude": 57.7458268,
     "longitude": 11.9153012,
@@ -2944,12 +2562,7 @@
     "type": "trail",
     "name": "S:t Hans Extreme",
     "distance": "2,5 km, 5 km, 10 km, Ultra 6h",
-    "distance_m": [
-      2000,
-      5000,
-      10000,
-      "time"
-    ],
+    "distance_m": [2000, 5000, 10000, "time"],
     "place": "Lund",
     "latitude": 55.7050226,
     "longitude": 13.1629767,
@@ -2967,12 +2580,7 @@
     "type": "road",
     "name": "Öland Lighthouse Challenge",
     "distance": "event-50-km event-100-km event-161-km event-805-km",
-    "distance_m": [
-      50000,
-      100000,
-      161000,
-      805000
-    ],
+    "distance_m": [50000, 100000, 161000, 805000],
     "place": "Mörbylånga",
     "latitude": 56.5237566,
     "longitude": 16.3869163,
@@ -2990,10 +2598,7 @@
     "type": "track",
     "name": "Sundsvall",
     "distance": "event-60-m event-100-m event-200-m event-400-m event-800-m event-1500-m event-5000-m event-2000-m-hinder event-60-m-hack event-100110-m-hack event-300-m-hack event-400-m-hack event-hojdhopp event-stavhopp event-langdhopp event-tresteg event-kula event-diskus event-slagga event-spjut event-80-m event-300-m event-80-m-hack",
-    "distance_m": [
-      1500,
-      5000
-    ],
+    "distance_m": [1500, 5000],
     "place": "Sundsvalls Friidrottsförening",
     "latitude": 62.390811,
     "longitude": 17.306927,
@@ -3011,9 +2616,7 @@
     "type": "road",
     "name": "adidas Stockholm Marathon",
     "distance": "event-marathon",
-    "distance_m": [
-      42195
-    ],
+    "distance_m": [42195],
     "place": "Stockholm",
     "latitude": 59.32932349999999,
     "longitude": 18.0685808,
@@ -3031,10 +2634,7 @@
     "type": "track",
     "name": "Täby Open",
     "distance": "event-100-m event-200-m event-800-m event-1500-m event-3000-m event-100110-m-hack event-hojdhopp event-stavhopp event-langdhopp event-kula event-60-m event-60-m-hack event-80-m event-300-m event-80-m-hack",
-    "distance_m": [
-      1500,
-      3000
-    ],
+    "distance_m": [1500, 3000],
     "place": "Täby IS Friidrottsklubb",
     "latitude": 59.44343649999999,
     "longitude": 18.0647131,
@@ -3052,9 +2652,7 @@
     "type": "road",
     "name": "VårRuset Uppsala",
     "distance": "event-5-km",
-    "distance_m": [
-      5000
-    ],
+    "distance_m": [5000],
     "place": "Uppsala",
     "latitude": 59.85856380000001,
     "longitude": 17.6389267,
@@ -3072,11 +2670,7 @@
     "type": "terrain",
     "name": "Nationaldagsloppet",
     "distance": "event-5-km event-13-km event-25-km",
-    "distance_m": [
-      5000,
-      13000,
-      25000
-    ],
+    "distance_m": [5000, 13000, 25000],
     "place": "Göteborg",
     "latitude": 57.70887,
     "longitude": 11.97456,
@@ -3112,9 +2706,7 @@
     "type": "track",
     "name": "Stefan Holm-spelen",
     "distance": "event-100-m event-1500-m event-400-m-hack event-hojdhopp event-langdhopp event-tresteg event-kula event-diskus event-slagga event-spjut event-300-m-hack event-80-m event-800-m event-200-m-hack event-lopgrenar",
-    "distance_m": [
-      1500
-    ],
+    "distance_m": [1500],
     "place": "Kils AIK FIK",
     "latitude": 59.49844359999999,
     "longitude": 13.3099962,
@@ -3132,10 +2724,7 @@
     "type": "road",
     "name": "Blodomloppet",
     "distance": "event-10-km event-49-km",
-    "distance_m": [
-      10000,
-      4900
-    ],
+    "distance_m": [10000, 4900],
     "place": "Karlskrona",
     "latitude": 56.161224,
     "longitude": 15.5869,
@@ -3171,10 +2760,7 @@
     "type": "road",
     "name": "Vårruset",
     "distance": "event-5-km event-25-km",
-    "distance_m": [
-      5000,
-      2500
-    ],
+    "distance_m": [5000, 2500],
     "place": "Luleå",
     "latitude": 65.584819,
     "longitude": 22.1567026,
@@ -3192,11 +2778,7 @@
     "type": "road",
     "name": "Blodomloppet",
     "distance": "event-5-km event-10-km event-13-km",
-    "distance_m": [
-      5000,
-      10000,
-      13000
-    ],
+    "distance_m": [5000, 10000, 13000],
     "place": "Göteborg",
     "latitude": 57.70887,
     "longitude": 11.97456,
@@ -3214,10 +2796,7 @@
     "type": "terrain",
     "name": "Vårruset Umeå",
     "distance": "event-25-km event-5-km",
-    "distance_m": [
-      2500,
-      5000
-    ],
+    "distance_m": [2500, 5000],
     "place": "UMEÅ",
     "latitude": 63.8258471,
     "longitude": 20.2630354,
@@ -3235,10 +2814,7 @@
     "type": "track",
     "name": "Sollentuna",
     "distance": "event-100-m event-200-m event-400-m event-800-m event-1500-m event-3000-m event-3000-m-hinder event-100110-m-hack event-400-m-hack event-hojdhopp event-stavhopp event-langdhopp event-tresteg event-kula event-diskus event-slagga event-spjut event-2000-m-hinder event-60-m event-600-m event-60-m-hack event-80-m event-300-m event-2000-m event-80-m-hack",
-    "distance_m": [
-      1500,
-      3000
-    ],
+    "distance_m": [1500, 3000],
     "place": "Sollentunavallen",
     "latitude": 59.436314,
     "longitude": 17.9507296,
@@ -3249,17 +2825,15 @@
     "summary": "1500 meter, 3000 meter och andra friidrottsgrenar på Sollentunavallen.",
     "county": "Stockholms"
   },
+
   {
     "date": "20230610",
     "month": "JUNI",
     "day": "10",
     "type": "track",
-    "name": "Göteborg",
+    "name": "Sävedalsspelen",
     "distance": "event-100-m event-200-m event-400-m event-800-m event-3000-m event-100110-m-hack event-400-m-hack event-hojdhopp event-stavhopp event-langdhopp event-tresteg event-kula event-diskus event-slagga event-spjut event-2000-m-hinder event-300-m-hack event-1500-m-hinder event-60-m event-600-m event-1500-m event-60-m-hack event-200-m-hack event-80-m event-300-m event-2000-m event-80-m-hack",
-    "distance_m": [
-      3000,
-      1500
-    ],
+    "distance_m": [3000, 1500],
     "place": "Sävedalens AIK",
     "latitude": 57.70887,
     "longitude": 11.97456,
@@ -3267,7 +2841,7 @@
     "website": "http://saik.nu",
     "src_url": "https://friidrott.euwest01.umbraco.io/tavling-landslag/tavling/tavlingskalender/tavlingar-i-sverige/arenatavlingar/",
     "id": "b0a2bccb-b033-497f-a4cb-373f14a7094f",
-    "summary": "Sävedalens AIK Friidrott är en förening med verksamhet i hjärtat av Sävedalen. Friidrott engagerar fler och fler barn, ungdomar och vuxna. Hösten 2022 startade vi upp hela sex grupper med barn födda 2015 utöver de tjugoåtta grupper vi redan har.",
+    "summary": "Sävedalens AIK inbjuder till internationella tävlingar i friidrott för ungdomar, juniorer, seniorer och veteraner lördagen den 10 juni och söndagen den 11 juni 2023 på Slottsskogsvallen i Göteborg. Klassiska Sävedalsspelen är en av de största friidrottstävlingarna i västra Sverige och arrangeras i år för 44:e gången. Löpning 3000 meter och 1500 meter.",
     "county": "Västra Götalands"
   },
   {
@@ -3282,10 +2856,10 @@
     "latitude": 60.59098299999999,
     "longitude": 15.0700491,
     "organizer": "",
-    "website": "https://www.jogg.se//Tavling/Tavling.aspx?id=656632",
+    "website": "https://www.eik.one/p/halvmaran.html",
     "src_url": "https://www.jogg.se/Kalender/Tavlingar.aspx?aar=2023&mon=13&fdist=0&tdist=1000&type=0&country=1&region=0&tlopp=False&relay=False&surface=ter&tridist=0&title=1",
     "id": "7134abe7-cf0f-4203-8200-cee50f458a2d",
-    "summary": "Den 10 juni är det återigen dags för Dalarnas trevligaste halvmaraton! Bansträckningen är mestadels lagd på skogsstigar, men även grusvägar och asfalt återfinns under de dryga två milen. Längs med banan kommer det att finnas vätskekontroller där det serveras dryck med diverse tillbehör.",
+    "summary": "Den 10 juni är det återigen dags för Dalarnas trevligaste halvmaraton! Loppet går i varierad riktigt tuff terräng, mest skogsstigar, en del grusväg och sista kilometerna på asfalt. Hela banan är tydligt snitslad och utmärkt med sprayfärg på marken.",
     "county": "Dalarnas"
   },
   {
@@ -3295,9 +2869,7 @@
     "type": "track",
     "name": "Finspång",
     "distance": "event-100-m event-200-m event-1500-m event-kula event-100110-m-hack event-hojdhopp event-diskus event-spjut event-60-m event-60-m-hack event-200-m-hack event-langdhopp event-80-m event-300-m event-80-m-hack event-300-m-hack",
-    "distance_m": [
-      1500
-    ],
+    "distance_m": [1500],
     "place": "Finspångs AIK Friidrottsklubb",
     "latitude": 58.71420999999999,
     "longitude": 15.8084195,
@@ -3315,9 +2887,7 @@
     "type": "road",
     "name": "Söder Runt",
     "distance": "event-10-km",
-    "distance_m": [
-      10000
-    ],
+    "distance_m": [10000],
     "place": "Stockholm",
     "latitude": 59.32932349999999,
     "longitude": 18.0685808,
@@ -3335,11 +2905,7 @@
     "type": "road",
     "name": "Österåkersmilen",
     "distance": "event-5-km event-10-km event-25-km event-grenar-finns-for-para-klass",
-    "distance_m": [
-      5000,
-      10000,
-      25000
-    ],
+    "distance_m": [5000, 10000, 2500],
     "place": "Åkersberga",
     "latitude": 59.4802773,
     "longitude": 18.310783,
@@ -3357,20 +2923,16 @@
     "type": "trail",
     "name": "Seskarö Trailrun",
     "distance": "3 km, 7 km, 13 km",
-    "distance_m": [
-      3000,
-      7000,
-      13000
-    ],
+    "distance_m": [3000, 7000, 13000],
     "place": "",
-    "latitude": 65.7349339,
-    "longitude": 23.744574,
+    "latitude": 65.7125049,
+    "longitude": 23.7576396,
     "organizer": "",
     "website": "https://seskarotrails.se/vara-lopp/",
     "src_url": "https://trailrunningsweden.se/trailkalendern/",
     "id": "46d04412-d475-433b-80ba-193506c62cda",
-    "summary": "Anmälan: Senast den 8 juni 2023 08:00 – Registreringen öppnar och startnummer hämtas senast 30 minuter innan start.  Vi strävar efter att Seskarö trailrun ska vara årets roligaste lopp som erbjuder banor till alla, oavsett erfarenhet eller ålder.",
-    "county": null
+    "summary": "Nu sparkar vi igång sommaren med en löptävling för hela familjen. Utforska Seskarös härliga skogar och upptäck Haparanda Skärgårds finaste leder. Här står löparglädjen i fokus. Välkomna till Seskarö Trailrun.  Vi strävar efter att Seskarö trailrun ska vara årets roligaste lopp som erbjuder banor till alla, oavsett erfarenhet eller ålder.",
+    "county": "Norrbottens"
   },
   {
     "date": "20230611",
@@ -3379,11 +2941,7 @@
     "type": "trail",
     "name": "Blue Mountain TrailRun",
     "distance": "3 km, 10 km, 21km",
-    "distance_m": [
-      3000,
-      10000,
-      21000
-    ],
+    "distance_m": [3000, 10000, 21000],
     "place": "First Camp Ånnaboda",
     "latitude": 59.3391787,
     "longitude": 14.9358503,
@@ -3401,9 +2959,7 @@
     "type": "track",
     "name": "Herrljunga",
     "distance": "event-60-m event-100-m event-1500-m event-hojdhopp event-langdhopp event-tresteg event-kula event-diskus event-slagga event-spjut event-80-m event-200-m event-600-m",
-    "distance_m": [
-      1500
-    ],
+    "distance_m": [1500],
     "place": "Herrljunga SK FK",
     "latitude": 58.0780287,
     "longitude": 13.0188387,
@@ -3421,9 +2977,7 @@
     "type": "road",
     "name": "Vårruset",
     "distance": "event-5-km",
-    "distance_m": [
-      5000
-    ],
+    "distance_m": [5000],
     "place": "Sundsvall",
     "latitude": 62.390811,
     "longitude": 17.306927,
@@ -3441,10 +2995,7 @@
     "type": "road",
     "name": "Vårruset",
     "distance": "event-5-km event-25-km",
-    "distance_m": [
-      5000,
-      2500
-    ],
+    "distance_m": [5000, 2500],
     "place": "Östersund",
     "latitude": 63.1766832,
     "longitude": 14.6360681,
@@ -3462,10 +3013,7 @@
     "type": "terrain",
     "name": "Blodomloppet Stockholm",
     "distance": "event-5-km event-10-km",
-    "distance_m": [
-      5000,
-      10000
-    ],
+    "distance_m": [5000, 10000],
     "place": "Stockholm",
     "latitude": 59.32932349999999,
     "longitude": 18.0685808,
@@ -3483,11 +3031,7 @@
     "type": "track",
     "name": "Huddingespelen 2023",
     "distance": "event-100-m event-200-m event-400-m event-800-m event-1500-m event-5000-m event-100110-m-hack event-400-m-hack event-hojdhopp event-stavhopp event-langdhopp event-tresteg event-kula event-diskus event-slagga event-spjut event-3000-m event-2000-m-hinder event-300-m-hack event-1500-m-hinder event-60-m event-600-m event-60-m-hack event-200-m-hack event-80-m event-300-m event-2000-m event-80-m-hack",
-    "distance_m": [
-      1500,
-      5000,
-      3000
-    ],
+    "distance_m": [1500, 5000, 3000],
     "place": "Huddinge AIS",
     "latitude": 59.25015260000001,
     "longitude": 17.9505486,
@@ -3505,9 +3049,7 @@
     "type": "trail",
     "name": "Nalta Backyard Ultra",
     "distance": "6,706 km",
-    "distance_m": [
-      "backyard"
-    ],
+    "distance_m": ["backyard"],
     "place": "",
     "latitude": 65.3079836,
     "longitude": 21.3796853,
@@ -3525,10 +3067,7 @@
     "type": "track",
     "name": "Laxaspelen 2023",
     "distance": "event-100-m event-200-m event-400-m event-3000-m event-100110-m-hack event-400-m-hack event-hojdhopp event-stavhopp event-langdhopp event-tresteg event-kula event-diskus event-slagga event-spjut event-1000-m event-800-m event-1500-m event-300-m-hack event-60-m event-600-m event-60-m-hack event-80-m event-300-m event-80-m-hack",
-    "distance_m": [
-      3000,
-      1500
-    ],
+    "distance_m": [3000, 1500],
     "place": "IFK IV Halmstad",
     "latitude": 56.6743748,
     "longitude": 12.8577884,
@@ -3546,10 +3085,7 @@
     "type": "terrain",
     "name": "Tjejmilen Sälen",
     "distance": "event-10-km event-5-km",
-    "distance_m": [
-      10000,
-      5000
-    ],
+    "distance_m": [10000, 5000],
     "place": "Sälen",
     "latitude": 61.1613853,
     "longitude": 13.2630157,
@@ -3567,9 +3103,7 @@
     "type": "trail",
     "name": "Älvdalen Backyard Ultra",
     "distance": "6,706 km",
-    "distance_m": [
-      "backyard"
-    ],
+    "distance_m": ["backyard"],
     "place": "",
     "latitude": 61.2276209,
     "longitude": 14.0285201,
@@ -3587,10 +3121,7 @@
     "type": "track",
     "name": "Karlskrona",
     "distance": "event-100-m event-200-m event-400-m event-800-m event-1500-m event-3000-m event-100110-m-hack event-hojdhopp event-stavhopp event-langdhopp event-tresteg event-kula event-diskus event-slagga event-spjut event-300-m-hack event-60-m event-600-m event-60-m-hack event-80-m event-300-m event-80-m-hack",
-    "distance_m": [
-      1500,
-      3000
-    ],
+    "distance_m": [1500, 3000],
     "place": "KA 2 IF",
     "latitude": 56.1893368,
     "longitude": 15.5986009,
@@ -3608,10 +3139,7 @@
     "type": "road",
     "name": "Mälarenergi Stadslopp",
     "distance": "event-5-km event-10-km",
-    "distance_m": [
-      5000,
-      10000
-    ],
+    "distance_m": [5000, 10000],
     "place": "Västerås",
     "latitude": 59.60990049999999,
     "longitude": 16.5448091,
@@ -3629,10 +3157,7 @@
     "type": "trail",
     "name": "Öland Ultra Trail",
     "distance": "event-50-km event-25-km",
-    "distance_m": [
-      50000,
-      25000
-    ],
+    "distance_m": [50000, 25000],
     "place": "Löttorp",
     "latitude": 57.1660956,
     "longitude": 16.9930091,
@@ -3650,9 +3175,7 @@
     "type": "track",
     "name": "Sollefteå",
     "distance": "event-100-m event-200-m event-800-m event-1500-m event-100110-m-hack event-hojdhopp event-langdhopp event-tresteg event-kula event-diskus event-spjut event-300-m-hack event-60-m event-600-m event-60-m-hack event-80-m event-300-m event-80-m-hack",
-    "distance_m": [
-      1500
-    ],
+    "distance_m": [1500],
     "place": "Sollefteå GIF FIF",
     "latitude": 63.1654065,
     "longitude": 17.277135,
@@ -3670,13 +3193,7 @@
     "type": "trail",
     "name": "EcoTrail Stockholm",
     "distance": "0,2 km, 0,7 km, 8 km, 16 km, 33 km, 45 km, 80 km",
-    "distance_m": [
-      8000,
-      16000,
-      33000,
-      45000,
-      80000
-    ],
+    "distance_m": [8000, 16000, 33000, 45000, 80000],
     "place": "Stockholm",
     "latitude": 59.32932349999999,
     "longitude": 18.0685808,
@@ -3694,9 +3211,7 @@
     "type": "terrain",
     "name": "Urskogsloppet",
     "distance": "event-197-km",
-    "distance_m": [
-      19700
-    ],
+    "distance_m": [19700],
     "place": "Björna",
     "latitude": 63.56666699999999,
     "longitude": 18.55,
@@ -3714,9 +3229,7 @@
     "type": "road",
     "name": "Brunnen Söderköpings Stadslopp",
     "distance": "event-5-km",
-    "distance_m": [
-      5000
-    ],
+    "distance_m": [5000],
     "place": "Söderköping",
     "latitude": 58.4759013,
     "longitude": 16.3234307,
@@ -3734,10 +3247,7 @@
     "type": "road",
     "name": "STHLM 10",
     "distance": "event-5-km event-10-km",
-    "distance_m": [
-      5000,
-      10000
-    ],
+    "distance_m": [5000, 10000],
     "place": "Stockholm",
     "latitude": 59.32932349999999,
     "longitude": 18.0685808,
@@ -3755,9 +3265,7 @@
     "type": "trail",
     "name": "Night Trail Run - Sommar",
     "distance": "30 km",
-    "distance_m": [
-      30000
-    ],
+    "distance_m": [30000],
     "place": "Bögs gård i Sollentuna",
     "latitude": 59.4409142,
     "longitude": 17.9093918,
@@ -3775,10 +3283,7 @@
     "type": "track",
     "name": "Lerum friidrott En Midsommarnattsdrom",
     "distance": "event-100-m event-200-m event-400-m event-1500-m event-5000-m event-100110-m-hack event-hojdhopp event-stavhopp event-langdhopp event-tresteg event-kula event-slagga event-spjut",
-    "distance_m": [
-      1500,
-      5000
-    ],
+    "distance_m": [1500, 5000],
     "place": "IK Lerum Friidrott",
     "latitude": 57.79479979999999,
     "longitude": 12.3106174,
@@ -3796,9 +3301,7 @@
     "type": "road",
     "name": "Malmöloppet",
     "distance": "event-10-km",
-    "distance_m": [
-      10000
-    ],
+    "distance_m": [10000],
     "place": "Malmö",
     "latitude": 55.604981,
     "longitude": 13.003822,
@@ -3816,9 +3319,7 @@
     "type": "track",
     "name": "Jönköping",
     "distance": "event-100-m event-200-m event-800-m event-5000-m event-100110-m-hack event-hojdhopp event-stavhopp event-tresteg event-diskus event-spjut",
-    "distance_m": [
-      5000
-    ],
+    "distance_m": [5000],
     "place": "Hovslätts IK, Habo FIF 04",
     "latitude": 57.78261370000001,
     "longitude": 14.1617876,
@@ -3836,9 +3337,7 @@
     "type": "track",
     "name": "Norrköping",
     "distance": "event-100-m event-5000-m event-60-m event-80-m",
-    "distance_m": [
-      5000
-    ],
+    "distance_m": [5000],
     "place": "Tjalve Friidrottsförening Norrköping",
     "latitude": 58.587745,
     "longitude": 16.192421,
@@ -3856,10 +3355,7 @@
     "type": "terrain",
     "name": "Nackhällerundan",
     "distance": "event-95-km event-42-km",
-    "distance_m": [
-      9500,
-      4200
-    ],
+    "distance_m": [9500, 4200],
     "place": "Tvååker",
     "latitude": 57.0422295,
     "longitude": 12.3984054,
@@ -3895,11 +3391,7 @@
     "type": "trail",
     "name": "Böda Beach Run",
     "distance": "event-10-km event-5-km event-25-km",
-    "distance_m": [
-      10000,
-      5000,
-      2500
-    ],
+    "distance_m": [10000, 5000, 2500],
     "place": "Löttorp",
     "latitude": 57.1660956,
     "longitude": 16.9930091,
@@ -3917,11 +3409,7 @@
     "type": "road",
     "name": "Trosa Stadslopp",
     "distance": "event-89-km event-4-km event-23-km",
-    "distance_m": [
-      8900,
-      4000,
-      2300
-    ],
+    "distance_m": [8900, 4000, 2300],
     "place": "Trosa",
     "latitude": 36.0383434,
     "longitude": -78.8925079,
@@ -3939,11 +3427,7 @@
     "type": "track",
     "name": "Världsungdomsspelen 2023",
     "distance": "event-100-m event-200-m event-400-m event-800-m event-1500-m event-5000-m event-3000-m-hinder event-100110-m-hack event-400-m-hack event-hojdhopp event-stavhopp event-langdhopp event-tresteg event-kula event-diskus event-slagga event-spjut event-3000-m event-2000-m-hinder event-300-m-hack event-1500-m-hinder event-60-m event-600-m event-60-m-hack event-80-m event-300-m event-2000-m event-80-m-hack",
-    "distance_m": [
-      1500,
-      5000,
-      3000
-    ],
+    "distance_m": [1500, 5000, 3000],
     "place": "Göteborg",
     "latitude": 57.70887,
     "longitude": 11.97456,
@@ -3961,12 +3445,7 @@
     "type": "trail",
     "name": "Bocksten Trailrun",
     "distance": "5 km, 12 km, 22 km, 44 km",
-    "distance_m": [
-      5000,
-      12000,
-      22000,
-      44000
-    ],
+    "distance_m": [5000, 12000, 22000, 44000],
     "place": "Ästad Vingård",
     "latitude": 57.0648899,
     "longitude": 12.5551597,
@@ -3984,11 +3463,7 @@
     "type": "trail",
     "name": "Tresjölunken",
     "distance": "3 km, 7 km, 14 km",
-    "distance_m": [
-      3000,
-      7000,
-      14000
-    ],
+    "distance_m": [3000, 7000, 14000],
     "place": "Trehörningsjö",
     "latitude": 63.7318419,
     "longitude": 18.5145233,
@@ -4006,12 +3481,7 @@
     "type": "trail",
     "name": "Skogsvargarna Trailrun",
     "distance": "6 km, 11 km, 22 km, 45 km",
-    "distance_m": [
-      6000,
-      11000,
-      22000,
-      45000
-    ],
+    "distance_m": [6000, 11000, 22000, 45000],
     "place": "",
     "latitude": 58.3472987,
     "longitude": 12.4301207,
@@ -4047,10 +3517,7 @@
     "type": "terrain",
     "name": "Jordgubbslunken",
     "distance": "event-102-km event-6-km",
-    "distance_m": [
-      11000,
-      6000
-    ],
+    "distance_m": [11000, 6000],
     "place": "Kristinehamn",
     "latitude": 59.3100677,
     "longitude": 14.1089192,
@@ -4068,10 +3535,7 @@
     "type": "trail",
     "name": "Silverleden på 1 dag 2023",
     "distance": "7,1- 64 km",
-    "distance_m": [
-      7100,
-      64000
-    ],
+    "distance_m": [7100, 64000],
     "place": "Hurtigtorpets Motionsanläggning",
     "latitude": 59.7868607,
     "longitude": 14.5410867,
@@ -4089,10 +3553,7 @@
     "type": "road",
     "name": "Kalmar Malkars 21KM/Malkars Femman",
     "distance": "event-5-km event-halvmarathon",
-    "distance_m": [
-      5000,
-      21098
-    ],
+    "distance_m": [5000, 21098],
     "place": "Kalmar",
     "latitude": 56.6634447,
     "longitude": 16.356779,
@@ -4110,12 +3571,7 @@
     "type": "trail",
     "name": "Atea TrailÖvik",
     "distance": "2 km, 6 km, 12 km, 22 km",
-    "distance_m": [
-      2000,
-      6000,
-      12000,
-      22000
-    ],
+    "distance_m": [2000, 6000, 12000, 22000],
     "place": "",
     "latitude": 63.3031366,
     "longitude": 18.6293979,
@@ -4133,11 +3589,7 @@
     "type": "trail",
     "name": "Genarps IF Trail - GIFT",
     "distance": "4,5 km, 10 km, 25 km",
-    "distance_m": [
-      4000,
-      10000,
-      25000
-    ],
+    "distance_m": [4000, 10000, 25000],
     "place": "Ekevallen",
     "latitude": 55.5969269,
     "longitude": 13.4153004,
@@ -4155,10 +3607,7 @@
     "type": "road",
     "name": "Wallanderloppet",
     "distance": "event-38-km event-6-km",
-    "distance_m": [
-      3800,
-      6000
-    ],
+    "distance_m": [3800, 6000],
     "place": "Ystad",
     "latitude": 55.4295051,
     "longitude": 13.8200308,
@@ -4176,11 +3625,7 @@
     "type": "road",
     "name": "Frosta OK",
     "distance": "event-126-km event-61-km event-34-km",
-    "distance_m": [
-      12600,
-      6100,
-      3400
-    ],
+    "distance_m": [12600, 6100, 3400],
     "place": "Hörby",
     "latitude": 55.851716,
     "longitude": 13.6619255,
@@ -4198,11 +3643,7 @@
     "type": "track",
     "name": "Helsingborg",
     "distance": "event-100-m event-200-m event-400-m event-800-m event-1500-m event-5000-m event-100110-m-hack event-400-m-hack event-hojdhopp event-stavhopp event-langdhopp event-tresteg event-kula event-diskus event-slagga event-spjut event-3000-m event-2000-m-hinder event-300-m-hack event-1500-m-hinder event-60-m event-600-m event-60-m-hack event-200-m-hack event-80-m event-300-m event-80-m-hack",
-    "distance_m": [
-      1500,
-      5000,
-      3000
-    ],
+    "distance_m": [1500, 5000, 3000],
     "place": "IFK Helsingborg",
     "latitude": 56.0141522,
     "longitude": 12.726149,
@@ -4220,11 +3661,7 @@
     "type": "road",
     "name": "Byrundan",
     "distance": "event-8-km event-4-km event-15-km",
-    "distance_m": [
-      8000,
-      4000,
-      15000
-    ],
+    "distance_m": [8000, 4000, 15000],
     "place": "Gamleby",
     "latitude": 57.89316029999999,
     "longitude": 16.4060887,
@@ -4242,11 +3679,7 @@
     "type": "terrain",
     "name": "Böda Sandsloppet",
     "distance": "event-4-km event-65-km event-18-km",
-    "distance_m": [
-      4000,
-      65000,
-      18000
-    ],
+    "distance_m": [4000, 65000, 18000],
     "place": "Löttorp",
     "latitude": 57.1660956,
     "longitude": 16.9930091,
@@ -4264,10 +3697,7 @@
     "type": "track",
     "name": "Göteborg",
     "distance": "event-100-m event-200-m event-400-m event-1500-m event-5000-m event-100110-m-hack event-400-m-hack event-kula event-diskus event-slagga event-spjut event-800-m event-60-m event-600-m event-60-m-hack event-80-m event-300-m event-80-m-hack",
-    "distance_m": [
-      1500,
-      5000
-    ],
+    "distance_m": [1500, 5000],
     "place": "IF Kville",
     "latitude": 57.70887,
     "longitude": 11.97456,
@@ -4285,11 +3715,7 @@
     "type": "road",
     "name": "Varbergsloppet",
     "distance": "event-5-km event-10-km event-13-km",
-    "distance_m": [
-      5000,
-      10000,
-      13000
-    ],
+    "distance_m": [5000, 10000, 13000],
     "place": "Varberg",
     "latitude": 57.107118,
     "longitude": 12.2520907,
@@ -4307,9 +3733,7 @@
     "type": "road",
     "name": "Semesterhalvmaran",
     "distance": "event-halvmarathon",
-    "distance_m": [
-      21098
-    ],
+    "distance_m": [21098],
     "place": "Fjugesta",
     "latitude": 59.17642569999999,
     "longitude": 14.8709161,
@@ -4327,12 +3751,7 @@
     "type": "road",
     "name": "Kustmaran",
     "distance": "event-5-km event-10-km event-halvmarathon event-marathon event-25-km",
-    "distance_m": [
-      5000,
-      10000,
-      21098,
-      42195
-    ],
+    "distance_m": [5000, 10000, 21098, 42195],
     "place": "Kristianopel, Blekinge",
     "latitude": 56.2578701,
     "longitude": 16.0411673,
@@ -4350,11 +3769,7 @@
     "type": "road",
     "name": "Musköloppet",
     "distance": "event-5-km event-10-km event-25-km",
-    "distance_m": [
-      5000,
-      10000,
-      2500
-    ],
+    "distance_m": [5000, 10000, 2500],
     "place": "Muskö",
     "latitude": 58.9999599,
     "longitude": 18.1262048,
@@ -4372,9 +3787,7 @@
     "type": "track",
     "name": "Örnsköldsvik",
     "distance": "event-100-m event-200-m event-3000-m event-hojdhopp event-langdhopp event-kula event-spjut event-60-m event-80-m event-300-m",
-    "distance_m": [
-      3000
-    ],
+    "distance_m": [3000],
     "place": "IF Vingarna",
     "latitude": 63.29004740000001,
     "longitude": 18.7166166,
@@ -4392,13 +3805,7 @@
     "type": "trail",
     "name": "Mora Trail",
     "distance": "2 km, 4 km, 8 km, 17 km, 30 km",
-    "distance_m": [
-      2000,
-      4000,
-      8000,
-      17000,
-      30000
-    ],
+    "distance_m": [2000, 4000, 8000, 17000, 30000],
     "place": "mora skidstadion",
     "latitude": 61.0074205,
     "longitude": 14.4982507,
@@ -4416,10 +3823,7 @@
     "type": "track",
     "name": "Borlänge",
     "distance": "event-100-m event-200-m event-400-m event-5000-m event-hojdhopp event-stavhopp event-langdhopp event-kula event-spjut event-60-m event-1500-m event-60-m-hack event-80-m event-300-m event-2000-m event-80-m-hack",
-    "distance_m": [
-      5000,
-      1500
-    ],
+    "distance_m": [5000, 1500],
     "place": "Kvarnsvedens GOIF FIK",
     "latitude": 60.51467770000001,
     "longitude": 15.3894246,
@@ -4437,9 +3841,7 @@
     "type": "trail",
     "name": "Lurs Backyard Ultra",
     "distance": "6,706 km",
-    "distance_m": [
-      "backyard"
-    ],
+    "distance_m": ["backyard"],
     "place": "",
     "latitude": 58.8167037,
     "longitude": 11.3227221,
@@ -4457,10 +3859,7 @@
     "type": "track",
     "name": "Bollnäs",
     "distance": "event-100-m event-200-m event-400-m event-800-m event-5000-m event-hojdhopp event-langdhopp event-tresteg event-kula event-diskus event-slagga event-spjut event-3000-m event-60-m event-600-m event-60-m-hack event-80-m event-2000-m event-80-m-hack",
-    "distance_m": [
-      5000,
-      3000
-    ],
+    "distance_m": [5000, 3000],
     "place": "Rehns BK",
     "latitude": 61.34837950000001,
     "longitude": 16.3942685,
@@ -4478,11 +3877,7 @@
     "type": "road",
     "name": "Victorialoppet",
     "distance": "event-9-km event-4-km event-2-km event-grenar-finns-for-para-klass",
-    "distance_m": [
-      9000,
-      4000,
-      2000
-    ],
+    "distance_m": [9000, 4000, 2000],
     "place": "Borgholm",
     "latitude": 56.88022969999999,
     "longitude": 16.6562355,
@@ -4500,10 +3895,7 @@
     "type": "track",
     "name": "Ölandsspelen",
     "distance": "event-100-m event-800-m event-3000-m event-100110-m-hack event-hojdhopp event-stavhopp event-langdhopp event-kula event-diskus event-spjut event-200-m event-5000-m event-60-m event-600-m event-60-m-hack event-80-m event-2000-m event-80-m-hack",
-    "distance_m": [
-      3000,
-      5000
-    ],
+    "distance_m": [3000, 5000],
     "place": "Högby IF",
     "latitude": 57.1671019,
     "longitude": 17.015088,
@@ -4521,10 +3913,7 @@
     "type": "terrain",
     "name": "Löttorpsvarvet",
     "distance": "event-62-km event-14-km",
-    "distance_m": [
-      62000,
-      14000
-    ],
+    "distance_m": [62000, 14000],
     "place": "Löttorp",
     "latitude": 57.1660956,
     "longitude": 16.9930091,
@@ -4542,9 +3931,7 @@
     "type": "track",
     "name": "Eskilstuna",
     "distance": "event-200-m event-1500-m event-100110-m-hack event-langdhopp event-kula event-slagga event-300-m event-80-m-hack event-60-m-hack event-lopgrenar",
-    "distance_m": [
-      1500
-    ],
+    "distance_m": [1500],
     "place": "Råby-Rekarne FIF",
     "latitude": 59.37124859999999,
     "longitude": 16.5098045,
@@ -4562,11 +3949,7 @@
     "type": "road",
     "name": "Kraftprovet",
     "distance": "event-116-km event-63-km event-26-km",
-    "distance_m": [
-      11600,
-      6300,
-      2600
-    ],
+    "distance_m": [11600, 6300, 2600],
     "place": "Trollhättan",
     "latitude": 58.28348939999999,
     "longitude": 12.2858206,
@@ -4584,12 +3967,7 @@
     "type": "trail",
     "name": "Bjäre trail",
     "distance": "12 km, 17 km, 34 km, 51 km",
-    "distance_m": [
-      12000,
-      17000,
-      34000,
-      51000
-    ],
+    "distance_m": [12000, 17000, 34000, 51000],
     "place": "Båstad Företagsby",
     "latitude": 56.4103428,
     "longitude": 12.8383754,
@@ -4607,9 +3985,7 @@
     "type": "track",
     "name": "Stjärnspelen Arvika",
     "distance": "event-100-m event-200-m event-400-m event-800-m event-hojdhopp event-stavhopp event-langdhopp event-kula event-diskus event-slagga event-spjut event-1500-m event-60-m event-600-m event-80-m event-lopgrenar event-kastgrenar event-hoppgrenar",
-    "distance_m": [
-      1500
-    ],
+    "distance_m": [1500],
     "place": "KFUM Arvika FIF",
     "latitude": 59.6548534,
     "longitude": 12.592136,
@@ -4627,12 +4003,7 @@
     "type": "trail",
     "name": "Helags Fjällmara",
     "distance": "23km, 12km, 5km, 0,8 km",
-    "distance_m": [
-      23000,
-      12000,
-      5000,
-      0
-    ],
+    "distance_m": [23000, 12000, 5000, 0],
     "place": "",
     "latitude": 62.8514898,
     "longitude": 12.7928243,
@@ -4650,11 +4021,7 @@
     "type": "trail",
     "name": "Hornsjön Runt",
     "distance": "event-11-km event-55-km event-29-km",
-    "distance_m": [
-      11000,
-      5500,
-      2900
-    ],
+    "distance_m": [11000, 5500, 2900],
     "place": "Löttorp",
     "latitude": 57.1660956,
     "longitude": 16.9930091,
@@ -4672,10 +4039,7 @@
     "type": "road",
     "name": "ATEA Kalmarmilen",
     "distance": "event-10-km event-12-km",
-    "distance_m": [
-      10000,
-      1200
-    ],
+    "distance_m": [10000, 1200],
     "place": "Kalmar",
     "latitude": 56.6634447,
     "longitude": 16.356779,
@@ -4693,10 +4057,7 @@
     "type": "track",
     "name": "Hässleholm",
     "distance": "event-100-m event-200-m event-400-m event-800-m event-1500-m event-3000-m event-3000-m-hinder event-100110-m-hack event-400-m-hack event-hojdhopp event-stavhopp event-langdhopp event-tresteg event-kula event-diskus event-slagga event-spjut event-2000-m-hinder event-1500-m-hinder event-300-m-hack event-60-m event-600-m event-60-m-hack event-200-m-hack event-80-m event-300-m event-2000-m event-80-m-hack",
-    "distance_m": [
-      1500,
-      3000
-    ],
+    "distance_m": [1500, 3000],
     "place": "Hässleholms AIS",
     "latitude": 56.15891449999999,
     "longitude": 13.7667655,
@@ -4714,9 +4075,7 @@
     "type": "trail",
     "name": "Hermanövarvet",
     "distance": "15 km",
-    "distance_m": [
-      15000
-    ],
+    "distance_m": [15000],
     "place": "Mor Johannas Äng gullholmen",
     "latitude": 58.1806719,
     "longitude": 11.398032,
@@ -4734,9 +4093,7 @@
     "type": "road",
     "name": "Falkenbergs Stadslopp",
     "distance": "event-10-km",
-    "distance_m": [
-      10000
-    ],
+    "distance_m": [10000],
     "place": "Falkenberg",
     "latitude": 56.90273329999999,
     "longitude": 12.4888013,
@@ -4754,9 +4111,7 @@
     "type": "track",
     "name": "Viking Line spelen i Huddinge",
     "distance": "event-100-m event-200-m event-400-m event-800-m event-3000-m event-400-m-hack event-stavhopp event-langdhopp event-kula event-diskus event-slagga",
-    "distance_m": [
-      3000
-    ],
+    "distance_m": [3000],
     "place": "Huddinge AIS",
     "latitude": 59.25015260000001,
     "longitude": 17.9505486,
@@ -4767,6 +4122,7 @@
     "summary": "Vi har en liten men mycket spännande trupp som åker till inomhus-SM i Malmö nu till helgen den 17-19/2 i Malmö, Joakim Hellbratt, Alva Von Gerber och Madeleine Söderqvist.  Sista helgen i februari åker en stor trupp från oss gemensamt till Karlstad för att delta i junior-SM och Ungdoms-SM 17 inomhus.  Vi ser gärna att föräldrar anmäler sig som hjälp <a href=\"https://huddingeais.se/2023/01/ny-verksamhetsansvarig-pa-vart-kansli/\" target=\"_blank\" class=\"inline-link\">huddingeais</a> Publicerad 2023-01-12 | Skriven av Lasse Krieg",
     "county": "Stockholms"
   },
+
   {
     "date": "20230805",
     "month": "augusti",
@@ -4774,30 +4130,25 @@
     "type": "trail",
     "name": "Snapphaneracet",
     "distance": "13km , 28km , 56km, 80km",
-    "distance_m": [
-      56000,
-      80000
-    ],
-    "place": "",
-    "latitude": 0,
-    "longitude": 0,
+    "distance_m": [56000, 80000],
+    "place": "Sölvesborg",
+    "latitude": 56.0497125,
+    "longitude": 14.5592941,
     "organizer": "",
-    "website": "https://www.snapphaneracet.se/",
+    "website": "https://www.facebook.com/groups/2731654160280212/",
     "src_url": "https://trailrunningsweden.se/trailkalendern/",
     "id": "86291fbe-a7a0-4312-8c21-a4bee3ee7c7a",
-    "summary": "© 2022 av Sweden Runners och Snapphaneracet",
-    "county": null
+    "summary": "Snapphaneracet traillopp från 13km till 100miles, en massa höjdmeter. Allt i snapphanarnas spår på det underbara Ryssberget i Sölvesborg.",
+    "county": "Bleking"
   },
   {
     "date": "20230805",
     "month": "AUGUSTI",
     "day": "5",
     "type": "track",
-    "name": "Varberg",
+    "name": "Getabockspelen",
     "distance": "event-100-m event-200-m event-800-m event-1500-m event-100110-m-hack event-400-m-hack event-hojdhopp event-stavhopp event-langdhopp event-kula event-diskus event-slagga event-300-m-hack event-spjut event-60-m event-600-m event-60-m-hack event-200-m-hack event-tresteg event-80-m event-300-m event-2000-m event-80-m-hack",
-    "distance_m": [
-      1500
-    ],
+    "distance_m": [1500],
     "place": "Varbergs GIF Friidrottsförening",
     "latitude": 57.107118,
     "longitude": 12.2520907,
@@ -4805,20 +4156,17 @@
     "website": "https://idrottonline.se/VarbergsGIF-Friidrott/varaarrangemang/Getabockspelen",
     "src_url": "https://friidrott.euwest01.umbraco.io/tavling-landslag/tavling/tavlingskalender/tavlingar-i-sverige/arenatavlingar/",
     "id": "a0f2c605-7fd6-4509-8b4b-c1622a6d5bb4",
-    "summary": "Från och med den 2 januari 2023 har alla publika hemsidor i idrottsrörelsens gemensamma verksamhetssystem IdrottOnline stängts ner och flyttats. Om du sökte efter en idrottsförenings hemsida så rekommenderar vi dig att kontakta föreningen för att få information om deras nya webbadress.  Om du har frågor om IdrottOnline eller söker information om driftsstörningar och kontaktuppgifter till supporten, klicka på knappen nedan.",
-    "county": null
+    "summary": "GETABOCKSPELEN är Varbergs GIF årliga utomhustävling som genomför i augusti på Påskbergsvallen i Varberg. För medeldistanslöpare finns här 1500 meter.",
+    "county": "Hallands"
   },
   {
     "date": "20230805",
     "month": "AUGUSTI",
     "day": "5",
     "type": "track",
-    "name": "Malmö",
+    "name": "Folksam GP",
     "distance": "event-100-m event-200-m event-400-m event-800-m event-5000-m event-100110-m-hack event-stavhopp event-langdhopp event-kula event-diskus event-1500-m",
-    "distance_m": [
-      5000,
-      1500
-    ],
+    "distance_m": [5000, 1500],
     "place": "Malmö Allmänna IF",
     "latitude": 55.604981,
     "longitude": 13.003822,
@@ -4826,7 +4174,7 @@
     "website": "https://www.folksamgrandprix.se/MalmoGP/2023/",
     "src_url": "https://friidrott.euwest01.umbraco.io/tavling-landslag/tavling/tavlingskalender/tavlingar-i-sverige/arenatavlingar/",
     "id": "81fe6f9e-a9c5-4402-af4b-7a4d8d77cb69",
-    "summary": "<a href=\"http://www.friidrott.se/\" target=\"_blank\" class=\"inline-link\">friidrott</a> 30 januari - 5 augusti 2023",
+    "summary": "Välkommen till 2023 års upplaga av Folksam Grand Prix - den svenska friidrottens elitserie. Den här deltävlingen får i Malmö den 5e augusti. Medeldistanslöpare tävlar i 1500 meter och 5000 meter.",
     "county": "Skåne"
   },
   {
@@ -4834,11 +4182,9 @@
     "month": "AUGUSTI",
     "day": "5",
     "type": "track",
-    "name": "Kil",
+    "name": "Goliatspelen",
     "distance": "event-100-m event-200-m event-800-m event-1500-m event-100110-m-hack event-hojdhopp event-langdhopp event-tresteg event-kula event-diskus event-spjut event-300-m-hack event-slagga event-60-m event-60-m-hack event-200-m-hack event-80-m event-80-m-hack event-lopgrenar",
-    "distance_m": [
-      1500
-    ],
+    "distance_m": [1500],
     "place": "Kils AIK FIK",
     "latitude": 59.49844359999999,
     "longitude": 13.3099962,
@@ -4846,7 +4192,7 @@
     "website": "https://www.kilsfriidrott.se/tavlingar/Goliatspelen/",
     "src_url": "https://friidrott.euwest01.umbraco.io/tavling-landslag/tavling/tavlingskalender/tavlingar-i-sverige/arenatavlingar/",
     "id": "e7839565-097a-469e-8c97-5f41ed607ae7",
-    "summary": "Sidan du försöker nå finns inte. Det kan bero på att du klickat på en felaktig länk. Kils AIK FIK använder Svenskalag.se som hemsidesplattform.",
+    "summary": "1500 meter medeldistans och andra friidrottsgrenar i Kil. Arrangeras av Kils AIK FIK",
     "county": "Värmlands"
   },
   {
@@ -4856,11 +4202,7 @@
     "type": "terrain",
     "name": "Träslottsloppet",
     "distance": "event-9-km event-3-km event-1-km",
-    "distance_m": [
-      9000,
-      3000,
-      1000
-    ],
+    "distance_m": [9000, 3000, 1000],
     "place": "Arbrå",
     "latitude": 61.4724671,
     "longitude": 16.3786367,
@@ -4868,7 +4210,7 @@
     "website": "https://www.rehnsbk.se/friidrott",
     "src_url": "https://friidrott.euwest01.umbraco.io/tavling-landslag/tavling/tavlingskalender/tavlingar-i-sverige/langlopp/",
     "id": "7f994357-cf6e-48c3-8444-26569eef1fba",
-    "summary": "Rehns BK bedriver numera även friidrott. I en snar framtid kommer verksamheten att utökas med ungdomar i från 11/12 års åldern.  Ni som är intresserad av att börja friidrott kan höra av er till följande personer.",
+    "summary": "Loppet är ett samarrangemang mellan föreningarna Rehns BK och Vallsta SK. Tanken med loppet är att erbjuda sträckor, underlag och anmälningsavgifter som passar alla i familjen. Loppet genomförs på underlagen grusväg, stig och gräs. vid Träslottet i Arbrå, beläget 12 km norr om Bollnäs.",
     "county": "Gävleborgs"
   },
   {
@@ -4876,11 +4218,9 @@
     "month": "AUGUSTI",
     "day": "5",
     "type": "track",
-    "name": "Västerås",
+    "name": "Westinghouse Gurkspel",
     "distance": "event-100-m event-200-m event-400-m event-800-m event-1500-m event-100110-m-hack event-hojdhopp event-langdhopp event-tresteg event-kula event-diskus event-slagga event-spjut event-300-m-hack event-60-m event-600-m event-60-m-hack event-200-m-hack event-80-m event-300-m event-2000-m event-80-m-hack event-lopgrenar",
-    "distance_m": [
-      1500
-    ],
+    "distance_m": [1500],
     "place": "Västerås FK",
     "latitude": 59.60990049999999,
     "longitude": 16.5448091,
@@ -4888,7 +4228,7 @@
     "website": "https://www.vasterasfriidrott.se/westinghouse-gurkspel/",
     "src_url": "https://friidrott.euwest01.umbraco.io/tavling-landslag/tavling/tavlingskalender/tavlingar-i-sverige/arenatavlingar/",
     "id": "2be7bd90-b29f-4437-acca-56990e8b6b71",
-    "summary": "Betalning av medlems- och aktivitetsavgifter: BG 802-5751, övriga fakturor m.m.",
+    "summary": "Westinghouse Gurkspel i Västerås. Medeldistanslöpare bjuds på 1500 meter, men tävlingar genomförs också i övriga friidrottsgrenar. Arrangeras av Västerås FK",
     "county": "Västmanlands"
   },
   {
@@ -4898,9 +4238,7 @@
     "type": "road",
     "name": "Ölands Marathon",
     "distance": "event-marathon",
-    "distance_m": [
-      42195
-    ],
+    "distance_m": [42195],
     "place": "Löttorp",
     "latitude": 57.1660956,
     "longitude": 16.9930091,
@@ -4908,37 +4246,18 @@
     "website": "http://olandrunning.se",
     "src_url": "https://friidrott.euwest01.umbraco.io/tavling-landslag/tavling/tavlingskalender/tavlingar-i-sverige/langlopp/",
     "id": "11197c91-0c23-4639-a9d2-af74d59bfbea",
-    "summary": "You've requested a page on a website that is part of the <a href=\"https://www.cloudflare.com/5xx-error-landing/\" target=\"_blank\" class=\"inline-link\">cloudflare</a> network. The host is configured as a CNAME across accounts on Cloudflare, which is not allowed by Cloudflare's security policy.  If you have attempted to manually point a CNAME DNS record to your R2 bucket, you must do it using a custom domain.",
+    "summary": "Välkommen att springa en lättsprungen och flack marathonbana med Blå Jungfrun i blickfånget. Kanske Sveriges trevligaste maraton, reds. anm. Start o mål, torget i Löttorp.",
     "county": "Kalmar"
   },
-  {
-    "date": "20230805",
-    "month": "augusti",
-    "day": "05",
-    "type": "road",
-    "name": "Ölands Marathon",
-    "distance": "42,20 km",
-    "distance_m": 42200,
-    "place": "Löttorp",
-    "latitude": 57.1660956,
-    "longitude": 16.9930091,
-    "organizer": "",
-    "website": "https://www.jogg.se//Tavling/Tavling.aspx?id=656427",
-    "src_url": "https://www.jogg.se/Kalender/Tavlingar.aspx?aar=2023&mon=13&fdist=0&tdist=1000&type=0&country=1&region=0&tlopp=False&relay=False&surface=asf&tridist=0&title=1",
-    "id": "c8f082dd-3b01-4745-ab83-7c86401778d7",
-    "summary": "För dig som vill springa marathon under en viss tid. Du får träningen serverad dag för dag under 12 veckor.  Pris: 300:- (200:- för <a href=\"https://www.jogg.se/stjarnmedlem)\" target=\"_blank\" class=\"inline-link\">jogg</a> <a href=\"https://mittlopp.se/traningsprogram/?progid=30&progstart=2023-05-15\" target=\"_blank\" class=\"inline-link\">mittlopp</a>",
-    "county": "Kalmar"
-  },
+
   {
     "date": "20230805",
     "month": "AUGUSTI",
     "day": "5",
     "type": "track",
-    "name": "Härnösand",
+    "name": "Öbackaspelen 2023",
     "distance": "event-100-m event-400-m event-800-m event-5000-m event-langdhopp event-diskus event-spjut event-200-m event-hojdhopp event-60-m event-600-m event-60-m-hack event-kula event-80-m event-300-m",
-    "distance_m": [
-      5000
-    ],
+    "distance_m": [5000],
     "place": "Brännans IF",
     "latitude": 62.6322698,
     "longitude": 17.9408714,
@@ -4946,7 +4265,7 @@
     "website": "http://brannansif.se",
     "src_url": "https://friidrott.euwest01.umbraco.io/tavling-landslag/tavling/tavlingskalender/tavlingar-i-sverige/arenatavlingar/",
     "id": "cab3ab1a-69c9-4127-b51e-f0fb410aca69",
-    "summary": "Vi träffas, tränar och tävlar mot framtiden Med dessa ord önskar vi inom Brännans IF hälsa Dig välkommen till oss. Vår önskan är att Du ska trivas, tycka det är kul, se fram emot träningar och tävlingar, träffa kompisar, känna att Du mår bra och kan utvecklas till den nivå, som känns bra för Dig.",
+    "summary": "Brännans IF bjuder in till Öbackaspelen. Medeldistanser bjuds på 5000 meter, men övriga friidrottsgrenar finns att tillgå.",
     "county": "Västernorrlands"
   },
   {
@@ -4956,11 +4275,7 @@
     "type": "road",
     "name": "KK-joggen",
     "distance": "event-105-km event-51-km event-27-km",
-    "distance_m": [
-      105000,
-      51000,
-      27000
-    ],
+    "distance_m": [10500, 5100, 2700],
     "place": "KATRINEHOLM",
     "latitude": 58.99555109999999,
     "longitude": 16.2054756,
@@ -4968,7 +4283,7 @@
     "website": "http://kk-joggen.se",
     "src_url": "https://friidrott.euwest01.umbraco.io/tavling-landslag/tavling/tavlingskalender/tavlingar-i-sverige/langlopp/",
     "id": "1a3ab64c-6eaa-4504-ab00-7dc1c0da8a2b",
-    "summary": "<a href=\"http://www. laget. se/katrineholmsaik\" target=\"_blank\" class=\"inline-link\">laget</a> <a href=\"http://www. kifbasket. se/\" target=\"_blank\" class=\"inline-link\">kifbasket</a> <a href=\"http://kk-joggen. se/ksk\" target=\"_blank\" class=\"inline-link\">kk-joggen</a> <a href=\"<a href=\"http://www. svenskalag. se/dfkvarmbol\" target=\"_blank\" class=\"inline-link\">svenskalag</a>\" target=\"_blank\" class=\"inline-link\">svenskalag</a> <a href=\"<a href=\"http://www. svenskalag.",
+    "summary": "KK-JOGGEN är förutom att vara Katrineholms största idrottsevenemang med närmare 1500 deltagare och 6000-8000 åskådare, dessutom ett av Sveriges bästa motionslopp, i såväl elit- som i motionsklasserna.",
     "county": "Södermanlands"
   },
   {
@@ -4978,9 +4293,7 @@
     "type": "track",
     "name": "Stockholm",
     "distance": "event-100-m event-800-m event-5000-m event-hojdhopp event-langdhopp event-kula event-60-m event-600-m event-80-m",
-    "distance_m": [
-      5000
-    ],
+    "distance_m": [5000],
     "place": "Sundbybergs IK",
     "latitude": 59.36329180000001,
     "longitude": 17.9702867,
@@ -4988,7 +4301,7 @@
     "website": "http://sundbybergsik.myclub.se",
     "src_url": "https://friidrott.euwest01.umbraco.io/tavling-landslag/tavling/tavlingskalender/tavlingar-i-sverige/arenatavlingar/",
     "id": "1816edfb-b389-41f0-b3f0-54092bd18cbe",
-    "summary": "Igår så påbörjade klubbstyrelsen utbildningen 50/50. Klubbstyrelsen kommer att genomgå 6st lektioner och kommer därefter att jobba med att få ut det till hela klubben för att få en så bra miljö som möjligt för våra medlemmar.  I år har vi med två lag i serien, Pantamera Blå medelsvår norra och södra.",
+    "summary": "5000 meter medeldistans och övriga friidrottsgrenar i Sundbyberg. Arrangeras av Sundbybergs IK",
     "county": "Stockholms"
   },
   {
@@ -4996,17 +4309,17 @@
     "month": "augusti",
     "day": "11",
     "type": "trail",
-    "name": "Järv Äventyr Åre by EQPE",
+    "name": "Järv Äventyr Åre",
     "distance": "13,00 km",
     "distance_m": 13000,
     "place": "Åre",
     "latitude": 63.3990428,
     "longitude": 13.0815059,
     "organizer": "",
-    "website": "https://www.jogg.se//Tavling/Tavling.aspx?id=656594",
+    "website": "https://jarvaventyr.se/destination/are/",
     "src_url": "https://www.jogg.se/Kalender/Tavlingar.aspx?aar=2023&mon=13&fdist=0&tdist=1000&type=0&country=1&region=0&tlopp=False&relay=False&surface=ter&tridist=0&title=1",
     "id": "cbf6cf7e-6b47-4783-83cf-efc6145c40f2",
-    "summary": "× I Åre väntar ett fantastiskt tvådagars äventyr i oslagbar fjällmiljö. Järv Åre bjuder på en härlig utmaning både för kropp och knopp, ett äventyr ni sent kommer glömma!  Totalt har 1 medlemmar Järv Äventyr Åre by EQPE under sina planerade tävlingar.",
+    "summary": "I Åre väntar ett fantastiskt tvådagars äventyr i oslagbar fjällmiljö. Järv Åre bjuder på en härlig utmaning både för kropp och knopp, ett äventyr ni sent kommer glömma!",
     "county": "Jämtlands"
   },
   {
@@ -5016,20 +4329,16 @@
     "type": "trail",
     "name": "Stora Stöten Run",
     "distance": "21,6 km, 13,6 km, 5,6 km",
-    "distance_m": [
-      21000,
-      13000,
-      5000
-    ],
-    "place": "",
-    "latitude": 0,
-    "longitude": 0,
+    "distance_m": [21000, 13000, 5000],
+    "place": "Falun",
+    "latitude": 60.60646000000001,
+    "longitude": 15.6355,
     "organizer": "",
     "website": "http://www.storastotenrun.nu",
     "src_url": "https://trailrunningsweden.se/trailkalendern/",
     "id": "0a1136ed-baf8-47ba-a91e-fd761d5d69bd",
-    "summary": "Please visit <a href=\"https://status.squarespace.com\" target=\"_blank\" class=\"inline-link\">status</a> for updates",
-    "county": null
+    "summary": "Ett fantastiskt löplopp i Falun, Dalarna. Stora Stöten Run kan skryta med att banorna till stor del är formade av mänsklig kraft. Vattnet har alltid varit viktigt för Falu Gruva. Stigar, vägar, sjöar, dammar, kanaler och diken har genom århundradena grävts fram. Utefter banan kommer deltagarna springa förbi medeltida hyttplatser, vackra bergsmansgårdar, dammar och dammhus i en särpräglad nordisk natur. Allt en viktig del av Världsarvet Falun. Här erbjuds deltagarna en historisk upplevelse som går flera hundra år tillbaka i tiden.",
+    "county": "Dalarnas"
   },
   {
     "date": "20230812",
@@ -5037,36 +4346,19 @@
     "day": "12",
     "type": "trail",
     "name": "Bunketorp Backyard Ultra Trail 2023",
-    "distance": "Tidslopp",
+    "distance": "backyard",
     "distance_m": 0,
     "place": "Lindome",
     "latitude": 57.5755218,
     "longitude": 12.0783006,
     "organizer": "",
-    "website": "https://www.jogg.se//Tavling/Tavling.aspx?id=656353",
+    "website": "https://www.bbut.org/",
     "src_url": "https://www.jogg.se/Kalender/Tavlingar.aspx?aar=2023&mon=13&fdist=0&tdist=1000&type=0&country=1&region=0&tlopp=False&relay=False&surface=ter&tridist=0&title=1",
     "id": "414394a1-b5ca-4b15-8b8c-16223b1367b8",
-    "summary": "<a href=\"https://www.jogg.se/traningsprogramTräningsprogram\" target=\"_blank\" class=\"inline-link\">jogg</a> Nu har vi träningsprogram med smarta funktioner i Jogg-appen. Du väljer själv din nivå och vilket datum du vill träna mot.",
+    "summary": "Detta är en tävlingsform där deltagarna springer en bana som är 6 706 m lång med start varje timme. Start sker varje hel timme där alla deltagare startar samtidigt. Deltagarna måste starta varje hel timme för att få fortsätta tävlingen. Man måste fullfölja ett varv inom den innevarande timmen för att få sitt varv tillgodoräknat. Den deltagare som gör flest varv vinner. Det sista varvet måste vara ett komplett varv, annars får loppet ingen vinnare.",
     "county": "Västra Götalands"
   },
-  {
-    "date": "20230812",
-    "month": "augusti",
-    "day": "12",
-    "type": "trail",
-    "name": "Bunketorp Backyard Ultra Trail 2023",
-    "distance": "6 706 km/varv",
-    "distance_m": [],
-    "place": "",
-    "latitude": 57.58509600000001,
-    "longitude": 12.115305,
-    "organizer": "",
-    "website": "http://www.bbut.org",
-    "src_url": "https://trailrunningsweden.se/trailkalendern/",
-    "id": "4f84221a-b429-41bf-8244-100b8e94eead",
-    "summary": "12/8 2023 <a href=\"http://www.smsport.sehttp://www.umara.seDetta\" target=\"_blank\" class=\"inline-link\">smsport</a> är en tävlingsform där deltagarna springer en bana som är 6 706 m lång med start varje timme. Start sker varje hel timme där alla deltagare startar samtidigt.  Vår ambition är att erbjuda våra deltagare ett lagom stort, personligt, familjärt och välorganiserat arrangemang där deltagarna trivs och får fina möjligheter att prestera ute på den vackra banan i Bunketorp.",
-    "county": "Västra Götalands"
-  },
+
   {
     "date": "20230812",
     "month": "AUGUSTI",
@@ -5074,10 +4366,7 @@
     "type": "terrain",
     "name": "Svartåloppet",
     "distance": "event-14-km event-55-km",
-    "distance_m": [
-      14000,
-      55000
-    ],
+    "distance_m": [14000, 5500, 2500],
     "place": "Svartå",
     "latitude": 59.1271371,
     "longitude": 14.5189652,
@@ -5085,7 +4374,7 @@
     "website": "http://www.svarta.nu",
     "src_url": "https://friidrott.euwest01.umbraco.io/tavling-landslag/tavling/tavlingskalender/tavlingar-i-sverige/langlopp/",
     "id": "41284fd4-d349-45d5-a017-2dcb46c02a7a",
-    "summary": "<a href=\"http://www.svarta.nu/blog/m%C3%A5ndagspromenaden\" target=\"_blank\" class=\"inline-link\">svarta</a> Vi träffas som vanligt utanför FolketsHus kl 10.00 på måndagar för en skogspromenad på 5-8km.  Tack till kommunpoliserna Andreas Pettersson och Andreas Ringbäck för en bra och tydlig genomgång.",
+    "summary": "Motionslopp på skogsvägar och stigar andra lördagen i augusti. 5,5 km och 14 km-banan är en kuperad skogsbana där man tar sig fram på skogsvägar och stigar. 2,5 km-banan är en flackare runda på vägar. Start och mål vid Svartå Folketshus",
     "county": "Örebro"
   },
   {
@@ -5095,7 +4384,7 @@
     "type": "road",
     "name": "Viadal Ultra 6 dagars",
     "distance": "event-144-h",
-    "distance_m": [],
+    "distance_m": ["time"],
     "place": "Förslöv",
     "latitude": 56.3493945,
     "longitude": 12.8151676,
@@ -5103,7 +4392,7 @@
     "website": "https://www.viadalevent.se/se/viadal-ultra",
     "src_url": "https://friidrott.euwest01.umbraco.io/tavling-landslag/tavling/tavlingskalender/tavlingar-i-sverige/langlopp/",
     "id": "51bf3dfa-180e-44ba-b30a-c24c90871ac6",
-    "summary": "<a href=\"<a href=\"<a href=\"<a href=\"<a href=\"<a href=\"https://www. viadalevent. se/\" target=\"_blank\" class=\"inline-link\">viadalevent</a>\" target=\"_blank\" class=\"inline-link\">viadalevent</a>\" target=\"_blank\" class=\"inline-link\">viadalevent</a>\" target=\"_blank\" class=\"inline-link\">viadalevent</a>\" target=\"_blank\" class=\"inline-link\">viadalevent</a>cart\" target=\"_blank\" class=\"inline-link\">viadalevent</a> #page <a href=\"<a href=\"<a href=\"<a href=\"<a href=\"https://www. viadalevent.",
+    "summary": "6 dagars Ultra. Banan är ca 674,29  meter lång och består av packat grus. Den innehåller en kortare uppförsbacke och en längre utförslöpa men i övrigt mestadels platt. Banan innehåller många svängar och vi kommer inte att byta löpriktning under loppet.  ",
     "county": "Skåne"
   },
   {
@@ -5113,10 +4402,7 @@
     "type": "road",
     "name": "Blodomloppet",
     "distance": "event-5-km event-10-km",
-    "distance_m": [
-      5000,
-      10000
-    ],
+    "distance_m": [5000, 10000],
     "place": "Jönköping",
     "latitude": 57.78261370000001,
     "longitude": 14.1617876,
@@ -5134,41 +4420,16 @@
     "type": "trail",
     "name": "Trail- och Ultravasan",
     "distance": "10 km, 30 km, 45 km, 90 km",
-    "distance_m": [
-      10000,
-      30000,
-      45000,
-      90000
-    ],
-    "place": "",
-    "latitude": 0,
-    "longitude": 0,
+    "distance_m": [10000, 30000, 45000, 90000],
+    "place": "mora skidstadion",
+    "latitude": 61.0074205,
+    "longitude": 14.4982507,
     "organizer": "",
     "website": "https://www.vasaloppet.se/lopp/loplopp/ultravasan90/",
     "src_url": "https://trailrunningsweden.se/trailkalendern/",
     "id": "3830c656-72d0-4e7a-871b-6e317eae2a9f",
-    "summary": "Upplev den magiska starten i gryningen, 05.00 i Berga by, Sälen. Möt soluppgången på myrarna vid Smågan och fortsätt via alla de klassiska Vasaloppskontrollerna ner mot målet i Mora.  Om du fortsätter att använda den här webbplatsen antar vi att du godkänner detta.",
-    "county": null
-  },
-  {
-    "date": "20230818",
-    "month": "AUGUSTI",
-    "day": "18",
-    "type": "trail",
-    "name": "Trailvasan 10",
-    "distance": "event-10-km",
-    "distance_m": [
-      10000
-    ],
-    "place": "Mora",
-    "latitude": 0,
-    "longitude": 0,
-    "organizer": "IFK Mora FIK",
-    "website": "https://vasaloppet.se/",
-    "src_url": "https://friidrott.euwest01.umbraco.io/tavling-landslag/tavling/tavlingskalender/tavlingar-i-sverige/langlopp/",
-    "id": "8fdf3cd8-5644-4953-9777-7d83a1f25168",
-    "summary": "<a href=\"https://vasaloppet.se/vinter/anmalan/\" target=\"_blank\" class=\"inline-link\">vasaloppet</a> Anta utmaningen i världens största långlopp på skidor.  Här har vi samlat våra filmer med träningstips om hur du förbereder dig för att kunna njuta ännu mer av ditt skidlopp.",
-    "county": null
+    "summary": "Upplev den magiska starten i gryningen, 05.00 i Berga by, Sälen. Möt soluppgången på myrarna vid Smågan och fortsätt via alla de klassiska Vasaloppskontrollerna ner mot målet i Mora.",
+    "county": "Dalarnas"
   },
   {
     "date": "20230818",
@@ -5177,11 +4438,7 @@
     "type": "road",
     "name": "VP Citylopp",
     "distance": "event-5-km event-10-km event-17-km",
-    "distance_m": [
-      5000,
-      10000,
-      17000
-    ],
+    "distance_m": [5000, 10000, 17000],
     "place": "Vetlanda",
     "latitude": 57.42746,
     "longitude": 15.08533,
@@ -5189,89 +4446,29 @@
     "website": "http://www.oknjudung.se",
     "src_url": "https://friidrott.euwest01.umbraco.io/tavling-landslag/tavling/tavlingskalender/tavlingar-i-sverige/langlopp/",
     "id": "23bfafcd-05a7-48ad-9298-698a2e7f61f8",
-    "summary": "I samband med våra intervallträningar under vecka 9 och 10 är ni Välkomna att komma och köpa av det kvarvarande sortimentet av klubbkläder alternativt göra en ny beställning med cirka 6 veckors leveranstid. Ni är välkomna 17.45 – 18.30 respektive 19.30 – 20.00. Ungdomar och juniorer (tom 20 år) subventioneras med 20% på klubbkläder",
+    "summary": "VP Citylopp är ett lopp arrangerat av OK Njudung, som går i Smålands FIF, Vetlanda, Småland och äger rum den 19 augusti 2022. Loppet är godkänt av Svensk Friidrott.",
     "county": "Jönköpings"
   },
+
   {
     "date": "20230819",
     "month": "AUGUSTI",
     "day": "19",
-    "type": "trail",
-    "name": "Trailvasan 30",
-    "distance": "event-30-km",
-    "distance_m": [
-      30000
-    ],
-    "place": "Mora",
-    "latitude": 0,
-    "longitude": 0,
-    "organizer": "IFK Mora FIK",
-    "website": "https://vasaloppet.se/",
-    "src_url": "https://friidrott.euwest01.umbraco.io/tavling-landslag/tavling/tavlingskalender/tavlingar-i-sverige/langlopp/",
-    "id": "19a9af17-ca87-4273-8cc7-10e4bb969994",
-    "summary": "<a href=\"https://vasaloppet.se/vinter/anmalan/\" target=\"_blank\" class=\"inline-link\">vasaloppet</a> Anta utmaningen i världens största långlopp på skidor.  Här har vi samlat våra filmer med träningstips om hur du förbereder dig för att kunna njuta ännu mer av ditt skidlopp.",
-    "county": null
-  },
-  {
-    "date": "20230819",
-    "month": "AUGUSTI",
-    "day": "19",
-    "type": "trail",
+    "type": "relay",
     "name": "Vasastafetten",
     "distance": "event-90-km",
-    "distance_m": [
-      90000
-    ],
-    "place": "Mora",
-    "latitude": 0,
-    "longitude": 0,
+    "distance_m": [90000],
+    "place": "mora skidstadion",
+    "latitude": 61.0074205,
+    "longitude": 14.4982507,
     "organizer": "IFK Mora FIK",
     "website": "https://vasaloppet.se/",
     "src_url": "https://friidrott.euwest01.umbraco.io/tavling-landslag/tavling/tavlingskalender/tavlingar-i-sverige/langlopp/",
     "id": "bd2cc2b7-5350-41a9-afbd-9c2bf0d4a26a",
-    "summary": "<a href=\"https://vasaloppet.se/vinter/anmalan/\" target=\"_blank\" class=\"inline-link\">vasaloppet</a> Anta utmaningen i världens största långlopp på skidor.  Här har vi samlat våra filmer med träningstips om hur du förbereder dig för att kunna njuta ännu mer av ditt skidlopp.",
-    "county": null
+    "summary": "Staffet i vasaloppsspåret. Från Sälen till Mora över 9 sträckor.",
+    "county": "Dalarnas"
   },
-  {
-    "date": "20230819",
-    "month": "AUGUSTI",
-    "day": "19",
-    "type": "trail",
-    "name": "Ultravasan 45",
-    "distance": "event-45-km",
-    "distance_m": [
-      45000
-    ],
-    "place": "Mora",
-    "latitude": 0,
-    "longitude": 0,
-    "organizer": "IFK Mora FIK",
-    "website": "https://vasaloppet.se/",
-    "src_url": "https://friidrott.euwest01.umbraco.io/tavling-landslag/tavling/tavlingskalender/tavlingar-i-sverige/langlopp/",
-    "id": "a96f4bf7-9f76-4fff-9968-2669adefeb2b",
-    "summary": "<a href=\"https://vasaloppet.se/vinter/anmalan/\" target=\"_blank\" class=\"inline-link\">vasaloppet</a> Anta utmaningen i världens största långlopp på skidor.  Här har vi samlat våra filmer med träningstips om hur du förbereder dig för att kunna njuta ännu mer av ditt skidlopp.",
-    "county": null
-  },
-  {
-    "date": "20230819",
-    "month": "AUGUSTI",
-    "day": "19",
-    "type": "trail",
-    "name": "Ultravasan 90",
-    "distance": "event-90-km",
-    "distance_m": [
-      90000
-    ],
-    "place": "Mora",
-    "latitude": 0,
-    "longitude": 0,
-    "organizer": "IFK Mora FIK",
-    "website": "https://vasaloppet.se/",
-    "src_url": "https://friidrott.euwest01.umbraco.io/tavling-landslag/tavling/tavlingskalender/tavlingar-i-sverige/langlopp/",
-    "id": "6b3bffef-1435-44c9-abe7-f8fcc72cf8a6",
-    "summary": "<a href=\"https://vasaloppet.se/vinter/anmalan/\" target=\"_blank\" class=\"inline-link\">vasaloppet</a> Anta utmaningen i världens största långlopp på skidor.  Här har vi samlat våra filmer med träningstips om hur du förbereder dig för att kunna njuta ännu mer av ditt skidlopp.",
-    "county": null
-  },
+
   {
     "date": "20230819",
     "month": "AUGUSTI",
@@ -5279,9 +4476,7 @@
     "type": "track",
     "name": "Mölndal",
     "distance": "event-100-m event-400-m event-1500-m event-100110-m-hack event-400-m-hack event-hojdhopp event-langdhopp event-tresteg event-kula event-diskus event-slagga event-spjut event-60-m event-80-m event-2000-m",
-    "distance_m": [
-      1500
-    ],
+    "distance_m": [1500],
     "place": "Mölndals Allmänna IK",
     "latitude": 57.65,
     "longitude": 12.016667,
@@ -5289,7 +4484,7 @@
     "website": "https://maik.myclub.se/menu/pages/26242",
     "src_url": "https://friidrott.euwest01.umbraco.io/tavling-landslag/tavling/tavlingskalender/tavlingar-i-sverige/arenatavlingar/",
     "id": "1ff2d7cb-71ba-431c-b48d-80bc077dbcda",
-    "summary": "Välkomna till Åby Friidrott och fira Mölndals Stad som fyller 100 år! <a href=\"https://www. molndal. se/startsida/uppleva-och-gora/jubileum-/molndal-helt-100. html\" target=\"_blank\" class=\"inline-link\">molndal</a> Lördag 2 juli 2022 <a href=\"https://s3-eu-west-1. amazonaws. com/myclub-site/uploads/documents/000/025/574/Tidsprogram_MAIK_Outdoor_2022_-_PDF. pdf\" target=\"_blank\" class=\"inline-link\">s3-eu-west-1</a> <a href=\"https://s3-eu-west-1. amazonaws.",
+    "summary": "Mölndals Allmänna IK bjuder in till friidrottstävlingar. Medeldistansare kan åtnjuta 1500 meter, varmt välkomna till Mölndal.",
     "county": "Västra Götalands"
   },
   {
@@ -5299,9 +4494,7 @@
     "type": "track",
     "name": "Bohus",
     "distance": "event-100-m event-200-m event-300-m event-400-m event-800-m event-1500-m event-300-m-hack event-400-m-hack event-hojdhopp event-langdhopp event-tresteg event-kula event-diskus event-slagga event-spjut event-60-m event-600-m event-60-m-hack event-200-m-hack event-80-m event-80-m-hack",
-    "distance_m": [
-      1500
-    ],
+    "distance_m": [1500],
     "place": "Bohus IF",
     "latitude": 57.8498817,
     "longitude": 12.0168595,
@@ -5309,7 +4502,7 @@
     "website": "http://bohusif.se",
     "src_url": "https://friidrott.euwest01.umbraco.io/tavling-landslag/tavling/tavlingskalender/tavlingar-i-sverige/arenatavlingar/",
     "id": "45149ffc-2635-4a12-93ef-7c105307192d",
-    "summary": "Bohus IF välkomnar alla, att genom idrott och gemenskap utvecklas som människor, både socialt och sportsligt utifrån sina egna förutsättningar. För oss handlar idrott om en balans mellan lekfullhet, glädje, utveckling och prestation, om positiva upplevelser i alla sammanhang.  Vår vision är ”Tillsammans – så många som möjligt, så långt som möjligt, så länge som möjligt” och våra ledord är: Respekt, Utveckling, Glädje, Gemenskap",
+    "summary": "Bohus IF bjuder in till friidrottstävlingar. Medeldistansare kan åtnjuta 1500 meter, varmt välkomna.",
     "county": "Västra Götalands"
   },
   {
@@ -5319,11 +4512,7 @@
     "type": "trail",
     "name": "Kåsjön Trail",
     "distance": "event-21-km event-12-km event-9-km",
-    "distance_m": [
-      21000,
-      12000,
-      9000
-    ],
+    "distance_m": [21000, 12000, 9000],
     "place": "Partille",
     "latitude": 57.7366497,
     "longitude": 12.1251968,
@@ -5331,7 +4520,7 @@
     "website": "http://kasjontrail.se/",
     "src_url": "https://friidrott.euwest01.umbraco.io/tavling-landslag/tavling/tavlingskalender/tavlingar-i-sverige/langlopp/",
     "id": "a4813ce6-1c7a-4b3a-917c-e1f6ecb850a2",
-    "summary": "Spring tuff och vacker trail i Partilleskogen Var med och upptäck skogen kring Kåsjön nära Göteborg i ett mycket uppskattat trail-lopp.  Anmälan online är nu stängd men anmälan är fortfarande möjligt på plats på arenan på tävlingsdagen fram till 30min innan start.",
+    "summary": "Spring tuff och vacker trail i Partilleskogen. Var med och upptäck skogen kring Kåsjön nära Göteborg i ett mycket uppskattat trail-lopp. Ett lopp som utmanar alla på nivåer. Vad känner du för, 9, 12 eller 21 km? ",
     "county": "Västra Götalands"
   },
   {
@@ -5341,11 +4530,7 @@
     "type": "road",
     "name": "Mariestads Marathon",
     "distance": "event-halvmarathon event-marathon event-7-km",
-    "distance_m": [
-      21098,
-      42195,
-      7000
-    ],
+    "distance_m": [21098, 42195, 7000],
     "place": "Mariestad",
     "latitude": 58.7101119,
     "longitude": 13.8213327,
@@ -5353,7 +4538,7 @@
     "website": "https://www.laget.se/MariestadsAIF-Lopning-Marathon",
     "src_url": "https://friidrott.euwest01.umbraco.io/tavling-landslag/tavling/tavlingskalender/tavlingar-i-sverige/langlopp/",
     "id": "5a3e1cf8-7f1f-4665-a837-bf673f8fd0a4",
-    "summary": "Nästan klart Klicka på bekräftelselänken i det mejl vi skickat dig för att börja ta emot uppdateringar från Mariestads AIF Mariestads Marathon.",
+    "summary": "Sveriges vackraste mara - en naturskön bana utmed Vänerns strand i Mariestad. Mariestads Marathon är ett lopp arrangerat av Mariestads AIF, som går i Västergötlands FIF, Mariestad, Västergötland och äger rum den 19:e augusti",
     "county": "Västra Götalands"
   },
   {
@@ -5363,10 +4548,7 @@
     "type": "road",
     "name": "Midnattsloppet Stockholm",
     "distance": "event-5-km event-10-km",
-    "distance_m": [
-      5000,
-      10000
-    ],
+    "distance_m": [5000, 10000],
     "place": "Stockholm",
     "latitude": 59.32932349999999,
     "longitude": 18.0685808,
@@ -5384,9 +4566,7 @@
     "type": "road",
     "name": "Tavelsjö Halvmarathon",
     "distance": "event-halvmarathon",
-    "distance_m": [
-      21098
-    ],
+    "distance_m": [21098],
     "place": "Tavelsjö",
     "latitude": 64.03699259999999,
     "longitude": 20.0478102,
@@ -5394,7 +4574,7 @@
     "website": "http://tavelsjohalvmarathon.se/",
     "src_url": "https://friidrott.euwest01.umbraco.io/tavling-landslag/tavling/tavlingskalender/tavlingar-i-sverige/langlopp/",
     "id": "1192a895-9ceb-4794-ada7-8708619185e8",
-    "summary": "<a href=\"http://tavelsjohalvmarathon.se/index.aspx\" target=\"_blank\" class=\"inline-link\">tavelsjohalvmarathon</a> 19:e Aug 2023 Loppet för barnen blev en stor succe och är en populär sak som gör att Tavelsjö Halvmarathon är ett event för hela familjen.  Tidtagning sker för alla som är med och väl i mål får alla en fin medalj och något gott att äta.",
+    "summary": "Tavelsjö Halvmarathon 19:e Aug 2023. En löpfest för alla, njut av den natursköna miljön och den härliga publiken som hejar på längs hela sjön. Ta med hela familjen och låt barnen ha roligt medan ni väntar på de som går i mål. Väl i mål väntar en fin finisher Tshirt, fika och en fin medalj, samt förstås den där känslan att man klarade det... Vi ses!",
     "county": "Västerbottens"
   },
   {
@@ -5404,10 +4584,7 @@
     "type": "road",
     "name": "Blodomloppet",
     "distance": "event-5-km event-10-km",
-    "distance_m": [
-      5000,
-      10000
-    ],
+    "distance_m": [5000, 10000],
     "place": "Östersund",
     "latitude": 63.1766832,
     "longitude": 14.6360681,
@@ -5425,10 +4602,7 @@
     "type": "road",
     "name": "Blodomloppet",
     "distance": "event-5-km event-10-km",
-    "distance_m": [
-      5000,
-      10000
-    ],
+    "distance_m": [5000, 10000],
     "place": "Timrå",
     "latitude": 62.4854563,
     "longitude": 17.3248651,
@@ -5446,10 +4620,7 @@
     "type": "road",
     "name": "Nkpg City Norrköpings Stadslopp",
     "distance": "event-5-km event-10-km",
-    "distance_m": [
-      5000,
-      10000
-    ],
+    "distance_m": [5000, 10000],
     "place": "Norrköping",
     "latitude": 58.587745,
     "longitude": 16.192421,
@@ -5479,23 +4650,24 @@
     "county": "Stockholms"
   },
   {
-    "date": "20230824",
-    "month": "augusti",
+    "date": "20230823",
+    "month": "AUGUSTI",
     "day": "24",
-    "type": "trail",
-    "name": "Loppresa Salming Idre Fjällmaraton",
-    "distance": "",
-    "distance_m": [],
-    "place": "",
-    "latitude": 0,
-    "longitude": 0,
-    "organizer": "",
-    "website": "https://idrefjallmaraton.se/all-in/",
-    "src_url": "https://trailrunningsweden.se/trailkalendern/",
-    "id": "edbe7d2a-baa9-4c7a-a7d4-e505e349285f",
-    "summary": "Comments Box SVG iconsUsed for the like, share, comment, and reaction icons Jag har anmält mig till Idre fjällmaraton 45 km.Första gången jag springer ett lopp i fjällen.Finns det någon som sprungit 45an tidigare som kan ge mig tips på bra skor som funkar?  Nu har jag tyvärr fått förhinder för i år och undrar om någon är intresserad av att köpa min startplats för 1095kr?",
-    "county": null
+    "type": "relay",
+    "name": "Convinistafetten",
+    "distance": "event-5-km5-strackor",
+    "distance_m": "relay",
+    "place": "Stockholm",
+    "latitude": 59.32932349999999,
+    "longitude": 18.0685808,
+    "organizer": "Spårvägens FK, FI Hässelby SK",
+    "website": "https://stafetten.com/",
+    "src_url": "https://friidrott.euwest01.umbraco.io/tavling-landslag/tavling/tavlingskalender/tavlingar-i-sverige/langlopp/",
+    "id": "edb7b28f-7dd0-4622-a45d-97f85d507ef4",
+    "summary": "Onsdag 23 och torsdag 24 augusti 2023 bjuder vi på två härliga sensommarkvällar på Norra Djurgården med sprakande samarbete. Samla ihop vännerna eller kollegorna och häng med på årets roligaste löpning.  Genom våra attraktiva tältpaket och tillvalstjänster ger vi dig och dina kollegor en chans att sätta guldkant på er löpupplevelse.",
+    "county": "Stockholms"
   },
+
   {
     "date": "20230824",
     "month": "AUGUSTI",
@@ -5503,10 +4675,7 @@
     "type": "road",
     "name": "Blodomloppet",
     "distance": "event-5-km event-10-km",
-    "distance_m": [
-      5000,
-      10000
-    ],
+    "distance_m": [5000, 10000],
     "place": "Västerås",
     "latitude": 59.60990049999999,
     "longitude": 16.5448091,
@@ -5524,10 +4693,7 @@
     "type": "road",
     "name": "Södertäljeloppet",
     "distance": "event-5-km event-10-km",
-    "distance_m": [
-      5000,
-      10000
-    ],
+    "distance_m": [5000, 10000],
     "place": "Södertälje",
     "latitude": 59.197762,
     "longitude": 17.6201942,
@@ -5535,7 +4701,7 @@
     "website": "https://www.sodertaljeloppet.se",
     "src_url": "https://friidrott.euwest01.umbraco.io/tavling-landslag/tavling/tavlingskalender/tavlingar-i-sverige/langlopp/",
     "id": "4e84cea5-7ca0-4ace-9b4f-00f0485bde61",
-    "summary": "Så tränar du till Södertäljeloppet! Resultaten finner du här  När du springer Södertäljeloppet får du också en T-shirt i funktionsmaterial (piképolyester), med ett snyggt tryck som visar att du deltagit i Södertäljeloppet.",
+    "summary": "Banan är en 5-kilometersbana som man kan springa ett eller två varv. Banan går i centrala Södertälje utmed de vackraste partierna av Södertälje och går på asfalt. Banan är kontrollmätt. Start och mål är vid Stora torget.",
     "county": "Stockholms"
   },
   {
@@ -5545,18 +4711,16 @@
     "type": "road",
     "name": "Nattloppet",
     "distance": "event-45-km",
-    "distance_m": [
-      45000
-    ],
+    "distance_m": [4700],
     "place": "Kalmar",
     "latitude": 56.6634447,
     "longitude": 16.356779,
     "organizer": "Högby IF",
-    "website": "http://irunkalmar.com",
+    "website": "https://irunkalmar.com/nattloppet/",
     "src_url": "https://friidrott.euwest01.umbraco.io/tavling-landslag/tavling/tavlingskalender/tavlingar-i-sverige/langlopp/",
     "id": "9f4f42ae-5a8f-4537-8a9a-af3b7983e503",
-    "summary": "I år kan du ställa upp i lopp som Kalmar Malkars, Lilla Atea Kalmarmilen och Sylvesterloppet som avslutar löparåret på nyårsafton. Här på I Run Kalmar kan du läsa mer om alla lopp och anmäla dig, men också se hur dina kompisar, grannar och resten av Kalmar springer.  David Nilsson är en av Sveriges bästa långdistanslöpare, han har ett flertal SM-medaljer och är landslagsman på 10 000 meter och terräng.",
-    "county": null
+    "summary": "Nattloppet i Kalmar kommer garanterat ge dig en löparupplevelse utöver det vanliga. Stortorget är platsen där starten, varvningen och målgången sker. Gå, jogga eller spring de 4,7 km i din egen takt eller tillsammans med kompisgänget. Alla föranmälda deltagare får: Medalj. Nattloppets unika tröja. Dryck, frukt och chokladbit av ICA MAXI och en fantastisk upplevelse. Efteranmälda deltagare får ingen tröja.",
+    "county": "Kalmar"
   },
   {
     "date": "20230826",
@@ -5565,19 +4729,16 @@
     "type": "road",
     "name": "Trelleborgsloppet",
     "distance": "event-5-km event-10-km",
-    "distance_m": [
-      5000,
-      10000
-    ],
+    "distance_m": [5000, 10000],
     "place": "Trelleborg",
-    "latitude": 0,
-    "longitude": 0,
+    "latitude": 55.4236885,
+    "longitude": 13.2465331,
     "organizer": "IFK Trelleborg Friidrottsklubb",
     "website": "http://trelleborgsloppet.se",
     "src_url": "https://friidrott.euwest01.umbraco.io/tavling-landslag/tavling/tavlingskalender/tavlingar-i-sverige/langlopp/",
     "id": "1884b89f-d344-4af7-b00c-86b2d2639da0",
-    "summary": "If you are the owner of the website: The Website Application Firewall that is protecting your website has blocked this request for being suspicious. If you are the visitor: The public IP address assigned to you, by your internet provider, might be suffering from poor reputation: <a href=\"https://www.simply.com/rbl/?ip=3.80.24.208.\" target=\"_blank\" class=\"inline-link\">simply</a> IP addresses from VPN providers or public networks often have poor reputation.",
-    "county": null
+    "summary": "Trelleborgsloppet är ett lopp arrangerat av IFK Trelleborg Friidrottsklubb, som går i Skånes FIF, Trelleborg, Skåne och äger rum den 27 augusti",
+    "county": "Västra Götalands"
   },
   {
     "date": "20230826",
@@ -5586,19 +4747,15 @@
     "type": "trail",
     "name": "Salming Idre Fjällmaraton",
     "distance": "12 km, 28 km, 45 km",
-    "distance_m": [
-      12000,
-      28000,
-      45000
-    ],
-    "place": "",
-    "latitude": 0,
-    "longitude": 0,
+    "distance_m": [12000, 28000, 45000],
+    "place": "Idre fjäll",
+    "latitude": 61.8892568,
+    "longitude": 12.8321935,
     "organizer": "",
     "website": "http://idrefjallmaraton.se/",
     "src_url": "https://trailrunningsweden.se/trailkalendern/",
     "id": "3b89d4d7-2016-4d9c-aee5-651dcf9a13f6",
-    "summary": "Comments Box SVG iconsUsed for the like, share, comment, and reaction icons Jag har anmält mig till Idre fjällmaraton 45 km.Första gången jag springer ett lopp i fjällen.Finns det någon som sprungit 45an tidigare som kan ge mig tips på bra skor som funkar?  Nu har jag tyvärr fått förhinder för i år och undrar om någon är intresserad av att köpa min startplats för 1095kr?",
+    "summary": "Salming Idre Fjällmaraton - Upplev känslan av att vara oslagbar! 26 augusti 2023 kör vi! 45, 28 eller 12 km. Banorna är markerade med snitsel och kilometerskyltar i terrängen. Var uppmärksam där banorna delar sig så att du väljer rätt väg. Vandringslederna uppe på kalfjället är delvis steniga och spänger finns utlagda på en del ställen. Dessa partier kan vara hala vid nederbörd. Var försiktig!",
     "county": null
   },
   {
@@ -5608,10 +4765,7 @@
     "type": "track",
     "name": "Stenkullen",
     "distance": "event-60-m event-800-m event-3000-m event-hojdhopp event-stavhopp event-langdhopp event-kula event-spjut event-stafett-4x100-m event-150-m event-100-m event-200-m event-400-m event-1500-m event-2000-m-hinder event-100110-m-hack event-300-m-hack event-tresteg event-diskus event-slagga event-1500-m-hinder event-600-m event-60-m-hack event-200-m-hack event-stafett-5x60-m event-80-m event-300-m event-2000-m event-80-m-hack event-stafett-4x80-m",
-    "distance_m": [
-      3000,
-      1500
-    ],
+    "distance_m": [3000, 1500],
     "place": "IK Lerum Friidrott",
     "latitude": 57.79479979999999,
     "longitude": 12.3106174,
@@ -5619,63 +4773,10 @@
     "website": "https://lerumfriidrott.myclub.se/stonehillgames",
     "src_url": "https://friidrott.euwest01.umbraco.io/tavling-landslag/tavling/tavlingskalender/tavlingar-i-sverige/arenatavlingar/",
     "id": "dae7bc73-e0fb-4f1f-baf1-cbef3a953502",
-    "summary": "<a href=\"<a href=\"https://lerumfriidrott.myclub.se/site_node/9930/nyheter/tack-for-i-ar\" target=\"_blank\" class=\"inline-link\">lerumfriidrott</a>\" target=\"_blank\" class=\"inline-link\">lerumfriidrott</a> 7 sep, 2021 <a href=\"<a href=\"https://lerumfriidrott.myclub.se/site_node/9930/nyheter/tack-for-i-ar\" target=\"_blank\" class=\"inline-link\">lerumfriidrott</a>\" target=\"_blank\" class=\"inline-link\">lerumfriidrott</a> Lerum Friidrott tackar alla tävlande, tränare och anhöriga för den här gången. Nu finns bilder tagna av Linnea Dahlberg i arkivet. Från Lerum Friidrott hade vi 50 tävlandes med 150 starter, kul med så många aktiva och ledare på plats.",
+    "summary": "IK Lerum bjuder in till friidrottstävlingen Stenkullen. 3000 meter och 1500 meter för den som är intresserad av medeldistans. Välkommen!",
     "county": "Västra Götalands"
   },
-  {
-    "date": "20230826",
-    "month": "augusti",
-    "day": "26",
-    "type": "trail",
-    "name": "Salming Idre Fjällmaraton 12 km",
-    "distance": "12,00 km",
-    "distance_m": 12000,
-    "place": "Idre",
-    "latitude": 61.8579343,
-    "longitude": 12.7258737,
-    "organizer": "",
-    "website": "https://www.jogg.se//Tavling/Tavling.aspx?id=656208",
-    "src_url": "https://www.jogg.se/Kalender/Tavlingar.aspx?aar=2023&mon=13&fdist=0&tdist=1000&type=0&country=1&region=0&tlopp=False&relay=False&surface=ter&tridist=0&title=1",
-    "id": "eae95c2f-446a-49e7-94da-0a01a15e8333",
-    "summary": "För dig som är nyfiken på fjällöpning och vet att det även finns en morgondag, har vi skapat en mänsklig utmaning. Växlande underlag med fjällmyr, stig och ouups…  Nu har vi träningsprogram med smarta funktioner i Jogg-appen.",
-    "county": "Dalarnas"
-  },
-  {
-    "date": "20230826",
-    "month": "augusti",
-    "day": "26",
-    "type": "trail",
-    "name": "Salming Idre Fjällmaraton 28 km",
-    "distance": "29,00 km",
-    "distance_m": 29000,
-    "place": "Idre",
-    "latitude": 61.8579343,
-    "longitude": 12.7258737,
-    "organizer": "",
-    "website": "https://www.jogg.se//Tavling/Tavling.aspx?id=656209",
-    "src_url": "https://www.jogg.se/Kalender/Tavlingar.aspx?aar=2023&mon=13&fdist=0&tdist=1000&type=0&country=1&region=0&tlopp=False&relay=False&surface=ter&tridist=0&title=1",
-    "id": "86fd8453-a2b5-4647-800a-c1a449ff6983",
-    "summary": "För dig som inte räds teknisk traillöpning och vill uppleva Städjan–Nipfjällets naturreservat till fullo. Men vi snackar inte om en promenad i parken, 900 höjdmeter sätter dig rejält på prov.  Du väljer själv din nivå och vilket datum du vill träna mot.",
-    "county": "Dalarnas"
-  },
-  {
-    "date": "20230826",
-    "month": "augusti",
-    "day": "26",
-    "type": "trail",
-    "name": "Salming Idre Fjällmaraton 45 km",
-    "distance": "45,00 km",
-    "distance_m": 45000,
-    "place": "Idre",
-    "latitude": 61.8579343,
-    "longitude": 12.7258737,
-    "organizer": "",
-    "website": "https://www.jogg.se//Tavling/Tavling.aspx?id=656210",
-    "src_url": "https://www.jogg.se/Kalender/Tavlingar.aspx?aar=2023&mon=13&fdist=0&tdist=1000&type=0&country=1&region=0&tlopp=False&relay=False&surface=ter&tridist=0&title=1",
-    "id": "f800f527-17a6-4210-bc77-fe5d3f5bdd52",
-    "summary": "Vissa nöjer sig aldrig med annat än det värsta. Med 1 400 höjdmeter, tre fjäll och ett underlag from hell, blir det en resa du aldrig glömmer. Belöningen blir riklig: när du har besegrat gudarnas boning Städjan och när du spurtar nerför den sista backen – då känner du att du är oslagbar!",
-    "county": "Dalarnas"
-  },
+
   {
     "date": "20230826",
     "month": "AUGUSTI",
@@ -5683,11 +4784,7 @@
     "type": "trail",
     "name": "Hovfjället Trail Run",
     "distance": "event-55-km event-28-km event-11-km",
-    "distance_m": [
-      55000,
-      28000,
-      11000
-    ],
+    "distance_m": [55000, 28000, 11000],
     "place": "Torsby",
     "latitude": 60.14090719999999,
     "longitude": 13.0102132,
@@ -5695,9 +4792,10 @@
     "website": "http://hovfjallettrailrun.se/",
     "src_url": "https://friidrott.euwest01.umbraco.io/tavling-landslag/tavling/tavlingskalender/tavlingar-i-sverige/langlopp/",
     "id": "62155f42-3d68-486b-ab6d-a101151f47b4",
-    "summary": "Ladda ner vårt tävlings-PM med lite uppgifter att tänka på inför loppet 2023. Samling, bussttider, dropbags, vätskekontroller, m.m. <a href=\"http://media.hovfjallettrailrun.se/2021/11/HTR-PM-2022.pdf\" target=\"_blank\" class=\"inline-link\">media</a>",
+    "summary": "Hovfjället Trail Run 2023. Hovfjället Trail Run har arrangerats sex år och är redan en klassiker. Det har varit sex fantastiska tävlingar, precis så bra som vi hoppats. Vi har fått mycket beröm och det är många som bestämt sig för att återkomma. Boka in den 26 augusti 2023 - välkommen till den sjunde upplagan av loppet!",
     "county": "Värmlands"
   },
+
   {
     "date": "20230826",
     "month": "AUGUSTI",
@@ -5705,10 +4803,7 @@
     "type": "road",
     "name": "Jönköping Marathon & Half Marathon",
     "distance": "event-halvmarathon event-marathon",
-    "distance_m": [
-      21098,
-      42195
-    ],
+    "distance_m": [21098, 42195],
     "place": "Jönköping",
     "latitude": 57.78261370000001,
     "longitude": 14.1617876,
@@ -5726,9 +4821,7 @@
     "type": "track",
     "name": "Karlskoga",
     "distance": "event-100-m event-800-m event-hojdhopp event-tresteg event-spjut event-3000-m event-60-m event-600-m event-80-m event-lopgrenar",
-    "distance_m": [
-      3000
-    ],
+    "distance_m": [3000],
     "place": "Karlskoga FIF",
     "latitude": 59.32863399999999,
     "longitude": 14.536414,
@@ -5746,9 +4839,7 @@
     "type": "track",
     "name": "Norrköping",
     "distance": "event-100-m event-200-m event-800-m event-1500-m event-400-m-hack event-stavhopp event-langdhopp event-diskus event-slagga event-hojdhopp event-kula event-60-m event-600-m event-60-m-hack event-spjut event-80-m event-80-m-hack event-300-m-hack",
-    "distance_m": [
-      1500
-    ],
+    "distance_m": [1500],
     "place": "Tjalve Friidrottsförening Norrköping",
     "latitude": 58.587745,
     "longitude": 16.192421,
@@ -5766,10 +4857,7 @@
     "type": "track",
     "name": "Uppsala",
     "distance": "event-100-m event-200-m event-400-m event-800-m event-1500-m event-3000-m event-3000-m-hinder event-100110-m-hack event-400-m-hack event-hojdhopp event-stavhopp event-langdhopp event-tresteg event-kula event-diskus event-slagga event-spjut event-stafett-4x100-m event-stafett-4x400-m event-2000-m-hinder event-300-m-hack event-60-m event-600-m event-stafett-5x60-m event-80-m event-300-m event-2000-m event-80-m-hack event-stafett-4x80-m",
-    "distance_m": [
-      1500,
-      3000
-    ],
+    "distance_m": [1500, 3000],
     "place": "Upsala Idrottsförening Friidrott",
     "latitude": 59.8820508,
     "longitude": 17.6568425,
@@ -5787,11 +4875,7 @@
     "type": "trail",
     "name": "Dundret Extreme Running",
     "distance": "event-22-km event-10-km event-2-km",
-    "distance_m": [
-      22000,
-      10000,
-      2000
-    ],
+    "distance_m": [22000, 10000, 2000],
     "place": "Gällivare",
     "latitude": 67.1379,
     "longitude": 20.6593618,
@@ -5809,10 +4893,7 @@
     "type": "road",
     "name": "Blodomloppet",
     "distance": "event-5-km event-10-km",
-    "distance_m": [
-      5000,
-      10000
-    ],
+    "distance_m": [5000, 10000],
     "place": "Visby",
     "latitude": 57.6348,
     "longitude": 18.29484,
@@ -5830,9 +4911,7 @@
     "type": "trail",
     "name": "Icebug West Coast Trail",
     "distance": "77 km (21 km, 30 km, 26km)",
-    "distance_m": [
-      30000
-    ],
+    "distance_m": [30000],
     "place": "",
     "latitude": 0,
     "longitude": 0,
@@ -5850,10 +4929,7 @@
     "type": "trail",
     "name": "Fjällnatten",
     "distance": "12 KM, 7 KM",
-    "distance_m": [
-      12000,
-      7000
-    ],
+    "distance_m": [12000, 7000],
     "place": "",
     "latitude": 0,
     "longitude": 0,
@@ -5907,9 +4983,7 @@
     "type": "track",
     "name": "Mora",
     "distance": "event-100-m event-800-m event-5000-m event-hojdhopp event-langdhopp event-kula event-diskus event-slagga event-spjut event-gang-1000-m event-stafett-4x200-m event-60-m event-600-m event-stafett-4x100-m event-80-m event-2000-m event-lopgrenar event-hoppgrenar event-kastgrenar",
-    "distance_m": [
-      5000
-    ],
+    "distance_m": [5000],
     "place": "IFK Mora FIK",
     "latitude": 0,
     "longitude": 0,
@@ -5927,9 +5001,7 @@
     "type": "trail",
     "name": "BOCKSTEN VINEYARD BACKYARD ULTRA",
     "distance": "6,706 km",
-    "distance_m": [
-      "backyard"
-    ],
+    "distance_m": ["backyard"],
     "place": "Ästad Vingård",
     "latitude": 57.0648899,
     "longitude": 12.5551597,
@@ -5965,9 +5037,7 @@
     "type": "road",
     "name": "HOKA Helsingborg Half Marathon",
     "distance": "event-halvmarathon",
-    "distance_m": [
-      21098
-    ],
+    "distance_m": [21098],
     "place": "Helsingborg",
     "latitude": 56.0464674,
     "longitude": 12.6945121,
@@ -5985,9 +5055,7 @@
     "type": "road",
     "name": "Helsingborg Marathon",
     "distance": "event-marathon",
-    "distance_m": [
-      42195
-    ],
+    "distance_m": [42195],
     "place": "Helsingborg",
     "latitude": 56.0464674,
     "longitude": 12.6945121,
@@ -6041,10 +5109,7 @@
     "type": "road",
     "name": "Midnattsloppet",
     "distance": "event-5-km event-10-km",
-    "distance_m": [
-      5000,
-      10000
-    ],
+    "distance_m": [5000, 10000],
     "place": "Malmö",
     "latitude": 55.604981,
     "longitude": 13.003822,
@@ -6062,11 +5127,7 @@
     "type": "trail",
     "name": "Bagheera Fjällmaraton Sälen",
     "distance": "42 km, 21 km, 10 km",
-    "distance_m": [
-      42000,
-      21000,
-      10000
-    ],
+    "distance_m": [42000, 21000, 10000],
     "place": "",
     "latitude": 61.15676800000001,
     "longitude": 13.2030963,
@@ -6138,11 +5199,7 @@
     "type": "track",
     "name": "Krokom",
     "distance": "event-100-m event-200-m event-800-m event-5000-m event-3000-m-hinder event-hojdhopp event-stavhopp event-langdhopp event-tresteg event-kula event-diskus event-slagga event-spjut event-2000-m-hinder event-3000-m event-1500-m-hinder event-60-m event-600-m event-1500-m event-80-m event-2000-m",
-    "distance_m": [
-      5000,
-      3000,
-      1500
-    ],
+    "distance_m": [5000, 3000, 1500],
     "place": "Trångsvikens IF",
     "latitude": 63.3272078,
     "longitude": 14.4534702,
@@ -6160,9 +5217,7 @@
     "type": "road",
     "name": "Tjejmilen",
     "distance": "event-10-km",
-    "distance_m": [
-      10000
-    ],
+    "distance_m": [10000],
     "place": "Stockholm",
     "latitude": 59.32932349999999,
     "longitude": 18.0685808,
@@ -6180,9 +5235,7 @@
     "type": "road",
     "name": "Umemilen",
     "distance": "event-10-km",
-    "distance_m": [
-      10000
-    ],
+    "distance_m": [10000],
     "place": "Umeå",
     "latitude": 63.8258471,
     "longitude": 20.2630354,
@@ -6200,9 +5253,7 @@
     "type": "road",
     "name": "Göteborgsvarvet Marathon",
     "distance": "event-marathon",
-    "distance_m": [
-      42195
-    ],
+    "distance_m": [42195],
     "place": "Göteborg",
     "latitude": 57.70887,
     "longitude": 11.97456,
@@ -6238,10 +5289,7 @@
     "type": "road",
     "name": "Blodomloppet",
     "distance": "event-5-km event-10-km",
-    "distance_m": [
-      5000,
-      10000
-    ],
+    "distance_m": [5000, 10000],
     "place": "Växjö",
     "latitude": 56.8790044,
     "longitude": 14.8058522,
@@ -6295,9 +5343,7 @@
     "type": "road",
     "name": "Jubileumsloppet",
     "distance": "event-10-km",
-    "distance_m": [
-      10000
-    ],
+    "distance_m": [10000],
     "place": "Göteborg",
     "latitude": 57.70887,
     "longitude": 11.97456,
@@ -6315,10 +5361,7 @@
     "type": "trail",
     "name": "Göteborg Trailrun",
     "distance": "9 km, 22 km, 30 km & 44 km",
-    "distance_m": [
-      9000,
-      22000
-    ],
+    "distance_m": [9000, 22000],
     "place": "",
     "latitude": 57.70887,
     "longitude": 11.97456,
@@ -6336,9 +5379,7 @@
     "type": "track",
     "name": "Kungsbacka",
     "distance": "event-100-m event-400-m event-800-m event-1500-m event-100110-m-hack event-hojdhopp event-stavhopp event-langdhopp event-tresteg event-kula event-diskus event-slagga event-spjut event-300-m-hack event-60-m event-200-m event-600-m event-60-m-hack event-80-m event-300-m event-2000-m event-80-m-hack",
-    "distance_m": [
-      1500
-    ],
+    "distance_m": [1500],
     "place": "IF Rigor",
     "latitude": 57.48749189999999,
     "longitude": 12.0761927,
@@ -6356,11 +5397,7 @@
     "type": "road",
     "name": "Skäcklanmaran",
     "distance": "event-10-km event-halvmarathon event-marathon",
-    "distance_m": [
-      10000,
-      21098,
-      42195
-    ],
+    "distance_m": [10000, 21098, 42195],
     "place": "Vänersborg",
     "latitude": 58.3797283,
     "longitude": 12.3248032,
@@ -6378,12 +5415,7 @@
     "type": "terrain",
     "name": "Rådalunken",
     "distance": "event-17-km event-12-km event-65-km event-2-km",
-    "distance_m": [
-      17000,
-      12000,
-      65000,
-      2000
-    ],
+    "distance_m": [17000, 12000, 65000, 2000],
     "place": "Lidköping",
     "latitude": 58.5035047,
     "longitude": 13.1570768,
@@ -6401,9 +5433,7 @@
     "type": "road",
     "name": "Norasjön Runt",
     "distance": "event-halvmarathon",
-    "distance_m": [
-      21098
-    ],
+    "distance_m": [21098],
     "place": "Nora",
     "latitude": 59.53182049999999,
     "longitude": 15.0590972,
@@ -6439,12 +5469,7 @@
     "type": "road",
     "name": "Bysjöloppet",
     "distance": "event-5-km event-10-km event-13-km event-07-km",
-    "distance_m": [
-      5000,
-      10000,
-      13000,
-      7000
-    ],
+    "distance_m": [5000, 10000, 13000, 7000],
     "place": "Åtvidaberg",
     "latitude": 58.2007895,
     "longitude": 15.9976986,
@@ -6462,9 +5487,7 @@
     "type": "road",
     "name": "Ramboll Stockholm Halvmarathon",
     "distance": "event-halvmarathon",
-    "distance_m": [
-      21098
-    ],
+    "distance_m": [21098],
     "place": "Stockholm",
     "latitude": 59.32932349999999,
     "longitude": 18.0685808,
@@ -6500,12 +5523,7 @@
     "type": "trail",
     "name": "LöpRallarn",
     "distance": "15 km, 7,5 km , 2 km, 1 km",
-    "distance_m": [
-      15000,
-      7000,
-      2000,
-      1000
-    ],
+    "distance_m": [15000, 7000, 2000, 1000],
     "place": "",
     "latitude": 0,
     "longitude": 0,
@@ -6523,10 +5541,7 @@
     "type": "trail",
     "name": "VMX - Vånga Mountain Xtreme",
     "distance": "8 km, 16 km",
-    "distance_m": [
-      8000,
-      16000
-    ],
+    "distance_m": [8000, 16000],
     "place": "",
     "latitude": 0,
     "longitude": 0,
@@ -6544,10 +5559,7 @@
     "type": "trail",
     "name": "Vånga Mountain Xtreme",
     "distance": "event-8-km event-16-km",
-    "distance_m": [
-      8000,
-      16000
-    ],
+    "distance_m": [8000, 16000],
     "place": "Kristianstad",
     "latitude": 56.0293936,
     "longitude": 14.1566778,
@@ -6565,9 +5577,7 @@
     "type": "track",
     "name": "Hallsberg",
     "distance": "event-100-m event-800-m event-3000-m event-hojdhopp event-stavhopp event-langdhopp event-kula event-diskus event-60-m event-60-m-hack event-200-m-hack event-80-m event-80-m-hack event-300-m-hack",
-    "distance_m": [
-      3000
-    ],
+    "distance_m": [3000],
     "place": "Stocksäters IF, Åsbro GOIF",
     "latitude": 58.99788539999999,
     "longitude": 15.0599914,
@@ -6603,13 +5613,7 @@
     "type": "trail",
     "name": "Sörmlands 100 Endurance Run X Hoka",
     "distance": "161 km, 100 km, 55 km, 21 km, 2 km",
-    "distance_m": [
-      161000,
-      100000,
-      55000,
-      21000,
-      2000
-    ],
+    "distance_m": [161000, 100000, 55000, 21000, 2000],
     "place": "",
     "latitude": 0,
     "longitude": 0,
@@ -6627,10 +5631,7 @@
     "type": "trail",
     "name": "Mossarun 2023",
     "distance": "17 km, 24h",
-    "distance_m": [
-      17000,
-      2000
-    ],
+    "distance_m": [17000, 2000],
     "place": "",
     "latitude": 0,
     "longitude": 0,
@@ -6648,11 +5649,7 @@
     "type": "trail",
     "name": "Black River Run",
     "distance": "161 km, 80,5 km, 32 km",
-    "distance_m": [
-      161000,
-      80000,
-      32000
-    ],
+    "distance_m": [161000, 80000, 32000],
     "place": "",
     "latitude": 0,
     "longitude": 0,
@@ -6670,10 +5667,7 @@
     "type": "road",
     "name": "Fredsloppet",
     "distance": "event-5-km event-10-km",
-    "distance_m": [
-      5000,
-      10000
-    ],
+    "distance_m": [5000, 10000],
     "place": "Göteborg",
     "latitude": 57.70887,
     "longitude": 11.97456,
@@ -6691,9 +5685,7 @@
     "type": "road",
     "name": "Kretsloppet i Borås",
     "distance": "event-10-km",
-    "distance_m": [
-      10000
-    ],
+    "distance_m": [10000],
     "place": "Borås",
     "latitude": 57.72103500000001,
     "longitude": 12.939819,
@@ -6711,11 +5703,7 @@
     "type": "terrain",
     "name": "Hagenloppet",
     "distance": "event-8-km event-4-km event-25-km",
-    "distance_m": [
-      8000,
-      4000,
-      25000
-    ],
+    "distance_m": [8000, 4000, 25000],
     "place": "Skövde",
     "latitude": 58.3902782,
     "longitude": 13.8461208,
@@ -6733,11 +5721,7 @@
     "type": "trail",
     "name": "Bergslagsleden Ultra",
     "distance": "event-46-km event-65-km event-85-km",
-    "distance_m": [
-      46000,
-      65000,
-      85000
-    ],
+    "distance_m": [46000, 65000, 85000],
     "place": "Örebro",
     "latitude": 59.2752626,
     "longitude": 15.2134105,
@@ -6755,11 +5739,7 @@
     "type": "trail",
     "name": "Dala Mud Trail",
     "distance": "event-5-km event-10-km event-2-km",
-    "distance_m": [
-      5000,
-      10000,
-      2000
-    ],
+    "distance_m": [5000, 10000, 2000],
     "place": "Falun",
     "latitude": 60.60646000000001,
     "longitude": 15.6355,
@@ -6777,10 +5757,7 @@
     "type": "road",
     "name": "KFS Eskilstuna runt",
     "distance": "event-5-km event-10-km",
-    "distance_m": [
-      5000,
-      10000
-    ],
+    "distance_m": [5000, 10000],
     "place": "Eskilstuna",
     "latitude": 59.37124859999999,
     "longitude": 16.5098045,
@@ -6798,11 +5775,7 @@
     "type": "terrain",
     "name": "Kung Björn Loppet",
     "distance": "event-10-km event-64-km event-5-km",
-    "distance_m": [
-      10000,
-      64000,
-      5000
-    ],
+    "distance_m": [10000, 64000, 5000],
     "place": "Uppsala",
     "latitude": 59.85856380000001,
     "longitude": 17.6389267,
@@ -6820,9 +5793,7 @@
     "type": "road",
     "name": "Kistaloppet",
     "distance": "event-5-km",
-    "distance_m": [
-      5000
-    ],
+    "distance_m": [5000],
     "place": "Stockholm",
     "latitude": 59.32932349999999,
     "longitude": 18.0685808,
@@ -6840,10 +5811,7 @@
     "type": "road",
     "name": "KfS Linköping Runt",
     "distance": "event-5-km event-10-km",
-    "distance_m": [
-      5000,
-      10000
-    ],
+    "distance_m": [5000, 10000],
     "place": "Linköping",
     "latitude": 58.41080700000001,
     "longitude": 15.6213727,
@@ -6861,11 +5829,7 @@
     "type": "terrain",
     "name": "Tullingeloppet",
     "distance": "event-5-km event-10-km event-25-km",
-    "distance_m": [
-      5000,
-      10000,
-      25000
-    ],
+    "distance_m": [5000, 10000, 25000],
     "place": "Tullinge",
     "latitude": 59.198328,
     "longitude": 17.8953001,
@@ -6883,11 +5847,7 @@
     "type": "trail",
     "name": "TCS Lidingöloppet",
     "distance": "30 km, 15 km, 10 km",
-    "distance_m": [
-      30000,
-      15000,
-      10000
-    ],
+    "distance_m": [30000, 15000, 10000],
     "place": "",
     "latitude": 0,
     "longitude": 0,
@@ -6905,11 +5865,7 @@
     "type": "terrain",
     "name": "TCS Lidingörullet & TCS Lidingöruset, TCS Lidingöfemman",
     "distance": "event-17-km event-4-km event-5-km event-grenar-finns-for-para-klass",
-    "distance_m": [
-      17000,
-      4000,
-      5000
-    ],
+    "distance_m": [17000, 4000, 5000],
     "place": "Lidingö",
     "latitude": 59.36295999999999,
     "longitude": 18.1468,
@@ -6927,10 +5883,7 @@
     "type": "trail",
     "name": "Skogsmaran",
     "distance": "11 km, 21km, 42km Vandra eller spring",
-    "distance_m": [
-      11000,
-      21000
-    ],
+    "distance_m": [11000, 21000],
     "place": "",
     "latitude": 0,
     "longitude": 0,
@@ -6948,12 +5901,7 @@
     "type": "terrain",
     "name": "TCS Lidingöloppet Junior & Veteran, TCS Lidingöloppet 15,TCS Lidingöloppet…",
     "distance": "event-30-km event-15-km event-10-km event-4-km",
-    "distance_m": [
-      30000,
-      15000,
-      10000,
-      4000
-    ],
+    "distance_m": [30000, 15000, 10000, 4000],
     "place": "Lidingö",
     "latitude": 59.36295999999999,
     "longitude": 18.1468,
@@ -6971,12 +5919,7 @@
     "type": "terrain",
     "name": "TCS Lilla Lidingöloppet, Rosa Bandet-loppet",
     "distance": "event-4-km event-10-km event-6-km event-3-km",
-    "distance_m": [
-      4000,
-      10000,
-      6000,
-      3000
-    ],
+    "distance_m": [4000, 10000, 6000, 3000],
     "place": "Lidingö",
     "latitude": 59.36295999999999,
     "longitude": 18.1468,
@@ -6994,11 +5937,7 @@
     "type": "terrain",
     "name": "Billingehusloppet",
     "distance": "event-105-km event-5-km event-35-km",
-    "distance_m": [
-      105000,
-      5000,
-      35000
-    ],
+    "distance_m": [105000, 5000, 35000],
     "place": "VARNHEM",
     "latitude": 58.3863472,
     "longitude": 13.6489697,
@@ -7016,11 +5955,7 @@
     "type": "trail",
     "name": "Härnö Trail",
     "distance": "7 km, 14 km, 21 km",
-    "distance_m": [
-      7000,
-      14000,
-      21000
-    ],
+    "distance_m": [7000, 14000, 21000],
     "place": "",
     "latitude": 62.60944439999999,
     "longitude": 18.0008333,
@@ -7038,10 +5973,7 @@
     "type": "trail",
     "name": "Tjurruset",
     "distance": "event-10-km event-5-km",
-    "distance_m": [
-      10000,
-      5000
-    ],
+    "distance_m": [10000, 5000],
     "place": "Stockholm",
     "latitude": 59.32932349999999,
     "longitude": 18.0685808,
@@ -7059,9 +5991,7 @@
     "type": "road",
     "name": "Hostruset",
     "distance": "event-5-km",
-    "distance_m": [
-      5000
-    ],
+    "distance_m": [5000],
     "place": "Örebro",
     "latitude": 59.2752626,
     "longitude": 15.2134105,
@@ -7079,10 +6009,7 @@
     "type": "road",
     "name": "Hässelbyloppet och lilla Hässelbyloppet",
     "distance": "event-10-km event-16-km",
-    "distance_m": [
-      10000,
-      16000
-    ],
+    "distance_m": [10000, 16000],
     "place": "Hässelby-Grimsta-Vällingby",
     "latitude": 59.3591284,
     "longitude": 17.8594448,
@@ -7100,11 +6027,7 @@
     "type": "terrain",
     "name": "Terräng DM",
     "distance": "event-4-km event-101-km event-21-km",
-    "distance_m": [
-      4000,
-      101000,
-      21000
-    ],
+    "distance_m": [4000, 101000, 21000],
     "place": "Kungälv",
     "latitude": 57.86975400000001,
     "longitude": 11.9740317,
@@ -7122,11 +6045,7 @@
     "type": "road",
     "name": "Å-stadsloppet",
     "distance": "event-5-km event-10-km event-halvmarathon",
-    "distance_m": [
-      5000,
-      10000,
-      21098
-    ],
+    "distance_m": [5000, 10000, 21098],
     "place": "Örebro",
     "latitude": 59.2752626,
     "longitude": 15.2134105,
@@ -7144,9 +6063,7 @@
     "type": "trail",
     "name": "Yxbacken Extreme Challenge by E2C",
     "distance": "event-7-km",
-    "distance_m": [
-      7000
-    ],
+    "distance_m": [7000],
     "place": "Norrköping",
     "latitude": 58.587745,
     "longitude": 16.192421,
@@ -7164,10 +6081,7 @@
     "type": "terrain",
     "name": "Ekerumsloppet",
     "distance": "event-10-km event-13-km",
-    "distance_m": [
-      10000,
-      13000
-    ],
+    "distance_m": [10000, 13000],
     "place": "Ekerum",
     "latitude": 56.78503,
     "longitude": 16.5786527,
@@ -7185,10 +6099,7 @@
     "type": "terrain",
     "name": "Hellasloppet",
     "distance": "event-75-km event-14-km",
-    "distance_m": [
-      75000,
-      14000
-    ],
+    "distance_m": [75000, 14000],
     "place": "Nacka",
     "latitude": 59.3092328,
     "longitude": 18.2705343,
@@ -7206,9 +6117,7 @@
     "type": "road",
     "name": "Umemaran",
     "distance": "event-marathon",
-    "distance_m": [
-      42195
-    ],
+    "distance_m": [42195],
     "place": "Umeå",
     "latitude": 63.8258471,
     "longitude": 20.2630354,
@@ -7226,10 +6135,7 @@
     "type": "road",
     "name": "Göteborg Marathon",
     "distance": "event-halvmarathon event-marathon",
-    "distance_m": [
-      21098,
-      42195
-    ],
+    "distance_m": [21098, 42195],
     "place": "Göteborg",
     "latitude": 57.70887,
     "longitude": 11.97456,
@@ -7247,9 +6153,7 @@
     "type": "trail",
     "name": "Rya Åsar Trail Run",
     "distance": "11,6 km",
-    "distance_m": [
-      11000
-    ],
+    "distance_m": [11000],
     "place": "",
     "latitude": 57.74198939999999,
     "longitude": 12.919077,
@@ -7267,10 +6171,7 @@
     "type": "trail",
     "name": "Skrylle Challenge",
     "distance": "event-13-km event-26-km",
-    "distance_m": [
-      13000,
-      26000
-    ],
+    "distance_m": [13000, 26000],
     "place": "Södra Sandby",
     "latitude": 55.7168577,
     "longitude": 13.347231,
@@ -7288,9 +6189,7 @@
     "type": "road",
     "name": "Täljemilen",
     "distance": "event-10-km",
-    "distance_m": [
-      10000
-    ],
+    "distance_m": [10000],
     "place": "Södertälje",
     "latitude": 59.197762,
     "longitude": 17.6201942,
@@ -7308,12 +6207,7 @@
     "type": "trail",
     "name": "John Bauer Trail Run",
     "distance": "2 km, 4 km, 10 km, 18 km",
-    "distance_m": [
-      2000,
-      4000,
-      10000,
-      18000
-    ],
+    "distance_m": [2000, 4000, 10000, 18000],
     "place": "",
     "latitude": 0,
     "longitude": 0,
@@ -7331,12 +6225,7 @@
     "type": "trail",
     "name": "John Bauer Trail Run",
     "distance": "event-18-km event-10-km event-4-km event-2-km",
-    "distance_m": [
-      18000,
-      10000,
-      4000,
-      2000
-    ],
+    "distance_m": [18000, 10000, 4000, 2000],
     "place": "Huskvarna",
     "latitude": 57.7904141,
     "longitude": 14.2755781,
@@ -7372,9 +6261,7 @@
     "type": "terrain",
     "name": "Långa Tullinge-Tumbaloppet",
     "distance": "event-20-km",
-    "distance_m": [
-      20000
-    ],
+    "distance_m": [20000],
     "place": "Tullinge",
     "latitude": 59.198328,
     "longitude": 17.8953001,
@@ -7392,11 +6279,7 @@
     "type": "trail",
     "name": "Night Trail Run",
     "distance": "5 km, 10 km, 30 km",
-    "distance_m": [
-      5000,
-      10000,
-      30000
-    ],
+    "distance_m": [5000, 10000, 30000],
     "place": "",
     "latitude": 0,
     "longitude": 0,
@@ -7414,10 +6297,7 @@
     "type": "trail",
     "name": "XC-race",
     "distance": "10 km, 5 km",
-    "distance_m": [
-      10000,
-      5000
-    ],
+    "distance_m": [10000, 5000],
     "place": "",
     "latitude": 0,
     "longitude": 0,
@@ -7435,12 +6315,7 @@
     "type": "trail",
     "name": "Åhus TrailRun",
     "distance": "2,5 km, 6 km, 11 km, 17 km",
-    "distance_m": [
-      2000,
-      6000,
-      11000,
-      17000
-    ],
+    "distance_m": [2000, 6000, 11000, 17000],
     "place": "",
     "latitude": 0,
     "longitude": 0,
@@ -7458,12 +6333,7 @@
     "type": "trail",
     "name": "Åhus TrailRun",
     "distance": "event-17-km event-11-km event-6-km event-25-km",
-    "distance_m": [
-      17000,
-      11000,
-      6000,
-      25000
-    ],
+    "distance_m": [17000, 11000, 6000, 25000],
     "place": "Åhus",
     "latitude": 55.9250391,
     "longitude": 14.2979949,
@@ -7481,9 +6351,7 @@
     "type": "road",
     "name": "STHLM X",
     "distance": "event-10-km",
-    "distance_m": [
-      10000
-    ],
+    "distance_m": [10000],
     "place": "Stockholm",
     "latitude": 59.32932349999999,
     "longitude": 18.0685808,
@@ -7501,10 +6369,7 @@
     "type": "terrain",
     "name": "Wadköpingslöpet",
     "distance": "event-10-km event-5-km",
-    "distance_m": [
-      10000,
-      5000
-    ],
+    "distance_m": [10000, 5000],
     "place": "Örebro",
     "latitude": 59.2752626,
     "longitude": 15.2134105,
@@ -7522,11 +6387,7 @@
     "type": "terrain",
     "name": "Höstmilen",
     "distance": "event-106-km event-52-km event-2-km",
-    "distance_m": [
-      106000,
-      52000,
-      2000
-    ],
+    "distance_m": [106000, 52000, 2000],
     "place": "Norrköping",
     "latitude": 58.587745,
     "longitude": 16.192421,
@@ -7562,10 +6423,7 @@
     "type": "road",
     "name": "Uppsala Marathon",
     "distance": "event-halvmarathon event-marathon",
-    "distance_m": [
-      21098,
-      42195
-    ],
+    "distance_m": [21098, 42195],
     "place": "Uppsala",
     "latitude": 59.85856380000001,
     "longitude": 17.6389267,
@@ -7583,10 +6441,7 @@
     "type": "terrain",
     "name": "Yddingeloppet",
     "distance": "event-6-km event-12-km",
-    "distance_m": [
-      6000,
-      12000
-    ],
+    "distance_m": [6000, 12000],
     "place": "Bara /Bokskogen Torup",
     "latitude": 55.5665444,
     "longitude": 13.2128289,
@@ -7604,12 +6459,7 @@
     "type": "trail",
     "name": "Kullamannen by UTMB",
     "distance": "161 km, 100 km, 50 km, 20 km",
-    "distance_m": [
-      161000,
-      100000,
-      50000,
-      20000
-    ],
+    "distance_m": [161000, 100000, 50000, 20000],
     "place": "",
     "latitude": 0,
     "longitude": 0,
@@ -7627,13 +6477,7 @@
     "type": "trail",
     "name": "Finalloppet",
     "distance": "1,8 km, 2,3 km, 5,3 km, 10 km, 19 km",
-    "distance_m": [
-      1000,
-      2000,
-      5000,
-      10000,
-      19000
-    ],
+    "distance_m": [1000, 2000, 5000, 10000, 19000],
     "place": "",
     "latitude": 0,
     "longitude": 0,
@@ -7651,12 +6495,7 @@
     "type": "terrain",
     "name": "Finalloppet",
     "distance": "event-19-km event-10-km event-53-km event-23-km",
-    "distance_m": [
-      19000,
-      10000,
-      53000,
-      23000
-    ],
+    "distance_m": [19000, 10000, 53000, 23000],
     "place": "Göteborg",
     "latitude": 57.70887,
     "longitude": 11.97456,
@@ -7692,11 +6531,7 @@
     "type": "road",
     "name": "Höstrusket",
     "distance": "event-10-km event-marathon event-5-km",
-    "distance_m": [
-      10000,
-      42195,
-      5000
-    ],
+    "distance_m": [10000, 42195, 5000],
     "place": "Stockholm",
     "latitude": 59.32932349999999,
     "longitude": 18.0685808,
@@ -7714,11 +6549,7 @@
     "type": "trail",
     "name": "Sätila Trail",
     "distance": "5km, 10km, 22km, 43km och 85km",
-    "distance_m": [
-      5000,
-      10000,
-      22000
-    ],
+    "distance_m": [5000, 10000, 22000],
     "place": "",
     "latitude": 0,
     "longitude": 0,
@@ -7736,11 +6567,7 @@
     "type": "road",
     "name": "Skanneloppet",
     "distance": "event-76-km event-173-km event-39-km",
-    "distance_m": [
-      76000,
-      173000,
-      39000
-    ],
+    "distance_m": [76000, 173000, 39000],
     "place": "Åstorp",
     "latitude": 56.134262,
     "longitude": 12.945908,
@@ -7758,11 +6585,7 @@
     "type": "road",
     "name": "Jämjöhalvan och Jämjöhallenstafetten",
     "distance": "event-5-km event-10-km event-halvmarathon",
-    "distance_m": [
-      5000,
-      10000,
-      21098
-    ],
+    "distance_m": [5000, 10000, 21098],
     "place": "Jämjö",
     "latitude": 56.1917392,
     "longitude": 15.8425451,
@@ -7780,11 +6603,7 @@
     "type": "trail",
     "name": "Gränsö Trailrun",
     "distance": "1,5 km, 8 km, 15 km",
-    "distance_m": [
-      1000,
-      8000,
-      15000
-    ],
+    "distance_m": [1000, 8000, 15000],
     "place": "",
     "latitude": 57.74999999999999,
     "longitude": 16.7,
@@ -7802,9 +6621,7 @@
     "type": "trail",
     "name": "Black Friday Trailrun",
     "distance": "9 km",
-    "distance_m": [
-      9000
-    ],
+    "distance_m": [9000],
     "place": "",
     "latitude": 0,
     "longitude": 0,
@@ -7822,11 +6639,7 @@
     "type": "trail",
     "name": "Kristianstad Trail",
     "distance": "event-25-km event-12-km event-5-km",
-    "distance_m": [
-      25000,
-      12000,
-      5000
-    ],
+    "distance_m": [25000, 12000, 5000],
     "place": "Kristianstad",
     "latitude": 56.0293936,
     "longitude": 14.1566778,
@@ -7844,9 +6657,7 @@
     "type": "road",
     "name": "Sylvesterloppet",
     "distance": "event-10-km",
-    "distance_m": [
-      10000
-    ],
+    "distance_m": [10000],
     "place": "Göteborg",
     "latitude": 57.70887,
     "longitude": 11.97456,
@@ -7864,10 +6675,7 @@
     "type": "road",
     "name": "Sylvesterloppet Olofström",
     "distance": "event-5-km event-106-km",
-    "distance_m": [
-      5000,
-      106000
-    ],
+    "distance_m": [5000, 106000],
     "place": "Olofström",
     "latitude": 56.277708,
     "longitude": 14.530938,
@@ -7885,11 +6693,7 @@
     "type": "road",
     "name": "Sylvesterloppet Kalmar",
     "distance": "event-5-km event-10-km event-2-km",
-    "distance_m": [
-      5000,
-      10000,
-      2000
-    ],
+    "distance_m": [5000, 10000, 2000],
     "place": "Kalmar",
     "latitude": 56.6634447,
     "longitude": 16.356779,
@@ -7907,10 +6711,7 @@
     "type": "road",
     "name": "Nyårsloppet",
     "distance": "event-5-km event-10-km",
-    "distance_m": [
-      5000,
-      10000
-    ],
+    "distance_m": [5000, 10000],
     "place": "Vallentuna",
     "latitude": 59.53569999999999,
     "longitude": 18.078017,

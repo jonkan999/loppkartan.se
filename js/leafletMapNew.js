@@ -143,6 +143,7 @@ fetch("/all_races_w_formatted_summary.json")
 
                 let nameP = document.createElement("h3");
                 nameP.classList.add("race-name");
+                nameP.classList.add("tertiary-header");
 
                 nameP.textContent = `${race.name}`;
 

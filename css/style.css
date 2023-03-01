@@ -6,7 +6,7 @@ body {
 /* STYLING HEADER BUTTONS */
 .map-or-list-view {
   position: absolute;
-  top: 14.7rem;
+  top: 15.1rem;
   left: 50%;
   transform: translateX(-50%);
   width: 16rem;
@@ -400,52 +400,6 @@ body {
   font-weight: 600;
 }
 
-.race-info-box--expanded .highlight-text-box-road {
-  top: 80%;
-}
-
-.race-date {
-  font-size: 1.8rem;
-  color: #444;
-}
-
-.race-text-box {
-  font-size: 1.5rem;
-
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 0.3rem;
-}
-
-.race-website:link,
-.race-website:visited {
-  text-decoration: none;
-  font-size: 1.5rem;
-  font-weight: 500;
-  color: #336ab9;
-}
-.inline-link:link,
-.inline-link:visited {
-  text-decoration: none;
-  font-size: 1.5rem;
-  font-weight: 500;
-  color: #336ab9;
-}
-
-.race-name {
-  font-weight: bold;
-  font-size: 1.5rem;
-}
-.race-type-box {
-  display: flex;
-
-  align-items: center;
-  justify-content: center;
-  gap: 0.5rem;
-}
-
 .text-icon-road {
   width: 1.5rem;
   height: 1.5rem;
@@ -499,43 +453,6 @@ body {
 }
 
 .race-type {
-}
-
-.race-website:link,
-.race-website:visited {
-  text-decoration: none;
-  font-size: 1.5rem;
-  color: blue;
-}
-.race-website:active,
-.race-website:hover {
-  text-decoration: underline;
-}
-
-.race-info-summary {
-  display: block;
-  margin-top: 1rem;
-  height: auto;
-}
-
-.race-info-summary.show-div {
-}
-.race-info-summary-content {
-  display: none;
-
-  font-size: 1.5rem;
-  line-height: 1.3;
-
-  animation: easeIn ease 0.3s;
-  -webkit-animation: easeIn ease 0.3s;
-  -moz-animation: easeIn ease 0.3s;
-  -o-animation: easeIn ease 0.3s;
-  -ms-animation: easeIn ease 0.3s;
-}
-
-.show-div .race-info-summary-content {
-  display: block;
-  font-size: 1.5rem;
 }
 
 .add-new-race-box {

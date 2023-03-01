@@ -2,18 +2,18 @@ import { toggleBoxExpansion } from "/js/toggleBoxExpansion.js";
 
 const container = document.querySelector(".race-container");
 const months = [
-  "januari",
-  "februari",
-  "mars",
-  "april",
-  "maj",
-  "juni",
-  "juli",
-  "augusti",
-  "september",
-  "oktober",
-  "november",
-  "december",
+  "Januari",
+  "Februari",
+  "Mars",
+  "April",
+  "Maj",
+  "Juni",
+  "Juli",
+  "Augusti",
+  "September",
+  "Oktober",
+  "November",
+  "December",
 ];
 let prevMonthYear = null;
 
@@ -38,7 +38,11 @@ fetch("all_races_w_formatted_summary.json")
       if (prevMonthYear !== currentMonthYear) {
         const monthName = document.createElement("div");
         monthName.classList.add("month-name");
+
         const monthHeader = document.createElement("h2");
+        monthHeader.classList.add("secondary-header");
+        monthHeader.style.marginBottom = "0.3rem";
+        monthHeader.style.paddingLeft = "0.2rem";
         monthName.style.display = "none";
         monthHeader.textContent = currentMonthYear;
         monthName.appendChild(monthHeader);
@@ -82,6 +86,7 @@ fetch("all_races_w_formatted_summary.json")
 
       let nameP = document.createElement("h3");
       nameP.classList.add("race-name");
+      nameP.classList.add("tertiary-header");
 
       nameP.textContent = `${race.name}`;
 
