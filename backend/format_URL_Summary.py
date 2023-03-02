@@ -2,7 +2,7 @@ import json
 import re
 
 # Assume jsonData is a string containing your JSON data
-with open('URL_Summary.json', encoding='utf-8') as f:
+with open('backend/URL_Summary.json', encoding='utf-8') as f:
     summaries = json.load(f)
 
 
@@ -60,5 +60,5 @@ for url, summary in summaries.items():
     processedData.append(item)
 
 # Save the url_summary dictionary as a JSON file
-with open("URL_Summary_Formatted.json", "w", encoding='utf-8') as f:
+with open("backend/URL_Summary_Formatted.json", "w", encoding='utf-8') as f:
     json.dump(processedData, f, ensure_ascii=False)

@@ -24,7 +24,7 @@ def find_county(lat, lon):
     return None
 
 # Read data from the file
-with open("all_races_w_formatted_summary.json", "r", encoding="utf-8") as f:
+with open("backend/new_races_w_formatted_summary.json", "r", encoding="utf-8") as f:
     races = json.load(f)
 
 # Go through all races and add county to the dict
@@ -35,5 +35,5 @@ for race in races:
     race["county"] = county
 
 # Write the data back to the file
-with open("all_races_w_county.json", "w", encoding="utf-8") as f:
+with open("backend/new_races_w_formatted_summary.json", "w", encoding="utf-8") as f:
     json.dump(races, f, ensure_ascii=False, indent=2)

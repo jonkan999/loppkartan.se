@@ -16,4 +16,10 @@ For each crawled entity we have stored a race URL, usually associated with the o
 
 In format_URL_Summary.py we take each summary and replaces inline links in the summary to HTML a anchor element and also shorten summaries that are longer than 800 char. The result is stored in URL_Summary_Formatted.json
 
-Lastly we combine the all_races.json with URL_Summary_Formatted in all_races_w_summary.py and store the result in the top folder as all_races_w_formatted_summary.json which we then use as the foundation for the map app.
+Then combine the all_races.json with URL_Summary_Formatted in all_races_w_summary.py and store the result as new_races_w_formatted_summary.json
+
+Then search for county with findCounty.
+
+Then one last sort with sort_on_date_and_lng_lat.py and we have all the new races in new_races_w_formatted_summary.races.
+
+manual step to go through all and then add to the same named json in top folder. Which we then use as the foundation for the map app.

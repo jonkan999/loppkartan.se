@@ -30,5 +30,5 @@ for race in all_races:
     all_races_w_formatted_summary.append(race)
 
 # Save the joined data to a new file with UTF-8 encoding
-with open("all_races_w_formatted_summary.json", "w", encoding="utf-8") as f:
+with open("backend/new_races_w_formatted_summary.json", "w", encoding="utf-8") as f:
     json.dump(all_races_w_formatted_summary, f, indent=4, ensure_ascii=False)
