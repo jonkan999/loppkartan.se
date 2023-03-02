@@ -2070,6 +2070,24 @@
     "county": "Örebro"
   },
   {
+    "date": "20230525",
+    "month": "MAJ",
+    "day": "25",
+    "type": "track",
+    "name": "Långlöparnas Kväll",
+    "distance": "5000 meter",
+    "distance_m": [5000],
+    "place": "Stockholm",
+    "latitude": 59.32932349999999,
+    "longitude": 18.0685808,
+    "organizer": "Fk Studenterna",
+    "website": "https://fkstudenterna.se/arrangemang/langloparnas-kvall/",
+    "src_url": "https://friidrott.euwest01.umbraco.io/tavling-landslag/tavling/tavlingskalender/tavlingar-i-sverige/langlopp/",
+    "id": "6d5a0fdf-6f3e-407b-81a8-7d5d640f4172",
+    "summary": "FK Studenterna bjuder in till Stockholms Stadion och möjlighet att springa 10 000m. Flera heat, indelade efter seedningstid, för bästa sparring till nya rekordtider för alla. Kom och njut av försommarkvällen med oss! ",
+    "county": "Stockholms"
+  },
+  {
     "date": "20230526",
     "month": "maj",
     "day": "26",
