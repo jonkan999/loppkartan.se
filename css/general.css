@@ -729,7 +729,7 @@ strong {
   font-size: 1.5rem;
   line-height: 1.3;
   color: var(--main-text-color);
-  font-weight: 600;
+  font-weight: 500;
 
   animation: easeIn ease 0.3s;
   -webkit-animation: easeIn ease 0.3s;

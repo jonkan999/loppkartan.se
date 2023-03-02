@@ -1,23 +1,5 @@
 [
   {
-    "date": "20230301",
-    "month": "mars",
-    "day": "01",
-    "type": "trail",
-    "name": "Kungsbygget Lightning Series",
-    "distance": "5 km",
-    "distance_m": [5000],
-    "place": "",
-    "latitude": 56.383333,
-    "longitude": 13.133333,
-    "organizer": "",
-    "website": "http://www.kungsbygget.com",
-    "src_url": "https://trailrunningsweden.se/trailkalendern/",
-    "id": "4bb954e1-14d6-4eff-89dc-0c472a4eac07",
-    "summary": "Äventyr på hög höjd! Zipline passar både dig som vill ha en fartfylld upplevelse och för kompisgänget som vill uppleva något annorlunda tillsammans.  Ensam eller två på en rodel, hur som helst kommer du att bli begeistrad av denna fantastiska fritidsupplevelse.",
-    "county": "Hallands"
-  },
-  {
     "date": "20230305",
     "month": "mars",
     "day": "05",
