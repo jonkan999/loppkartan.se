@@ -6,14 +6,17 @@ filterRaces();
 const checkboxes = document.querySelector(".checkboxes");
 
 const filterSection = document.querySelector(".filter-section");
+const mapViewButton = document.querySelector(".map-view-button");
 // Check if the window size is narrower than 704px
 const mediaQuery = window.matchMedia("(max-width: 704px)");
 if (mediaQuery.matches) {
   // Your media query style here
   filterSection.style.marginTop = "6rem";
   checkboxes.style.marginTop = "-4rem";
+  mapViewButton.style.width = "8rem";
 } else {
   filterSection.style.marginTop = "3rem";
+  mapViewButton.style.width = "8rem";
 }
 // add county filter
 const countySelector = document.getElementById("county-selector");
