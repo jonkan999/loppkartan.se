@@ -61,16 +61,16 @@ export function filterRaces() {
           /* if distanceM is "backyard" or "time" we show it independently of distance slider, such as backyard and time races */
           isInRange = true;
         }
-        let typeIsChecked = false;
 
+        let typeIsChecked = false;
         switch (race.type) {
           case "trail":
             if (trailCheckbox.classList.contains("active")) {
+              typeIsChecked = true;
             }
             break;
           case "backyard":
             if (backyardCheckbox.classList.contains("active")) {
-              console.log("checked");
               typeIsChecked = true;
             }
             break;
