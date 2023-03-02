@@ -16,6 +16,10 @@ body {
   justify-content: center;
   z-index: 401;
 }
+.view-button-wrapper {
+  width: 16rem;
+  height: 4rem;
+}
 .view-button {
   border: none;
   border-top: solid 2px #333;

@@ -12,9 +12,13 @@ mapViewButton.addEventListener("click", toggleActiveClass);
 
 // Define the toggleActiveClass function
 function toggleActiveClass(event) {
+  console.log(event.target);
   // Prevent the default button behavior (e.g. page refresh)
   event.preventDefault();
-
+  if (event.target.classList.contains("active-button")) {
+    /* if clicked already ActiveXObject, no nothin */
+    return;
+  }
   // Toggle the "active-button" class on both buttons
   listViewButton.classList.toggle("active-button");
   mapViewButton.classList.toggle("active-button");

@@ -1,5 +1,6 @@
 export function filterRaces() {
   const button = document.querySelector(".view-button.map-view-button");
+  console.log("run");
   if (button.classList.contains("active-button")) {
     // this is a list filter so dont filter if map is active
     return;

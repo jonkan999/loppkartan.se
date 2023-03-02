@@ -58,11 +58,13 @@
       defer
       src="/js/add-race/leafletMapAddRace.js"
     ></script>
+    <script defer src="/js/mobile-nav.js"></script>
     <script defer src="/js/add-race/togglePreview.js"></script>
     <script defer src="/js/add-race/nudgeClick.js"></script>
 
     <link rel="stylesheet" href="/css/general.css" />
     <link rel="stylesheet" href="/css/add-race.css" />
+    <link rel="stylesheet" href="/css/queries.css" />
     <link rel="stylesheet" href="/css/add-race-queries.css" />
 
     <style></style>
@@ -70,24 +72,74 @@
   <body>
     <div class="container">
       <div class="inner-container">
-        <div class="header-section margin-top--small margin-bottom--small">
+        <header class="header-section margin-top--small margin-bottom--smaller">
           <div class="header-and-logo-box">
             <a href="/index.html" class="logo-box"></a>
-            <h1>
-              <span class="green-letter">Lopp</span
-              ><span class="orange-letter">Kartan</span>.se
-            </h1>
+            <div class="promotion-box">
+              <span>Obetalt samarbete med:</span>
+              <a
+                href="http://www.kungsholmenrunt.se/Main/Start.asp"
+                target="_blank"
+              >
+                <img src="/img/logokr_bluebg.jpg" class="promo-logo-box" />
+              </a>
+            </div>
           </div>
-          <div class="promotion-box">
-            <span>Samarbete med:</span>
-            <a
-              href="http://www.kungsholmenrunt.se/Main/Start.asp"
-              target="_blank"
-            >
-              <img src="/img/logokr_bluebg.jpg" class="promo-logo-box" />
-            </a>
-          </div>
-        </div>
+
+          <nav class="main-nav">
+            <ul class="main-nav-list">
+              <li>
+                <h2 class="main-nav-header secondary-header">Meny</h2>
+              </li>
+              <li>
+                <a
+                  class="main-nav-link tertiary-header"
+                  href="/index.html"
+                  id="navAbout"
+                  >Loppkartan</a
+                >
+              </li>
+              <li>
+                <a
+                  class="main-nav-link tertiary-header"
+                  href="/lopplistan.html"
+                  id="navAbout"
+                  >Lopplistan</a
+                >
+              </li>
+              <li>
+                <a
+                  class="main-nav-link tertiary-header"
+                  href="/om-oss.html"
+                  id="navAbout"
+                  >Om Loppkartan.se</a
+                >
+              </li>
+
+              <li>
+                <a
+                  class="main-nav-link tertiary-header"
+                  href="/kontakt.html"
+                  id="navContact"
+                  >Kontaktuppgifter</a
+                >
+              </li>
+              <li>
+                <a
+                  class="main-nav-link tertiary-header"
+                  href="/lagg-till-lopp.html"
+                  id="navAddRace"
+                  >Lägg till lopp</a
+                >
+              </li>
+            </ul>
+          </nav>
+          <button class="btn-mobile-nav">
+            <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+            <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+          </button>
+        </header>
+
         <div id="map" class="margin-bottom--small"></div>
         <div id="latlongBox" class="margin-bottom--small">
           <div id="placeMarkerUrge" class="margin-bottom--small">

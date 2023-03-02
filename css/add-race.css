@@ -309,7 +309,8 @@
 .submission-header {
   text-align: center;
   margin: 20rem 0 10rem;
-  line-height: 1.3;
+  line-height: 1.2;
+  color: #0f2037;
 }
 .back-to-map-box {
   display: flex;
@@ -317,10 +318,6 @@
   align-items: center;
   justify-content: center;
   gap: 2rem;
-}
-.submission-subheader {
-  text-align: center;
-  line-height: 1.4;
 }
 
 .back-to-map-button {

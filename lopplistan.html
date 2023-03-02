@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>Loppkartan som får Sverige att springa fler lopp</title>
+    <title>Sveriges mest kompletta lista över långlopp</title>
     <link rel="icon" href="/img/logo100px.jpg" />
     <link
       href="https://fonts.googleapis.com/css2?family=Lato:wght@400;500;600;700;800;900&display=swap"
@@ -11,7 +11,7 @@
     />
     <meta
       name="description"
-      content="Vi har samlat alla svenska löplopp i en interaktiv karta. Hitta ditt nästa millopp, tidslopp, traillopp, halvmara, marathon eller ultra marathon hos oss idag."
+      content="Vi har samlat alla svenska löplopp i en datumsorterad lista. Hitta ditt nästa millopp, tidslopp, traillopp, halvmara, marathon eller ultra marathon hos oss idag."
     />
     <meta
       name="viewport"
@@ -56,12 +56,14 @@
       nomodule=""
       src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
     ></script>
+    <!-- <script defer src="/js/initiateList.js"></script> -->
     <script defer src="/js/mobile-nav.js"></script>
     <script type="module" src="/js/loadHiddenRAces.js"></script>
-    <script type="module" src="/js/toggleView.js"></script>
-    <script type="module" src="/js/slider.js"></script>
-    <script type="module" src="/js/sliderDistance.js"></script>
-    <script type="module" defer src="/js/leafletMapNew.js"></script>
+    <script type="module" src="/js/initiateListSite.js"></script>
+    <!-- <script type="module" src="/js/toggleView.js"></script> -->
+    <script type="module" src="/js/sliderMax.js"></script>
+    <script type="module" src="/js/sliderDistanceMax.js"></script>
+    <!-- <script type="module" defer src="/js/leafletMapNew.js"></script> -->
     <script type="module" defer src="/js/toggleCheckboxes.js"></script>
 
     <link rel="stylesheet" href="/css/general.css" />
@@ -88,7 +90,7 @@
           </div>
 
           <div class="map-or-list-view margin-bottom--tiny">
-            <div id="county-selector" class="select-wrapper">
+            <div id="county-selector" class="select-wrapper show">
               <select class="view-button lan-filter-button">
                 <option value="">Alla län</option>
                 <option value="Stockholms">Stockholms</option>
@@ -118,10 +120,12 @@
                 name="chevron-down-outline"
               ></ion-icon>
             </div>
-            <button class="view-button list-view-button">Lista</button>
-            <button class="view-button map-view-button active-button">
-              Karta
+            <button class="view-button list-view-button active-button">
+              Lista
             </button>
+            <a href="index.html" class="view-button-wrapper">
+              <button class="view-button map-view-button">Karta</button>
+            </a>
           </div>
 
           <nav class="main-nav">
@@ -181,16 +185,10 @@
           Sveriges mest kompletta loppkalender för löpare
         </h1>
         <h2 class="secondary-header map-header margin-bottom--tiny">
-          Hitta ditt nästa lopp! Välj distans, som millopp eller marathon, samt
-          underlag som trail eller landsväg.
+          Här listar vi alla Sveriges löpartävlingar under 2023. Filtrera fram
+          ditt nästa millopp, halvmara eller backyard ultra.
         </h2>
-        <h2 class="secondary-header list-header margin-bottom--tiny">
-          Lopplistan 2023 - Här listar vi alla Sveriges Lopp. Filtrera fram ditt
-          nästa millopp, halvmara eller backyard ultra.
-        </h2>
-        <div class="map-container">
-          <div id="map" class="margin-bottom--small"></div>
-        </div>
+
         <div class="filter-section margin-bottom--default">
           <div class="slider-container">
             <div class="slider-box">
