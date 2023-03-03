@@ -177,6 +177,8 @@ fetch("/all_races_w_formatted_summary.json")
                       return "Tidslopp";
                     } else if (d === "relay") {
                       return "Stafett";
+                    } else if (race.type === "track") {
+                      return d;
                     } else {
                       return d / 1000;
                     }
@@ -187,7 +189,11 @@ fetch("/all_races_w_formatted_summary.json")
                     } else if (d >= 41.9 && d <= 42.4) {
                       return "Marathon";
                     } else if (typeof d === "number") {
-                      return d + " km";
+                      if (race.type === "track") {
+                        return d + " m";
+                      } else {
+                        return d + " km";
+                      }
                     } else {
                       return d;
                     }

@@ -194,7 +194,7 @@
     "website": "http://www.aktivoresjo.se/etr/",
     "src_url": "https://trailrunningsweden.se/trailkalendern/",
     "id": "ef974da1-f5b3-4175-9294-14e7054edcf0",
-    "summary": "<a href=\"http://www.aktivoresjo.se/wp-content/uploads/2022/09/bild_etr2014_bw_logo.jpg\" target=\"_blank\" class=\"inline-link\">aktivoresjo</a> Välkommen att springa Edsvidsleden Trailrun som går på den fina, klassiska Edsvidsleden i Trollhättan. Leden är ca 14 km och starten går på parkeringen nere vid Olidestationen.  All tävling sker på egen risk och medger att bild och/eller film kan publiceras här på vår webb och på andra öppna sociala kanaler.",
+    "summary": "Välkommen att springa Edsvidsleden Trailrun som går på den fina, klassiska Edsvidsleden i Trollhättan. Leden är ca 14 km och starten går på parkeringen nere vid Olidestationen.  All tävling sker på egen risk och medger att bild och/eller film kan publiceras här på vår webb och på andra öppna sociala kanaler.",
     "county": "Stockholms"
   },
   {
@@ -302,7 +302,7 @@
     "website": "http://www.saik.nu",
     "src_url": "https://friidrott.euwest01.umbraco.io/tavling-landslag/tavling/tavlingskalender/tavlingar-i-sverige/langlopp/",
     "id": "d16e3da7-006b-46f9-ac60-02e8cd5546be",
-    "summary": "Sävedalens AIK Friidrott är en förening med verksamhet i hjärtat av Sävedalen. Friidrott engagerar fler och fler barn, ungdomar och vuxna. Hösten 2022 startade vi upp hela sex grupper med barn födda 2015 utöver de tjugoåtta grupper vi redan har.",
+    "summary": "Premiärloppet är loppet på vårkanten då du kan testa formen efter långa vintern. Loppet går i Skatås på en lätt kuperad grusbana. Du kan välja mellan 10 km och 5 km. På 5 km banan finns en tyngre stigning upp till toppen av Brudaremossen. Premiärloppet arrangeras av Sävedalens AIK Friidrott.",
     "county": "Västra Götalands"
   },
   {
@@ -716,7 +716,7 @@
     "website": "http://www.lktv88.se",
     "src_url": "https://friidrott.euwest01.umbraco.io/tavling-landslag/tavling/tavlingskalender/tavlingar-i-sverige/langlopp/",
     "id": "a413e0d2-f935-4abd-ba1d-885c3105cef7",
-    "summary": "Gör dig redo för 10 km på en snabb, flack bana. Din tid från Varvetmilen Trollhättan är seedningsgrundande till Göteborgsvarvet 2022. Missa inte chansen att springa dig till en bättre startgrupp!",
+    "summary": "Gör dig redo för 10 km på en snabb, flack bana. Din tid från Varvetmilen Trollhättan är seedningsgrundande till Göteborgsvarvet 2023. Missa inte chansen att springa dig till en bättre startgrupp!",
     "county": "Västra Götalands"
   },
   {
@@ -1202,7 +1202,7 @@
     "website": "http://www.lidkopingsis.se",
     "src_url": "https://friidrott.euwest01.umbraco.io/tavling-landslag/tavling/tavlingskalender/tavlingar-i-sverige/langlopp/",
     "id": "36104338-f19c-4368-a092-43150a57beb5",
-    "summary": "Lidköpings stadslopp är ett lopp arrangerat av Lidköpings IS, som går i Västergötlands FIF, Lidköping, Västergötland och äger rum den 14 maj 2022. Loppet är godkänt av Svensk Friidrott.",
+    "summary": "Lidköpings stadslopp är ett lopp arrangerat av Lidköpings IS, som går i Västergötlands FIF, Lidköping, Västergötland och äger rum den 6 maj 2023. Loppet är godkänt av Svensk Friidrott.",
     "county": "Västra Götalands"
   },
   {
@@ -1310,7 +1310,7 @@
     "website": "https://www.svenskalag.se/satersiffik",
     "src_url": "https://friidrott.euwest01.umbraco.io/tavling-landslag/tavling/tavlingskalender/tavlingar-i-sverige/langlopp/",
     "id": "e23f4fec-55d9-4eef-a209-2766182ce510",
-    "summary": "Sätermaran är ett lopp arrangerat av Säters IF Friidrottsklubb, som går i Dalarnas FIF, Säter, Dalarna och äger rum den 7 maj 2022",
+    "summary": "Sätermaran är ett lopp arrangerat av Säters IF Friidrottsklubb, som går i Dalarnas FIF, Säter, Dalarna och äger rum den 6 maj 2023",
     "county": "Dalarnas"
   },
   {
@@ -1868,7 +1868,7 @@
     "website": "https://sparet5000.se/",
     "src_url": "https://friidrott.euwest01.umbraco.io/tavling-landslag/tavling/tavlingskalender/tavlingar-i-sverige/arenatavlingar/",
     "id": "0e67578a-4c2f-4340-92a7-d6c4e72b6eff",
-    "summary": "Lördag 21 maj 2022, Stockholm Stadion Nu har du chansen att testa av formen på fantastiska Stockholms Olympiska Stadion på 5000 meter och inspireras av och kanske utmana den svenska eliten.  Loppet vänder sig till alla som vill testa av sin form på 12,5 varv vilket ger 5000 meter inne på de anrika och snabba löparbanorna på Stadion.",
+    "summary": "Lördag 18 maj 2023, Stockholm Stadion Nu har du chansen att testa av formen på fantastiska Stockholms Olympiska Stadion på 5000 meter och inspireras av och kanske utmana den svenska eliten.  Loppet vänder sig till alla som vill testa av sin form på 12,5 varv vilket ger 5000 meter inne på de anrika och snabba löparbanorna på Stadion.",
     "county": "Stockholms"
   },
   {
@@ -2075,8 +2075,8 @@
     "day": "25",
     "type": "track",
     "name": "Långlöparnas Kväll",
-    "distance": "5000 meter",
-    "distance_m": [5000],
+    "distance": "10000 meter",
+    "distance_m": [10000],
     "place": "Stockholm",
     "latitude": 59.32932349999999,
     "longitude": 18.0685808,
@@ -2606,7 +2606,7 @@
     "website": "https://www.skatasryggar.se/",
     "src_url": "https://trailrunningsweden.se/trailkalendern/",
     "id": "cf793a10-e03c-4337-9beb-2bb3fa71f013",
-    "summary": "Välkommen till Skatås ryggar 4:e juni 2022. Var med på Göteborgs största trail-tävling. Spring ett fantastiskt traillopp med banlängder som passar alla i området kring Skatås, Delsjöområdets och Knipeflågsbergens naturreservat. Ingår i Skatåstrippeln.",
+    "summary": "Välkommen till Skatås ryggar 3:e juni 2023. Var med på Göteborgs största trail-tävling. Spring ett fantastiskt traillopp med banlängder som passar alla i området kring Skatås, Delsjöområdets och Knipeflågsbergens naturreservat. Ingår i Skatåstrippeln.",
     "county": "Västra Götalands"
   },
   {
@@ -2714,7 +2714,7 @@
     "website": "https://www.tabyfriidrott.se/tabyopen",
     "src_url": "https://friidrott.euwest01.umbraco.io/tavling-landslag/tavling/tavlingskalender/tavlingar-i-sverige/arenatavlingar/",
     "id": "86873458-b556-49c5-aa08-7c886b09f2ad",
-    "summary": "Aktiva, ledare, föräldrar och åskådare hälsas varmt välkomna till Täby Open den 14-15 maj 2022. <a href=\"https://www.tabyfriidrott.se/tabyopen/sida/50432/tavlings-pm\" target=\"_blank\" class=\"inline-link\">tabyfriidrott</a> <a href=\"https://www.tabyfriidrott.se/tabyopen/sida/50431/tidsprogram\" target=\"_blank\" class=\"inline-link\">tabyfriidrott</a> Välkomna till en trevlig friidrottsfest!",
+    "summary": "Aktiva, ledare, föräldrar och åskådare hälsas varmt välkomna till Täby Open den 4-5 maj 2023. <a href=\"https://www.tabyfriidrott.se/tabyopen/sida/50432/tavlings-pm\" target=\"_blank\" class=\"inline-link\">tabyfriidrott</a> <a href=\"https://www.tabyfriidrott.se/tabyopen/sida/50431/tidsprogram\" target=\"_blank\" class=\"inline-link\">tabyfriidrott</a> Välkomna till en trevlig friidrottsfest!",
     "county": "Stockholms"
   },
   {
@@ -3129,7 +3129,7 @@
     "website": "http://www.huddingeais.se",
     "src_url": "https://friidrott.euwest01.umbraco.io/tavling-landslag/tavling/tavlingskalender/tavlingar-i-sverige/arenatavlingar/",
     "id": "9524f25a-2361-4e9f-b989-16fc3a41f556",
-    "summary": "Huddingespelen 2023. 1500, 3000, 5000 meter och andra friidrottsgrenar. Välkommen till Källbrinks idrottsplats den 16-18 juni 2022",
+    "summary": "Huddingespelen 2023. 1500, 3000, 5000 meter och andra friidrottsgrenar. Välkommen till Källbrinks idrottsplats den 16-18 juni 2023",
     "county": "Stockholms"
   },
   {
@@ -4245,7 +4245,7 @@
     "website": "http://www.huddingeais.se",
     "src_url": "https://friidrott.euwest01.umbraco.io/tavling-landslag/tavling/tavlingskalender/tavlingar-i-sverige/arenatavlingar/",
     "id": "d6176001-601e-424b-968b-bf45487ae9e4",
-    "summary": "Vi har en liten men mycket spännande trupp som åker till inomhus-SM i Malmö nu till helgen den 17-19/2 i Malmö, Joakim Hellbratt, Alva Von Gerber och Madeleine Söderqvist.  Sista helgen i februari åker en stor trupp från oss gemensamt till Karlstad för att delta i junior-SM och Ungdoms-SM 17 inomhus.  Vi ser gärna att föräldrar anmäler sig som hjälp <a href=\"https://huddingeais.se/2023/01/ny-verksamhetsansvarig-pa-vart-kansli/\" target=\"_blank\" class=\"inline-link\">huddingeais</a> Publicerad 2023-01-12 | Skriven av Lasse Krieg",
+    "summary": "Viking Linespelen 2 augusti 2023. Kom och njut av 3000 meter och andra friidrottstävlingar på Källbrinks IP, Gamla Stockholmsvägen 91. Arrangeras av Huddinge AIS",
     "county": "Stockholms"
   },
 
@@ -4572,7 +4572,7 @@
     "website": "http://www.oknjudung.se",
     "src_url": "https://friidrott.euwest01.umbraco.io/tavling-landslag/tavling/tavlingskalender/tavlingar-i-sverige/langlopp/",
     "id": "23bfafcd-05a7-48ad-9298-698a2e7f61f8",
-    "summary": "VP Citylopp är ett lopp arrangerat av OK Njudung, som går i Smålands FIF, Vetlanda, Småland och äger rum den 19 augusti 2022. Loppet är godkänt av Svensk Friidrott.",
+    "summary": "VP Citylopp är ett lopp arrangerat av OK Njudung, som går i Smålands FIF, Vetlanda, Småland och äger rum den 18 augusti 2023. Loppet är godkänt av Svensk Friidrott.",
     "county": "Jönköpings"
   },
 
@@ -4794,7 +4794,7 @@
     "county": "Stockholms"
   },
   {
-    "date": "20230823",
+    "date": "20230824",
     "month": "AUGUSTI",
     "day": "24",
     "type": "relay",
@@ -5081,7 +5081,7 @@
     "website": "",
     "src_url": "https://trailrunningsweden.se/trailkalendern/",
     "id": "9a4b887e-fb79-434c-8411-0f47f64846e6",
-    "summary": "Fredagen den 2 september 2022 har du chansen att delta i en sällan skådad utmaning – ett lopp på fjället efter solens nedgång, endast i pannlampans sken. Till starten, som är belägen vid klassiska Snögubben, transporteras du som deltar med Gustavsliften och kan då passa på att ladda inför start samtidigt som solen går ned bakom fjällen.  Bansträckningen är alltså helt och hållet förlagd till kalfjället, över toppar och på stigar som inte tidigare använts för någon annan distans.",
+    "summary": "Fredagen den 1 september 2023 har du chansen att delta i en sällan skådad utmaning – ett lopp på fjället efter solens nedgång, endast i pannlampans sken. Till starten, som är belägen vid klassiska Snögubben, transporteras du som deltar med Gustavsliften och kan då passa på att ladda inför start samtidigt som solen går ned bakom fjällen.  Bansträckningen är alltså helt och hållet förlagd till kalfjället, över toppar och på stigar som inte tidigare använts för någon annan distans.",
     "county": null
   },
 
@@ -5680,7 +5680,7 @@
     "website": "http://www.ifhagenfik.se/",
     "src_url": "https://friidrott.euwest01.umbraco.io/tavling-landslag/tavling/tavlingskalender/tavlingar-i-sverige/langlopp/",
     "id": "eed14308-23c2-4c36-893e-d84e80193d39",
-    "summary": "Hagenloppet är ett lopp arrangerat av IF Hagen FIK, som går i Västergötlands FIF, Västergötland, Skövde och äger rum den 27 augusti 2022",
+    "summary": "Hagenloppet är ett lopp arrangerat av IF Hagen FIK, som går i Västergötlands FIF, Västergötland, Skövde och äger rum den 16 september 2023",
     "county": "Västra Götalands"
   },
   {
@@ -5716,7 +5716,7 @@
     "website": "https://www.svenskalag.se/faluik-friidrott",
     "src_url": "https://friidrott.euwest01.umbraco.io/tavling-landslag/tavling/tavlingskalender/tavlingar-i-sverige/langlopp/",
     "id": "1e7ea055-9370-433c-930d-ccb997f512f7",
-    "summary": "Tjurruset Falun har bytt namn till Dala Mud Trail. Det populära konceptet med en extremt utmanade och lerig bana i Lugnet-terrängen och skjutfältsområdet är precis den samma som tidigare. Vi kan utlova ett av de roligaste loppen du sannolikt har sprungit, med lera inte bara i ansiktet... och där även skrattmusklerna kommer att få jobba hårt. Datum 17 september 2022.",
+    "summary": "Tjurruset Falun har bytt namn till Dala Mud Trail. Det populära konceptet med en extremt utmanade och lerig bana i Lugnet-terrängen och skjutfältsområdet är precis den samma som tidigare. Vi kan utlova ett av de roligaste loppen du sannolikt har sprungit, med lera inte bara i ansiktet... och där även skrattmusklerna kommer att få jobba hårt. Datum 16 september 2023.",
     "county": "Dalarnas"
   },
   {
@@ -5770,7 +5770,7 @@
     "website": "http://www.kistaloppet.se",
     "src_url": "https://friidrott.euwest01.umbraco.io/tavling-landslag/tavling/tavlingskalender/tavlingar-i-sverige/langlopp/",
     "id": "50448dde-b4d5-4908-8932-78d094568fc8",
-    "summary": "Vänner, den trettonde upplagan av Kistaloppet äger rum den 10 september 2022. I år kommer vi äntligen kunna köra ett fullstort event för både barn och vuxna. Vi kommer i år även premiärköra Kistaloppet 5K som får en helt nya bana.",
+    "summary": "Vänner, den trettonde upplagan av Kistaloppet äger rum den 16 september 2023. I år kommer vi äntligen kunna köra ett fullstort event för både barn och vuxna. Vi kommer i år även premiärköra Kistaloppet 5K som får en helt nya bana.",
     "county": "Stockholms"
   },
   {
@@ -6495,7 +6495,7 @@
     "website": "http://www.isskanne.se",
     "src_url": "https://friidrott.euwest01.umbraco.io/tavling-landslag/tavling/tavlingskalender/tavlingar-i-sverige/langlopp/",
     "id": "bd5b238f-e89d-4b6e-9d44-2dc53235005d",
-    "summary": "Lördag 11 november 2022 är det dags för det 58:e Skanneloppet. Det individuella loppet med 10 startande varje minut. Tre banor för ung som gammal, elit som motionär. ",
+    "summary": "Den 11 november 2023 är det dags för det 58:e Skanneloppet. Det individuella loppet med 10 startande varje minut. Tre banor för ung som gammal, elit som motionär. ",
     "county": "Skåne"
   },
   {
@@ -6585,7 +6585,7 @@
     "website": "http://kristianstadtrail.se",
     "src_url": "https://friidrott.euwest01.umbraco.io/tavling-landslag/tavling/tavlingskalender/tavlingar-i-sverige/langlopp/",
     "id": "633cbc18-aa18-45f1-8ea7-f366cc6c5e2d",
-    "summary": "Välkomna ut i skogen till årets härligaste lopp! Välj på att springa 25, 12 eller 5 kilometer På slingrande små stigar i Bockebodaskogen. Kristianstad Trail 25 km ingår som deltävling i Spring i Skåne Trailcup 2022.",
+    "summary": "Välkomna ut i skogen till årets härligaste lopp! Välj på att springa 25, 12 eller 5 kilometer På slingrande små stigar i Bockebodaskogen. Kristianstad Trail 25 km ingår som deltävling i Spring i Skåne Trailcup 2023.",
     "county": "Skåne"
   },
   {
