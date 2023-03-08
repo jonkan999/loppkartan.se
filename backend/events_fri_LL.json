@@ -1,17 +1,1 @@
-[
-  {
-    "date": "20230513",
-    "month": "MAJ",
-    "day": "13",
-    "type": "road",
-    "name": "Strömmingsloppet",
-    "distance": "event-5-km event-10-km",
-    "distance_m": [5000, 10000],
-    "place": "Vaxholm",
-    "latitude": 0,
-    "longitude": 0,
-    "organizer": "Waxholms OK",
-    "website": "http://www.strommingsloppet.se",
-    "src_url": "https://friidrott.euwest01.umbraco.io/tavling-landslag/tavling/tavlingskalender/tavlingar-i-sverige/langlopp/"
-  }
-]
+[]

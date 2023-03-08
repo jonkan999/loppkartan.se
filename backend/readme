@@ -8,18 +8,25 @@ crawl pages
 
 Only crawl entities not already crawled, as specified in check_existing_race.py. Crawled races will be stored in all_races.json
 
+-all_races.py
 combine all json extracts, and find geolocation coordinates in all_races.py and get_lat_long_goog.py
 
+-all_races_sort.py
 Sort all_races.json on descending date with all_races_sort.py
 
+-summary_by_url.py
 For each crawled entity we have stored a race URL, usually associated with the organizer, in summary_by_url.py we go through all these URLs and try to get a summary using api.meaningcloud.com service that extracts the most important sentences from a website. We store the result in URL_Summary.json
 
+-format_URL_Summary.py
 In format_URL_Summary.py we take each summary and replaces inline links in the summary to HTML a anchor element and also shorten summaries that are longer than 800 char. The result is stored in URL_Summary_Formatted.json
 
+-all_races_w_summary.py
 Then combine the all_races.json with URL_Summary_Formatted in all_races_w_summary.py and store the result as new_races_w_formatted_summary.json
 
+findCounty.py
 Then search for county with findCounty.
 
+-sort_on_date_and_lng_lat.py
 Then one last sort with sort_on_date_and_lng_lat.py and we have all the new races in new_races_w_formatted_summary.races.
 
 manual step to go through all and then add to the same named json in top folder. Which we then use as the foundation for the map app.
