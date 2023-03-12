@@ -811,6 +811,24 @@
     "county": "Östergötlands"
   },
   {
+    "date": "20230426",
+    "month": "APRIL",
+    "day": "26",
+    "type": "relay",
+    "name": "Värmlandsstafetten",
+    "distance": "event-1-km5-strackor",
+    "distance_m": [],
+    "place": "Karlstad",
+    "latitude": 59.4021806,
+    "longitude": 13.5114977,
+    "organizer": "IF Göta Karlstad",
+    "website": "https://varmlandsstafetten.se/",
+    "src_url": "https://friidrott.euwest01.umbraco.io/tavling-landslag/tavling/tavlingskalender/tavlingar-i-sverige/langlopp/",
+    "id": "7ccbda51-3596-414a-8391-82afc4c462ff",
+    "summary": "Alla startar OCH går i mål samtidigt! Ta med kompisar och kollegor och utmana andra.  Alla lag tävlar i samma klass, man kan mixa lagen hur man vill, alla är välkomna!",
+    "county": "Värmlands"
+  },
+  {
     "date": "20230429",
     "month": "april",
     "day": "29",
@@ -2575,6 +2593,24 @@
     "county": "Örebro"
   },
   {
+    "date": "20230531",
+    "month": "MAJ",
+    "day": "31",
+    "type": "trail",
+    "name": "Vårruset",
+    "distance": "event-5-km event-25-km",
+    "distance_m": [5000, 2500],
+    "place": "Karlstad",
+    "latitude": 59.4021806,
+    "longitude": 13.5114977,
+    "organizer": "IF Göta Karlstad",
+    "website": "https://varruset.se/lopp/karlstad-2/",
+    "src_url": "https://friidrott.euwest01.umbraco.io/tavling-landslag/tavling/tavlingskalender/tavlingar-i-sverige/langlopp/",
+    "id": "d1cc170a-1b81-4d7b-8b85-c3ce05199291",
+    "summary": "PLATS: Intill sundstatjärn i central Karlstad. FUN RUN 2,5 KM eller 5 KM: Välj Fun Run om du inte vill springa på tid.  Anmäler du dig till ”Vårruset Digitalt” kan du inte ingå i ett lag och inte delta på något evenemang i Vårrusets turné, utan du springer när det passar dig och där du är.",
+    "county": "Värmlands"
+  },
+  {
     "date": "20230601",
     "month": "JUNI",
     "day": "1",
@@ -3080,6 +3116,24 @@
     "county": "Norrbottens"
   },
   {
+    "date": "20230610",
+    "month": "JUNI",
+    "day": "10",
+    "type": "road",
+    "name": "Karlstad Stadslopp",
+    "distance": "event-5-km event-10-km event-1-km",
+    "distance_m": [5000, 10000, 1000],
+    "place": "Karlstad",
+    "latitude": 59.4021806,
+    "longitude": 13.5114977,
+    "organizer": "IF Göta Karlstad",
+    "website": "https://karlstadstadslopp.se/",
+    "src_url": "https://friidrott.euwest01.umbraco.io/tavling-landslag/tavling/tavlingskalender/tavlingar-i-sverige/langlopp/",
+    "id": "264aff3c-7830-49ed-a9e3-9461e937bca5",
+    "summary": "Nu är det klart! Karlstad stadslopp kommer att arrangeras den 10 juni 2023 i den numera återkommande platsen Museiparken mitt i centrala Karlstad!  Redan nu i januari kommer anmälan att öppna så spika målet redan nu så kommer mer information när anmälan öppnat!",
+    "county": "Värmlands"
+  },
+  {
     "date": "20230611",
     "month": "juni",
     "day": "11",
@@ -3510,6 +3564,24 @@
     "id": "44f846a1-c118-41ee-a24e-2af5511786d6",
     "summary": "5000 meter och övriga friidrottsgrenar, arrangeras av Tjalve Friidrottsförening i Norrköping",
     "county": "Östergötlands"
+  },
+  {
+    "date": "20230623",
+    "month": "JUNI",
+    "day": "23",
+    "type": "road",
+    "name": "Borejoggen",
+    "distance": "event-85-km event-15-km",
+    "distance_m": [8500, 1500],
+    "place": "Torsby",
+    "latitude": 60.14090719999999,
+    "longitude": 13.0102132,
+    "organizer": "SK Bore Torsby",
+    "website": "https://www.skbore.se/",
+    "src_url": "https://friidrott.euwest01.umbraco.io/tavling-landslag/tavling/tavlingskalender/tavlingar-i-sverige/langlopp/",
+    "id": "d8cfc2b9-5e86-4c38-85fc-ea6931790c3a",
+    "summary": "Borejoggen är ett motionslopp om 8,5 km som går av stapeln varje midsommarafton. Men det är också en slinga runt centrala Torsby som används flitigt av både ortsbor och motionärer året om. Loppet följer en bana på 8,5 km som löper runt Torsby centrum med start och målgång vid den vackra Herrgårdsparken. Borejoggen finns även i distansen 5 km och Minijoggen på 1,5 km för de yngre deltagarna.",
+    "county": "Värmlands"
   },
   {
     "date": "20230625",
@@ -4795,6 +4867,25 @@
     "county": "Västerbottens"
   },
   {
+    "date": "20230819",
+    "month": "AUGUSTI",
+    "day": "19",
+    "type": "track",
+    "name": "Engelholmsspelen",
+    "distance": "event-60-m event-100-m event-200-m event-300-m event-400-m event-800-m event-1500-m event-2000-m event-3000-m event-5000-m event-10-000-m event-1500-m-hinder event-2000-m-hinder event-3000-m-hinder event-60-m-hack event-100110-m-hack event-300-m-hack event-400-m-hack event-hojdhopp event-stavhopp event-langdhopp event-tresteg event-kula event-diskus event-slagga event-spjut event-80-m event-600-m event-80-m-hack event-200-m-hack",
+    "distance_m": [1500, 3000, 5000, 10000],
+    "place": "Ängelholms IF",
+    "latitude": 56.245748,
+    "longitude": 12.863881,
+    "organizer": "",
+    "website": "https://angelholmsif.com/arrangemang/engelholmsspelen/",
+    "src_url": "https://friidrott.euwest01.umbraco.io/tavling-landslag/tavling/tavlingskalender/tavlingar-i-sverige/arenatavlingar/",
+    "id": "78bb4d73-ec24-4995-a6b5-d39b54ae43ae",
+    "summary": "Engelholmsspelen är Ängelholms IFs arenatävling som brukar gå av stapeln i slutet av augusti eller början av september. Kom och spring 10000, 5000, 3000 eller 1500 meter.",
+    "county": "Skåne"
+  },
+
+  {
     "date": "20230820",
     "month": "augusti",
     "day": "20",
@@ -5138,6 +5229,24 @@
     "id": "3238ec9e-6789-4720-8705-8f62c907dd47",
     "summary": "Bli blodgivare och rädda liv I Sverige behövs i snitt en blodpåse i minuten, dygnet runt, året runt. Blodet räddar liv och används till exempel vid cancerbehandlingar, förlossningar, operationer och olyckor.",
     "county": "Gotlands"
+  },
+  {
+    "date": "20230831",
+    "month": "AUGUSTI",
+    "day": "31",
+    "type": "trail",
+    "name": "Blodomloppet",
+    "distance": "event-5-km event-10-km",
+    "distance_m": [5000, 10000],
+    "place": "Karlstad",
+    "latitude": 59.4021806,
+    "longitude": 13.5114977,
+    "organizer": "IF Göta Karlstad",
+    "website": "https://blodomloppet.se/vara-lopp/karlstad/",
+    "src_url": "https://friidrott.euwest01.umbraco.io/tavling-landslag/tavling/tavlingskalender/tavlingar-i-sverige/langlopp/",
+    "id": "533865f0-1740-4d00-bc68-ce57f80b5b43",
+    "summary": "Bli blodgivare och rädda liv I Sverige behövs i snitt en blodpåse i minuten, dygnet runt, året runt. Blodet räddar liv och används till exempel vid cancerbehandlingar, förlossningar, operationer och olyckor.",
+    "county": "Värmlands"
   },
   {
     "date": "20230901",
@@ -5899,6 +6008,42 @@
     "id": "5c4d0753-93af-4721-83a8-deeffdeb1542",
     "summary": "Lasse-Majaloppet är ett terränglopp för alla. Banorna går i skogarna på söder i Arboga, i vacker natur, och till största delen på stigar och skogsvägar. Start och mål sker på Ekbacksbadet i Arboga.",
     "county": "Västmanlands"
+  },
+  {
+    "date": "20230916",
+    "month": "september",
+    "day": "16",
+    "type": "trail",
+    "name": "Granbergsdalsterrängen",
+    "distance": "5km, 10km",
+    "distance_m": [5000, 10000],
+    "place": "Solvallen, Granbergsdals IF",
+    "latitude": 59.4066199,
+    "longitude": 14.5805418,
+    "organizer": "Granbergsdals IF",
+    "website": "https://www.svenskalag.se/granbergsdalsif-skidor-skidor/nyheter/1842949/granbergsdalsterrangen",
+    "src_url": "https://trailrunningsweden.se/trailkalendern/",
+    "id": "a110947a-f019-45c4-8319-9aee2b58ab36",
+    "summary": "Lördagen 16 September arrangerar vi upplaga 2 av Granbergsdalsterängen, I år erbjuder vi samma bana på 10km som förra året samt en bana på c:a 5km. Vätska på 10km banan och vid mål. Mer info om loppet och anmälan kommer att läggas upp fortlöpande",
+    "county": "Örebro"
+  },
+  {
+    "date": "20230916",
+    "month": "september",
+    "day": "16",
+    "type": "trail",
+    "name": "USWE Paradiset STHLM",
+    "distance": "26,00 km",
+    "distance_m": 26000,
+    "place": "Stockholm",
+    "latitude": 59.32932349999999,
+    "longitude": 18.0685808,
+    "organizer": "",
+    "website": "https://paradisetsthlm.se/",
+    "src_url": "https://www.jogg.se/Kalender/Tavlingar.aspx?aar=2023&mon=13&fdist=0&tdist=1000&type=0&country=1&region=0&tlopp=False&relay=False&surface=ter&tridist=0&title=1",
+    "id": "a50320e8-77c2-4399-8ad8-3160e5629b4a",
+    "summary": "Berghällarna, den öppna tallskogen, de små tjärnarna. Naturreservatet med det så passande namnet Paradiset, är sedan länge ett av våra absoluta favoritområden att springa i.  Belöningen är stoltheten över det du har gjort, glädjen, gemenskapen och festen efter att du korsat mållinjen. För 26 kilometer i vår version av paradiset görs inte utan ansträngning. Att springa på de små vindlande stigarna, upp och ner, över myrar och på spång ÄR jobbigt. Det här loppet kräver något av dig. Belöningen är stoltheten över det du har gjort, glädjen, gemenskapen och festen efter att du korsat mållinjen.",
+    "county": "Stockholms"
   },
   {
     "date": "20230917",
