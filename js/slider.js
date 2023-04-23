@@ -6,7 +6,7 @@ $(function () {
     range: true,
     min: 0,
     max: 300,
-    values: [9, 161],
+    values: [5, 161],
     slide: function (event, ui) {
       let now = new Date();
       let dayInMilliseconds = 24 * 60 * 60 * 1000;

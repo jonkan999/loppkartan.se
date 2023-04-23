@@ -27,7 +27,7 @@ export function filterMarkersOnDays(daysLow, daysHigh) {
         // Get current date
         const currentDate = new Date();
         // Calculate difference in milliseconds
-        const diff = Math.abs(raceDate - currentDate);
+        const diff = Math.max(raceDate - currentDate, 0);
 
         // Convert milliseconds to days
         const diffInDays = diff / (1000 * 60 * 60 * 24);

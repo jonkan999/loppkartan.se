@@ -41,9 +41,12 @@ export function filterRaces() {
           power
         );
 
-        const now = new Date();
-        const diff = Math.abs(raceDate.getTime() - now.getTime());
+        const currentDate = new Date();
+        const diff = Math.max(raceDate - currentDate, 0);
         const diffInDays = Math.ceil(diff / (1000 * 3600 * 24));
+        console.log("low: " + daysLow);
+        console.log("diffInDays: " + diffInDays);
+        console.log("racedate: " + raceDate);
 
         const distanceM = race.distance_m.toString();
         const distanceArr = distanceM.split(", ").map((x) => parseInt(x));
