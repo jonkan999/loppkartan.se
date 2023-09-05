@@ -60,9 +60,14 @@ export function filterRaces() {
             break;
           }
         }
+
         if (distanceM === "backyard" || distanceM === "relay") {
           /* if distanceM is "backyard" or "time" we show it independently of distance slider, such as backyard and time races */
           isInRange = true;
+          if (distanceM === "backyard") {
+            console.log(race);
+            console.log(distanceM);
+          }
         }
 
         let typeIsChecked = false;
