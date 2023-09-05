@@ -30,7 +30,7 @@ btnNavEl.addEventListener("click", function () {
     /*     const elements = document.getElementsByClassName(
       "leaflet-control-container"
     );
-    console.log(elements);
+
     // Loop through all elements and set their display property to "none"
     for (let i = 0; i < elements.length; i++) {
       elements[i].style.display = "none";

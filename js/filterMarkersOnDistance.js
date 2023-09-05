@@ -5,7 +5,7 @@ export function filterMarkersOnDistance(minDistance, maxDistance) {
     .then((allRaces) => {
       // Get all marker icons
       let markerIcons = document.getElementsByClassName("leaflet-marker-icon");
-      console.log("works");
+
       // Loop through all marker icons and get all the distance_m arrays from allRaces
       for (let i = 0; i < markerIcons.length; i++) {
         // Get distance date from marker

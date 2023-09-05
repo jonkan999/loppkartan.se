@@ -1,6 +1,6 @@
 export function filterRaces() {
   const button = document.querySelector(".view-button.map-view-button");
-  console.log("run");
+
   if (button.classList.contains("active-button")) {
     // this is a list filter so dont filter if map is active
     return;
@@ -44,9 +44,9 @@ export function filterRaces() {
         const currentDate = new Date();
         const diff = Math.max(raceDate - currentDate, 0);
         const diffInDays = Math.ceil(diff / (1000 * 3600 * 24));
-        console.log("low: " + daysLow);
+        /*         console.log("low: " + daysLow);
         console.log("diffInDays: " + diffInDays);
-        console.log("racedate: " + raceDate);
+        console.log("racedate: " + raceDate); */
 
         const distanceM = race.distance_m.toString();
         const distanceArr = distanceM.split(", ").map((x) => parseInt(x));

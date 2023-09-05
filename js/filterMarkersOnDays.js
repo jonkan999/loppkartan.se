@@ -10,7 +10,6 @@ export function filterMarkersOnDays(daysLow, daysHigh) {
     .then((allRaces) => {
       // Loop through all marker icons
       for (let i = 0; i < markerIcons.length; i++) {
-        /* console.log("running"); */
         // Get the third class name
         let className = markerIcons[i].classList[2];
 
