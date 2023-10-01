@@ -1,11 +1,11 @@
 import json
 
 # Read in the all_races.json file with UTF-8 encoding
-with open("backend/all_races.json", "r", encoding="utf-8") as f:
+with open("all_races.json", "r", encoding="utf-8") as f:
     all_races = json.load(f)
 
 # Read in the URL_Summary.json file with UTF-8 encoding
-with open("backend/URL_Summary_Formatted.json", "r", encoding="utf-8") as f:
+with open("URL_Summary_Formatted.json", "r", encoding="utf-8") as f:
     url_summary = json.load(f)
 
 # Create a dictionary of the URLs and summaries
@@ -30,5 +30,5 @@ for race in all_races:
     all_races_w_formatted_summary.append(race)
 
 # Save the joined data to a new file with UTF-8 encoding
-with open("backend/new_races_w_formatted_summary.json", "w", encoding="utf-8") as f:
+with open("new_races_w_formatted_summary.json", "w", encoding="utf-8") as f:
     json.dump(all_races_w_formatted_summary, f, indent=4, ensure_ascii=False)

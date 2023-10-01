@@ -18,6 +18,7 @@ if response.status_code == 200:
         if "past_event" not in event["class"]:
             date_span = event.find("span", class_="evoet_dayblock evcal_cblock")
             month_name = date_span.get("data-smon")
+            year_num = date_span.get("data-syr")
             months_dict = {
                 "januari": "01",
                 "februari": "02",
@@ -34,7 +35,7 @@ if response.status_code == 200:
             }
             month_num = months_dict.get(month_name.lower(), "00")
             day = event.find("em", class_="date").text.strip().zfill(2)
-            proper_date = f"2023{month_num}{day}"
+            proper_date = f"{year_num}{month_num}{day}"
             name_span = event.find("span", class_="evoet_title evcal_desc2 evcal_event_title")
             name = name_span.text.strip()
             distance_str = ""
@@ -83,8 +84,9 @@ if response.status_code == 200:
             else:
                 #Else we crawl
                 data.append(event_data)
+                print("Finished crawled: " + proper_date + ", " + name + ", " +  distance_str + ", " + url)
 else:
     print("Error: Could not retrieve page")
 
-with open("backend/events_trailkalendern.json", "w", encoding='utf-8') as f:
+with open("events_trailkalendern.json", "w", encoding='utf-8') as f:
     json.dump(data, f, ensure_ascii=False)

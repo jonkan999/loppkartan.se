@@ -2,10 +2,10 @@ import requests
 from bs4 import BeautifulSoup
 import json
 import get_lat_long_goog
-import check_existing_race
 import re
+import check_existing_race
 
-url = "https://www.friidrott.se/tavling-landslag/tavling/tavlingskalender/tavlingar-i-sverige/langlopp/"
+url = "https://www.friidrott.se/tavling-landslag/tavling/tavlingskalender/tavlingar-i-sverige/inomhustavlingar/?sida=2"
 
 response = requests.get(url)
 
@@ -28,22 +28,24 @@ for container in event_soup.find_all("div", class_="calendar__container"):
         for event in events:
             day = event.find("time", class_="calendar-item__date").find("span").text.strip()
 
-            proper_date = '2024' + month_num + day.zfill(2)
-            # Type mapping
-            mapping = {
-                "Trail": "trail",
-                "Väg": "road",
-                "Terräng": "terrain",
-                "Stafett": "relay"
-            }
-            type = event.find("p", class_="calendar-item__type").text.strip()
-            translated_type = mapping.get(type, type)
+            proper_date = '2023' + month_num + day.zfill(2)
+            translated_type = "track"
             texts = event.find_all("p", class_="calendar-item__text")
             name = texts[1].text.strip()
             place = texts[2].text.strip()
             organizer = texts[3].text.strip()
-            website = event.find("a").get("href")
+            website = ""
+            try:
+                website = event.find("a").get("href")
+            except:
+                website = ""
             distance_str = event.get("data-event")
+            #if no 1500-10k race then pass
+            event_distances = ["event-1500-m", "event-3000-m", "event-5000-m", "event-10000-m"]
+
+            if (not any(event_distance in distance_str.split(" ") for event_distance in event_distances)):
+                continue
+
             distances = []
             for distance_item in distance_str.split(" "):
                 km_index = distance_item.find("-km")
@@ -57,6 +59,8 @@ for container in event_soup.find_all("div", class_="calendar__container"):
                     distances.append(10000)
                 elif "event-3000-m" == distance_item:
                     distances.append(3000)
+                elif "event-1500-m" == distance_item:
+                    distances.append(1500)
                 elif distance_item.startswith("event-") and distance_item.endswith("-km"):
                     value_str = distance_item[6:-3]
                     try:
@@ -71,7 +75,6 @@ for container in event_soup.find_all("div", class_="calendar__container"):
             #[latitude, longitude] = get_lat_long_goog.get_lat_long_goog(place, access_token)
             latitude = 0
             longitude = 0
-            
             event_data = {"date": proper_date, "month": month_name, "day": day, "type": translated_type, "name": name, "distance": distance_str,"distance_m": distances, "place": place,"latitude": latitude, "longitude": longitude, "organizer": organizer, "website": website, "src_url": url}
             #Checks if race is already crawled
             if check_existing_race.check_existing_race(event_data['date'], event_data['name'], event_data['distance'], event_data['src_url']):
@@ -79,8 +82,7 @@ for container in event_soup.find_all("div", class_="calendar__container"):
             else:
                 #Else we crawl
                 data.append(event_data)
-                
 
 
-with open("events_fri_LL.json", "w", encoding='utf-8') as f:
+with open("events_fri_Indoor_2023.json", "w", encoding='utf-8') as f:
     json.dump(data, f, ensure_ascii=False)

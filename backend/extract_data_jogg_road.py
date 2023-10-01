@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup
 import json
 import check_existing_race
 
-url = "https://www.jogg.se/Kalender/Tavlingar.aspx?aar=2023&mon=13&fdist=0&tdist=1000&type=0&country=1&region=0&tlopp=False&relay=False&surface=asf&tridist=0&title=1"
+url = "https://www.jogg.se/Kalender/Tavlingar.aspx?aar=2024&mon=13&fdist=0&tdist=1000&type=0&country=1&region=0&tlopp=False&relay=False&surface=asf&tridist=0&title=1"
 response = requests.get(url)
 
 data = []
@@ -36,7 +36,7 @@ if response.status_code == 200:
                 "december": "12"
             }
             month_num = months_dict.get(month_name.lower(), "00")
-            proper_date = f"2023{month_num}{day}"
+            proper_date = f"2024{month_num}{day}"
             distance_div = item.find("div", class_="distanceInfo")
             distance_str = distance_div.text.strip()
             distance_m = 0
@@ -63,5 +63,5 @@ if response.status_code == 200:
 else:
     print("Error: Could not retrieve page")
 
-with open("backend/events_fri_jogg_road.json", "w", encoding='utf-8') as f:
+with open("events_fri_jogg_road.json", "w", encoding='utf-8') as f:
     json.dump(data, f, ensure_ascii=False)

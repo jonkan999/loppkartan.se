@@ -5,11 +5,11 @@ import get_lat_long_goog
 import re
 import check_existing_race
 
-url = "https://friidrott.euwest01.umbraco.io/tavling-landslag/tavling/tavlingskalender/tavlingar-i-sverige/arenatavlingar/"
+url = "https://www.friidrott.se/tavling-landslag/tavling/tavlingskalender/tavlingar-i-sverige/arenatavlingar/"
 
 response = requests.get(url)
 
-months_dict = {'MARS': '03', 'APRIL': '04', 'MAJ': '05', 'JUNI': '06', 'JULI': '07', 'AUGUSTI': '08', 'SEPTEMBER': '09', 'OKTOBER': '10', 'NOVEMBER': '11', 'DECEMBER': '12'}
+months_dict = {'JANUARI': '01','FEBRUARI': '02','MARS': '03', 'APRIL': '04', 'MAJ': '05', 'JUNI': '06', 'JULI': '07', 'AUGUSTI': '08', 'SEPTEMBER': '09', 'OKTOBER': '10', 'NOVEMBER': '11', 'DECEMBER': '12'}
 months_list = list(months_dict.keys())
 
 data = []
@@ -28,7 +28,7 @@ for container in event_soup.find_all("div", class_="calendar__container"):
         for event in events:
             day = event.find("time", class_="calendar-item__date").find("span").text.strip()
 
-            proper_date = '2023' + month_num + day.zfill(2)
+            proper_date = '2024' + month_num + day.zfill(2)
             translated_type = "track"
             texts = event.find_all("p", class_="calendar-item__text")
             name = texts[1].text.strip()
@@ -84,5 +84,5 @@ for container in event_soup.find_all("div", class_="calendar__container"):
                 data.append(event_data)
 
 
-with open("backend/events_fri_Arena.json", "w", encoding='utf-8') as f:
+with open("events_fri_Arena.json", "w", encoding='utf-8') as f:
     json.dump(data, f, ensure_ascii=False)

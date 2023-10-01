@@ -366,7 +366,7 @@
     "type": "trail",
     "name": "Reflexcupen Värmland #4",
     "distance": "3.85 km / 5.7 km",
-    "distance_m": [3850,5700],
+    "distance_m": [3850, 5700],
     "place": "SISU-gården",
     "latitude": 0,
     "longitude": 0,
@@ -384,7 +384,7 @@
     "type": "trail",
     "name": "Reflexcupen Värmland #5",
     "distance": "4.0 km / 8.2 km",
-    "distance_m": [4000,8200],
+    "distance_m": [4000, 8200],
     "place": "Skidstugan Deje",
     "latitude": 0,
     "longitude": 0,
@@ -600,7 +600,7 @@
     "type": "trail",
     "name": "Sandsjöbacka Trail",
     "distance": "30k, 60k, 90k, 180k",
-    "distance_m": [30000,60000,90000,180000],
+    "distance_m": [30000, 60000, 90000, 180000],
     "place": "Skatås",
     "latitude": 0,
     "longitude": 0,
@@ -608,7 +608,7 @@
     "website": "https://sandsjobackatrail.se/",
     "src_url": "https://trailrunningsweden.se/trailkalendern/",
     "id": "41e78601-3b90-4fad-8506-c5af650a0e7e",
-    "summary": "Sandsjöbacka Trail är ett av de häftigaste och härligaste Trailloppen i Göteborg under vinterperioden. Vi erbjuder att en utmaning som passar dig oavsett om du är en inbiten Ultralöpare eller om du vill prova att springa distansrekord som glad motionär. Vår banläggning är gjord för att maximera upplevelsen och utmaningen för just dig. Alltifrån lättlöpt mark till slingrig och teknisk traillöpning. Vi lovar en rejäl och härlig utmaning i en magisk miljö. Så varmt välkommen att springa med oss.", 
+    "summary": "Sandsjöbacka Trail är ett av de häftigaste och härligaste Trailloppen i Göteborg under vinterperioden. Vi erbjuder att en utmaning som passar dig oavsett om du är en inbiten Ultralöpare eller om du vill prova att springa distansrekord som glad motionär. Vår banläggning är gjord för att maximera upplevelsen och utmaningen för just dig. Alltifrån lättlöpt mark till slingrig och teknisk traillöpning. Vi lovar en rejäl och härlig utmaning i en magisk miljö. Så varmt välkommen att springa med oss.",
     "county": "Västra Götalands"
   },
   {
@@ -1224,6 +1224,5 @@
     "id": "eb5dec5b-ce6b-4801-88e5-5fc28f05526f",
     "summary": "Fjällmaraton Sälen by EQPE är trailäventyret för dig som gillar upplevelser, löpning och vacker natur. Du väljer att springa 42 km, 21 km eller 10 km och kan även låta barnen delta i Barnens Fjällmaraton. Som deltagare erbjuds du ett utmanande fjällopp utan att behöva åka allt för långt. I natursköna Sälen bjuder Fjällmaraton Sälen by EQPE på en löparutmaning deluxe. Längs fjällstigar, leder, spänger och vägar utmanas du av naturen på din väg mot målet på Experiumtorget i Lindvallen.",
     "county": "Dalarnas"
-  },
+  }
 ]
-"Gör klart, kör genom get long lat och county, sen lägg i slutet och kör sort."

@@ -2,3 +2,4 @@ backend/config.py
 backend/config.json
 temp/
 .env
+venv/
