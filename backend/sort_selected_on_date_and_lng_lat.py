@@ -1,6 +1,6 @@
 import json
 
-selected_file="all_races_w_formatted_summary.json"
+selected_file="../all_races_w_formatted_summary.json"
 
 # Read data from the file
 with open(selected_file, "r", encoding="utf-8") as f:
