@@ -8420,6 +8420,26 @@
     "county": "Värmlands"
   },
   {
+    "date": "20231101",
+    "month": "november",
+    "day": "01",
+    "type": "trail",
+    "name": "Lida Night Trail",
+    "distance": "6 km",
+    "distance_m": [
+      60000
+    ],
+    "place": "Lida Friluftsgård, Tullinge, Stockholm",
+    "latitude": 59.16338891244485,
+    "longitude": 17.877772450337947,
+    "organizer": "https://lida.se/evenemang/lida-night-trail/",
+    "website": "https://lida.se/evenemang/lida-night-trail/",
+    "src_url": "https://lida.se/evenemang/lida-night-trail/",
+    "id": "76c02d38-e64c-43a3-9f30-269f56ed16e4",
+    "summary": "Lida Night Trail ger dig traillöpning på sköna skogsstigar under kvällstid på Lida Friluftsgård. Lida Night Trail är ett motionslopp som sträcker sig 6 km i Lida skogen. Här springer du kvällstid med pannlampa i omväxlande terräng. Banan går delvis på lite mindre stigar och en kort bit ”obanad” terräng. Målgången firas med en eldshow.",
+    "county": "Stockholms"
+  },
+  {
     "date": "20231103",
     "month": "november",
     "day": "03",
@@ -8775,7 +8795,7 @@
     "place": "Skepplanda bygdegård",
     "latitude": 57.9787288,
     "longitude": 12.2023793,
-    "organizer": "",
+    "organizer": "ultra@alehof.se",
     "website": "https://www.svenskalag.se/okalehof/sida/87776/alehofs-ultra",
     "src_url": "https://trailrunningsweden.se/trailkalendern/",
     "id": "4b9ce064-17e9-49b4-87d1-8f5b0c337689",
@@ -10267,26 +10287,24 @@
     "county": "Dalarnas"
   },
   {
-    "date": "20240907",
-    "month": "september",
+    "date": "20240831",
+    "month": "augusti",
     "day": "07",
-    "type": "trail",
-    "name": "Mossarun 2024",
-    "distance": "17km, 51km, 24h",
+    "type": "backyard",
+    "name": "Enskede Backyard Kvarterslopp",
+    "distance": "6,706 km",
     "distance_m": [
-      17000,
-      51000,
-      2000
+      "backyard"
     ],
-    "place": "Mossarun",
-    "latitude": 0,
-    "longitude": 0,
-    "organizer": "",
-    "website": "https://www.mossarun.com/mossarun-2019/",
-    "src_url": "https://trailrunningsweden.se/trailkalendern/",
-    "id": "55824c57-ffe0-47db-95f1-dc23919e6a74",
-    "summary": "Legendary Mossarun. 24h ultra challenge. 17km sprint. Pizza party. Löparloppis",
-    "county": "Kronobergs"
+    "place": "Fågelkärrskroken i Enskede, Stockholm",
+    "latitude": 59.28581394923012,
+    "longitude": 18.086878181382435,
+    "organizer": "http://enskedebackyard.se/",
+    "website": "http://enskedebackyard.se/",
+    "src_url": "http://enskedebackyard.se/",
+    "id": "7a3c78c9-d4bb-4855-893c-6db8f746bf79",
+    "summary": "Springa fort? Glöm det! Enskede Backyard Kvarterslopp är en möjlighet för dig att utmana din uthållighet och framför allt tålamod! Hur många varv orkar du?",
+    "county": "Stockholms"
   },
   {
     "date": "20240907",
@@ -10307,6 +10325,28 @@
     "id": "7a3c78c9-d4bb-4855-893c-6bb8f746bf79",
     "summary": "Varmt välkomna till den tredje upplagan av BTR Vineyard Backyard Ultra 2/9 2023. Loppet följer en 6.706 km lång rundbana med start varje hel timme. Första starten går kl. 09:00 och alla som hunnit runt banan startar igen för nästa varv kl. 10:00, sedan kl. 11:00 osv. Den som inte tar sig runt till nästa start är ute ur loppet. Så fortsätter loppet till dess endast en deltagare är kvar i tävlingen som springer ett avslutande eget varv.",
     "county": "Hallands"
+  },
+  {
+    "date": "20240907",
+    "month": "september",
+    "day": "07",
+    "type": "trail",
+    "name": "Mossarun 2024",
+    "distance": "17km, 51km, 24h",
+    "distance_m": [
+      17000,
+      51000,
+      2000
+    ],
+    "place": "Mossarun",
+    "latitude": 56.6244341,
+    "longitude": 15.5687077,
+    "organizer": "",
+    "website": "https://www.mossarun.com/mossarun-2019/",
+    "src_url": "https://trailrunningsweden.se/trailkalendern/",
+    "id": "55824c57-ffe0-47db-95f1-dc23919e6a74",
+    "summary": "Legendary Mossarun. 24h ultra challenge. 17km sprint. Pizza party. Löparloppis",
+    "county": "Kronobergs"
   },
   {
     "date": "20240913",
