@@ -29,4 +29,11 @@ Then search for county with findCounty.
 -sort_on_date_and_lng_lat.py
 Then one last sort with sort_on_date_and_lng_lat.py and we have all the new races in new_races_w_formatted_summary.races.
 
-manual step to go through all and then add to the same named json in top folder. Which we then use as the foundation for the map app.
+Manually go through and clean all then save in a new json called new_races_w_formatted_summary_MI.json
+and run
+-new_races_MI_lng_lat_county_sort.py
+
+manual step to go through all and then add (copy paste) to the same named json in top folder. Which we then use as the foundation for the map app.
+
+then sort it using;
+sort_selected_on_date_and_lng_lat.py

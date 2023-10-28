@@ -43,9 +43,21 @@ for i in range(len(new_races_MI)):
     new_races_MI[i]["longitude"] = longitude
     new_races_MI[i]["id"] = str(uuid.uuid4())
     #Get county if it doesnt exist
-    if new_races_MI[i]["county"] == None:
+    try:
+        if new_races_MI[i]["county"] == None:
+            county = find_county(latitude, longitude)
+            new_races_MI[i]["county"] = county
+    except KeyError:
+        
+        new_races_MI[i]["county"] = None  # Handle the case where "county" key is missing
         county = find_county(latitude, longitude)
         new_races_MI[i]["county"] = county
+        if county != None:
+            print("county added: " + county + " for: " + new_races_MI[i]["name"] )
+        else:
+            print("couldnt add county " + "for: " + new_races_MI[i]["name"] )
+            
+        
 
 # Write the merged data to a new file, using UTF-8 encoding
 with open('new_races_w_formatted_summary_MI_cleaned.json', 'w', encoding='utf-8') as f:
