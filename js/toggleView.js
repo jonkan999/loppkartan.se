@@ -36,10 +36,10 @@ function toggleActiveClass(event) {
     // If the window size is narrower than 704px, apply the media query style
     if (mediaQuery.matches) {
       // Your media query style here
-      filterSection.style.marginTop = "6rem";
-      checkboxes.style.marginTop = "-4rem";
+      /* filterSection.style.marginTop = "6rem"; */
+      /* checkboxes.style.marginTop = "-4rem"; */
     } else {
-      filterSection.style.marginTop = "3rem";
+      /* filterSection.style.marginTop = "3rem"; */
     }
 
     // Collapse the map
@@ -77,7 +77,7 @@ function toggleActiveClass(event) {
       const element = document.querySelector(".map-or-list-view");
       element.style.width = "16rem";
       element.style.paddingRight = "0";
-      checkboxes.style.marginTop = "0rem";
+      /* checkboxes.style.marginTop = "0rem"; */
     }, 200);
 
     // Open up the map again
@@ -88,10 +88,10 @@ function toggleActiveClass(event) {
     raceInfoBoxes.forEach((raceInfoBox) => {
       raceInfoBox.style.display = "none";
     });
-    const filterSection = document.querySelector(".filter-section");
+    /*     const filterSection = document.querySelector(".filter-section");
     setTimeout(function () {
       filterSection.style.marginTop = "0";
-    }, 200);
+    }, 200); */
 
     //Turn off all months each time, maybe a more efficient way of doing this?
     const monthNames = document.querySelectorAll(".month-name");
