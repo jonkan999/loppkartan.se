@@ -6,7 +6,7 @@ body {
 /* STYLING HEADER BUTTONS */
 .map-or-list-view {
   position: absolute;
-  top: 33.9rem;
+  top: 31.9rem;
   left: 50%;
   transform: translateX(-50%);
   width: 16rem;
@@ -161,7 +161,7 @@ body {
 }
 
 .slider-container {
-  margin-top: -2rem;
+  margin-top: -9rem;
   width: 50rem;
   font-size: 1.4rem;
 }

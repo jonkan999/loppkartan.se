@@ -78,6 +78,11 @@
 
   .slider-container {
     align-self: flex-start;
+    margin-top: -3rem;
+  }
+
+  .map-or-list-view {
+    top: 33rem;
   }
 
   #sliderDays {
