@@ -5,8 +5,8 @@ $(function () {
   $("#sliderDays").slider({
     range: true,
     min: 0,
-    max: 300,
-    values: [0, 300],
+    max: 340,
+    values: [0, 340],
     slide: function (event, ui) {
       let now = new Date();
       let dayInMilliseconds = 24 * 60 * 60 * 1000;
