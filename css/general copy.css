@@ -1,0 +1,76 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  /* font-size: 10px; */
+  /* 10 / 16 = 0,625 percentage of users browser font-size setting */
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: #000;
+  background-color: #fff;
+}
+
+input:focus,
+select:focus {
+  outline: none;
+}
+
+:root {
+  --black-text-color: #000;
+  --white-background-color: #fff;
+  --white-text-color: #fff;
+  --hover-white: #ccc;
+  --box-hover-color: #555;
+  --black-background-color: #000;
+  --highlight-color: #9c51b6;
+  --granite-background-color: #111;
+  --mobile-standard-box-width: 390px;
+  --maximum-allowed-box-width: 944px;
+
+  --color1: #2e86c1;
+  --color2: #27ae60;
+  --color3: #f39c12;
+
+  --header-size: 7rem;
+  --venue-box-width: 35rem;
+  --venue-box-height: 34rem;
+  --venue-box-image-height: 22rem;
+}
+
+/***************************** */
+/* GENERAL REUSABLE COMPONENTS */
+/***************************** */
+
+.main-white-color {
+  color: var(--main-background-color) !important;
+}
+main {
+}
+.container {
+  width: 100%;
+  max-width: var(--maximum-allowed-box-width);
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.section {
+  margin-bottom: 1rem;
+}
+
+.section-header {
+  text-align: center;
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+  font-size: 3.6rem;
+}
+.highlight {
+  color: var(--highlight-color);
+}

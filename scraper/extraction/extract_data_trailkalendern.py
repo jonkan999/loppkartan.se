@@ -71,8 +71,9 @@ def main():
                 website_a = event.find("a", class_="evcal_evdata_row evo_clik_row")
                 website = website_a.get("href") if website_a else ""
                 website_ai_fallback = name + " " + distance_str
-                race = Race(proper_date, "trail", name, distance_str, distances, place, organizer, website, website_ai_fallback, url)
-
+                
+                race = Race(date = proper_date, type =  "trail",  name = name, distance = name, distance_m = distances, place = place, organizer = organizer, website = website, src_url = url, website_ai_fallback = website_ai_fallback)
+                
                 ### STANDARD ENDING ###
                 race.add_id('extract')
                 race_collection.add_race_if_doesnt_exist('extraction/sourced_races.json', race)
