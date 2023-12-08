@@ -69,7 +69,7 @@
       <div class="menu">
         <ul>
           <li>
-            <p class="category-link">Lokalsida för: {{ context.race.name }}</p>
+            <p class="category-link">Loppsida för: {{ context.race.name }}</p>
           </li>
         </ul>
       </div>
@@ -260,7 +260,10 @@
                 <li>Datum: {{ context.race.date }}</li>
                 <li>Distanser: {{ context.race.distance }}</li>
                 <li>Underlag: {{ context.race.type }}</li>
-                <li>Loppkategorier: {{ context.race.race_categories }}</li>
+                <li>
+                  Loppkategorier: {% if context.race.race_categories %}{{
+                  context.race.race_categories | join(', ') }}{% endif %}
+                </li>
                 <li>Plats: {{ context.race.place }}</li>
                 <li>Län: {{ context.race.county }}</li>
                 <li>Organisatör: {{ context.race.organizer }}</li>

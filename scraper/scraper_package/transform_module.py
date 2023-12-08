@@ -140,7 +140,64 @@ def get_lat_long_goog(api_key, *search_strings):
     return [0, 0]
 
 def check_allowed_url_get_goog(url, query):
-    # Check if the incoming URL is not part of the specified set
+
+    try:
+        # Using the googlesearch library to perform a search and get the results
+        results_generator = search(query, num_results=5)
+        print(f"Found {len(list(results_generator))} search results.")
+        # Extract URLs from the generator
+        urls = list(results_generator)
+
+        # Filter out URLs that start with specified prefixes
+        filtered_urls = [url for url in urls if not url.startswith(tuple(disallowed_urls))]
+
+        if filtered_urls:
+            # Return the first URL that doesn't start with specified prefixes
+            return filtered_urls[0]
+        else:
+            print("No suitable URL found.")
+            return None
+
+    except requests.exceptions.HTTPError as e:
+        if "429" in str(e):
+            print(f"Received 429 error. Waiting before retrying...")
+        else:
+            print(f"An HTTP error occurred while searching: {e}")
+    except Exception as e:
+        print(f"An error occurred while searching: {e}")
+
+    print("No suitable URL found.")
+    return None
+
+def check_allowed_url_get_bing(url, query):
+
+    try:
+        # Using the get_bing_search_results function to perform a Bing search and get the results
+        results = get_bing_search_results(query)
+        print(f"Found {len(results)} search results.")
+
+        # Filter out URLs that start with specified prefixes
+        filtered_urls = [result for result in results if not result.startswith(tuple(disallowed_urls))]
+
+        if filtered_urls:
+            # Return the first URL that doesn't start with specified prefixes
+            return filtered_urls[0]
+        else:
+            print("No suitable URL found.")
+            return None
+
+    except requests.exceptions.HTTPError as e:
+        if "429" in str(e):
+            print(f"Received 429 error. Waiting before retrying...")
+        else:
+            print(f"An HTTP error occurred while searching: {e}")
+    except Exception as e:
+        print(f"An error occurred while searching: {e}")
+
+    print("No suitable URL found.")
+    return None
+
+def check_allowed_url(url, query):
     disallowed_urls = {
         "https://www.lopplistan.se",
         "https://www.trailrunningsweden.se",
@@ -154,43 +211,58 @@ def check_allowed_url_get_goog(url, query):
         print(f"The incoming URL '{url}' is not disallowed or empty. Returning it directly.")
         return url
 
+    number_of_retries = 2  # Number of retries
+    for _ in range(number_of_retries):
+        # Try Google search first
+        google_result = check_allowed_url_get_goog(url, query)
+        if google_result:
+            return google_result
+
+        # If Google search fails, try Bing search
+        bing_result = check_allowed_url_get_bing(url, query)
+        if bing_result:
+            return bing_result
+
+        # If both searches fail, pause for 30 seconds and try Google search once more
+        if _ <= number_of_retries - 1:
+            print("Both Google and Bing searches failed. Waiting for 30 seconds before retrying...")
+            time.sleep(30)
+
+    return None
+
+# Function to get Bing search results
+def get_bing_search_results(query):
     try:
-        retry_count = 3  # Number of retries
-        for _ in range(retry_count):
-            try:
-                # Using the googlesearch library to perform a search and get the results
-                results_generator = search(query, num_results=5)
-                
-                # Extract URLs from the generator
-                urls = list(results_generator)
-                
-                # Filter out URLs that start with specified prefixes
-                filtered_urls = [url for url in urls if not url.startswith(tuple(disallowed_urls))]
+        # Replace spaces with hyphens in the query
+        query = query.replace(" ", "%20")
 
-                if filtered_urls:
-                    # Return the first URL that doesn't start with specified prefixes
-                    return filtered_urls[0]
-                else:
-                    print("No suitable URL found.")
-                    return None
-                
-            except requests.exceptions.HTTPError as e:
-                if "429" in str(e):
-                    print(f"Received 429 error. Waiting before retrying...")
-                    time.sleep(70)  # Wait for 1 minute (adjust as needed)
-                else:
-                    print(f"An HTTP error occurred while searching: {e}")
-                    break
-            except Exception as e:
-                print(f"An error occurred while searching: {e}")
-                break
-            
-        print("No suitable URL found after retries.")
-        return None
+        # Bing search URL
+        bing_url = f"https://www.bing.com/search?q={query}"
 
-    except Exception as e:
-        print(f"An error occurred: {e}")
-        return None
+        # Send a GET request to Bing
+        response = requests.get(bing_url)
+        response.raise_for_status()  # Raise an HTTPError for bad responses
+
+        # Parse the HTML content using BeautifulSoup
+        soup = BeautifulSoup(response.text, 'html.parser')
+
+        # Find the element with id="b_results"
+        rso_element = soup.find(id='b_results')
+
+        # Check if the 'b_results' element exists
+        if rso_element:
+            # Find the first 5 child list items of 'b_results'
+            child_items = rso_element.find_all('li', recursive=False)[:5]
+
+            # Extract the first href from each child list item
+            hrefs = [li.find('a')['href'] for li in child_items if li.find('a')]
+
+            return hrefs
+
+    except requests.exceptions.RequestException as e:
+        print(f"An error occurred during the request: {e}")
+
+    return None
 
 #def check_allowed_url_get_goog_selenium(url, query):
     # Check if the incoming URL is not part of the specified set
@@ -457,7 +529,7 @@ def get_images_selenium(search_term):
             # Decode the URL string
             decoded_img_url = unquote(img_url)
             thumbnails.append(decoded_img_url)
-        if len(thumbnails) == 4:
+        if len(thumbnails) == 12:
             break
 
     # Close the WebDriver

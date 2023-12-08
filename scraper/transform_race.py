@@ -15,7 +15,9 @@ def transform_and_store_race(race, costometer, openai=True):
 
         # Get website if not allowed or missing
         print("getting website")
-        race["website"] = transform_module.check_allowed_url_get_goog(race["website"], race["website_ai_fallback"])
+        race["website"] = transform_module.check_allowed_url(race["website"], race["website_ai_fallback"])
+        #race["website"] = transform_module.check_allowed_url_get_goog(race["website"], race["website_ai_fallback"])
+        #race["website"] = transform_module.check_allowed_url_get_bing(race["website"], race["website_ai_fallback"])
         print("done getting website")
 
         # Get website contents
@@ -30,7 +32,8 @@ def transform_and_store_race(race, costometer, openai=True):
         print("got images:")
         print(image_url_list)
         images = [transform_module.convert_and_compress_image(img, max_size_kb=200) for img in image_url_list]
-        transform_module.add_or_update_object(race["name"], race["id"], images, "images.json")
+        selected_images = [img for img in images if img is not None][:6]
+        transform_module.add_or_update_object(race["name"], race["id"], selected_images, "images.json")
         print("done with images")
 
         # Extract specific fields
@@ -104,20 +107,20 @@ def transform_and_store_race(race, costometer, openai=True):
 if __name__ == "__main__":
     # Hardcoded test race
     test_race = {
-        "date": "20241019",
-        "type": "trail",
-        "name": "Night Trail Run 30 km",
-        "distance": "30 km",
-        "distance_m": [30000],
-        "place": "Night Trail Run 30 km",
+        "date": "20240525",
+        "type": "road",
+        "name": "Halvtovlan",
+        "distance": "Halvtovlan",
+        "distance_m": [6000],
+        "place": "Bromma",
         "organizer": "",
-        "website": "https://www.nighttrailrun.se/",
-        "website_ai_fallback": "Night Trail Run 30 km 30 km",
-        "src_url": "https://www.trailrunningsweden.se/trailkalendern/",
-        "created_date": "2023-11-25 14:14:30",
-        "updated_date": "2023-11-25 14:14:30",
-        "id": "night-trail-run-30-km_20241019_httpswwwtrailrunningswedensetrailkalendern",
-        "extract_id": "17ae8970-06cc-4719-9b92-7c50bc273045"
+        "website": "https://www.jogg.se//Tavling/Tavling.aspx?id=657417",
+        "website_ai_fallback": "Halvtovlan Bromma 6,00 km",
+        "src_url": "https://www.jogg.se/Kalender/Tavlingar.aspx?aar=2024&mon=13&fdist=0&tdist=1000&type=0&country=1&region=0&tlopp=False&relay=False&surface=asf&tridist=0&title=1",
+        "created_date": "2023-12-07 18:17:00",
+        "updated_date": "2023-12-07 18:17:00",
+        "id": "halvtovlan_20240525_httpswwwjoggsekalendertavlingaraspxaar2024mon13fdist0tdist1000type0country1region0tloppfalserelayfalsesurfaceasftridist0title1",
+        "extract_id": "afa805ac-583d-4e14-b2d9-b4ba7e39e406"
     }
 
     # Run transformation on the test race

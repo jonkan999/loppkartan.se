@@ -4,6 +4,7 @@ from jinja2 import Environment, FileSystemLoader
 from PIL import Image
 import io
 import json
+from datetime import datetime
 
 # Get the directory path of the current script
 script_dir = os.path.dirname(os.path.abspath(__file__))
@@ -78,6 +79,32 @@ def save_images(images, output_folder, filename_prefix):
 
     return image_paths
 
+def append_to_sitemap(sitemap_path, new_urls):
+    try:
+        with open(sitemap_path, 'r', encoding='utf-8') as sitemap_file:
+            sitemap_content = sitemap_file.read()
+
+        # Find the closing </urlset> tag
+        index = sitemap_content.rfind('</urlset>')
+        if index == -1:
+            print("Invalid sitemap file format. Could not find </urlset> tag.")
+            return
+
+        # Create the new <url> entries
+        new_entries = '\n'.join(new_urls)
+
+        # Insert the new entries before the closing </urlset> tag
+        updated_sitemap_content = sitemap_content[:index] + new_entries + sitemap_content[index:]
+
+        with open(sitemap_path, 'w', encoding='utf-8') as sitemap_file:
+            sitemap_file.write(updated_sitemap_content)
+
+    except FileNotFoundError:
+        print(f"File '{sitemap_path}' not found.")
+    except Exception as e:
+        print(f"An error occurred while updating the sitemap: {e}")
+
+
 def main():
     races = read_all_races()
     images = read_all_images()
@@ -141,6 +168,20 @@ def main():
         print("File '../all_races_w_formatted_summary.json' not found.")
 
     print("HTML files generated successfully.")
+
+    # Update "website" keys in all_races_data
+    new_urls = []
+    for i, race in enumerate(all_races_data):
+        if race["website"] and race["website"].endswith(".html"):
+            # Extract the race name from the website URL
+            race_name = race["website"].split("/")[-1].replace(".html", "")
+            sitemap_url = f"https://loppkartan.se/race-pages/{race_name}.html"
+            new_urls.append(f'<url>\n  <loc>{sitemap_url}</loc>\n  <lastmod>{datetime.now().isoformat()}</lastmod>\n  <priority>0.8</priority>\n</url>')
+
+    # Append the new URLs to the sitemap.xml file
+    sitemap_path = os.path.join(script_dir, '../sitemap.xml')
+    append_to_sitemap(sitemap_path, new_urls)
+
 
 if __name__ == "__main__":
     main()
