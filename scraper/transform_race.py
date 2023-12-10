@@ -1,8 +1,9 @@
 import json
 from scraper_package import transform_module
-from config import GOOGLE_GEOCODING_API_KEY as goog_access_token
-from config import OPENAI_KEY as openai_access_token
+from configuration.keys import GOOGLE_GEOCODING_API_KEY as goog_access_token
+from configuration.keys import OPENAI_KEY as openai_access_token
 from scraper_package.race_classes import Race, RaceCollection
+from configuration.vars import lang_val, lang_code
 
 def transform_and_store_race(race, costometer, openai=True):
     try:
@@ -40,7 +41,7 @@ def transform_and_store_race(race, costometer, openai=True):
         title = race['contents']['title']
         description = race['contents']['description']
         h1 = race['contents']['h1']
-        paragraphs = race['contents']['p'] if race['contents']['p'] else ""
+        paragraphs = race['contents']['p'][0] if race['contents']['p'] else ""
         h2 = race['contents']['h2'][0] if race['contents']['h2'] else ""
 
         # Map distances
@@ -49,16 +50,16 @@ def transform_and_store_race(race, costometer, openai=True):
 
         if openai:
           # Generate summary prompt
-          summary_prompt = f"Given this:\n\nTitle: {title}\nDescription: {description}\nH1: {h1}\nH2: {h2}\n\n Make a summary of the race in Swedish. Pretend that you are a running race director. Write a description in a couple of paragraphs that describes a race like that, you are allowed to freestyle a bit. Don't use HTML elements like Title:, H1:, or H2: in the text. Also emphasize that the race includes the following race categories/distances: {race['race_categories']} . And of this type: {race['type']}"
+          summary_prompt = f"Given this:\n\nTitle: {title}\nDescription: {description}\nH1: {h1}\nH2: {h2}\np-element: {paragraphs}\n\n Make a summary of the race in {lang_val}. Pretend that you are a running race director. Write a description in a couple of paragraphs that describes a race like that, you are allowed to freestyle a bit. Don't use HTML elements like Title:, H1:, or H2: in the text. Also emphasize that the race includes the following race categories/distances: {race['race_categories']} . And of this type: {race['type']}"
           race["long_summary"], costometer = transform_module.get_completion(prompt=summary_prompt, costometer=costometer, openai_key=openai_access_token)
 
           if race['long_summary']:
-              short_summary_prompt = f"Given this:{race['long_summary']} Pretend that you are a running race director and write a shorter summary in Swedish of no more than 500 characters. Also emphasize that the race includes the following race categories/distances: {race['race_categories']} . And of this type: {race['type']}"
+              short_summary_prompt = f"Given this:{race['long_summary']} Pretend that you are a running race director and write a shorter summary in {lang_val} of no more than 500 characters. Also emphasize that the race includes the following race categories/distances: {race['race_categories']} . And of this type: {race['type']}"
               race["summary"], costometer = transform_module.get_completion(prompt=short_summary_prompt, costometer=costometer, openai_key=openai_access_token)
           else:
               race["summary"] = None
 
-          name_prompt = f"Given this:\n\nTitle: {title}\nDescription: {description}\nH1: {h1}\nH2: {h2}\n\n Pretend that you are the race director for this running race and give it a name in Swedish and using no more than 3 words"
+          name_prompt = f"Given this:\n\nTitle: {title}\nDescription: {description}\nH1: {h1}\nH2: {h2}\n\n Pretend that you are the race director for this running race and give it a name in {lang_val} and using no more than 3 words"
           race["ai_name_guess"], costometer = transform_module.get_completion(prompt=name_prompt, costometer=costometer, openai_key=openai_access_token)
         else:
             race["ai_name_guess"] = None
@@ -79,11 +80,12 @@ def transform_and_store_race(race, costometer, openai=True):
         race["latitude"] = latitude
         race["longitude"] = longitude
 
-        # Get counties for found coordinates
-        if latitude != 0:
-            race["county"] = transform_module.find_county(latitude, longitude)
-        else:
-            race["county"] = None
+        if lang_val == "Swedish":
+        # Get swedish counties for found coordinates
+            if latitude != 0:
+                race["county"] = transform_module.find_county(latitude, longitude)
+            else:
+                race["county"] = None
 
         #get id from races in staged_for_aproval
         staging_path="staged_for_approval.json"

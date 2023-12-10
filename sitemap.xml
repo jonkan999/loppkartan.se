@@ -45,16 +45,6 @@
   <priority>0.8</priority>
 </url>
 <url>
-  <loc>https://loppkartan.se/race-pages/omloppet.html</loc>
-  <lastmod>2023-12-08T17:37:01.349941</lastmod>
-  <priority>0.8</priority>
-</url>
-<url>
-  <loc>https://loppkartan.se/race-pages/halvmaran.html</loc>
-  <lastmod>2023-12-08T17:37:01.349941</lastmod>
-  <priority>0.8</priority>
-</url>
-<url>
   <loc>https://loppkartan.se/race-pages/night-trail-farsta.html</loc>
   <lastmod>2023-12-08T17:37:01.349941</lastmod>
   <priority>0.8</priority>
@@ -287,5 +277,757 @@
 <url>
   <loc>https://loppkartan.se/race-pages/kullamannen-by-utmb.html</loc>
   <lastmod>2023-12-08T17:37:01.350952</lastmod>
+  <priority>0.8</priority>
+</url><url>
+  <loc>https://loppkartan.se/race-pages/ekopark-trail-13km.html</loc>
+  <lastmod>2023-12-10T17:36:27.251860</lastmod>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://loppkartan.se/race-pages/omloppet.html</loc>
+  <lastmod>2023-12-10T17:36:27.251860</lastmod>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://loppkartan.se/race-pages/halvmaran.html</loc>
+  <lastmod>2023-12-10T17:36:27.251860</lastmod>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://loppkartan.se/race-pages/night-trail-farsta.html</loc>
+  <lastmod>2023-12-10T17:36:27.251860</lastmod>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://loppkartan.se/race-pages/borenshill-backyard-ultra.html</loc>
+  <lastmod>2023-12-10T17:36:27.251860</lastmod>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://loppkartan.se/race-pages/brantberget2h.html</loc>
+  <lastmod>2023-12-10T17:36:27.251860</lastmod>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://loppkartan.se/race-pages/winter-cross-run.html</loc>
+  <lastmod>2023-12-10T17:36:27.251860</lastmod>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://loppkartan.se/race-pages/bannister-winter-classic.html</loc>
+  <lastmod>2023-12-10T17:36:27.251860</lastmod>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://loppkartan.se/race-pages/hoga-kusten-winter-trail.html</loc>
+  <lastmod>2023-12-10T17:36:27.251860</lastmod>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://loppkartan.se/race-pages/blackyard.html</loc>
+  <lastmod>2023-12-10T17:36:27.251860</lastmod>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://loppkartan.se/race-pages/ursvik-ultra.html</loc>
+  <lastmod>2023-12-10T17:36:27.251860</lastmod>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://loppkartan.se/race-pages/edsvidsleden-trailrun.html</loc>
+  <lastmod>2023-12-10T17:36:27.251860</lastmod>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://loppkartan.se/race-pages/isaberg500.html</loc>
+  <lastmod>2023-12-10T17:36:27.251860</lastmod>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://loppkartan.se/race-pages/kolmarden-vertical.html</loc>
+  <lastmod>2023-12-10T17:36:27.251860</lastmod>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://loppkartan.se/race-pages/trailvarvet.html</loc>
+  <lastmod>2023-12-10T17:36:27.251860</lastmod>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://loppkartan.se/race-pages/peters-trail.html</loc>
+  <lastmod>2023-12-10T17:36:27.251860</lastmod>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://loppkartan.se/race-pages/borgarloppet.html</loc>
+  <lastmod>2023-12-10T17:36:27.251860</lastmod>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://loppkartan.se/race-pages/uka-pain.html</loc>
+  <lastmod>2023-12-10T17:36:27.251860</lastmod>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://loppkartan.se/race-pages/blue-mountain-trailrun.html</loc>
+  <lastmod>2023-12-10T17:36:27.251860</lastmod>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://loppkartan.se/race-pages/skatas-ryggar.html</loc>
+  <lastmod>2023-12-10T17:36:27.251860</lastmod>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://loppkartan.se/race-pages/12-mil-siljan-runt.html</loc>
+  <lastmod>2023-12-10T17:36:27.251860</lastmod>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://loppkartan.se/race-pages/eketanga-trail.html</loc>
+  <lastmod>2023-12-10T17:36:27.251860</lastmod>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://loppkartan.se/race-pages/ecotrail-stockholm.html</loc>
+  <lastmod>2023-12-10T17:36:27.251860</lastmod>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://loppkartan.se/race-pages/tjejmilen-salen-by-eqpe.html</loc>
+  <lastmod>2023-12-10T17:36:27.251860</lastmod>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://loppkartan.se/race-pages/älvdalen-backyard-ultra.html</loc>
+  <lastmod>2023-12-10T17:36:27.251860</lastmod>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://loppkartan.se/race-pages/kalmar-malkars-21-km.html</loc>
+  <lastmod>2023-12-10T17:36:27.251860</lastmod>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://loppkartan.se/race-pages/bocksten-trailrun-12-km.html</loc>
+  <lastmod>2023-12-10T17:36:27.251860</lastmod>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://loppkartan.se/race-pages/fjallmaraton-öppet-fjall.html</loc>
+  <lastmod>2023-12-10T17:36:27.251860</lastmod>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://loppkartan.se/race-pages/atea-trailövik.html</loc>
+  <lastmod>2023-12-10T17:36:27.251860</lastmod>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://loppkartan.se/race-pages/mora-trail.html</loc>
+  <lastmod>2023-12-10T17:36:27.251860</lastmod>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://loppkartan.se/race-pages/fabodlunken.html</loc>
+  <lastmod>2023-12-10T17:36:27.251860</lastmod>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://loppkartan.se/race-pages/hermanovarvet.html</loc>
+  <lastmod>2023-12-10T17:36:27.251860</lastmod>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://loppkartan.se/race-pages/bjare-trail.html</loc>
+  <lastmod>2023-12-10T17:36:27.251860</lastmod>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://loppkartan.se/race-pages/kia-fjallmaraton-årefjallen.html</loc>
+  <lastmod>2023-12-10T17:36:27.251860</lastmod>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://loppkartan.se/race-pages/salomon-27k.html</loc>
+  <lastmod>2023-12-10T17:36:27.251860</lastmod>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://loppkartan.se/race-pages/peak-performance-vertical-k.html</loc>
+  <lastmod>2023-12-10T17:36:27.251860</lastmod>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://loppkartan.se/race-pages/fjallmaraton-100k-pb-buff.html</loc>
+  <lastmod>2023-12-10T17:36:27.251860</lastmod>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://loppkartan.se/race-pages/kia-45k.html</loc>
+  <lastmod>2023-12-10T17:36:27.251860</lastmod>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://loppkartan.se/race-pages/stora-stoten-run.html</loc>
+  <lastmod>2023-12-10T17:36:27.251860</lastmod>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://loppkartan.se/race-pages/ölands-marathon.html</loc>
+  <lastmod>2023-12-10T17:36:27.251860</lastmod>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://loppkartan.se/race-pages/trail-och-ultravasan.html</loc>
+  <lastmod>2023-12-10T17:36:27.251860</lastmod>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://loppkartan.se/race-pages/stockholm-trail.html</loc>
+  <lastmod>2023-12-10T17:36:27.251860</lastmod>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://loppkartan.se/race-pages/icebug-xperience-west-coast-trail.html</loc>
+  <lastmod>2023-12-10T17:36:27.251860</lastmod>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://loppkartan.se/race-pages/sm-v-sm-trail-35-km.html</loc>
+  <lastmod>2023-12-10T17:36:27.251860</lastmod>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://loppkartan.se/race-pages/bocksten-vineyard-backyard-ultra.html</loc>
+  <lastmod>2023-12-10T17:36:27.251860</lastmod>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://loppkartan.se/race-pages/goteborg-trailrun.html</loc>
+  <lastmod>2023-12-10T17:36:27.251860</lastmod>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://loppkartan.se/race-pages/brevik-trailrun.html</loc>
+  <lastmod>2023-12-10T17:36:27.251860</lastmod>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://loppkartan.se/race-pages/rya-åsar-trail-run.html</loc>
+  <lastmod>2023-12-10T17:36:27.251860</lastmod>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://loppkartan.se/race-pages/bohuslans-basta.html</loc>
+  <lastmod>2023-12-10T17:36:27.251860</lastmod>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://loppkartan.se/race-pages/kullamannen-by-utmb.html</loc>
+  <lastmod>2023-12-10T17:36:27.251860</lastmod>
+  <priority>0.8</priority>
+</url><url>
+  <loc>https://loppkartan.se/race-pages/ekopark-trail-13km.html</loc>
+  <lastmod>2023-12-10T17:39:45.525303</lastmod>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://loppkartan.se/race-pages/omloppet.html</loc>
+  <lastmod>2023-12-10T17:39:45.525303</lastmod>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://loppkartan.se/race-pages/halvmaran.html</loc>
+  <lastmod>2023-12-10T17:39:45.525303</lastmod>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://loppkartan.se/race-pages/night-trail-farsta.html</loc>
+  <lastmod>2023-12-10T17:39:45.526303</lastmod>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://loppkartan.se/race-pages/borenshill-backyard-ultra.html</loc>
+  <lastmod>2023-12-10T17:39:45.526303</lastmod>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://loppkartan.se/race-pages/brantberget2h.html</loc>
+  <lastmod>2023-12-10T17:39:45.526303</lastmod>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://loppkartan.se/race-pages/winter-cross-run.html</loc>
+  <lastmod>2023-12-10T17:39:45.526303</lastmod>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://loppkartan.se/race-pages/bannister-winter-classic.html</loc>
+  <lastmod>2023-12-10T17:39:45.526303</lastmod>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://loppkartan.se/race-pages/hoga-kusten-winter-trail.html</loc>
+  <lastmod>2023-12-10T17:39:45.526303</lastmod>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://loppkartan.se/race-pages/blackyard.html</loc>
+  <lastmod>2023-12-10T17:39:45.526303</lastmod>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://loppkartan.se/race-pages/ursvik-ultra.html</loc>
+  <lastmod>2023-12-10T17:39:45.526303</lastmod>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://loppkartan.se/race-pages/edsvidsleden-trailrun.html</loc>
+  <lastmod>2023-12-10T17:39:45.526303</lastmod>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://loppkartan.se/race-pages/isaberg500.html</loc>
+  <lastmod>2023-12-10T17:39:45.526303</lastmod>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://loppkartan.se/race-pages/kolmarden-vertical.html</loc>
+  <lastmod>2023-12-10T17:39:45.526303</lastmod>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://loppkartan.se/race-pages/trailvarvet.html</loc>
+  <lastmod>2023-12-10T17:39:45.526303</lastmod>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://loppkartan.se/race-pages/peters-trail.html</loc>
+  <lastmod>2023-12-10T17:39:45.526303</lastmod>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://loppkartan.se/race-pages/borgarloppet.html</loc>
+  <lastmod>2023-12-10T17:39:45.526303</lastmod>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://loppkartan.se/race-pages/uka-pain.html</loc>
+  <lastmod>2023-12-10T17:39:45.526303</lastmod>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://loppkartan.se/race-pages/blue-mountain-trailrun.html</loc>
+  <lastmod>2023-12-10T17:39:45.526303</lastmod>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://loppkartan.se/race-pages/skatas-ryggar.html</loc>
+  <lastmod>2023-12-10T17:39:45.526303</lastmod>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://loppkartan.se/race-pages/12-mil-siljan-runt.html</loc>
+  <lastmod>2023-12-10T17:39:45.526303</lastmod>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://loppkartan.se/race-pages/eketanga-trail.html</loc>
+  <lastmod>2023-12-10T17:39:45.526303</lastmod>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://loppkartan.se/race-pages/ecotrail-stockholm.html</loc>
+  <lastmod>2023-12-10T17:39:45.526303</lastmod>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://loppkartan.se/race-pages/tjejmilen-salen-by-eqpe.html</loc>
+  <lastmod>2023-12-10T17:39:45.526303</lastmod>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://loppkartan.se/race-pages/älvdalen-backyard-ultra.html</loc>
+  <lastmod>2023-12-10T17:39:45.526303</lastmod>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://loppkartan.se/race-pages/kalmar-malkars-21-km.html</loc>
+  <lastmod>2023-12-10T17:39:45.526303</lastmod>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://loppkartan.se/race-pages/bocksten-trailrun-12-km.html</loc>
+  <lastmod>2023-12-10T17:39:45.526303</lastmod>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://loppkartan.se/race-pages/fjallmaraton-öppet-fjall.html</loc>
+  <lastmod>2023-12-10T17:39:45.526303</lastmod>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://loppkartan.se/race-pages/atea-trailövik.html</loc>
+  <lastmod>2023-12-10T17:39:45.526303</lastmod>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://loppkartan.se/race-pages/mora-trail.html</loc>
+  <lastmod>2023-12-10T17:39:45.526303</lastmod>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://loppkartan.se/race-pages/fabodlunken.html</loc>
+  <lastmod>2023-12-10T17:39:45.526303</lastmod>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://loppkartan.se/race-pages/hermanovarvet.html</loc>
+  <lastmod>2023-12-10T17:39:45.526303</lastmod>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://loppkartan.se/race-pages/bjare-trail.html</loc>
+  <lastmod>2023-12-10T17:39:45.526303</lastmod>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://loppkartan.se/race-pages/kia-fjallmaraton-årefjallen.html</loc>
+  <lastmod>2023-12-10T17:39:45.526303</lastmod>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://loppkartan.se/race-pages/salomon-27k.html</loc>
+  <lastmod>2023-12-10T17:39:45.526303</lastmod>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://loppkartan.se/race-pages/peak-performance-vertical-k.html</loc>
+  <lastmod>2023-12-10T17:39:45.526303</lastmod>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://loppkartan.se/race-pages/fjallmaraton-100k-pb-buff.html</loc>
+  <lastmod>2023-12-10T17:39:45.526303</lastmod>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://loppkartan.se/race-pages/kia-45k.html</loc>
+  <lastmod>2023-12-10T17:39:45.526303</lastmod>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://loppkartan.se/race-pages/stora-stoten-run.html</loc>
+  <lastmod>2023-12-10T17:39:45.526303</lastmod>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://loppkartan.se/race-pages/ölands-marathon.html</loc>
+  <lastmod>2023-12-10T17:39:45.526303</lastmod>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://loppkartan.se/race-pages/trail-och-ultravasan.html</loc>
+  <lastmod>2023-12-10T17:39:45.526303</lastmod>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://loppkartan.se/race-pages/stockholm-trail.html</loc>
+  <lastmod>2023-12-10T17:39:45.526303</lastmod>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://loppkartan.se/race-pages/icebug-xperience-west-coast-trail.html</loc>
+  <lastmod>2023-12-10T17:39:45.526303</lastmod>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://loppkartan.se/race-pages/sm-v-sm-trail-35-km.html</loc>
+  <lastmod>2023-12-10T17:39:45.526303</lastmod>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://loppkartan.se/race-pages/bocksten-vineyard-backyard-ultra.html</loc>
+  <lastmod>2023-12-10T17:39:45.526303</lastmod>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://loppkartan.se/race-pages/goteborg-trailrun.html</loc>
+  <lastmod>2023-12-10T17:39:45.526303</lastmod>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://loppkartan.se/race-pages/brevik-trailrun.html</loc>
+  <lastmod>2023-12-10T17:39:45.526303</lastmod>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://loppkartan.se/race-pages/rya-åsar-trail-run.html</loc>
+  <lastmod>2023-12-10T17:39:45.526303</lastmod>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://loppkartan.se/race-pages/bohuslans-basta.html</loc>
+  <lastmod>2023-12-10T17:39:45.526303</lastmod>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://loppkartan.se/race-pages/kullamannen-by-utmb.html</loc>
+  <lastmod>2023-12-10T17:39:45.526303</lastmod>
+  <priority>0.8</priority>
+</url><url>
+  <loc>https://loppkartan.se/race-pages/ekopark-trail-13km.html</loc>
+  <lastmod>2023-12-10T17:51:58.131243</lastmod>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://loppkartan.se/race-pages/omloppet.html</loc>
+  <lastmod>2023-12-10T17:51:58.131243</lastmod>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://loppkartan.se/race-pages/halvmaran.html</loc>
+  <lastmod>2023-12-10T17:51:58.131243</lastmod>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://loppkartan.se/race-pages/night-trail-farsta.html</loc>
+  <lastmod>2023-12-10T17:51:58.131243</lastmod>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://loppkartan.se/race-pages/borenshill-backyard-ultra.html</loc>
+  <lastmod>2023-12-10T17:51:58.131243</lastmod>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://loppkartan.se/race-pages/brantberget2h.html</loc>
+  <lastmod>2023-12-10T17:51:58.131243</lastmod>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://loppkartan.se/race-pages/winter-cross-run.html</loc>
+  <lastmod>2023-12-10T17:51:58.131243</lastmod>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://loppkartan.se/race-pages/bannister-winter-classic.html</loc>
+  <lastmod>2023-12-10T17:51:58.131243</lastmod>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://loppkartan.se/race-pages/hoga-kusten-winter-trail.html</loc>
+  <lastmod>2023-12-10T17:51:58.131243</lastmod>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://loppkartan.se/race-pages/blackyard.html</loc>
+  <lastmod>2023-12-10T17:51:58.131243</lastmod>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://loppkartan.se/race-pages/ursvik-ultra.html</loc>
+  <lastmod>2023-12-10T17:51:58.131243</lastmod>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://loppkartan.se/race-pages/edsvidsleden-trailrun.html</loc>
+  <lastmod>2023-12-10T17:51:58.131243</lastmod>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://loppkartan.se/race-pages/isaberg500.html</loc>
+  <lastmod>2023-12-10T17:51:58.131243</lastmod>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://loppkartan.se/race-pages/kolmarden-vertical.html</loc>
+  <lastmod>2023-12-10T17:51:58.131243</lastmod>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://loppkartan.se/race-pages/trailvarvet.html</loc>
+  <lastmod>2023-12-10T17:51:58.131243</lastmod>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://loppkartan.se/race-pages/peters-trail.html</loc>
+  <lastmod>2023-12-10T17:51:58.131243</lastmod>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://loppkartan.se/race-pages/borgarloppet.html</loc>
+  <lastmod>2023-12-10T17:51:58.131243</lastmod>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://loppkartan.se/race-pages/uka-pain.html</loc>
+  <lastmod>2023-12-10T17:51:58.131243</lastmod>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://loppkartan.se/race-pages/blue-mountain-trailrun.html</loc>
+  <lastmod>2023-12-10T17:51:58.131243</lastmod>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://loppkartan.se/race-pages/skatas-ryggar.html</loc>
+  <lastmod>2023-12-10T17:51:58.131243</lastmod>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://loppkartan.se/race-pages/12-mil-siljan-runt.html</loc>
+  <lastmod>2023-12-10T17:51:58.131243</lastmod>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://loppkartan.se/race-pages/eketanga-trail.html</loc>
+  <lastmod>2023-12-10T17:51:58.131243</lastmod>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://loppkartan.se/race-pages/ecotrail-stockholm.html</loc>
+  <lastmod>2023-12-10T17:51:58.131243</lastmod>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://loppkartan.se/race-pages/tjejmilen-salen-by-eqpe.html</loc>
+  <lastmod>2023-12-10T17:51:58.131243</lastmod>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://loppkartan.se/race-pages/älvdalen-backyard-ultra.html</loc>
+  <lastmod>2023-12-10T17:51:58.131243</lastmod>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://loppkartan.se/race-pages/kalmar-malkars-21-km.html</loc>
+  <lastmod>2023-12-10T17:51:58.131243</lastmod>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://loppkartan.se/race-pages/bocksten-trailrun-12-km.html</loc>
+  <lastmod>2023-12-10T17:51:58.131243</lastmod>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://loppkartan.se/race-pages/fjallmaraton-öppet-fjall.html</loc>
+  <lastmod>2023-12-10T17:51:58.131243</lastmod>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://loppkartan.se/race-pages/atea-trailövik.html</loc>
+  <lastmod>2023-12-10T17:51:58.131243</lastmod>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://loppkartan.se/race-pages/mora-trail.html</loc>
+  <lastmod>2023-12-10T17:51:58.131243</lastmod>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://loppkartan.se/race-pages/fabodlunken.html</loc>
+  <lastmod>2023-12-10T17:51:58.131243</lastmod>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://loppkartan.se/race-pages/hermanovarvet.html</loc>
+  <lastmod>2023-12-10T17:51:58.131243</lastmod>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://loppkartan.se/race-pages/bjare-trail.html</loc>
+  <lastmod>2023-12-10T17:51:58.131243</lastmod>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://loppkartan.se/race-pages/kia-fjallmaraton-årefjallen.html</loc>
+  <lastmod>2023-12-10T17:51:58.131243</lastmod>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://loppkartan.se/race-pages/salomon-27k.html</loc>
+  <lastmod>2023-12-10T17:51:58.131243</lastmod>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://loppkartan.se/race-pages/peak-performance-vertical-k.html</loc>
+  <lastmod>2023-12-10T17:51:58.131243</lastmod>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://loppkartan.se/race-pages/fjallmaraton-100k-pb-buff.html</loc>
+  <lastmod>2023-12-10T17:51:58.131243</lastmod>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://loppkartan.se/race-pages/kia-45k.html</loc>
+  <lastmod>2023-12-10T17:51:58.131243</lastmod>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://loppkartan.se/race-pages/stora-stoten-run.html</loc>
+  <lastmod>2023-12-10T17:51:58.131243</lastmod>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://loppkartan.se/race-pages/ölands-marathon.html</loc>
+  <lastmod>2023-12-10T17:51:58.131243</lastmod>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://loppkartan.se/race-pages/trail-och-ultravasan.html</loc>
+  <lastmod>2023-12-10T17:51:58.131243</lastmod>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://loppkartan.se/race-pages/stockholm-trail.html</loc>
+  <lastmod>2023-12-10T17:51:58.131243</lastmod>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://loppkartan.se/race-pages/icebug-xperience-west-coast-trail.html</loc>
+  <lastmod>2023-12-10T17:51:58.131243</lastmod>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://loppkartan.se/race-pages/sm-v-sm-trail-35-km.html</loc>
+  <lastmod>2023-12-10T17:51:58.131243</lastmod>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://loppkartan.se/race-pages/bocksten-vineyard-backyard-ultra.html</loc>
+  <lastmod>2023-12-10T17:51:58.131243</lastmod>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://loppkartan.se/race-pages/goteborg-trailrun.html</loc>
+  <lastmod>2023-12-10T17:51:58.131243</lastmod>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://loppkartan.se/race-pages/brevik-trailrun.html</loc>
+  <lastmod>2023-12-10T17:51:58.131243</lastmod>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://loppkartan.se/race-pages/rya-åsar-trail-run.html</loc>
+  <lastmod>2023-12-10T17:51:58.131243</lastmod>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://loppkartan.se/race-pages/bohuslans-basta.html</loc>
+  <lastmod>2023-12-10T17:51:58.131243</lastmod>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://loppkartan.se/race-pages/bunketorp-backyard-ultra-trail-2024.html</loc>
+  <lastmod>2023-12-10T17:51:58.131243</lastmod>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://loppkartan.se/race-pages/kullamannen-by-utmb.html</loc>
+  <lastmod>2023-12-10T17:51:58.131243</lastmod>
   <priority>0.8</priority>
 </url></urlset>

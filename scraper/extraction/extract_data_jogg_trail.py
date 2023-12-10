@@ -6,6 +6,8 @@ def main():
 
     subdomain = "jogg"
     url = "https://www.jogg.se/Kalender/Tavlingar.aspx?aar=2024&mon=13&fdist=0&tdist=1000&type=0&country=1&region=0&tlopp=False&relay=False&surface=ter&tridist=0&title=1"
+    race_type = "trail"
+    
     response = requests.get(url)
 
     race_collection = RaceCollection()
@@ -49,12 +51,16 @@ def main():
                         distance_m = int(distance_km * 10)
                     except ValueError:
                         pass
+                #mappig out backyard ultras
+                if name.find("ackyard") != -1:
+                    distance_m = "backyard"
+                    race_type = "backyard"
                 place_div = item.find("div", class_="city")
                 place = place_div.text.strip()
                 organizer = ""
                 website_ai_fallback = name + " " + place + " " + distance_str
 
-                race = Race(date = proper_date, type =  "trail",  name = name, distance = name, distance_m = [distance_m], place = place, organizer = organizer, website = website, src_url = url, website_ai_fallback = website_ai_fallback)
+                race = Race(date = proper_date, type =  race_type,  name = name, distance = name, distance_m = [distance_m], place = place, organizer = organizer, website = website, src_url = url, website_ai_fallback = website_ai_fallback)
                 
                 # Check if race already exists but on other distance
                 appended = False

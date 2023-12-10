@@ -139,18 +139,23 @@ def get_lat_long_goog(api_key, *search_strings):
     # Return [0, 0] if no coordinates were found
     return [0, 0]
 
-def check_allowed_url_get_goog(url, query):
+def check_allowed_url_get_goog(disallowed_urls, query):
 
     try:
         # Using the googlesearch library to perform a search and get the results
         results_generator = search(query, num_results=5)
-        print(f"Found {len(list(results_generator))} search results.")
-        # Extract URLs from the generator
+        # Convert the generator to a list
         urls = list(results_generator)
 
+        print(urls)
+        print(f"Found {len(urls)} search results.")
+
+        # Use the list for further processing if needed
+        for url in urls:
+            print(url)
         # Filter out URLs that start with specified prefixes
         filtered_urls = [url for url in urls if not url.startswith(tuple(disallowed_urls))]
-
+        print(filtered_urls)
         if filtered_urls:
             # Return the first URL that doesn't start with specified prefixes
             return filtered_urls[0]
@@ -169,7 +174,7 @@ def check_allowed_url_get_goog(url, query):
     print("No suitable URL found.")
     return None
 
-def check_allowed_url_get_bing(url, query):
+def check_allowed_url_get_bing(disallowed_urls, query):
 
     try:
         # Using the get_bing_search_results function to perform a Bing search and get the results
@@ -214,12 +219,12 @@ def check_allowed_url(url, query):
     number_of_retries = 2  # Number of retries
     for _ in range(number_of_retries):
         # Try Google search first
-        google_result = check_allowed_url_get_goog(url, query)
+        google_result = check_allowed_url_get_goog(disallowed_urls, query)
         if google_result:
             return google_result
 
         # If Google search fails, try Bing search
-        bing_result = check_allowed_url_get_bing(url, query)
+        bing_result = check_allowed_url_get_bing(disallowed_urls, query)
         if bing_result:
             return bing_result
 
@@ -551,7 +556,7 @@ def map_distance(distance, race_type):
         return race_type  # Capitalize the type for backyard and relay
     if race_type == 'track':
         return f"{distance} meter"  # Concatenate distance and "meter" for track races
-    if race_type == 'road':
+    if race_type == 'road' and type(distance) != str:
         if 21000 <= distance <= 21500:
             return 'Halvmarathon'
         elif 42000 <= distance <= 42500:
@@ -566,7 +571,7 @@ def map_distance(distance, race_type):
             return 'Ultramarathon'
         else: 
             return f"{round(distance / 1000)} km"
-    elif race_type in ['trail', 'terrain']:
+    elif race_type in ['trail', 'terrain'] and type(distance) != str:
         if 21000 <= distance <= 21500:
             return 'Trail Halvmarathon'
         elif 42000 <= distance <= 42500:
