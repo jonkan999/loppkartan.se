@@ -15,12 +15,15 @@ env = Environment(loader=FileSystemLoader(searchpath=script_dir))
 # Register the filter function with the Jinja2 environment
 template = env.get_template("race_page_template.html")
 
+current_date = datetime.now().strftime("%Y%m%d")
+
 def read_all_races():
     try:
         with open('approved_races_raw.json', 'r', encoding='utf-8') as races_file:
             races_data = json.load(races_file)
             # Filter races with 'long_summary' key
-            races_with_long_summary = [race for race in races_data if 'long_summary' in race]
+            date_filtered_races = [race for race in races_data if race.get("date", "") >= current_date]
+            races_with_long_summary = [race for race in date_filtered_races if 'long_summary' in race]
             return races_with_long_summary
     except FileNotFoundError:
         print("File 'approved_races_raw.json' not found.")
@@ -73,37 +76,15 @@ def save_images(images, output_folder, filename_prefix):
         if image_data is not None:
             image_filename = f"{filename_prefix}_{index_of_first_image}.webp"
             image_path = os.path.join(output_folder, image_filename)
-            save_webp_image(image_data, image_path)
+            # Check if the image file already exists
+            if not os.path.exists(image_path):
+                save_webp_image(image_data, image_path)
+            else:
+                print(f"Skipped saving image '{image_filename}' as it already exists.")
             image_paths.append(image_filename)
             index_of_first_image += 1
 
     return image_paths
-
-def append_to_sitemap(sitemap_path, new_urls):
-    try:
-        with open(sitemap_path, 'r', encoding='utf-8') as sitemap_file:
-            sitemap_content = sitemap_file.read()
-
-        # Find the closing </urlset> tag
-        index = sitemap_content.rfind('</urlset>')
-        if index == -1:
-            print("Invalid sitemap file format. Could not find </urlset> tag.")
-            return
-
-        # Create the new <url> entries
-        new_entries = '\n'.join(new_urls)
-
-        # Insert the new entries before the closing </urlset> tag
-        updated_sitemap_content = sitemap_content[:index] + new_entries + sitemap_content[index:]
-
-        with open(sitemap_path, 'w', encoding='utf-8') as sitemap_file:
-            sitemap_file.write(updated_sitemap_content)
-
-    except FileNotFoundError:
-        print(f"File '{sitemap_path}' not found.")
-    except Exception as e:
-        print(f"An error occurred while updating the sitemap: {e}")
-
 
 def main():
     races = read_all_races()
@@ -115,11 +96,12 @@ def main():
     # Read all_races_w_formatted_summary.json
     try:
         with open('../all_races_w_formatted_summary.json', 'r', encoding='utf-8') as all_races_file:
-            all_races_data = json.load(all_races_file)
+            unfiltered_races = json.load(all_races_file)
+            all_races_data = [race for race in unfiltered_races if race.get("date", "") >= current_date]
     except FileNotFoundError:
         print("File '../all_races_w_formatted_summary.json' not found.")
         all_races_data = []
-
+    
     for race in races_w_images:
         print("Generates:" + race["name"] + ".html")
         cleaned_name = clean_filename(race['name'])
@@ -150,18 +132,42 @@ def main():
         os_relative_path = os.path.join(script_dir, relative_path)
         output_path = os.path.join(os_relative_path, f"{cleaned_name}.html")
 
-        os.makedirs(os.path.dirname(output_path), exist_ok=True)
-        with open(output_path, "w", encoding="utf-8") as output_file:
-            output_file.write(html_content)
+        if not os.path.exists(output_path):
+            with open(output_path, "w", encoding="utf-8") as output_file:
+                output_file.write(html_content)
+            print(f"HTML file '{output_path}' created.")
+        else:
+            print(f"Skipped creating HTML file '{output_path}' as it already exists.")
 
-        # Update "website" keys in all_races_data
+        # If race already in active races, update "website" keys in all_races_data
+        new_race=True
         for i, all_race in enumerate(all_races_data):
             if all_race["id"] == race["id"]:
                 all_races_data[i]["website_organizer"] = all_race["website"]
                 all_races_data[i]["website"] = f'/race-pages/{cleaned_name}.html'
+                new_race = False
+                break
+            #Else append the race to all_races_data
+        if new_race:
+            # Keep only specific keys from the race dictionary
+            keys_to_keep = [
+                "date", "type", "name", "distance", "distance_m",
+                "place", "latitude", "longitude", "organizer",
+                "website", "src_url", "county",
+                 "id", "summary"
+            ]
 
+            # Create a new dictionary with only the specified keys
+            selected_race = {key: race[key] for key in keys_to_keep}
+            selected_race["new_version"] = True
+
+            all_races_data.append(selected_race)
+
+
+    #Sort races
     # Save the modified all_races_data
     try:
+        all_races_data = sorted(all_races_data, key=lambda x: (x["date"], x["longitude"], x["latitude"]))
         with open('../all_races_w_formatted_summary.json', 'w', encoding='utf-8') as all_races_file:
             json.dump(all_races_data, all_races_file, ensure_ascii=False, indent=4)
     except FileNotFoundError:
@@ -169,18 +175,40 @@ def main():
 
     print("HTML files generated successfully.")
 
-    # Update "website" keys in all_races_data
+    # Update sitemap.xml
+
     new_urls = []
-    for i, race in enumerate(all_races_data):
+    for i, race in enumerate(races):
         if race["website"] and race["website"].endswith(".html"):
             # Extract the race name from the website URL
             race_name = race["website"].split("/")[-1].replace(".html", "")
             sitemap_url = f"https://loppkartan.se/race-pages/{race_name}.html"
             new_urls.append(f'<url>\n  <loc>{sitemap_url}</loc>\n  <lastmod>{datetime.now().isoformat()}</lastmod>\n  <priority>0.8</priority>\n</url>')
 
-    # Append the new URLs to the sitemap.xml file
-    sitemap_path = os.path.join(script_dir, '../sitemap.xml')
-    append_to_sitemap(sitemap_path, new_urls)
+    # Append new URLs to sitemap_top.xml
+    try:
+        with open('../sitemap_top.xml', 'r', encoding='utf-8') as sitemap_top_file:
+            sitemap_top_content = sitemap_top_file.read()
+
+        # Find the closing </urlset> tag in sitemap_top.xml
+        index = sitemap_top_content.rfind('</urlset>')
+        if index == -1:
+            print("Invalid sitemap_top.xml file format. Could not find </urlset> tag.")
+        else:
+            # Create the new <url> entries
+            new_entries = '\n'.join(new_urls)
+
+            # Insert the new entries before the closing </urlset> tag
+            updated_sitemap_top_content = sitemap_top_content[:index] + new_entries + sitemap_top_content[index:]
+
+            # Write the updated content back to sitemap_top.xml
+            with open('../sitemap.xml', 'w', encoding='utf-8') as sitemap_file:
+                sitemap_file.write(updated_sitemap_top_content)
+    except FileNotFoundError:
+        print("File 'sitemap_top.xml' not found.")
+    except Exception as e:
+        print(f"An error occurred while updating 'sitemap_top.xml': {e}")
+
 
 
 if __name__ == "__main__":

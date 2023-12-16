@@ -71,7 +71,7 @@ def main():
                         except ValueError:
                             pass
                 
-                race = Race(date = proper_date, type =  translated_type,  name = name, distance = name, distance_m = distances, place = place, organizer = organizer, website = website, src_url = url, website_ai_fallback = website_ai_fallback)
+                race = Race(date = proper_date, type =  translated_type,  name = name, distance = distance_str, distance_m = distances, place = place, organizer = organizer, website = website, src_url = url, website_ai_fallback = website_ai_fallback)
                 
                 ### STANDARD ENDING ###
                 race.add_id('extract')

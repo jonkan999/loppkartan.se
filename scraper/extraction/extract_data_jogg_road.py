@@ -61,7 +61,7 @@ def main():
                 organizer = ""
                 website_ai_fallback = name + " " + place + " " + distance_str
 
-                race = Race(date = proper_date, type =  race_type,  name = name, distance = name, distance_m = [distance_m], place = place, organizer = organizer, website = website, src_url = url, website_ai_fallback = website_ai_fallback)
+                race = Race(date = proper_date, type =  race_type,  name = name, distance = distance_str, distance_m = [distance_m], place = place, organizer = organizer, website = website, src_url = url, website_ai_fallback = website_ai_fallback)
 
                 # Check if race already exists but on other distance
                 appended = False

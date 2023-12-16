@@ -8,7 +8,7 @@ def main():
 
     subdomain = "trailrunningsweden"
     url = "https://www.trailrunningsweden.se/trailkalendern/"
-    race_type = "trail"
+    default_race_type = "trail"
     
     response = requests.get(url, 
                 headers={'User-Agent': 'Mozilla/5.0'}
@@ -70,6 +70,8 @@ def main():
                 if name.find("ackyard") != -1:
                     distances = ["backyard"]
                     race_type = "backyard"
+                else:
+                    race_type = default_race_type
                 
                 distances.sort()
                 place=name
@@ -80,7 +82,7 @@ def main():
                 website = website_a.get("href") if website_a else ""
                 website_ai_fallback = name + " " + distance_str
                 
-                race = Race(date = proper_date, type =  race_type,  name = name, distance = name, distance_m = distances, place = place, organizer = organizer, website = website, src_url = url, website_ai_fallback = website_ai_fallback)
+                race = Race(date = proper_date, type =  race_type,  name = name, distance = distance_str, distance_m = distances, place = place, organizer = organizer, website = website, src_url = url, website_ai_fallback = website_ai_fallback)
                 
                 ### STANDARD ENDING ###
                 race.add_id('extract')
