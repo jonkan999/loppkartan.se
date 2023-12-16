@@ -143,18 +143,21 @@ def main():
         new_race=True
         for i, all_race in enumerate(all_races_data):
             if all_race["id"] == race["id"]:
-                all_races_data[i]["website_organizer"] = all_race["website"]
+                all_races_data[i]["website_organizer"] = race["website"]
                 all_races_data[i]["website"] = f'/race-pages/{cleaned_name}.html'
                 new_race = False
                 break
             #Else append the race to all_races_data
         if new_race:
+            #Update website
+            race["website_organizer"] = race["website"]
+            race["website"] = f'/race-pages/{cleaned_name}.html'
             # Keep only specific keys from the race dictionary
             keys_to_keep = [
                 "date", "type", "name", "distance", "distance_m",
                 "place", "latitude", "longitude", "organizer",
                 "website", "src_url", "county",
-                 "id", "summary"
+                 "id", "summary", "website_organizer"
             ]
 
             # Create a new dictionary with only the specified keys
@@ -179,11 +182,10 @@ def main():
 
     new_urls = []
     for i, race in enumerate(races):
-        if race["website"] and race["website"].endswith(".html"):
-            # Extract the race name from the website URL
-            race_name = race["website"].split("/")[-1].replace(".html", "")
-            sitemap_url = f"https://loppkartan.se/race-pages/{race_name}.html"
-            new_urls.append(f'<url>\n  <loc>{sitemap_url}</loc>\n  <lastmod>{datetime.now().isoformat()}</lastmod>\n  <priority>0.8</priority>\n</url>')
+        # Extract the race name from the website URL
+        race_name = race["website"].split("/")[-1].replace(".html", "")
+        sitemap_url = f"https://loppkartan.se/race-pages/{clean_filename(race['name'])}.html"
+        new_urls.append(f'<url>\n  <loc>{sitemap_url}</loc>\n  <lastmod>{datetime.now().isoformat()}</lastmod>\n  <priority>0.8</priority>\n</url>')
 
     # Append new URLs to sitemap_top.xml
     try:
