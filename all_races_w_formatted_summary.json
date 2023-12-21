@@ -1,23 +1,5 @@
 [
     {
-        "date": "20231216",
-        "month": "december",
-        "day": "16",
-        "type": "trail",
-        "name": "SpriT Frontyard - Dalby by Night 2023",
-        "distance": "1 - 21 km",
-        "distance_m": "Tidslopp",
-        "place": "Dalbybadet",
-        "latitude": 55.674659,
-        "longitude": 13.354125,
-        "organizer": "",
-        "website": "https://www.sportstiming.dk/event/13195",
-        "src_url": "https://trailrunningsweden.se/trailkalendern/",
-        "id": "68ca6867-1f1b-4f1f-8f4a-b94ab5d59d64",
-        "summary": "En fin 1K bana vid Dalby badet: light trail med en rejäl backe i början (24m D+ / varv). Det blir mörkt och kalt ;-) Vill du testa din förmåga att kombinera din snabbhet och din löpstrategi, då är det absolut rätt tävlingen för dig! Varvet är 1 km (Light Trail) och det ska springas så många ggr du orkar eller klockan stoppar dig!",
-        "county": "Skåne"
-    },
-    {
         "date": "20231231",
         "month": "DECEMBER",
         "day": "31",
@@ -831,6 +813,26 @@
     },
     {
         "date": "20240210",
+        "type": "track",
+        "name": "IDM för Södra Svealand",
+        "distance": "event-60-m event-200-m event-400-m event-800-m event-1500-m event-60-m-hack event-hojdhopp event-stavhopp event-langdhopp event-tresteg event-kula event-vikt event-1000-m",
+        "distance_m": [
+            1500
+        ],
+        "place": "Västerås",
+        "latitude": 59.60990049999999,
+        "longitude": 16.5448091,
+        "organizer": "Västerås FK, Södra Svealands Friidrottsförbund",
+        "website": "/race-pages/idm-for-sodra-svealand.html",
+        "src_url": "https://www.friidrott.se/tavling-landslag/tavling/tavlingskalender/tavlingar-i-sverige/inomhustavlingar/?sida=3",
+        "county": "Västmanlands",
+        "id": "idm-för-södra-svealand_20240210_httpswwwfriidrottsetavling-landslagtavlingtavlingskalendertavlingar-i-sverigeinomhustavlingarsida3",
+        "summary": "Kom och var med på Inomhus-DM för Södra Svealand arrangerat av Västerås Friidrott! Vi bjuder in löpare i olika åldersgrupper och kön att tävla på inomhusbanan. Banan är perfekt för att sätta personliga rekord och utmana dig själv i den spännande 1500 meter distansen. Anmäl dig idag och ge allt på banan!",
+        "website_organizer": "https://www.vasterasfriidrott.se/inomhus-dm-for-sondra-svealand/",
+        "new_version": true
+    },
+    {
+        "date": "20240210",
         "month": "februari",
         "day": "10",
         "type": "trail",
@@ -949,6 +951,26 @@
         "new_version": true,
         "id": "3f40acf6-07b9-4f07-8ef8-239c6e862275",
         "summary": "Vi välkomnar dig till Nordiska Ungdomsspelen på Östersunds GIF den 24-25 februari 2024! Kom och tävla i olika distanser, inklusive 1500 meter på bana. Detta är en fantastisk möjlighet för unga löpare att visa upp sin talang och utmana sig själva. Delta i denna spännande händelse och var en del av gemenskapen av idrottsutövare från hela regionen. Vi ser fram emot att se dig tävla! Lycka till!"
+    },
+    {
+        "date": "20240227",
+        "type": "track",
+        "name": "BANNISTER LAST CHANCE",
+        "distance": "event-1500-m",
+        "distance_m": [
+            1500
+        ],
+        "place": "Göteborg",
+        "latitude": 57.70887,
+        "longitude": 11.97456,
+        "organizer": "Sävedalens AIK",
+        "website": "/race-pages/bannister-last-chance.html",
+        "src_url": "https://www.friidrott.se/tavling-landslag/tavling/tavlingskalender/tavlingar-i-sverige/inomhustavlingar/?sida=3",
+        "county": "Västra Götalands",
+        "id": "bannister-last-chance_20240227_httpswwwfriidrottsetavling-landslagtavlingtavlingskalendertavlingar-i-sverigeinomhustavlingarsida3",
+        "summary": "Bannister Invitational 2024 är här! Vi bjuder in löpare i alla åldrar och nivåer till en spännande tävling med en av de mest efterlängtade loppen - 1500 meter på bana. Vi har planerat för en säker och rolig tävlingsmiljö och oavsett om du är erfaren eller nybörjare är du välkommen att delta. Vi ser fram emot att se dig på startlinjen!",
+        "website_organizer": "https://www.bannisterinvitational.se/",
+        "new_version": true
     },
     {
         "date": "20240302",
@@ -1293,6 +1315,28 @@
         "id": "a4392a78-e41c-4c2f-87aa-c6ec26ec7b7a",
         "summary": "Why This Far Backyard Ultra 6-7 April 2024, Lindås. COURSE: 6,7km - 60% soft trail, 40% forest/gravel road, 130m elevation gain",
         "county": "Kalmar"
+    },
+    {
+        "date": "20240407",
+        "type": "road",
+        "name": "Udd Loppet",
+        "distance": "Tidslopp",
+        "distance_m": [
+            4000,
+            10000,
+            21097
+        ],
+        "place": "Karlshamn",
+        "latitude": 56.170303,
+        "longitude": 14.863073,
+        "organizer": "",
+        "website": "/race-pages/udd-loppet.html",
+        "src_url": "https://www.jogg.se/Kalender/Tavlingar.aspx?aar=2024&mon=13&fdist=0&tdist=1000&type=0&country=1&region=0&tlopp=False&relay=False&surface=asf&tridist=0&title=1",
+        "county": "Blekinge",
+        "id": "udd-loppet_20240407_httpswwwjoggsekalendertavlingaraspxaar2024mon13fdist0tdist1000type0country1region0tloppfalserelayfalsesurfaceasftridist0title1",
+        "summary": "Uddloppet den 7/4 2024 är en spännande löptävling längs vägarna. Oavsett ålder eller erfarenhet är alla välkomna att delta i den välorganiserade och roliga tävlingen. Ta chansen att testa dina gränser och njut av gemenskapen med andra löpare. Anmäl dig till Uddloppet 2024 och ta del av den fantastiska atmosfären! Distans: 4 km, 10km elller Halvmarathon.",
+        "website_organizer": "https://uddloppet.ifudd.se/",
+        "new_version": true
     },
     {
         "date": "20240413",

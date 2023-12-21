@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+
+    <script src="https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.js"></script>
+    <link
+      href="https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.css"
+      rel="stylesheet"
+    />
+
+    <script defer="" src="/js/venueScriptMapbox.js"></script>
+    <script defer="" src="/js/showAllImages.js"></script>
+
+    <link href="/css/race-page-general.css" rel="stylesheet" />
+    <link href="/css/header.css" rel="stylesheet" />
+    <link href="/css/header-queries.css" rel="stylesheet" />
+    <link href="/css/hero.css" rel="stylesheet" />
+    <link href="/css/add-space.css" rel="stylesheet" />
+    <link href="/css/add-info.css" rel="stylesheet" />
+    <link href="/css/add-submission.css" rel="stylesheet" />
+    <link href="/css/submission-queries.css" rel="stylesheet" />
+
+    <title>
+      IDM för Södra Svealand - IDM för Södra Svealand - IDM för Södra Svealand
+    </title>
+    <link rel="icon" href="/img/favicon.png" />
+    <meta name="description" content="short_form_description" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+
+  <body>
+    <div class="show-all-overlay" id="showAllOverlay"></div>
+    <button class="hide-grid" id="hideGrid">
+      <ion-icon name="close-outline" class="close-icon"></ion-icon>
+    </button>
+    <header class="header header-black section">
+      <div class="brand-box">
+        <a class="header-brand-name" href="/index.html">
+          <img
+            class="brand-box-small-image"
+            src="/img/logo.svg"
+            alt="Brand logo"
+        /></a>
+      </div>
+      <div class="menu">
+        <ul>
+          <li>
+            <p class="category-link">Loppsida för: IDM för Södra Svealand</p>
+          </li>
+        </ul>
+      </div>
+    </header>
+    <main>
+      <section class="venue-page" id="venuePage">
+        <div class="show-all-grid" id="showAllGrid">
+          
+          <div class="gallery-image">
+            <img
+              class="image-inner-img"
+              src="/race-pages/img/idm-for-sodra-svealand_1.webp"
+              alt="bild 1 tillhörande: IDM för Södra Svealand"
+            />
+            <div class="gallery-overlay"></div>
+          </div>
+          
+          <div class="gallery-image">
+            <img
+              class="image-inner-img"
+              src="/race-pages/img/idm-for-sodra-svealand_2.webp"
+              alt="bild 2 tillhörande: IDM för Södra Svealand"
+            />
+            <div class="gallery-overlay"></div>
+          </div>
+          
+          <div class="gallery-image">
+            <img
+              class="image-inner-img"
+              src="/race-pages/img/idm-for-sodra-svealand_3.webp"
+              alt="bild 3 tillhörande: IDM för Södra Svealand"
+            />
+            <div class="gallery-overlay"></div>
+          </div>
+          
+          <div class="gallery-image">
+            <img
+              class="image-inner-img"
+              src="/race-pages/img/idm-for-sodra-svealand_4.webp"
+              alt="bild 4 tillhörande: IDM för Södra Svealand"
+            />
+            <div class="gallery-overlay"></div>
+          </div>
+          
+          <div class="gallery-image">
+            <img
+              class="image-inner-img"
+              src="/race-pages/img/idm-for-sodra-svealand_5.webp"
+              alt="bild 5 tillhörande: IDM för Södra Svealand"
+            />
+            <div class="gallery-overlay"></div>
+          </div>
+          
+          <div class="gallery-image">
+            <img
+              class="image-inner-img"
+              src="/race-pages/img/idm-for-sodra-svealand_6.webp"
+              alt="bild 6 tillhörande: IDM för Södra Svealand"
+            />
+            <div class="gallery-overlay"></div>
+          </div>
+          
+        </div>
+        <div class="images-section section airy-margin" id="imageSection">
+          <div class="left-image">
+            <img
+              class="image-inner-img"
+              src="/race-pages/img/idm-for-sodra-svealand_1.webp"
+              alt="bild 1 tillhörande: IDM för Södra Svealand"
+            />
+            <div class="image-overlay"></div>
+          </div>
+          <div class="right-images-section">
+            <div class="top-right-image">
+              <img
+                class="image-inner-img"
+                src="/race-pages/img/idm-for-sodra-svealand_2.webp"
+                alt="bild 2 tillhörande: IDM för Södra Svealand"
+              />
+              <div class="image-overlay"></div>
+            </div>
+            <div class="bottom-right-images">
+              <div class="bottom-right-image">
+                <img
+                  class="image-inner-img"
+                  src="/race-pages/img/idm-for-sodra-svealand_3.webp"
+                  alt="bild 3 tillhörande: IDM för Södra Svealand"
+                />
+                <div class="image-overlay"></div>
+              </div>
+              <div class="bottom-right-image">
+                <img
+                  class="image-inner-img"
+                  src="/race-pages/img/idm-for-sodra-svealand_4.webp"
+                  alt="bild 4 tillhörande: IDM för Södra Svealand"
+                />
+                <div class="show-all-container" id="showAll">
+                  <div class="square-icon-container-container">
+                    <div class="square-icon-container">
+                      <ion-icon
+                        class="icon ion-ios-square-outline md hydrated"
+                        name="square-outline"
+                        role="img"
+                        aria-label="square outline"
+                      ></ion-icon>
+                    </div>
+                    <div class="square-icon-container">
+                      <ion-icon
+                        class="icon ion-ios-square-outline md hydrated"
+                        name="square-outline"
+                        role="img"
+                        aria-label="square outline"
+                      ></ion-icon>
+                    </div>
+                    <div class="square-icon-container">
+                      <ion-icon
+                        class="icon ion-ios-square-outline md hydrated"
+                        name="square-outline"
+                        role="img"
+                        aria-label="square outline"
+                      ></ion-icon>
+                    </div>
+                    <div class="square-icon-container">
+                      <ion-icon
+                        class="icon ion-ios-square-outline md hydrated"
+                        name="square-outline"
+                        role="img"
+                        aria-label="square outline"
+                      ></ion-icon>
+                    </div>
+                  </div>
+                  <div class="show-all-images-text">Visa alla</div>
+                  <div class="image-overlay"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="info-container" id="infoContainer">
+          <!-- Venue Name -->
+          <h1 class="event-space-title">IDM för Södra Svealand</h1>
+
+          <!-- Venue Address -->
+          <div class="adress-div">
+            <ion-icon
+              class="icon ion-ios-location-outline"
+              name="location-outline"
+            ></ion-icon>
+            <p class="event-space-address">Västerås</p>
+          </div>
+
+          <!-- Highlights Container -->
+          <ul class="highlights-container">
+            <!-- Star Rating -->
+            <div class="highlight-stars">
+              <ion-icon
+                class="star-icon ion-ios-star-outline md hydrated"
+                name="star"
+                role="img"
+                aria-label="star"
+              ></ion-icon>
+              <a href="https://www.vasterasfriidrott.se/inomhus-dm-for-sondra-svealand/">Länk till anmälan</a>
+            </div>
+
+            <!-- Guests and Size Info -->
+            <li class="highlight-info desktop">
+              <ion-icon
+                class="highlight-icon ion-ios-analytics-outline"
+                name="analytics-outline"
+              ></ion-icon>
+              <p>Distanser: event-60-m event-200-m event-400-m event-800-m event-1500-m event-60-m-hack event-hojdhopp event-stavhopp event-langdhopp event-tresteg event-kula event-vikt event-1000-m</p>
+            </li>
+            <li class="highlight-info mobile full-row">
+              <ion-icon
+                class="highlight-icon ion-ios-analytics-outline"
+                name="analytics-outline"
+              ></ion-icon>
+              <p>Distanser: event-60-m event-200-m event-400-m event-800-m event-1500-m event-60-m-hack event-hojdhopp event-stavhopp event-langdhopp event-tresteg event-kula event-vikt event-1000-m</p>
+            </li>
+            <li class="highlight-info desktop">
+              <ion-icon
+                class="highlight-icon ion-ios-shapes-outline"
+                name="shapes-outline"
+              ></ion-icon>
+              <p>Underlag: track</p>
+            </li>
+
+            <!-- Food and Drink Info -->
+            <li class="highlight-info">
+              <ion-icon
+                class="highlight-icon ion-ios-navigate-circle-outline"
+                name="navigate-circle-outline"
+              ></ion-icon>
+              <p>Plats: Västerås</p>
+            </li>
+            <li class="highlight-info second-col mobile">
+              <ion-icon
+                class="highlight-icon ion-ios-shapes-outline"
+                name="shapes-outline"
+              ></ion-icon>
+              <p>Underlag: track</p>
+            </li>
+            <li class="highlight-info">
+              <ion-icon
+                class="highlight-icon ion-ios-calendar-clear-outline"
+                name="calendar-clear-outline"
+              ></ion-icon>
+              <p>Datum: 20240210</p>
+            </li>
+            <div class="highlight-star-mobile second-col">
+              <ion-icon
+                class="star-icon ion-ios-star-outline md hydrated"
+                name="star"
+                role="img"
+                aria-label="star"
+              ></ion-icon>
+              <a href="https://www.vasterasfriidrott.se/inomhus-dm-for-sondra-svealand/">Länk till anmälan</a>
+            </div>
+          </ul>
+
+          <!-- Calendar and Mail Template Containers -->
+          <div class="subsection-split-container">
+            <!-- Description Container -->
+            <div class="description-container">
+              <h2>Om Loppet</h2>
+              <p class="venue-description">
+                Vi är glada att bjuda in till Inomhus-DM för Södra Svealand, arrangerat av Västerås Friidrott. Tillsammans med Västerås FK har vi skapat en spännande tävling som kommer att äga rum på inomhusbanan. Det kommer att finnas möjligheter för löpare i olika åldersgrupper och kön att tävla i den prestigefyllda 1500 meter distansen. Banan är perfekt för att sätta personliga rekord och utmana dig själv i en snabb och spännande tävling.
+
+Vi ser fram emot att välkomna deltagare från hela Södra Svealand till denna spännande inomhustävling. Det kommer att vara en fantastisk möjlighet att möta andra löpare i regionen och visa upp dina färdigheter på banan. Om du är redo för en utmaning och vill uppleva spänningen i att springa på en inomhusbana, så är detta loppet för dig. Anmäl dig redan idag och se till att du är redo att ge allt på 1500 meter under Inomhus-DM för Södra Svealand.
+              </p>
+              <h3>Detaljerad information:</h3>
+              <ul>
+                <li>Lopp: IDM för Södra Svealand</li>
+                <li>Datum: 20240210</li>
+                <li>Distanser: event-60-m event-200-m event-400-m event-800-m event-1500-m event-60-m-hack event-hojdhopp event-stavhopp event-langdhopp event-tresteg event-kula event-vikt event-1000-m</li>
+                <li>Underlag: track</li>
+                <li>
+                  Loppkategorier: 1500 meter
+                </li>
+                <li>Plats: Västerås</li>
+                <li>Län: Västmanlands</li>
+                <li>Organisatör: Västerås FK, Södra Svealands Friidrottsförbund</li>
+              </ul>
+              <h3>Anmälan:</h3>
+              <a class="venue-price" href="https://www.vasterasfriidrott.se/inomhus-dm-for-sondra-svealand/">
+                https://www.vasterasfriidrott.se/inomhus-dm-for-sondra-svealand/
+              </a>
+            </div>
+
+            <div class="subsection-right-split-container">
+              <div
+                data-mapboxCenter="[16.5448091, 59.60990049999999]"
+                data-mapboxcenter="[18.027053, 59.32547]"
+                class="map-container mapboxgl-map"
+                id="mapboxContainer"
+              ></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Rest of your HTML content -->
+      </section>
+      <div id="errorMessage" class="error-message"></div>
+    </main>
+  </body>
+</html>
