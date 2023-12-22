@@ -49,9 +49,11 @@ export function filterRaces() {
         console.log("racedate: " + raceDate); */
 
         const distanceM = race.distance_m.toString();
-        const distanceArr = distanceM.split(", ").map((x) => parseInt(x));
+        console.log("distanceM: " + distanceM);
+        const distanceArr = distanceM.split(",").map((x) => parseInt(x));
         let isInRange = false;
-        for (let j = 0; j < distanceM.length; j++) {
+        console.log("distanceArr: " + distanceArr);
+        for (let j = 0; j < distanceArr.length; j++) {
           if (
             distanceArr[j] >= minDistance * 1000 &&
             distanceArr[j] <= maxDistance * 1000

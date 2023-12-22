@@ -14,8 +14,7 @@ export function filterMarkersOnDistance(minDistance, maxDistance) {
           .getAttribute("data-marker-distance_m");
         const distanceArr = distanceM.split(",").map((x) => parseInt(x));
         let isInRange = false;
-        console.log(distanceArr);
-        for (let j = 0; j < distanceM.length; j++) {
+        for (let j = 0; j < distanceArr.length; j++) {
           if (
             distanceArr[j] >= minDistance * 1000 &&
             distanceArr[j] <= maxDistance * 1000
