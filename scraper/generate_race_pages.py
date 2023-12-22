@@ -185,7 +185,8 @@ def main():
         # Extract the race name from the website URL
         race_name = race["website"].split("/")[-1].replace(".html", "")
         sitemap_url = f"https://loppkartan.se/race-pages/{clean_filename(race['name'])}.html"
-        new_urls.append(f'<url>\n  <loc>{sitemap_url}</loc>\n  <lastmod>{datetime.now().isoformat()}</lastmod>\n  <priority>0.8</priority>\n</url>')
+        sitemap_url = sitemap_url.replace('&', '&amp;') #escaping ampersand
+        new_urls.append(f'<url>\n  <loc>{sitemap_url}</loc>\n  <lastmod>{datetime.now().isoformat()}+00:00</lastmod>\n  <priority>0.8</priority>\n</url>')
 
     # Append new URLs to sitemap_top.xml
     try:
