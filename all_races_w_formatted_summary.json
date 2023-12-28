@@ -731,6 +731,27 @@
         "summary": "Välkommen till Raka Spåret! Vi är glada att välkomna löpare i alla åldrar och nivåer till denna spännande tävling. Vi erbjuder 1500 meter och 3000 meter lopp på vår snabba och platta bana. Oavsett om du är erfaren eller nybörjare, finns det en kategori och distans för dig att delta i. Kom och upplev den energiska gemenskapen på Raka Spåret och gör ditt bästa!"
     },
     {
+        "date": "20240206",
+        "type": "trail",
+        "name": "Landhof 4-årstider, Vinterloppet 2024",
+        "distance": "5 km, 10 km",
+        "distance_m": [
+            5000,
+            10000
+        ],
+        "place": "Landhof 4-årstider, Vinterloppet 2024",
+        "latitude": 0,
+        "longitude": 0,
+        "organizer": "",
+        "website": "/race-pages/landhof-4-arstider,-vinterloppet-2024.html",
+        "src_url": "https://www.trailrunningsweden.se/trailkalendern/",
+        "county": null,
+        "id": "landhof-4-årstider-vinterloppet-2024_20240206_httpswwwtrailrunningswedensetrailkalendern",
+        "summary": "Vinterloppet 2024 är här! Kom och delta i vårt populära löplopp som erbjuder 5 km och 10 km långa spårlopp genom vacker vinterlandskap. Passa på att utmana dig själv eller bara njuta av naturen i festlig atmosfär efter loppet. Anmäl dig nu och var med på en dag full av löparspänning och glädje!",
+        "website_organizer": "https://www.oklandehof.se/skidor/arrangemang/landehof-4-arstider-vinterloppet-2024/",
+        "new_version": true
+    },
+    {
         "date": "20240209",
         "type": "track",
         "name": "IDM - Hammarbyspelen",
