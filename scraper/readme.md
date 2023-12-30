@@ -1,3 +1,8 @@
+-- Activate venv and move to scraper folder:
+
+scraper\venv\Scripts\Activate.ps1
+cd scraper
+
 These files are meant to run in the order:
 
 -- Main scraper script that scrapes content from source pages, compares to previous loads, stores new races, transforms new races and puts them up for staging.
