@@ -22,7 +22,7 @@ class PageGenerator:
     self.copy_file_if_not_exists("page_generator_package/css/pg-queries.css", "../css/pg-queries.css")
     self.copy_file_if_not_exists("page_generator_package/css/pg-style.css", "../css/pg-style.css")
     if image_data is not None:
-       images_folder = f"../../{self.config['sub_domain']}/img"
+       images_folder = f"../{self.config['sub_domain']}/img"
        # Create the directory if it doesn't exist
        os.makedirs(images_folder, exist_ok=True)
        self.image_paths = self.save_images(image_data, images_folder, self.clean_filename)
@@ -80,9 +80,10 @@ class PageGenerator:
 
     # Render the template with the formatted data
     html = template.render(data=formatted_data)
-
+    page_path = f"../{self.config['sub_domain']}/{self.clean_filename}.html"
+    print(f"Saving page to {page_path}")
     # Save the generated HTML page
-    with open("output.html", 'w', encoding='utf-8') as f:
+    with open(page_path, 'w', encoding='utf-8') as f:
       f.write(html)
 
   def update_sitemap(self):
