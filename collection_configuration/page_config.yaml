@@ -1,0 +1,24 @@
+collection_type: "Lopp löpning"
+sub_domain: race-pages
+icon_path: /img/logo.svg
+page_type_text: "Loppsida för"
+
+show_all_local: "Visa alla"
+url_text_top: "Länk till anmälan"
+info_local: "Detaljerad information"
+
+# Main labels
+main_labels: ["Distanser", "Underlag", "Plats", "Datum"]
+main_keys: ["distance_m", "type", "place", "date"]
+icons: ["analytics", "shapes", "navigate-circle", "calendar-clear"]
+
+# Components
+map: True
+mapbox_center: "18.027053, 59.32547"
+calendar: False
+
+# Additional labels
+additional_labels: ["Loppkategorier", "Län", "Organisatör"]
+additional_keys: ["race_categories", "county", "organizer"]
+
+url_text_bot: "Länk till arrangörens hemsida"

@@ -14,4 +14,4 @@ python main_scraper.py
 python approvalGUI.py
 
 -- Generates individual race pages per race based on a jinja template
-python generate_race_pages.py
+python generate_pages.py

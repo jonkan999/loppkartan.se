@@ -10,7 +10,7 @@ from datetime import datetime
 script_dir = os.path.dirname(os.path.abspath(__file__))
 
 # Set up Jinja2 environment
-template_path = os.path.join(script_dir, "race_page_template.html")
+#template_path = os.path.join(script_dir, "race_page_template.html")
 env = Environment(loader=FileSystemLoader(searchpath=script_dir))
 # Register the filter function with the Jinja2 environment
 template = env.get_template("race_page_template.html")
@@ -66,7 +66,7 @@ def save_webp_image(base64_data, output_path):
     img.save(output_path, "WEBP", quality=100)
 
 def clean_filename(name):
-    name = name.replace('-', ' ').replace('/', '').replace('å', 'a').replace('ä', 'a').replace('ö', 'o').lower()
+    name = name.replace('-', ' ').replace('/', '').replace('å', 'a').replace('ä', 'a').replace('ö', 'o').replace('Å', 'A').replace('Ä', 'A').replace('Ö', 'O').lower()
     return '-'.join(name.split()).lower()
 
 def save_images(images, output_folder, filename_prefix):
@@ -181,7 +181,7 @@ def main():
     # Update sitemap.xml
 
     new_urls = []
-    for i, race in enumerate(races):
+    for i, race in enumerate(races_w_images):
         # Extract the race name from the website URL
         race_name = race["website"].split("/")[-1].replace(".html", "")
         sitemap_url = f"https://loppkartan.se/race-pages/{clean_filename(race['name'])}.html"
