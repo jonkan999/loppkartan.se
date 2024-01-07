@@ -10,7 +10,7 @@ info_local: "Detaljerad information"
 
 # Main labels
 main_labels: ["Distanser", "Underlag", "Plats", "Datum"]
-main_keys: ["distance_m", "type", "place", "date"]
+main_keys: ["display_distances", "type", "place", "date"]
 icons: ["analytics", "shapes", "navigate-circle", "calendar-clear"]
 
 # Components

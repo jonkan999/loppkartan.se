@@ -591,10 +591,11 @@ def map_distance(distance, race_type):
     return 'Unknown'
 
 def race_category_mapping(distances, race_type):
-    race_cateogories = []
+    race_categories = []
     for distance in distances:
-        race_cateogories.append(map_distance(distance, race_type))
-    return race_cateogories
+        race_categories.append(map_distance(distance, race_type))
+    
+    return ', '.join(race_categories)
 
 def get_all_ids_from_json(file_path):
     try:
