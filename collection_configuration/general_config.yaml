@@ -1,3 +1,108 @@
-keywords and such
-for example list 5 most relevant google keywords for each collection
-and then run LLM and generate title and description, and H1.
+#Main site
+
+domain: "loppkartan.se"
+google_analytics_id: "G-EJBRM67XCS"
+title: "Sveriges mest kompletta lista och kalender över löpartävlingar och lopp 2024"
+description: "Vi har samlat alla svenska löplopp i en datumsorterad lista. Hitta ditt nästa millopp, tidslopp, traillopp, halvmara, marathon eller ultra marathon hos oss idag."
+promotion_text: "Obetalt samarbete med:"
+list_button_text: "Lista"
+map_button_text: "Karta"
+menu_button_text: "Meny"
+menu_items:
+  - id: "navIndex"
+    text: "Loppkartan"
+    url: "/index.html"
+  - id: "navLopplistan"
+    text: "Lopplistan"
+    url: "/lopplistan.html"
+  - id: "navAbout"
+    text: "Om Loppkartan.se"
+    url: "/om-oss.html"
+  - id: "navContact"
+    text: "Kontaktuppgifter"
+    url: "/kontakt.html"
+  - id: "navAddRace"
+    text: "Lägg till lopp"
+    url: "/lagg-till-lopp.html"
+
+main_header: "Sveriges mest kompletta loppkalender för löpare"
+main_subheader: "Här listar vi alla Sveriges lopp och löpartävlingar under 2024.
+  Filtrera fram ditt nästa 10 km millopp, halvmaraton eller backyard
+  ultra."
+
+days_filter_text: "Lopp mellan: "
+distance_filter_text: "Distans mellan: "
+
+more_info_text: "Mer info"
+ending_header: "Saknar du ditt lopp på kartan? Lägg till
+  det här!"
+
+add_race_button:
+  id: "addRaceButton"
+  url: "/lagg-till-lopp.html"
+  class: "add-race-button border-style"
+  label: "Lägg till lopp"
+checkbox_mapping:
+  - container_id: "relayCheckboxContainer"
+    checkbox_id: "relayCheckbox"
+    check_icon_class: "check-icon-relay"
+    label_text: "Stafett"
+  - container_id: "backyardCheckboxContainer"
+    checkbox_id: "backyardCheckbox"
+    check_icon_class: "check-icon-backyard"
+    label_text: "Backyard"
+  - container_id: "terrainCheckboxContainer"
+    checkbox_id: "terrainCheckbox"
+    check_icon_class: "check-icon-terrain"
+    label_text: "Terräng"
+  - container_id: "trailCheckboxContainer"
+    checkbox_id: "trailCheckbox"
+    check_icon_class: "check-icon-trail"
+    label_text: "Trail"
+  - container_id: "roadCheckboxContainer"
+    checkbox_id: "roadCheckbox"
+    check_icon_class: "check-icon-road"
+    label_text: "Landsväg"
+  - container_id: "trackCheckboxContainer"
+    checkbox_id: "trackCheckbox"
+    check_icon_class: "check-icon-track"
+    label_text: "Löparbana"
+
+month_mapping:
+  "01": "Januari"
+  "02": "Februari"
+  "03": "Mars"
+  "04": "April"
+  "05": "Maj"
+  "06": "Juni"
+  "07": "Juli"
+  "08": "Augusti"
+  "09": "September"
+  "10": "Oktober"
+  "11": "November"
+  "12": "December"
+
+month_mapping_short:
+  "01": "jan."
+  "02": "feb."
+  "03": "mars"
+  "04": "apr."
+  "05": "maj"
+  "06": "juni"
+  "07": "juli"
+  "08": "aug."
+  "09": "sep."
+  "10": "okt."
+  "11": "nov."
+  "12": "dec."
+
+distance_mapping:
+  backyard: Backyard Ultra
+  time: Tidslopp
+  relay: Stafett
+
+distance_units:
+  - range: [20.9, 21.3]
+    label: Halvmarathon
+  - range: [41.9, 42.4]
+    label: Marathon

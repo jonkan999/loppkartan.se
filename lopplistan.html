@@ -16,19 +16,13 @@
     </script>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>
-      Sveriges mest kompletta lista och kalender över löpartävlingar och lopp
-      2024
-    </title>
+    <title>Sveriges mest kompletta lista och kalender över löpartävlingar och lopp 2024</title>
     <link rel="icon" href="/img/logo100px.jpg" />
     <link
       href="https://fonts.googleapis.com/css2?family=Lato:wght@400;500;600;700;800;900&display=swap"
       rel="stylesheet"
     />
-    <meta
-      name="description"
-      content="Vi har samlat alla svenska löplopp i en datumsorterad lista. Hitta ditt nästa millopp, tidslopp, traillopp, halvmara, marathon eller ultra marathon hos oss idag."
-    />
+    <meta name="description" content="Vi har samlat alla svenska löplopp i en datumsorterad lista. Hitta ditt nästa millopp, tidslopp, traillopp, halvmara, marathon eller ultra marathon hos oss idag." />
     <meta
       name="viewport"
       content="initial-scale=1,maximum-scale=1,user-scalable=no"
@@ -140,63 +134,72 @@
               Lista
             </button>
             <a href="index.html" class="view-button-wrapper">
-              <button class="view-button map-view-button">Karta</button>
+              <button class="view-button map-view-button">
+                Karta
+              </button>
             </a>
           </div>
 
           <nav class="main-nav">
             <ul class="main-nav-list">
               <li>
-                <h2 class="main-nav-header secondary-header">Meny</h2>
+                <h2 class="main-nav-header secondary-header">
+                  Meny
+                </h2>
               </li>
-              <li>
-                <a
-                  class="main-nav-link tertiary-header"
-                  href="/index.html"
-                  id="navAbout"
-                  >Loppkartan</a
-                >
-              </li>
-              <li>
-                <a
-                  class="main-nav-link tertiary-header"
-                  href="/lopplistan.html"
-                  id="navAbout"
-                  >Lopplistan</a
-                >
-              </li>
-              <li>
-                <a
-                  class="main-nav-link tertiary-header"
-                  href="/om-oss.html"
-                  id="navAbout"
-                  >Om Loppkartan.se</a
-                >
-              </li>
-
-              <li>
-                <a
-                  class="main-nav-link tertiary-header"
-                  href="/kontakt.html"
-                  id="navContact"
-                  >Kontaktuppgifter</a
-                >
-              </li>
-              <li>
-                <a
-                  class="main-nav-link tertiary-header"
-                  href="/lagg-till-lopp.html"
-                  id="navAddRace"
-                  >Lägg till lopp</a
-                >
-              </li>
-              <li>
-                <a
-                  class="main-nav-link tertiary-header"
-                  href="https://www.spaco.se/"
-                  >Lokaler till afterrun</a
-                >
-              </li>
+              <ul class="main-nav-list">
+                
+                <li>
+                  <a
+                    class="main-nav-link tertiary-header"
+                    href="/index.html"
+                    id="navIndex"
+                  >
+                    Loppkartan
+                  </a>
+                </li>
+                
+                <li>
+                  <a
+                    class="main-nav-link tertiary-header"
+                    href="/lopplistan.html"
+                    id="navLopplistan"
+                  >
+                    Lopplistan
+                  </a>
+                </li>
+                
+                <li>
+                  <a
+                    class="main-nav-link tertiary-header"
+                    href="/om-oss.html"
+                    id="navAbout"
+                  >
+                    Om Loppkartan.se
+                  </a>
+                </li>
+                
+                <li>
+                  <a
+                    class="main-nav-link tertiary-header"
+                    href="/kontakt.html"
+                    id="navContact"
+                  >
+                    Kontaktuppgifter
+                  </a>
+                </li>
+                
+                <li>
+                  <a
+                    class="main-nav-link tertiary-header"
+                    href="/lagg-till-lopp.html"
+                    id="navAddRace"
+                  >
+                    Lägg till lopp
+                  </a>
+                </li>
+                
+              </ul>
             </ul>
           </nav>
           <button class="btn-mobile-nav">
@@ -210,69 +213,1755 @@
         <h2
           class="secondary-header block-header map-header margin-bottom--tiny"
         >
-          Här listar vi alla Sveriges lopp och löpartävlingar under 2024.
-          Filtrera fram ditt nästa 10 km millopp, halvmaraton eller backyard
-          ultra.
+          Här listar vi alla Sveriges lopp och löpartävlingar under 2024. Filtrera fram ditt nästa 10 km millopp, halvmaraton eller backyard ultra.
         </h2>
 
         <div class="filter-section margin-bottom--default">
           <div class="slider-container">
             <div class="slider-box">
               <p>
-                <label for="daysFilterText">Lopp mellan: </label>
+                <label for="daysFilterText"
+                  >Lopp mellan: </label
+                >
                 <input type="text" id="daysFilterText" readonly />
               </p>
               <div id="sliderDays"></div>
             </div>
             <div class="slider-box">
               <p>
-                <label for="distanceFilterText">Distans mellan: </label>
+                <label for="distanceFilterText"
+                  >Distans mellan: </label
+                >
                 <input type="text" id="distanceFilterText" readonly />
               </p>
               <div id="sliderDistance"></div>
             </div>
           </div>
           <div class="checkboxes">
+            
             <div id="relayCheckboxContainer" class="checkbox-container">
-              <div id="relayCheckbox" class="header-checkbox active">
+              <div
+                id="relayCheckbox"
+                class="header-checkbox active"
+              >
                 <div class="check-icon check-icon-relay"></div>
               </div>
-              <span for="relayCheckbox">Stafett</span>
+              <span for="relayCheckbox"
+                >Stafett</span
+              >
             </div>
+            
             <div id="backyardCheckboxContainer" class="checkbox-container">
-              <div id="backyardCheckbox" class="header-checkbox active">
+              <div
+                id="backyardCheckbox"
+                class="header-checkbox active"
+              >
                 <div class="check-icon check-icon-backyard"></div>
               </div>
-              <span for="backyardCheckbox">Backyard</span>
+              <span for="backyardCheckbox"
+                >Backyard</span
+              >
             </div>
+            
             <div id="terrainCheckboxContainer" class="checkbox-container">
-              <div id="terrainCheckbox" class="header-checkbox active">
+              <div
+                id="terrainCheckbox"
+                class="header-checkbox active"
+              >
                 <div class="check-icon check-icon-terrain"></div>
               </div>
-              <span for="terrainCheckbox">Terräng</span>
+              <span for="terrainCheckbox"
+                >Terräng</span
+              >
             </div>
+            
             <div id="trailCheckboxContainer" class="checkbox-container">
-              <div id="trailCheckbox" class="header-checkbox active">
+              <div
+                id="trailCheckbox"
+                class="header-checkbox active"
+              >
                 <div class="check-icon check-icon-trail"></div>
               </div>
-              <span for="trailCheckbox">Trail</span>
+              <span for="trailCheckbox"
+                >Trail</span
+              >
             </div>
+            
             <div id="roadCheckboxContainer" class="checkbox-container">
-              <div id="roadCheckbox" class="header-checkbox active">
+              <div
+                id="roadCheckbox"
+                class="header-checkbox active"
+              >
                 <div class="check-icon check-icon-road"></div>
               </div>
-              <span for="roadCheckbox">Landsväg</span>
+              <span for="roadCheckbox"
+                >Landsväg</span
+              >
             </div>
+            
             <div id="trackCheckboxContainer" class="checkbox-container">
-              <div id="trackCheckbox" class="header-checkbox active">
+              <div
+                id="trackCheckbox"
+                class="header-checkbox active"
+              >
                 <div class="check-icon check-icon-track"></div>
               </div>
-              <span for="trackCheckbox">Löparbana</span>
+              <span for="trackCheckbox"
+                >Löparbana</span
+              >
             </div>
+            
           </div>
         </div>
 
-        <div id="raceContainer" class="race-container"></div>
+        <div id="raceContainer" class="race-container">
+          
+          <!-- Month Header -->
+          <div class="month-name" style="display: block">
+            <h2
+              class="secondary-header"
+              style="margin-bottom: 0.3rem; padding-left: 0.2rem"
+            >
+              Januari 2024
+            </h2>
+          </div>
+
+          <!-- Race Containers for the Month -->
+          
+          <div
+            class="race-info-box margin-bottom--small border-style"
+            data-marker-id="bräntberget2h_20240122_httpswwwtrailrunningswedensetrailkalendern"
+            style="display: block"
+          >
+            <div class="race-info-box-upper-content">
+              <p class="race-date">22 jan.</p>
+              <div class="race-text-box margin-bottom--tiny">
+                <h3 class="race-name tertiary-header">Bräntberget2H</h3>
+                <div class="race-type-box margin-bottom--tiny">
+                  <div class="text-icon-trail"></div>
+                  <p class="race-type">trail</p>
+                </div>
+                <p class="race-distance">Halvmarathon</p>
+              </div>
+              <a class="race-website" href="/race-pages/brantberget2h.html" target="_blank"
+                >Mer info</a
+              >
+            </div>
+            <div class="race-info-summary">
+              <p class="race-info-summary-content">Välkommen till Bräntberget 2-timmars tävlingen! Vi erbjuder tre olika loppdistanser - 10km, 15km, 20km - perfekt för alla som älskar trail-löpning. Banan på Bräntberget är vackert utmanande med slingrande stigar, branta backar och fantastisk natur. Oavsett om du är nybörjare eller erfaren löpare, så finns det något för dig här. Kom och var med på en dag av spännande trail-löpning och upplev en minnesvärd upplevelse i naturen!</p>
+            </div>
+          </div>
+           
+          <!-- Month Header -->
+          <div class="month-name" style="display: block">
+            <h2
+              class="secondary-header"
+              style="margin-bottom: 0.3rem; padding-left: 0.2rem"
+            >
+              Februari 2024
+            </h2>
+          </div>
+
+          <!-- Race Containers for the Month -->
+          
+          <div
+            class="race-info-box margin-bottom--small border-style"
+            data-marker-id="night-trail-farsta_20240204_httpswwwtrailrunningswedensetrailkalendern"
+            style="display: block"
+          >
+            <div class="race-info-box-upper-content">
+              <p class="race-date">4 feb.</p>
+              <div class="race-text-box margin-bottom--tiny">
+                <h3 class="race-name tertiary-header">Night Trail Farsta</h3>
+                <div class="race-type-box margin-bottom--tiny">
+                  <div class="text-icon-trail"></div>
+                  <p class="race-type">trail</p>
+                </div>
+                <p class="race-distance">6 km, 11 km</p>
+              </div>
+              <a class="race-website" href="/race-pages/night-trail-farsta.html" target="_blank"
+                >Mer info</a
+              >
+            </div>
+            <div class="race-info-summary">
+              <p class="race-info-summary-content">I lördags arrangerade vi vår årliga terränglöpning med distanserna 6 km och 11 km. Deltagarna kom i alla åldrar och löparnivåer, och det var fantastiskt att se så många människor njuta av den vackra naturen. Vi är glada att främja hälsosam livsstil och ser fram emot att fortsätta arrangera dessa evenemang i framtiden! Tack till alla deltagare, volontärer och supportrar!</p>
+            </div>
+          </div>
+          
+          <div
+            class="race-info-box margin-bottom--small border-style"
+            data-marker-id="landhof-4-årstider-vinterloppet-2024_20240206_httpswwwtrailrunningswedensetrailkalendern"
+            style="display: block"
+          >
+            <div class="race-info-box-upper-content">
+              <p class="race-date">6 feb.</p>
+              <div class="race-text-box margin-bottom--tiny">
+                <h3 class="race-name tertiary-header">Landhof 4-årstider, Vinterloppet 2024</h3>
+                <div class="race-type-box margin-bottom--tiny">
+                  <div class="text-icon-trail"></div>
+                  <p class="race-type">trail</p>
+                </div>
+                <p class="race-distance">5 km, 10 km</p>
+              </div>
+              <a class="race-website" href="/race-pages/landhof-4-arstider,-vinterloppet-2024.html" target="_blank"
+                >Mer info</a
+              >
+            </div>
+            <div class="race-info-summary">
+              <p class="race-info-summary-content">Vinterloppet 2024 är här! Kom och delta i vårt populära löplopp som erbjuder 5 km och 10 km långa spårlopp genom vacker vinterlandskap. Passa på att utmana dig själv eller bara njuta av naturen i festlig atmosfär efter loppet. Anmäl dig nu och var med på en dag full av löparspänning och glädje!</p>
+            </div>
+          </div>
+          
+          <div
+            class="race-info-box margin-bottom--small border-style"
+            data-marker-id="winter-cross-run_20240210_httpswwwtrailrunningswedensetrailkalendern"
+            style="display: block"
+          >
+            <div class="race-info-box-upper-content">
+              <p class="race-date">10 feb.</p>
+              <div class="race-text-box margin-bottom--tiny">
+                <h3 class="race-name tertiary-header">Winter Cross Run</h3>
+                <div class="race-type-box margin-bottom--tiny">
+                  <div class="text-icon-trail"></div>
+                  <p class="race-type">trail</p>
+                </div>
+                <p class="race-distance">4 km, 7 km, 11 km</p>
+              </div>
+              <a class="race-website" href="/race-pages/winter-cross-run.html" target="_blank"
+                >Mer info</a
+              >
+            </div>
+            <div class="race-info-summary">
+              <p class="race-info-summary-content">Vår årliga Winter Cross Run (WCR) är tillbaka för 9:e året i rad! Anmälan öppnar den 25 november kl 8:00. Oavsett om du är erfaren eller nybörjare finns det en distans som passar dig: 4 km, 7 km eller 11 km på trail-terrängen. Besök vår hemsida för mer information och anmälan. Det kommer att bli en minnesvärd upplevelse för alla löpare!</p>
+            </div>
+          </div>
+          
+          <div
+            class="race-info-box margin-bottom--small border-style"
+            data-marker-id="bannister-winter-classic_20240210_httpswwwfriidrottsetavling-landslagtavlingtavlingskalendertavlingar-i-sverigeinomhustavlingarsida3"
+            style="display: block"
+          >
+            <div class="race-info-box-upper-content">
+              <p class="race-date">10 feb.</p>
+              <div class="race-text-box margin-bottom--tiny">
+                <h3 class="race-name tertiary-header">BANNISTER WINTER CLASSIC</h3>
+                <div class="race-type-box margin-bottom--tiny">
+                  <div class="text-icon-track"></div>
+                  <p class="race-type">track</p>
+                </div>
+                <p class="race-distance">1500 meter</p>
+              </div>
+              <a class="race-website" href="/race-pages/bannister-winter-classic.html" target="_blank"
+                >Mer info</a
+              >
+            </div>
+            <div class="race-info-summary">
+              <p class="race-info-summary-content">Kom och delta i Bannister INVITATIONAL 2024, en spännande löpartävling på bana med 1500 meter distans. Upplev en dag fylld med snabbhet, prestationer och gemenskap med löpare från hela landet. Anmäl dig nu och utmana dina gränser!</p>
+            </div>
+          </div>
+          
+          <div
+            class="race-info-box margin-bottom--small border-style"
+            data-marker-id="idm-för-södra-svealand_20240210_httpswwwfriidrottsetavling-landslagtavlingtavlingskalendertavlingar-i-sverigeinomhustavlingarsida3"
+            style="display: block"
+          >
+            <div class="race-info-box-upper-content">
+              <p class="race-date">10 feb.</p>
+              <div class="race-text-box margin-bottom--tiny">
+                <h3 class="race-name tertiary-header">IDM för Södra Svealand</h3>
+                <div class="race-type-box margin-bottom--tiny">
+                  <div class="text-icon-track"></div>
+                  <p class="race-type">track</p>
+                </div>
+                <p class="race-distance">1500 meter</p>
+              </div>
+              <a class="race-website" href="/race-pages/idm-for-sodra-svealand.html" target="_blank"
+                >Mer info</a
+              >
+            </div>
+            <div class="race-info-summary">
+              <p class="race-info-summary-content">Kom och var med på Inomhus-DM för Södra Svealand arrangerat av Västerås Friidrott! Vi bjuder in löpare i olika åldersgrupper och kön att tävla på inomhusbanan. Banan är perfekt för att sätta personliga rekord och utmana dig själv i den spännande 1500 meter distansen. Anmäl dig idag och ge allt på banan!</p>
+            </div>
+          </div>
+          
+          <div
+            class="race-info-box margin-bottom--small border-style"
+            data-marker-id="höga-kusten-winter-trail_20240217_httpswwwtrailrunningswedensetrailkalendern"
+            style="display: block"
+          >
+            <div class="race-info-box-upper-content">
+              <p class="race-date">17 feb.</p>
+              <div class="race-text-box margin-bottom--tiny">
+                <h3 class="race-name tertiary-header">Höga kusten Winter Trail</h3>
+                <div class="race-type-box margin-bottom--tiny">
+                  <div class="text-icon-trail"></div>
+                  <p class="race-type">trail</p>
+                </div>
+                <p class="race-distance">25 km, 35 km, 50 km</p>
+              </div>
+              <a class="race-website" href="/race-pages/hoga-kusten-winter-trail.html" target="_blank"
+                >Mer info</a
+              >
+            </div>
+            <div class="race-info-summary">
+              <p class="race-info-summary-content">Upplev vintern i Höga Kusten genom att delta i Höga Kusten Winter Trail - ett spektakulärt vintersäventyr med distanser på 25 km, 35 km och Trail Ultramarathon. Ta dig igenom vackra landskap och njut av gemenskapen bland deltagarna. En oförglömlig upplevelse med massor av roligt längs vägen!</p>
+            </div>
+          </div>
+          
+          <div
+            class="race-info-box margin-bottom--small border-style"
+            data-marker-id="blackyard_20240217_httpswwwtrailrunningswedensetrailkalendern"
+            style="display: block"
+          >
+            <div class="race-info-box-upper-content">
+              <p class="race-date">17 feb.</p>
+              <div class="race-text-box margin-bottom--tiny">
+                <h3 class="race-name tertiary-header">Blackyard</h3>
+                <div class="race-type-box margin-bottom--tiny">
+                  <div class="text-icon-trail"></div>
+                  <p class="race-type">trail</p>
+                </div>
+                <p class="race-distance">Backyard Ultra</p>
+              </div>
+              <a class="race-website" href="/race-pages/blackyard.html" target="_blank"
+                >Mer info</a
+              >
+            </div>
+            <div class="race-info-summary">
+              <p class="race-info-summary-content">Välkommen till Blackyard den 17 februari 2024! Det spännande terrängloppet kommer att utmana dina gränser med en bansträckning på 3 km. Oavsett om du är en erfaren löpare eller nybörjare så är Blackyard det perfekta tillfället att prova på terränglöpning. Njut av naturens skönhet och utmana dig själv längs de vackra stigarna på Blackyard! Tagga dina vänner och förbered dig för en spännande loppdag.</p>
+            </div>
+          </div>
+          
+          <div
+            class="race-info-box margin-bottom--small border-style"
+            data-marker-id="bannister-last-chance_20240227_httpswwwfriidrottsetavling-landslagtavlingtavlingskalendertavlingar-i-sverigeinomhustavlingarsida3"
+            style="display: block"
+          >
+            <div class="race-info-box-upper-content">
+              <p class="race-date">27 feb.</p>
+              <div class="race-text-box margin-bottom--tiny">
+                <h3 class="race-name tertiary-header">BANNISTER LAST CHANCE</h3>
+                <div class="race-type-box margin-bottom--tiny">
+                  <div class="text-icon-track"></div>
+                  <p class="race-type">track</p>
+                </div>
+                <p class="race-distance">1500 meter</p>
+              </div>
+              <a class="race-website" href="/race-pages/bannister-last-chance.html" target="_blank"
+                >Mer info</a
+              >
+            </div>
+            <div class="race-info-summary">
+              <p class="race-info-summary-content">Bannister Invitational 2024 är här! Vi bjuder in löpare i alla åldrar och nivåer till en spännande tävling med en av de mest efterlängtade loppen - 1500 meter på bana. Vi har planerat för en säker och rolig tävlingsmiljö och oavsett om du är erfaren eller nybörjare är du välkommen att delta. Vi ser fram emot att se dig på startlinjen!</p>
+            </div>
+          </div>
+           
+          <!-- Month Header -->
+          <div class="month-name" style="display: block">
+            <h2
+              class="secondary-header"
+              style="margin-bottom: 0.3rem; padding-left: 0.2rem"
+            >
+              Mars 2024
+            </h2>
+          </div>
+
+          <!-- Race Containers for the Month -->
+          
+          <div
+            class="race-info-box margin-bottom--small border-style"
+            data-marker-id="ursvik-ultra_20240316_httpswwwtrailrunningswedensetrailkalendern"
+            style="display: block"
+          >
+            <div class="race-info-box-upper-content">
+              <p class="race-date">16 mars</p>
+              <div class="race-text-box margin-bottom--tiny">
+                <h3 class="race-name tertiary-header">Ursvik Ultra</h3>
+                <div class="race-type-box margin-bottom--tiny">
+                  <div class="text-icon-trail"></div>
+                  <p class="race-type">trail</p>
+                </div>
+                <p class="race-distance">75 km</p>
+              </div>
+              <a class="race-website" href="/race-pages/ursvik-ultra.html" target="_blank"
+                >Mer info</a
+              >
+            </div>
+            <div class="race-info-summary">
+              <p class="race-info-summary-content">Vill du utmana dig själv i en vacker och krävande terränglöpning? Då är Ursvik Ultra den perfekta starten på säsongen för dig! Med 75 km stiglöpning genom skogar och berg erbjuder denna trail ultramarathon en otrolig upplevelse för erfarna löpare såväl som nybörjare. Kom och delta den 23 mars för en episk löparupplevelse som du sent kommer glömma.</p>
+            </div>
+          </div>
+          
+          <div
+            class="race-info-box margin-bottom--small border-style"
+            data-marker-id="edsvidsleden-trailrun_20240317_httpswwwtrailrunningswedensetrailkalendern"
+            style="display: block"
+          >
+            <div class="race-info-box-upper-content">
+              <p class="race-date">17 mars</p>
+              <div class="race-text-box margin-bottom--tiny">
+                <h3 class="race-name tertiary-header">Edsvidsleden Trailrun</h3>
+                <div class="race-type-box margin-bottom--tiny">
+                  <div class="text-icon-trail"></div>
+                  <p class="race-type">trail</p>
+                </div>
+                <p class="race-distance">14 km</p>
+              </div>
+              <a class="race-website" href="/race-pages/edsvidsleden-trailrun.html" target="_blank"
+                >Mer info</a
+              >
+            </div>
+            <div class="race-info-summary">
+              <p class="race-info-summary-content">Upplev ett spännande äventyr på Edsvidsleden Trailrun - Aktiv Öresjö! Vårt 14 km långa lopp tar dig genom vackra skogar, klippiga stigar och glittrande vattendrag. Oavsett om du är erfaren eller nybörjare, är detta det perfekta tillfället att testa dina gränser och njuta av naturen. Kom och utmana dig själv, delta i vårt traillopp och upplev en oförglömlig dag fylld med spänning och kamratskap. Så stig upp, ta på dig dina löparskor och låt äventyret börja!</p>
+            </div>
+          </div>
+           
+          <!-- Month Header -->
+          <div class="month-name" style="display: block">
+            <h2
+              class="secondary-header"
+              style="margin-bottom: 0.3rem; padding-left: 0.2rem"
+            >
+              April 2024
+            </h2>
+          </div>
+
+          <!-- Race Containers for the Month -->
+          
+          <div
+            class="race-info-box margin-bottom--small border-style"
+            data-marker-id="udd-loppet_20240407_httpswwwjoggsekalendertavlingaraspxaar2024mon13fdist0tdist1000type0country1region0tloppfalserelayfalsesurfaceasftridist0title1"
+            style="display: block"
+          >
+            <div class="race-info-box-upper-content">
+              <p class="race-date">7 apr.</p>
+              <div class="race-text-box margin-bottom--tiny">
+                <h3 class="race-name tertiary-header">Udd Loppet</h3>
+                <div class="race-type-box margin-bottom--tiny">
+                  <div class="text-icon-road"></div>
+                  <p class="race-type">road</p>
+                </div>
+                <p class="race-distance">4 km, 10 km, Halvmarathon</p>
+              </div>
+              <a class="race-website" href="/race-pages/udd-loppet.html" target="_blank"
+                >Mer info</a
+              >
+            </div>
+            <div class="race-info-summary">
+              <p class="race-info-summary-content">Uddloppet den 7/4 2024 är en spännande löptävling längs vägarna. Oavsett ålder eller erfarenhet är alla välkomna att delta i den välorganiserade och roliga tävlingen. Ta chansen att testa dina gränser och njut av gemenskapen med andra löpare. Anmäl dig till Uddloppet 2024 och ta del av den fantastiska atmosfären! Distans: 4 km, 10km elller Halvmarathon.</p>
+            </div>
+          </div>
+          
+          <div
+            class="race-info-box margin-bottom--small border-style"
+            data-marker-id="kungsbackaloppet-halvmarathon_20240420_httpswwwjoggsekalendertavlingaraspxaar2024mon13fdist0tdist1000type0country1region0tloppfalserelayfalsesurfaceasftridist0title1"
+            style="display: block"
+          >
+            <div class="race-info-box-upper-content">
+              <p class="race-date">20 apr.</p>
+              <div class="race-text-box margin-bottom--tiny">
+                <h3 class="race-name tertiary-header">Kungsbackaloppet Halvmarathon</h3>
+                <div class="race-type-box margin-bottom--tiny">
+                  <div class="text-icon-road"></div>
+                  <p class="race-type">road</p>
+                </div>
+                <p class="race-distance">Halvmarathon</p>
+              </div>
+              <a class="race-website" href="/race-pages/kungsbackaloppet-halvmarathon.html" target="_blank"
+                >Mer info</a
+              >
+            </div>
+            <div class="race-info-summary">
+              <p class="race-info-summary-content">Välkommen till Världens äldsta årliga långlopp! Start - Kungsbacka Loppet erbjuder en spännande halvmarathondistans för löpare som söker en utmaning. Med pittoreska vyer och centrala läge är det en unik upplevelse. Vår professionella organisation strävar efter att skapa en minnesvärd och givande upplevelse för alla deltagare. Vi ser fram emot att välkomna löpare till vår vackra stad!</p>
+            </div>
+          </div>
+          
+          <div
+            class="race-info-box margin-bottom--small border-style"
+            data-marker-id="isaberg500_20240421_httpswwwtrailrunningswedensetrailkalendern"
+            style="display: block"
+          >
+            <div class="race-info-box-upper-content">
+              <p class="race-date">21 apr.</p>
+              <div class="race-text-box margin-bottom--tiny">
+                <h3 class="race-name tertiary-header">Isaberg500</h3>
+                <div class="race-type-box margin-bottom--tiny">
+                  <div class="text-icon-trail"></div>
+                  <p class="race-type">trail</p>
+                </div>
+                <p class="race-distance">2 km, 10 km</p>
+              </div>
+              <a class="race-website" href="/race-pages/isaberg500.html" target="_blank"
+                >Mer info</a
+              >
+            </div>
+            <div class="race-info-summary">
+              <p class="race-info-summary-content">Välkommen till årets löpartävling! Vi erbjuder två spännande distanser att välja mellan: 2 km och 10 km, alla på vackra skogsstigar och utmanande terräng. Oavsett om du är nybörjare eller erfaren löpare, finns det en distans som passar dig. Vår mångfaldiga och inkluderande tävling främjar träning, hälsa och gemenskap. Oavsett om du siktar på personligt rekord eller bara vill njuta av en vacker löprunda i naturen, är vår tävling den perfekta platsen för dig att delta. Lycka till!</p>
+            </div>
+          </div>
+          
+          <div
+            class="race-info-box margin-bottom--small border-style"
+            data-marker-id="kolmården-vertical_20240424_httpswwwtrailrunningswedensetrailkalendern"
+            style="display: block"
+          >
+            <div class="race-info-box-upper-content">
+              <p class="race-date">24 apr.</p>
+              <div class="race-text-box margin-bottom--tiny">
+                <h3 class="race-name tertiary-header">Kolmården Vertical</h3>
+                <div class="race-type-box margin-bottom--tiny">
+                  <div class="text-icon-trail"></div>
+                  <p class="race-type">trail</p>
+                </div>
+                <p class="race-distance">5 km</p>
+              </div>
+              <a class="race-website" href="/race-pages/kolmarden-vertical.html" target="_blank"
+                >Mer info</a
+              >
+            </div>
+            <div class="race-info-summary">
+              <p class="race-info-summary-content">Välkommen till vårt årliga terränglopp! Vi erbjuder en vacker och utmanande 5 km rutt genom skogar, berg och dalar. Oavsett om du är erfaren eller nybörjare är detta lopp perfekt för dig som älskar naturen och utmaningar. Anmäl dig idag och delta i denna spännande löparupplevelse!</p>
+            </div>
+          </div>
+          
+          <div
+            class="race-info-box margin-bottom--small border-style"
+            data-marker-id="retrovarvet-2024_20240427_httpswwwjoggsekalendertavlingaraspxaar2024mon13fdist0tdist1000type0country1region0tloppfalserelayfalsesurfaceasftridist0title1"
+            style="display: block"
+          >
+            <div class="race-info-box-upper-content">
+              <p class="race-date">27 apr.</p>
+              <div class="race-text-box margin-bottom--tiny">
+                <h3 class="race-name tertiary-header">Retrovarvet 2024</h3>
+                <div class="race-type-box margin-bottom--tiny">
+                  <div class="text-icon-road"></div>
+                  <p class="race-type">road</p>
+                </div>
+                <p class="race-distance">Halvmarathon</p>
+              </div>
+              <a class="race-website" href="/race-pages/retrovarvet-2024.html" target="_blank"
+                >Mer info</a
+              >
+            </div>
+            <div class="race-info-summary">
+              <p class="race-info-summary-content">Välkommen till Göteborgsvarvet, en ikonisk och spännande halvmaraton i Göteborg! Med en fantastisk stad som bakgrund och entusiastiska åskådare längs hela banan erbjuder loppet en otrolig upplevelse. Oavsett om du är erfaren eller nybörjare är detta loppet för dig. Boka in den 18 maj 2024 och gör dig redo för en fantastisk löpning genom stadens vackra gator! Anmäl dig idag och vara en del av detta elektriska lopp.</p>
+            </div>
+          </div>
+          
+          <div
+            class="race-info-box margin-bottom--small border-style"
+            data-marker-id="lerumsloppet_20240427_httpswwwjoggsekalendertavlingaraspxaar2024mon13fdist0tdist1000type0country1region0tloppfalserelayfalsesurfaceasftridist0title1"
+            style="display: block"
+          >
+            <div class="race-info-box-upper-content">
+              <p class="race-date">27 apr.</p>
+              <div class="race-text-box margin-bottom--tiny">
+                <h3 class="race-name tertiary-header">Lerumsloppet</h3>
+                <div class="race-type-box margin-bottom--tiny">
+                  <div class="text-icon-road"></div>
+                  <p class="race-type">road</p>
+                </div>
+                <p class="race-distance">10 km</p>
+              </div>
+              <a class="race-website" href="/race-pages/lerumsloppet.html" target="_blank"
+                >Mer info</a
+              >
+            </div>
+            <div class="race-info-summary">
+              <p class="race-info-summary-content">Vill du utmana dig själv i en härlig löpning längs vackra vägar? Anmäl dig till Lerumsloppet 10 km 2018! Oavsett om du är nybörjare eller erfaren löpare, kommer du att njuta av den vackra rundan och känna gemenskapen med andra deltagare. Missa inte detta klassiska väglopp och upplev löpningens glädje på ett minnesvärt sätt.</p>
+            </div>
+          </div>
+           
+          <!-- Month Header -->
+          <div class="month-name" style="display: block">
+            <h2
+              class="secondary-header"
+              style="margin-bottom: 0.3rem; padding-left: 0.2rem"
+            >
+              Maj 2024
+            </h2>
+          </div>
+
+          <!-- Race Containers for the Month -->
+          
+          <div
+            class="race-info-box margin-bottom--small border-style"
+            data-marker-id="trailvarvet_20240512_httpswwwtrailrunningswedensetrailkalendern"
+            style="display: block"
+          >
+            <div class="race-info-box-upper-content">
+              <p class="race-date">12 maj</p>
+              <div class="race-text-box margin-bottom--tiny">
+                <h3 class="race-name tertiary-header">Trailvarvet</h3>
+                <div class="race-type-box margin-bottom--tiny">
+                  <div class="text-icon-trail"></div>
+                  <p class="race-type">trail</p>
+                </div>
+                <p class="race-distance">6 km, 11 km</p>
+              </div>
+              <a class="race-website" href="/race-pages/trailvarvet.html" target="_blank"
+                >Mer info</a
+              >
+            </div>
+            <div class="race-info-summary">
+              <p class="race-info-summary-content">Upptäck skönheten i naturen genom att delta i Trailvarvet, ett spännande lopp som tar dig genom den vackra och kuperade terrängen i Änggårdsbergen. Välj mellan en 6 km eller 11,5 km distans och utmana dig själv oavsett om du är nybörjare eller erfaren trail-löpare. Kom och upplev naturen från en helt ny synvinkel med Trailvarvet!</p>
+            </div>
+          </div>
+          
+          <div
+            class="race-info-box margin-bottom--small border-style"
+            data-marker-id="borgarloppet_20240518_httpswwwtrailrunningswedensetrailkalendern"
+            style="display: block"
+          >
+            <div class="race-info-box-upper-content">
+              <p class="race-date">18 maj</p>
+              <div class="race-text-box margin-bottom--tiny">
+                <h3 class="race-name tertiary-header">Borgarloppet</h3>
+                <div class="race-type-box margin-bottom--tiny">
+                  <div class="text-icon-trail"></div>
+                  <p class="race-type">trail</p>
+                </div>
+                <p class="race-distance">0 km, 2 km, 6 km, 13 km, 23 km</p>
+              </div>
+              <a class="race-website" href="/race-pages/borgarloppet.html" target="_blank"
+                >Mer info</a
+              >
+            </div>
+            <div class="race-info-summary">
+              <p class="race-info-summary-content">Kom och delta i Borgarloppet, en populär terränglöpningshändelse i Forsa. Vi erbjuder fem olika distanser: 0 km (för nybörjare), 2 km, 6 km, 13 km och 23 km. Oavsett nivå finns det en passande distans för alla. Loppet äger rum lördagen den 18 maj 2024 och bjuder på vackra vyer och utmanande terräng. Anmäl dig nu för en oförglömlig upplevelse i Forsas natursköna omgivningar.</p>
+            </div>
+          </div>
+          
+          <div
+            class="race-info-box margin-bottom--small border-style"
+            data-marker-id="peters-trail_20240518_httpswwwtrailrunningswedensetrailkalendern"
+            style="display: block"
+          >
+            <div class="race-info-box-upper-content">
+              <p class="race-date">18 maj</p>
+              <div class="race-text-box margin-bottom--tiny">
+                <h3 class="race-name tertiary-header">Peters Trail</h3>
+                <div class="race-type-box margin-bottom--tiny">
+                  <div class="text-icon-trail"></div>
+                  <p class="race-type">trail</p>
+                </div>
+                <p class="race-distance">54 km, 107 km</p>
+              </div>
+              <a class="race-website" href="/race-pages/peters-trail.html" target="_blank"
+                >Mer info</a
+              >
+            </div>
+            <div class="race-info-summary">
+              <p class="race-info-summary-content">Välkommen till Peters Trail den 18 maj 2024! Upplev spänningen av Trail Ultramarathon med två olika distanser att välja mellan. Njut av natursköna vyer och utmanande terräng samtidigt som du känner gemenskapen med andra löpare. Det kommer bli en dag att minnas för alltid!</p>
+            </div>
+          </div>
+          
+          <div
+            class="race-info-box margin-bottom--small border-style"
+            data-marker-id="uka-pain_20240524_httpswwwtrailrunningswedensetrailkalendern"
+            style="display: block"
+          >
+            <div class="race-info-box-upper-content">
+              <p class="race-date">24 maj</p>
+              <div class="race-text-box margin-bottom--tiny">
+                <h3 class="race-name tertiary-header">Uka Pain</h3>
+                <div class="race-type-box margin-bottom--tiny">
+                  <div class="text-icon-trail"></div>
+                  <p class="race-type">trail</p>
+                </div>
+                <p class="race-distance">28 km, 50 km, 100 km, 170 km</p>
+              </div>
+              <a class="race-website" href="/race-pages/uka-pain.html" target="_blank"
+                >Mer info</a
+              >
+            </div>
+            <div class="race-info-summary">
+              <p class="race-info-summary-content">Delta i vår spännande löptävling Uka Pain! Vi erbjuder distanser för alla nivåer: 28 km, Trail Ultramarathon, och 100 miles. Upplev vackra landskap och utmana din uthållighet. Uka Pain är en oförglömlig löpupplevelse för äventyrslystna löpare. Anmäl dig nu och testa din styrka i höstens stora loppupplevelse!</p>
+            </div>
+          </div>
+          
+          <div
+            class="race-info-box margin-bottom--small border-style"
+            data-marker-id="halvtovlan_20240525_httpswwwjoggsekalendertavlingaraspxaar2024mon13fdist0tdist1000type0country1region0tloppfalserelayfalsesurfaceasftridist0title1"
+            style="display: block"
+          >
+            <div class="race-info-box-upper-content">
+              <p class="race-date">25 maj</p>
+              <div class="race-text-box margin-bottom--tiny">
+                <h3 class="race-name tertiary-header">Halvtolvan</h3>
+                <div class="race-type-box margin-bottom--tiny">
+                  <div class="text-icon-road"></div>
+                  <p class="race-type">road</p>
+                </div>
+                <p class="race-distance">6 km</p>
+              </div>
+              <a class="race-website" href="/race-pages/halvtolvan.html" target="_blank"
+                >Mer info</a
+              >
+            </div>
+            <div class="race-info-summary">
+              <p class="race-info-summary-content">Välkommen till Tolvanloppet - Stockholms charmigaste gatulopp! Upplev stadens vackraste kvarter och pittoreska områden under detta 6 km långa lopp. Oavsett om du är en erfaren löpare eller nybörjare, så är Tolvanloppet det perfekta sättet att uppleva stadens kultur. Anmäl dig idag och delta i denna gemenskapliga och glädjefyllda löparupplevelse!</p>
+            </div>
+          </div>
+          
+          <div
+            class="race-info-box margin-bottom--small border-style"
+            data-marker-id="tolvanloppet_20240525_httpswwwjoggsekalendertavlingaraspxaar2024mon13fdist0tdist1000type0country1region0tloppfalserelayfalsesurfaceasftridist0title1"
+            style="display: block"
+          >
+            <div class="race-info-box-upper-content">
+              <p class="race-date">25 maj</p>
+              <div class="race-text-box margin-bottom--tiny">
+                <h3 class="race-name tertiary-header">Tolvanloppet</h3>
+                <div class="race-type-box margin-bottom--tiny">
+                  <div class="text-icon-road"></div>
+                  <p class="race-type">road</p>
+                </div>
+                <p class="race-distance">12 km</p>
+              </div>
+              <a class="race-website" href="/race-pages/tolvanloppet.html" target="_blank"
+                >Mer info</a
+              >
+            </div>
+            <div class="race-info-summary">
+              <p class="race-info-summary-content">Upplev Stockholms charmiga gator i Tolvanloppet, ett spännande gatulopp på 12 km. Denna unika löparupplevelse lockar löpare från alla nivåer att delta. Testa din styrka och njut av stadsmiljön under loppet. Ett minnesvärt lopp för både erfarna och nya löpare!</p>
+            </div>
+          </div>
+          
+          <div
+            class="race-info-box margin-bottom--small border-style"
+            data-marker-id="blue-mountain-trailrun_20240526_httpswwwtrailrunningswedensetrailkalendern"
+            style="display: block"
+          >
+            <div class="race-info-box-upper-content">
+              <p class="race-date">26 maj</p>
+              <div class="race-text-box margin-bottom--tiny">
+                <h3 class="race-name tertiary-header">Blue Mountain TrailRun</h3>
+                <div class="race-type-box margin-bottom--tiny">
+                  <div class="text-icon-trail"></div>
+                  <p class="race-type">trail</p>
+                </div>
+                <p class="race-distance">3 km, 10 km, Halvmarathon</p>
+              </div>
+              <a class="race-website" href="/race-pages/blue-mountain-trailrun.html" target="_blank"
+                >Mer info</a
+              >
+            </div>
+            <div class="race-info-summary">
+              <p class="race-info-summary-content">Anmäl dig till Blue Mountain TrailRun 2024 den 26 maj 2024 för att uppleva en av de mest spektakulära trailloppen i regionen. Välj mellan tre distanser: 3 km, 10 km och Trail Halvmarathon (21 km). Oavsett om du är nybörjare eller erfaren löpare, kommer du att utmanas av de vackra Blue Mountain-terrängen. Anmäl dig idag för att ta del av denna episka trailtävling!</p>
+            </div>
+          </div>
+           
+          <!-- Month Header -->
+          <div class="month-name" style="display: block">
+            <h2
+              class="secondary-header"
+              style="margin-bottom: 0.3rem; padding-left: 0.2rem"
+            >
+              Juni 2024
+            </h2>
+          </div>
+
+          <!-- Race Containers for the Month -->
+          
+          <div
+            class="race-info-box margin-bottom--small border-style"
+            data-marker-id="skatås-ryggar_20240601_httpswwwtrailrunningswedensetrailkalendern"
+            style="display: block"
+          >
+            <div class="race-info-box-upper-content">
+              <p class="race-date">1 juni</p>
+              <div class="race-text-box margin-bottom--tiny">
+                <h3 class="race-name tertiary-header">Skatås ryggar</h3>
+                <div class="race-type-box margin-bottom--tiny">
+                  <div class="text-icon-trail"></div>
+                  <p class="race-type">trail</p>
+                </div>
+                <p class="race-distance">7 km, 14 km, Halvmarathon</p>
+              </div>
+              <a class="race-website" href="/race-pages/skatas-ryggar.html" target="_blank"
+                >Mer info</a
+              >
+            </div>
+            <div class="race-info-summary">
+              <p class="race-info-summary-content">Upplev naturen på ett nytt sätt med Skatås ryggar - Spring trail! Vi erbjuder tre lopp - 7 km, 14 km och Trail Halvmarathon - som alla utgör en stor utmaning i vildmarken nära Göteborgs centrum. Oavsett om du är nybörjare eller erfaren terränglöpare, finns det en distans som passar dig. Kom och delta i Skatåstrippeln för en minnesvärd löpupplevelse i vackra terränglöpningsområdet!</p>
+            </div>
+          </div>
+          
+          <div
+            class="race-info-box margin-bottom--small border-style"
+            data-marker-id="12-mil-siljan-runt_20240601_httpswwwjoggsekalendertavlingaraspxaar2024mon13fdist0tdist1000type0country1region0tloppfalserelayfalsesurfaceasftridist0title1"
+            style="display: block"
+          >
+            <div class="race-info-box-upper-content">
+              <p class="race-date">1 juni</p>
+              <div class="race-text-box margin-bottom--tiny">
+                <h3 class="race-name tertiary-header">12 mil - Siljan Runt</h3>
+                <div class="race-type-box margin-bottom--tiny">
+                  <div class="text-icon-road"></div>
+                  <p class="race-type">road</p>
+                </div>
+                <p class="race-distance">70 km, 120 km, 160 km</p>
+              </div>
+              <a class="race-website" href="/race-pages/12-mil-siljan-runt.html" target="_blank"
+                >Mer info</a
+              >
+            </div>
+            <div class="race-info-summary">
+              <p class="race-info-summary-content">Välkommen till Siljan Runt löptävlingen! Vi erbjuder tre distanser: Ultramarathon, Ultramarathon och 100 miles på vägar och landsbygd runt Siljan sjön. Upplev den vackra naturen och utmana dig själv på denna hårda men vackra bana. Start och mål i Rättvik med stödjande depåer längs vägen. Kom och vara en del av gemenskapen runt Siljan Runt!</p>
+            </div>
+          </div>
+          
+          <div
+            class="race-info-box margin-bottom--small border-style"
+            data-marker-id="eketånga-trail_20240606_httpswwwtrailrunningswedensetrailkalendern"
+            style="display: block"
+          >
+            <div class="race-info-box-upper-content">
+              <p class="race-date">6 juni</p>
+              <div class="race-text-box margin-bottom--tiny">
+                <h3 class="race-name tertiary-header">Eketånga Trail</h3>
+                <div class="race-type-box margin-bottom--tiny">
+                  <div class="text-icon-trail"></div>
+                  <p class="race-type">trail</p>
+                </div>
+                <p class="race-distance">10 km</p>
+              </div>
+              <a class="race-website" href="/race-pages/eketanga-trail.html" target="_blank"
+                >Mer info</a
+              >
+            </div>
+            <div class="race-info-summary">
+              <p class="race-info-summary-content">Välkommen till Eketånga trail 10 km! Ett spännande traillopp i vackra Halmstad där du kan utmana dig själv och njuta av naturens skönhet. Loppet erbjuder en utmanande 10 km terrängbana genom Eketångaskogen och naturen i Eketånga naturreservat. Oavsett om du är erfaren terränglöpare eller nybörjare, har vi något för alla. Kom och bli en del av gemenskapen och testa din styrka och uthållighet på Eketånga trail 10 km!</p>
+            </div>
+          </div>
+          
+          <div
+            class="race-info-box margin-bottom--small border-style"
+            data-marker-id="blodomloppet-göteborg-5k_20240610_httpswwwjoggsekalendertavlingaraspxaar2024mon13fdist0tdist1000type0country1region0tloppfalserelayfalsesurfaceasftridist0title1"
+            style="display: block"
+          >
+            <div class="race-info-box-upper-content">
+              <p class="race-date">10 juni</p>
+              <div class="race-text-box margin-bottom--tiny">
+                <h3 class="race-name tertiary-header">Blodomloppet Göteborg - 5k</h3>
+                <div class="race-type-box margin-bottom--tiny">
+                  <div class="text-icon-road"></div>
+                  <p class="race-type">road</p>
+                </div>
+                <p class="race-distance">5 km</p>
+              </div>
+              <a class="race-website" href="/race-pages/blodomloppet-goteborg-5k.html" target="_blank"
+                >Mer info</a
+              >
+            </div>
+            <div class="race-info-summary">
+              <p class="race-info-summary-content">Vill du vara med och stödja blodgivningen? Delta i Blodomloppet i Göteborg den 10 juni 2024. Välj mellan 5 km och 10 km. Vår vackra bana tar dig genom staden och vi välkomnar löpare, joggare och gående på alla nivåer. Anmäl dig idag för en välgörenhetsinitiativ som gör verklig skillnad!</p>
+            </div>
+          </div>
+          
+          <div
+            class="race-info-box margin-bottom--small border-style"
+            data-marker-id="bmtr-gpx-ultra-54k_20240615_httpswwwtrailrunningswedensetrailkalendern"
+            style="display: block"
+          >
+            <div class="race-info-box-upper-content">
+              <p class="race-date">15 juni</p>
+              <div class="race-text-box margin-bottom--tiny">
+                <h3 class="race-name tertiary-header">BMTR GPX-ULTRA 54k</h3>
+                <div class="race-type-box margin-bottom--tiny">
+                  <div class="text-icon-trail"></div>
+                  <p class="race-type">trail</p>
+                </div>
+                <p class="race-distance">54 km</p>
+              </div>
+              <a class="race-website" href="/race-pages/bmtr-gpx-ultra-54k.html" target="_blank"
+                >Mer info</a
+              >
+            </div>
+            <div class="race-info-summary">
+              <p class="race-info-summary-content">BMTR GPX-ULTRA 54k är ett spännande trail ultramarathon-lopp med en vacker och utmanande terräng. Loppet erbjuder olika kategorier för löpare och en upplyftande stämning, vilket ger en chans för löpare att utmana sig själva och sätta nya personliga mål. Oavsett om man är erfaren eller ny inom trailrunning, är detta loppet designat för att vara en minnesvärd och spännande upplevelse för alla äventyrslystna löpare.</p>
+            </div>
+          </div>
+          
+          <div
+            class="race-info-box margin-bottom--small border-style"
+            data-marker-id="tjejmilen-sälen-by-eqpe_20240615_httpswwwtrailrunningswedensetrailkalendern"
+            style="display: block"
+          >
+            <div class="race-info-box-upper-content">
+              <p class="race-date">15 juni</p>
+              <div class="race-text-box margin-bottom--tiny">
+                <h3 class="race-name tertiary-header">Tjejmilen Sälen by EQPE</h3>
+                <div class="race-type-box margin-bottom--tiny">
+                  <div class="text-icon-trail"></div>
+                  <p class="race-type">trail</p>
+                </div>
+                <p class="race-distance">5 km, 10 km</p>
+              </div>
+              <a class="race-website" href="/race-pages/tjejmilen-salen-by-eqpe.html" target="_blank"
+                >Mer info</a
+              >
+            </div>
+            <div class="race-info-summary">
+              <p class="race-info-summary-content">Välkommen till Tjejmilen Sälen - en fantastisk löpartävling för kvinnor i alla åldrar. Utmana dig själv på vackra trails i Sälen med distanser från 5km till 15km. Oavsett om du är nybörjare eller erfaren löpare, finns det en perfekt distans för dig. Anmäl dig nu för en oförglömlig upplevelse och skapa minnen för livet!</p>
+            </div>
+          </div>
+          
+          <div
+            class="race-info-box margin-bottom--small border-style"
+            data-marker-id="älvdalen-backyard-ultra_20240615_httpswwwtrailrunningswedensetrailkalendern"
+            style="display: block"
+          >
+            <div class="race-info-box-upper-content">
+              <p class="race-date">15 juni</p>
+              <div class="race-text-box margin-bottom--tiny">
+                <h3 class="race-name tertiary-header">Älvdalen Backyard Ultra</h3>
+                <div class="race-type-box margin-bottom--tiny">
+                  <div class="text-icon-trail"></div>
+                  <p class="race-type">trail</p>
+                </div>
+                <p class="race-distance">Backyard Ultra</p>
+              </div>
+              <a class="race-website" href="/race-pages/alvdalen-backyard-ultra.html" target="_blank"
+                >Mer info</a
+              >
+            </div>
+            <div class="race-info-summary">
+              <p class="race-info-summary-content">Välkommen till Sweden Runners Backyard Ultra! Anmäl dig till denna spännande löpartävling med en vacker trailbana på 6 km. Oavsett om du är nybörjare eller erfaren löpare, är detta ett perfekt tillfälle att utmana dig själv och vara en del av en fantastisk gemenskap. Anmäl dig nu och gör dig redo för en oförglömlig löparfest!</p>
+            </div>
+          </div>
+          
+          <div
+            class="race-info-box margin-bottom--small border-style"
+            data-marker-id="öllsjö-löpfest_20240615_httpswwwjoggsekalendertavlingaraspxaar2024mon13fdist0tdist1000type0country1region0tloppfalserelayfalsesurfaceasftridist0title1"
+            style="display: block"
+          >
+            <div class="race-info-box-upper-content">
+              <p class="race-date">15 juni</p>
+              <div class="race-text-box margin-bottom--tiny">
+                <h3 class="race-name tertiary-header">Öllsjö Löpfest</h3>
+                <div class="race-type-box margin-bottom--tiny">
+                  <div class="text-icon-road"></div>
+                  <p class="race-type">road</p>
+                </div>
+                <p class="race-distance">5 km, 10 km</p>
+              </div>
+              <a class="race-website" href="/race-pages/ollsjo-lopfest.html" target="_blank"
+                >Mer info</a
+              >
+            </div>
+            <div class="race-info-summary">
+              <p class="race-info-summary-content">Välkomna till Öllsjö löpfest - det perfekta tillfället att utmana dig själv och njuta av naturen samtidigt! Vår 10 km väglöpning tar dig genom vackra omgivningar och är öppen för löpare i alla nivåer. Oavsett om du är erfaren eller nybörjare, är detta loppet för dig. Ta chansen att springa, inspireras och njuta av den vackra naturen i en av Sveriges charmigaste byar. Vi ser fram emot att välkomna dig till Öllsjö löpfest!</p>
+            </div>
+          </div>
+          
+          <div
+            class="race-info-box margin-bottom--small border-style"
+            data-marker-id="ecotrail-stockholm_20240615_httpswwwtrailrunningswedensetrailkalendern"
+            style="display: block"
+          >
+            <div class="race-info-box-upper-content">
+              <p class="race-date">15 juni</p>
+              <div class="race-text-box margin-bottom--tiny">
+                <h3 class="race-name tertiary-header">EcoTrail Stockholm</h3>
+                <div class="race-type-box margin-bottom--tiny">
+                  <div class="text-icon-trail"></div>
+                  <p class="race-type">trail</p>
+                </div>
+                <p class="race-distance">0 km, 0 km, 8 km, 16 km, 33 km, 45 km, 80 km</p>
+              </div>
+              <a class="race-website" href="/race-pages/ecotrail-stockholm.html" target="_blank"
+                >Mer info</a
+              >
+            </div>
+            <div class="race-info-summary">
+              <p class="race-info-summary-content">Hej och välkomna till Ecotrail Stockholm! Vi erbjuder lopp på flera olika avstånd, inklusive 8 km, 16 km, 33 km, Trail Ultramarathon och till och med 50 miles. Vårt fokus ligger på en fantastisk trailupplevelse samtidigt som vi värnar om miljön. Kom och delta i vårt lopp och upplev spänningen och gemenskapen som bara trailrunning kan erbjuda!</p>
+            </div>
+          </div>
+          
+          <div
+            class="race-info-box margin-bottom--small border-style"
+            data-marker-id="bocksten-trailrun-12-km_20240629_httpswwwjoggsekalendertavlingaraspxaar2024mon13fdist0tdist1000type0country1region0tloppfalserelayfalsesurfacetertridist0title1"
+            style="display: block"
+          >
+            <div class="race-info-box-upper-content">
+              <p class="race-date">29 juni</p>
+              <div class="race-text-box margin-bottom--tiny">
+                <h3 class="race-name tertiary-header">BOCKSTEN  TRAILRUN 12 KM</h3>
+                <div class="race-type-box margin-bottom--tiny">
+                  <div class="text-icon-trail"></div>
+                  <p class="race-type">trail</p>
+                </div>
+                <p class="race-distance">5 km, 12 km, 22 km, 44 km</p>
+              </div>
+              <a class="race-website" href="/race-pages/bocksten-trailrun-12-km.html" target="_blank"
+                >Mer info</a
+              >
+            </div>
+            <div class="race-info-summary">
+              <p class="race-info-summary-content">Välkommen till Bocksten TrailRun! Ett spännande terränglopp med distanser på 5 km, 12 km, 22 km och Trail Ultramarathon. Oavsett om du är nybörjare eller erfaren löpare, har vi något för alla. Upplev den vackra naturen och utmana dig själv. Anmäl dig nu för en oförglömlig löpupplevelse!</p>
+            </div>
+          </div>
+          
+          <div
+            class="race-info-box margin-bottom--small border-style"
+            data-marker-id="fjällmaraton-öppet-fjäll_20240629_httpswwwtrailrunningswedensetrailkalendern"
+            style="display: block"
+          >
+            <div class="race-info-box-upper-content">
+              <p class="race-date">29 juni</p>
+              <div class="race-text-box margin-bottom--tiny">
+                <h3 class="race-name tertiary-header">Fjällmaraton Öppet Fjäll</h3>
+                <div class="race-type-box margin-bottom--tiny">
+                  <div class="text-icon-trail"></div>
+                  <p class="race-type">trail</p>
+                </div>
+                <p class="race-distance">27 km, Marathon</p>
+              </div>
+              <a class="race-website" href="/race-pages/fjallmaraton-oppet-fjall.html" target="_blank"
+                >Mer info</a
+              >
+            </div>
+            <div class="race-info-summary">
+              <p class="race-info-summary-content">Välkommen till Öppet fjäll - Fjällmaraton, Sveriges mest avslappnade fjällmaraton! Vi erbjuder olika distanser för löpare i alla nivåer, inklusive 10 km, halvmaraton och fjällmaraton. Våra lopp går på vackra och utmanande stigar i fjällen, vilket ger dig en unik upplevelse av naturen. Oavsett om du är nybörjare eller erfaren löpare, är du välkommen att utmana dig själv i vackra svenska fjällen på Öppet fjäll - Fjällmaraton!</p>
+            </div>
+          </div>
+          
+          <div
+            class="race-info-box margin-bottom--small border-style"
+            data-marker-id="silverleden-ultra-64km_20240629_httpswwwtrailrunningswedensetrailkalendern"
+            style="display: block"
+          >
+            <div class="race-info-box-upper-content">
+              <p class="race-date">29 juni</p>
+              <div class="race-text-box margin-bottom--tiny">
+                <h3 class="race-name tertiary-header">Silverleden Ultra 64km</h3>
+                <div class="race-type-box margin-bottom--tiny">
+                  <div class="text-icon-trail"></div>
+                  <p class="race-type">trail</p>
+                </div>
+                <p class="race-distance">64 km</p>
+              </div>
+              <a class="race-website" href="/race-pages/silverleden-ultra-64km.html" target="_blank"
+                >Mer info</a
+              >
+            </div>
+            <div class="race-info-summary">
+              <p class="race-info-summary-content">Upplev en otrolig löparupplevelse på Silverleden! Vår Trail Ultramarathon sträcker sig över 64 km genom vacker natur och erbjuder en tuff utmaning för erfarna ultralöpare och de som söker äventyr. Efter loppet kommer du känna gemenskap och prestation. Anmäl dig nu och delta i detta episka äventyr på Silverleden!</p>
+            </div>
+          </div>
+          
+          <div
+            class="race-info-box margin-bottom--small border-style"
+            data-marker-id="kalmar-malkars-21-km_20240629_httpswwwjoggsekalendertavlingaraspxaar2024mon13fdist0tdist1000type0country1region0tloppfalserelayfalsesurfaceasftridist0title1"
+            style="display: block"
+          >
+            <div class="race-info-box-upper-content">
+              <p class="race-date">29 juni</p>
+              <div class="race-text-box margin-bottom--tiny">
+                <h3 class="race-name tertiary-header">Kalmar Malkars 21 km</h3>
+                <div class="race-type-box margin-bottom--tiny">
+                  <div class="text-icon-road"></div>
+                  <p class="race-type">road</p>
+                </div>
+                <p class="race-distance">Halvmarathon</p>
+              </div>
+              <a class="race-website" href="/race-pages/kalmar-malkars-21-km.html" target="_blank"
+                >Mer info</a
+              >
+            </div>
+            <div class="race-info-summary">
+              <p class="race-info-summary-content">Välkommen till Kalmar Malkars 21KM - en spännande halvmaraton på väg som arrangeras av Malkars Träningscenter. Ta chansen att utmana dig själv och njut av vackra vyer under loppet. Oavsett om du är nybörjare eller erfaren löpare, är du välkommen att delta. Efter loppet kan du fira med oss under Malkarsdagen. Anmäl dig nu och var med på denna fantastiska löpardag!</p>
+            </div>
+          </div>
+          
+          <div
+            class="race-info-box margin-bottom--small border-style"
+            data-marker-id="atea-trailövik_20240630_httpswwwtrailrunningswedensetrailkalendern"
+            style="display: block"
+          >
+            <div class="race-info-box-upper-content">
+              <p class="race-date">30 juni</p>
+              <div class="race-text-box margin-bottom--tiny">
+                <h3 class="race-name tertiary-header">Atea TrailÖvik</h3>
+                <div class="race-type-box margin-bottom--tiny">
+                  <div class="text-icon-trail"></div>
+                  <p class="race-type">trail</p>
+                </div>
+                <p class="race-distance">2 km, 6 km, 12 km, 22 km</p>
+              </div>
+              <a class="race-website" href="/race-pages/atea-trailovik.html" target="_blank"
+                >Mer info</a
+              >
+            </div>
+            <div class="race-info-summary">
+              <p class="race-info-summary-content">Välkommen till Atea TrailÖvik! Vår spännande traillopp har fyra distanser att välja mellan: 2 km, 6 km, 12 km och 22 km - perfekt för löpare med olika erfarenhetsnivåer. Upplev vacker natur och utmanande terräng med likasinnade löpare. Oavsett om du är nybörjare eller erfaren, har vi något för dig! Kom och vara med på Atea TrailÖvik - trail för alla!</p>
+            </div>
+          </div>
+           
+          <!-- Month Header -->
+          <div class="month-name" style="display: block">
+            <h2
+              class="secondary-header"
+              style="margin-bottom: 0.3rem; padding-left: 0.2rem"
+            >
+              Juli 2024
+            </h2>
+          </div>
+
+          <!-- Race Containers for the Month -->
+          
+          <div
+            class="race-info-box margin-bottom--small border-style"
+            data-marker-id="mora-trail_20240707_httpswwwtrailrunningswedensetrailkalendern"
+            style="display: block"
+          >
+            <div class="race-info-box-upper-content">
+              <p class="race-date">7 juli</p>
+              <div class="race-text-box margin-bottom--tiny">
+                <h3 class="race-name tertiary-header">Mora Trail</h3>
+                <div class="race-type-box margin-bottom--tiny">
+                  <div class="text-icon-trail"></div>
+                  <p class="race-type">trail</p>
+                </div>
+                <p class="race-distance">2 km, 4 km, 8 km, 17 km, 30 km</p>
+              </div>
+              <a class="race-website" href="/race-pages/mora-trail.html" target="_blank"
+                >Mer info</a
+              >
+            </div>
+            <div class="race-info-summary">
+              <p class="race-info-summary-content">Välkommen till Mora Trail! Vi har lopp i olika längder och svårighetsgrader för löpare på alla nivåer. Från 2 km till 30 km, våra trailbanor tar dig genom vackra skogar och bergsleder. Oavsett om du är nybörjare eller erfaren, så har vi en distans som passar dig. Kom och följ i legenders spår och upplev den fantastiska naturen med oss!</p>
+            </div>
+          </div>
+          
+          <div
+            class="race-info-box margin-bottom--small border-style"
+            data-marker-id="fäbodlunken_20240713_httpswwwtrailrunningswedensetrailkalendern"
+            style="display: block"
+          >
+            <div class="race-info-box-upper-content">
+              <p class="race-date">13 juli</p>
+              <div class="race-text-box margin-bottom--tiny">
+                <h3 class="race-name tertiary-header">Fäbodlunken</h3>
+                <div class="race-type-box margin-bottom--tiny">
+                  <div class="text-icon-trail"></div>
+                  <p class="race-type">trail</p>
+                </div>
+                <p class="race-distance">5 km, 9 km, 17 km</p>
+              </div>
+              <a class="race-website" href="/race-pages/fabodlunken.html" target="_blank"
+                >Mer info</a
+              >
+            </div>
+            <div class="race-info-summary">
+              <p class="race-info-summary-content">Hej löpare! Vårt lopp i den vackra svenska naturen erbjuder tre distanser - 5 km, 9 km och 17 km, alla i trail-lopp. Upplev skogar, berg och dalgångar med fantastisk utsikt längs vägen. Vi finns där för att stötta er och efter loppet väntar en härlig målgångsfest med mat, dryck och prisutdelningar. Vi ser fram emot att dela denna fantastiska upplevelse med er!</p>
+            </div>
+          </div>
+          
+          <div
+            class="race-info-box margin-bottom--small border-style"
+            data-marker-id="hermanövarvet_20240727_httpswwwtrailrunningswedensetrailkalendern"
+            style="display: block"
+          >
+            <div class="race-info-box-upper-content">
+              <p class="race-date">27 juli</p>
+              <div class="race-text-box margin-bottom--tiny">
+                <h3 class="race-name tertiary-header">Hermanövarvet</h3>
+                <div class="race-type-box margin-bottom--tiny">
+                  <div class="text-icon-trail"></div>
+                  <p class="race-type">trail</p>
+                </div>
+                <p class="race-distance">15 km</p>
+              </div>
+              <a class="race-website" href="/race-pages/hermanovarvet.html" target="_blank"
+                >Mer info</a
+              >
+            </div>
+            <div class="race-info-summary">
+              <p class="race-info-summary-content">Hermannövarvet är Västkustens gulligaste sommarlopp, med en spännande 15 km trailbana som tar löpare genom en vacker körsbärsdal och omgivande naturreservat. Vårt mål är att skapa en rolig och utmanande upplevelse för löpare i alla åldrar. Kom och kämpa dig igenom Bohusläns vackra naturreservat på vårt Hermannövarvet!</p>
+            </div>
+          </div>
+          
+          <div
+            class="race-info-box margin-bottom--small border-style"
+            data-marker-id="bjäre-trail_20240727_httpswwwtrailrunningswedensetrailkalendern"
+            style="display: block"
+          >
+            <div class="race-info-box-upper-content">
+              <p class="race-date">27 juli</p>
+              <div class="race-text-box margin-bottom--tiny">
+                <h3 class="race-name tertiary-header">Bjäre trail</h3>
+                <div class="race-type-box margin-bottom--tiny">
+                  <div class="text-icon-trail"></div>
+                  <p class="race-type">trail</p>
+                </div>
+                <p class="race-distance">12 km, 17 km, 34 km, 51 km</p>
+              </div>
+              <a class="race-website" href="/race-pages/bjare-trail.html" target="_blank"
+                >Mer info</a
+              >
+            </div>
+            <div class="race-info-summary">
+              <p class="race-info-summary-content">Välkommen till Bjäre Trail! Vi erbjuder lopp i olika längder för alla nivåer av löpare, inklusive 12 km, 17 km, 34 km och en Trail Ultramarathon. Vår tävling äger rum på den vackra Bjärehalvön och tar dig genom kuperad terräng och pittoreska omgivningar. Oavsett om du är nybörjare eller erfaren trail-löpare, har vi en distans för dig. Kom och utmana dig själv och upplev den natursköna Bjärehalvön på ett helt nytt sätt! Vi ser fram emot att välkomna dig till detta spännande lopp!</p>
+            </div>
+          </div>
+          
+          <div
+            class="race-info-box margin-bottom--small border-style"
+            data-marker-id="kia-fjällmaraton-årefjällen_20240727_httpswwwtrailrunningswedensetrailkalendern"
+            style="display: block"
+          >
+            <div class="race-info-box-upper-content">
+              <p class="race-date">27 juli</p>
+              <div class="race-text-box margin-bottom--tiny">
+                <h3 class="race-name tertiary-header">Kia Fjällmaraton Årefjällen</h3>
+                <div class="race-type-box margin-bottom--tiny">
+                  <div class="text-icon-trail"></div>
+                  <p class="race-type">trail</p>
+                </div>
+                <p class="race-distance"></p>
+              </div>
+              <a class="race-website" href="/race-pages/kia-fjallmaraton-arefjallen.html" target="_blank"
+                >Mer info</a
+              >
+            </div>
+            <div class="race-info-summary">
+              <p class="race-info-summary-content">Välkommen till Fjällmaraton! Upplev genuina löparupplevelser i vacker fjällmiljö. Vi erbjuder 10 km, 21 km och 42 km på trail. Oavsett om du är nybörjare eller erfaren löpare, har vi något för dig. Kom och skapa minnen för livet i den vackra svenska fjällvärlden!</p>
+            </div>
+          </div>
+          
+          <div
+            class="race-info-box margin-bottom--small border-style"
+            data-marker-id="salomon-27k_20240728_httpswwwtrailrunningswedensetrailkalendern"
+            style="display: block"
+          >
+            <div class="race-info-box-upper-content">
+              <p class="race-date">28 juli</p>
+              <div class="race-text-box margin-bottom--tiny">
+                <h3 class="race-name tertiary-header">Salomon 27K</h3>
+                <div class="race-type-box margin-bottom--tiny">
+                  <div class="text-icon-trail"></div>
+                  <p class="race-type">trail</p>
+                </div>
+                <p class="race-distance">12 km, 27 km</p>
+              </div>
+              <a class="race-website" href="/race-pages/salomon-27k.html" target="_blank"
+                >Mer info</a
+              >
+            </div>
+            <div class="race-info-summary">
+              <p class="race-info-summary-content">Välkommen till Salomon 27K - Fjällmaraton! En utmanande terränglopp i vackra fjällområden. Vi erbjuder distanser som passar alla, inklusive 27K, 42K, och 50K, alla med varierad terräng och vacker natur att uppleva under loppet. Ett lopp för de äventyrliga, de som älskar terränglöpning och det vackra landskapet i fjällen. Kom och ta del av en oförglömlig dag fylld med löpning och vackra vyer!</p>
+            </div>
+          </div>
+          
+          <div
+            class="race-info-box margin-bottom--small border-style"
+            data-marker-id="peak-performance-vertical-k_20240730_httpswwwtrailrunningswedensetrailkalendern"
+            style="display: block"
+          >
+            <div class="race-info-box-upper-content">
+              <p class="race-date">30 juli</p>
+              <div class="race-text-box margin-bottom--tiny">
+                <h3 class="race-name tertiary-header">Peak Performance Vertical K</h3>
+                <div class="race-type-box margin-bottom--tiny">
+                  <div class="text-icon-trail"></div>
+                  <p class="race-type">trail</p>
+                </div>
+                <p class="race-distance">5 km, 1000 km</p>
+              </div>
+              <a class="race-website" href="/race-pages/peak-performance-vertical-k.html" target="_blank"
+                >Mer info</a
+              >
+            </div>
+            <div class="race-info-summary">
+              <p class="race-info-summary-content">Välkommen till Vertical K - Fjällmaraton! Vårt lopp inkluderar både 5 km och Trail Ultramarathon, perfekt för löpare av alla nivåer. Loppet tar dig genom vacker natur och utmanande terräng, från skogar till bergtoppar. Oavsett om du är nybörjare eller erfaren ultralöpare, har vi något för dig. Utmana dig själv i naturen och delta i Vertical K - Fjällmaraton!</p>
+            </div>
+          </div>
+           
+          <!-- Month Header -->
+          <div class="month-name" style="display: block">
+            <h2
+              class="secondary-header"
+              style="margin-bottom: 0.3rem; padding-left: 0.2rem"
+            >
+              Augusti 2024
+            </h2>
+          </div>
+
+          <!-- Race Containers for the Month -->
+          
+          <div
+            class="race-info-box margin-bottom--small border-style"
+            data-marker-id="fjällmaraton-100k-pb-buff_20240801_httpswwwtrailrunningswedensetrailkalendern"
+            style="display: block"
+          >
+            <div class="race-info-box-upper-content">
+              <p class="race-date">1 aug.</p>
+              <div class="race-text-box margin-bottom--tiny">
+                <h3 class="race-name tertiary-header">Fjällmaraton 100K p/b Buff</h3>
+                <div class="race-type-box margin-bottom--tiny">
+                  <div class="text-icon-trail"></div>
+                  <p class="race-type">trail</p>
+                </div>
+                <p class="race-distance">100 km</p>
+              </div>
+              <a class="race-website" href="/race-pages/fjallmaraton-100k-pb-buff.html" target="_blank"
+                >Mer info</a
+              >
+            </div>
+            <div class="race-info-summary">
+              <p class="race-info-summary-content">Hej! Välkommen till Fjällmaraton 100K - Fjällmaraton! Vi erbjuder en utmanande och vacker trail race i svenska fjällen. Oavsett om du är erfaren ultralöpare eller letar efter en ny utmaning, har vi något för alla. Välj mellan 100K, 50K och 25K. Du kommer att få njuta av spektakulär utsikt samtidigt som du tar dig igenom utmanande terräng. Vätske- och matstationer längs banan för att hålla dig välhydrerad och energifylld. En oförglömlig upplevelse väntar! Vi ser fram emot att se dig på startlinjen!</p>
+            </div>
+          </div>
+          
+          <div
+            class="race-info-box margin-bottom--small border-style"
+            data-marker-id="kia-45k_20240803_httpswwwtrailrunningswedensetrailkalendern"
+            style="display: block"
+          >
+            <div class="race-info-box-upper-content">
+              <p class="race-date">3 aug.</p>
+              <div class="race-text-box margin-bottom--tiny">
+                <h3 class="race-name tertiary-header">Kia 45K</h3>
+                <div class="race-type-box margin-bottom--tiny">
+                  <div class="text-icon-trail"></div>
+                  <p class="race-type">trail</p>
+                </div>
+                <p class="race-distance">12 km, 45 km</p>
+              </div>
+              <a class="race-website" href="/race-pages/kia-45k.html" target="_blank"
+                >Mer info</a
+              >
+            </div>
+            <div class="race-info-summary">
+              <p class="race-info-summary-content">Fjällmaraton är ett utmanande och vackert maratonlopp i Sverige, perfekt för alla nivåer av löpare. Vår tävling erbjuder distanser från 45K till 2024 med banor som sträcker sig genom fjällen. Vi har något för alla, från nybörjare till erfarna ultralöpare. Oavsett vilken distans du väljer, kan du förvänta dig en oförglömlig upplevelse på vårt traillopp.</p>
+            </div>
+          </div>
+          
+          <div
+            class="race-info-box margin-bottom--small border-style"
+            data-marker-id="stora-stöten-run_20240810_httpswwwtrailrunningswedensetrailkalendern"
+            style="display: block"
+          >
+            <div class="race-info-box-upper-content">
+              <p class="race-date">10 aug.</p>
+              <div class="race-text-box margin-bottom--tiny">
+                <h3 class="race-name tertiary-header">Stora Stöten Run</h3>
+                <div class="race-type-box margin-bottom--tiny">
+                  <div class="text-icon-trail"></div>
+                  <p class="race-type">trail</p>
+                </div>
+                <p class="race-distance">5 km, 13 km, Halvmarathon</p>
+              </div>
+              <a class="race-website" href="/race-pages/stora-stoten-run.html" target="_blank"
+                >Mer info</a
+              >
+            </div>
+            <div class="race-info-summary">
+              <p class="race-info-summary-content">Hej löpare! Anmäl dig till Stora Stöten Run för en äventyrlig terränglöpning mitt i världsarvet i Falun. Välj mellan tre distanser - 5 km, 13 km och Trail Halvmarathon - och utmana dig själv i en varierande och utmanande terräng. Oavsett erfarenhet kommer du att uppleva en spännande och minnesvärd naturupplevelse. Missa inte denna unika terränglöpning i hjärtat av Faluns världsarv!</p>
+            </div>
+          </div>
+          
+          <div
+            class="race-info-box margin-bottom--small border-style"
+            data-marker-id="bunketorp-backyard-ultra-trail-2024_20240810_httpswwwjoggsekalendertavlingaraspxaar2024mon13fdist0tdist1000type0country1region0tloppfalserelayfalsesurfacetertridist0title1"
+            style="display: block"
+          >
+            <div class="race-info-box-upper-content">
+              <p class="race-date">10 aug.</p>
+              <div class="race-text-box margin-bottom--tiny">
+                <h3 class="race-name tertiary-header">Bunketorp Backyard Ultra Trail 2024</h3>
+                <div class="race-type-box margin-bottom--tiny">
+                  <div class="text-icon-trail"></div>
+                  <p class="race-type">trail</p>
+                </div>
+                <p class="race-distance">Backyard Ultra</p>
+              </div>
+              <a class="race-website" href="/race-pages/bunketorp-backyard-ultra-trail-2024.html" target="_blank"
+                >Mer info</a
+              >
+            </div>
+            <div class="race-info-summary">
+              <p class="race-info-summary-content">Välkommen till Bunketorp Backyard Ultra Trail! Denna utmanande lopp i vackra Lindome erbjuder en unik upplevelse för löpare av alla nivåer. Du väljer din egen distans genom att springa varv efter varv tills du inte kan fortsätta. Med vackra landskap och tuff terräng är detta ett måste för alla äventyrslystna löpare. Oavsett om du är erfaren eller nybörjare, är detta loppet perfekt för dig. Kom och upplev en oförglömlig dag fylld med uthållighet och styrka.</p>
+            </div>
+          </div>
+          
+          <div
+            class="race-info-box margin-bottom--small border-style"
+            data-marker-id="ölands-marathon_20240810_httpswwwjoggsekalendertavlingaraspxaar2024mon13fdist0tdist1000type0country1region0tloppfalserelayfalsesurfaceasftridist0title1"
+            style="display: block"
+          >
+            <div class="race-info-box-upper-content">
+              <p class="race-date">10 aug.</p>
+              <div class="race-text-box margin-bottom--tiny">
+                <h3 class="race-name tertiary-header">Ölands Marathon</h3>
+                <div class="race-type-box margin-bottom--tiny">
+                  <div class="text-icon-road"></div>
+                  <p class="race-type">road</p>
+                </div>
+                <p class="race-distance">Marathon</p>
+              </div>
+              <a class="race-website" href="/race-pages/olands-marathon.html" target="_blank"
+                >Mer info</a
+              >
+            </div>
+            <div class="race-info-summary">
+              <p class="race-info-summary-content">Välkommen till Ölands Marathon - Öland Running! Ett av Sveriges mest ikoniska löparlopp som lockar deltagare från hela världen. Med en vacker vägsträcka som tar löparna runt Öland, är detta en utmanande men belönande upplevelse. Vår säkerhet och minnesvärda löparupplevelse välkomnar erfarna maratonlöpare och nybörjare. Missa inte detta spektakulära lopp på vägarna!</p>
+            </div>
+          </div>
+          
+          <div
+            class="race-info-box margin-bottom--small border-style"
+            data-marker-id="trail-och-ultravasan_20240816_httpswwwtrailrunningswedensetrailkalendern"
+            style="display: block"
+          >
+            <div class="race-info-box-upper-content">
+              <p class="race-date">16 aug.</p>
+              <div class="race-text-box margin-bottom--tiny">
+                <h3 class="race-name tertiary-header">Trail- och Ultravasan</h3>
+                <div class="race-type-box margin-bottom--tiny">
+                  <div class="text-icon-trail"></div>
+                  <p class="race-type">trail</p>
+                </div>
+                <p class="race-distance">10 km, 30 km, 45 km, 90 km</p>
+              </div>
+              <a class="race-website" href="/race-pages/trail-och-ultravasan.html" target="_blank"
+                >Mer info</a
+              >
+            </div>
+            <div class="race-info-summary">
+              <p class="race-info-summary-content">Välkommen till Ultravasan 90 - en utmanande och häftig trail-löpartävling i vackra Dalarna. Vi erbjuder distanser på 10 km, 30 km samt en ultramaratonsträcka på 90 km. Oavsett erfarenhet och ålder är alla välkomna att delta och njuta av naturen. Ta med dina trailskor och ge dig ut på ett otroligt äventyr i vildmarken!</p>
+            </div>
+          </div>
+          
+          <div
+            class="race-info-box margin-bottom--small border-style"
+            data-marker-id="västerås-run_20240817_httpswwwtrailrunningswedensetrailkalendern"
+            style="display: block"
+          >
+            <div class="race-info-box-upper-content">
+              <p class="race-date">17 aug.</p>
+              <div class="race-text-box margin-bottom--tiny">
+                <h3 class="race-name tertiary-header">Västerås Run</h3>
+                <div class="race-type-box margin-bottom--tiny">
+                  <div class="text-icon-trail"></div>
+                  <p class="race-type">trail</p>
+                </div>
+                <p class="race-distance">14 km, 33 km</p>
+              </div>
+              <a class="race-website" href="/race-pages/vasteras-run.html" target="_blank"
+                >Mer info</a
+              >
+            </div>
+            <div class="race-info-summary">
+              <p class="race-info-summary-content">Västerås Run är ett fantastiskt löparlopp som äger rum den 17 augusti 2024. Vi erbjuder två distanser: 14 km och 33 km, perfekt för både nybörjare och erfarna löpare. Banan är en utmanande terränglöpning som tar dig genom vacker natur. Upplev den fantastiska atmosfären och utmana dig själv vid Västerås Run 2024! Anmäl dig redan idag och var med på detta oförglömliga löparevent.</p>
+            </div>
+          </div>
+          
+          <div
+            class="race-info-box margin-bottom--small border-style"
+            data-marker-id="stockholm-trail_20240831_httpswwwtrailrunningswedensetrailkalendern"
+            style="display: block"
+          >
+            <div class="race-info-box-upper-content">
+              <p class="race-date">31 aug.</p>
+              <div class="race-text-box margin-bottom--tiny">
+                <h3 class="race-name tertiary-header">Stockholm Trail</h3>
+                <div class="race-type-box margin-bottom--tiny">
+                  <div class="text-icon-trail"></div>
+                  <p class="race-type">trail</p>
+                </div>
+                <p class="race-distance">2 km, 5 km, 10 km, Halvmarathon</p>
+              </div>
+              <a class="race-website" href="/race-pages/stockholm-trail.html" target="_blank"
+                >Mer info</a
+              >
+            </div>
+            <div class="race-info-summary">
+              <p class="race-info-summary-content">Stockholm Trail erbjuder fantastiska traillopp i världsklass längs vackra stigar runt Stockholm. Med banor på 2 km, 5 km, 10 km och Trail Halvmarathon finns det något för alla löpare, oavsett erfarenhet. Upplev stadens livfulla atmosfär samtidigt som du utmanar dig själv på varierande terräng. Ge dig ut på ett äventyr och upplev den mångfaldiga naturen under en minnesvärd dag på Stockholm Trail!</p>
+            </div>
+          </div>
+           
+          <!-- Month Header -->
+          <div class="month-name" style="display: block">
+            <h2
+              class="secondary-header"
+              style="margin-bottom: 0.3rem; padding-left: 0.2rem"
+            >
+              September 2024
+            </h2>
+          </div>
+
+          <!-- Race Containers for the Month -->
+          
+          <div
+            class="race-info-box margin-bottom--small border-style"
+            data-marker-id="icebug-xperience-west-coast-trail_20240906_httpswwwtrailrunningswedensetrailkalendern"
+            style="display: block"
+          >
+            <div class="race-info-box-upper-content">
+              <p class="race-date">6 sep.</p>
+              <div class="race-text-box margin-bottom--tiny">
+                <h3 class="race-name tertiary-header">Icebug Xperience West Coast Trail</h3>
+                <div class="race-type-box margin-bottom--tiny">
+                  <div class="text-icon-trail"></div>
+                  <p class="race-type">trail</p>
+                </div>
+                <p class="race-distance">30 km</p>
+              </div>
+              <a class="race-website" href="/race-pages/icebug-xperience-west-coast-trail.html" target="_blank"
+                >Mer info</a
+              >
+            </div>
+            <div class="race-info-summary">
+              <p class="race-info-summary-content">Boka din biljett till Icebug Xperience och delta i det spännande loppet längs West Coast Trail den 6-8 september 2024. Med en distans på 30 km tar vi löpare med på en unik och utmanande trailupplevelse längs den vackra kusten. Oavsett om du är nybörjare eller erfaren traillöpare, har vi något för alla!</p>
+            </div>
+          </div>
+          
+          <div
+            class="race-info-box margin-bottom--small border-style"
+            data-marker-id="sm-v-sm-trail-35-km_20240907_httpswwwtrailrunningswedensetrailkalendern"
+            style="display: block"
+          >
+            <div class="race-info-box-upper-content">
+              <p class="race-date">7 sep.</p>
+              <div class="race-text-box margin-bottom--tiny">
+                <h3 class="race-name tertiary-header">SM / V-SM Trail 35 km</h3>
+                <div class="race-type-box margin-bottom--tiny">
+                  <div class="text-icon-trail"></div>
+                  <p class="race-type">trail</p>
+                </div>
+                <p class="race-distance"></p>
+              </div>
+              <a class="race-website" href="/race-pages/sm-v-sm-trail-35-km.html" target="_blank"
+                >Mer info</a
+              >
+            </div>
+            <div class="race-info-summary">
+              <p class="race-info-summary-content">Välkomna till årets Hälle IF-lopp! Den spännande trailtävlingen erbjuder fantastiska utmaningar för löpare i alla åldrar och erfarenhetsnivåer. Vi har distanser på 5 km, 10 km, 21 km och även en halvmaraton. Efter loppet väntar prisutdelning och gemenskap. Vi ser fram emot att se er alla där!</p>
+            </div>
+          </div>
+          
+          <div
+            class="race-info-box margin-bottom--small border-style"
+            data-marker-id="göteborg-trailrun_20240907_httpswwwtrailrunningswedensetrailkalendern"
+            style="display: block"
+          >
+            <div class="race-info-box-upper-content">
+              <p class="race-date">7 sep.</p>
+              <div class="race-text-box margin-bottom--tiny">
+                <h3 class="race-name tertiary-header">Göteborg Trailrun</h3>
+                <div class="race-type-box margin-bottom--tiny">
+                  <div class="text-icon-trail"></div>
+                  <p class="race-type">trail</p>
+                </div>
+                <p class="race-distance">9 km, 22 km</p>
+              </div>
+              <a class="race-website" href="/race-pages/goteborg-trailrun.html" target="_blank"
+                >Mer info</a
+              >
+            </div>
+            <div class="race-info-summary">
+              <p class="race-info-summary-content">Göteborg Trailrun den 9 september 2023 är redo att välkomna löpare till en fantastisk terrängupplevelse. Vi erbjuder två distanser - 9 km och 22 km - som passar både nybörjare och erfarna löpare. Banorna är noggrant utvalda för att ge en utmärkt naturupplevelse. Oavsett om du är ute efter en snabb tid eller vill njuta av terrängen, har vi något för dig på Göteborg Trailrun. Anmäl dig redan idag för att säkra din plats!</p>
+            </div>
+          </div>
+          
+          <div
+            class="race-info-box margin-bottom--small border-style"
+            data-marker-id="bocksten-vineyard-backyard-ultra_20240907_httpswwwtrailrunningswedensetrailkalendern"
+            style="display: block"
+          >
+            <div class="race-info-box-upper-content">
+              <p class="race-date">7 sep.</p>
+              <div class="race-text-box margin-bottom--tiny">
+                <h3 class="race-name tertiary-header">BOCKSTEN VINEYARD BACKYARD ULTRA</h3>
+                <div class="race-type-box margin-bottom--tiny">
+                  <div class="text-icon-trail"></div>
+                  <p class="race-type">trail</p>
+                </div>
+                <p class="race-distance">Backyard Ultra</p>
+              </div>
+              <a class="race-website" href="/race-pages/bocksten-vineyard-backyard-ultra.html" target="_blank"
+                >Mer info</a
+              >
+            </div>
+            <div class="race-info-summary">
+              <p class="race-info-summary-content">Välkommen till Mannen, Myten o Legendens TrailRace! Ett unikt lopp i den fantastiska naturen. Oavsett erfarenhet har vi en distans för dig - välj mellan [race categories/distances]. Anmäl dig idag och upplev en spektakulär trailrace i naturens underbara omgivningar!</p>
+            </div>
+          </div>
+          
+          <div
+            class="race-info-box margin-bottom--small border-style"
+            data-marker-id="brevik-trailrun_20240908_httpswwwtrailrunningswedensetrailkalendern"
+            style="display: block"
+          >
+            <div class="race-info-box-upper-content">
+              <p class="race-date">8 sep.</p>
+              <div class="race-text-box margin-bottom--tiny">
+                <h3 class="race-name tertiary-header">Brevik Trailrun</h3>
+                <div class="race-type-box margin-bottom--tiny">
+                  <div class="text-icon-trail"></div>
+                  <p class="race-type">trail</p>
+                </div>
+                <p class="race-distance">3 km, 8 km</p>
+              </div>
+              <a class="race-website" href="/race-pages/brevik-trailrun.html" target="_blank"
+                >Mer info</a
+              >
+            </div>
+            <div class="race-info-summary">
+              <p class="race-info-summary-content">Kom och delta i vår spännande terränglöpartävling på KFUM Breviks Kurs- och Lägergård! Vi erbjuder två distanser - 3 km och 8 km - perfekt för löpare i alla nivåer. Banan är utmanande och varierad med fantastisk utsikt. Efter loppet kan du koppla av vid stranden och njuta av gemenskapen med andra löpare. Anmäl dig nu för en dag full av löpning, skratt och gemenskap! Ses där!</p>
+            </div>
+          </div>
+          
+          <div
+            class="race-info-box margin-bottom--small border-style"
+            data-marker-id="caballo-blanco-memorial-run-cbmr_20240921_httpswwwtrailrunningswedensetrailkalendern"
+            style="display: block"
+          >
+            <div class="race-info-box-upper-content">
+              <p class="race-date">21 sep.</p>
+              <div class="race-text-box margin-bottom--tiny">
+                <h3 class="race-name tertiary-header">Caballo Blanco Memorial Run (CBMR)</h3>
+                <div class="race-type-box margin-bottom--tiny">
+                  <div class="text-icon-trail"></div>
+                  <p class="race-type">trail</p>
+                </div>
+                <p class="race-distance">11 km, 22 km, 44 km</p>
+              </div>
+              <a class="race-website" href="/race-pages/caballo-blanco-memorial-run-(cbmr).html" target="_blank"
+                >Mer info</a
+              >
+            </div>
+            <div class="race-info-summary">
+              <p class="race-info-summary-content">Jag är glada att kunna presentera vår RRS PreSelection-lopp, ett spännande terränglopp med tre distanser att välja mellan - 11 km, 22 km och Trail Ultramarathon. Utmana dig själv på vackra skogsstigar och varierad terräng. Oavsett om du är nybörjare eller erfaren löpare, så finns det något för alla på detta oförglömliga traillopp! Anmäl dig idag och var med på ett fantastiskt äventyr.</p>
+            </div>
+          </div>
+          
+          <div
+            class="race-info-box margin-bottom--small border-style"
+            data-marker-id="tcs-lidingöloppet-30_20240928_httpswwwjoggsekalendertavlingaraspxaar2024mon13fdist0tdist1000type0country1region0tloppfalserelayfalsesurfacetertridist0title1"
+            style="display: block"
+          >
+            <div class="race-info-box-upper-content">
+              <p class="race-date">28 sep.</p>
+              <div class="race-text-box margin-bottom--tiny">
+                <h3 class="race-name tertiary-header">TCS Lidingöloppet 30</h3>
+                <div class="race-type-box margin-bottom--tiny">
+                  <div class="text-icon-trail"></div>
+                  <p class="race-type">trail</p>
+                </div>
+                <p class="race-distance">30 km</p>
+              </div>
+              <a class="race-website" href="/race-pages/tcs-lidingoloppet-30.html" target="_blank"
+                >Mer info</a
+              >
+            </div>
+            <div class="race-info-summary">
+              <p class="race-info-summary-content">Vi är glada att presentera Lidingöloppet 2024 med en utmanande trailsträcka på 30 km genom vacker terräng och underbar natur. Kom i tid och vara i rätt startgrupp för att undvika problem. Våra sponsorer kommer att se till att du har allt du behöver för en fantastisk löpupplevelse. Vi ser fram emot att se er på startlinjen!</p>
+            </div>
+          </div>
+           
+          <!-- Month Header -->
+          <div class="month-name" style="display: block">
+            <h2
+              class="secondary-header"
+              style="margin-bottom: 0.3rem; padding-left: 0.2rem"
+            >
+              Oktober 2024
+            </h2>
+          </div>
+
+          <!-- Race Containers for the Month -->
+          
+          <div
+            class="race-info-box margin-bottom--small border-style"
+            data-marker-id="rya-åsar-trail-run_20241005_httpswwwtrailrunningswedensetrailkalendern"
+            style="display: block"
+          >
+            <div class="race-info-box-upper-content">
+              <p class="race-date">5 okt.</p>
+              <div class="race-text-box margin-bottom--tiny">
+                <h3 class="race-name tertiary-header">Rya Åsar Trail Run</h3>
+                <div class="race-type-box margin-bottom--tiny">
+                  <div class="text-icon-trail"></div>
+                  <p class="race-type">trail</p>
+                </div>
+                <p class="race-distance">12 km</p>
+              </div>
+              <a class="race-website" href="/race-pages/rya-asar-trail-run.html" target="_blank"
+                >Mer info</a
+              >
+            </div>
+            <div class="race-info-summary">
+              <p class="race-info-summary-content">Upplev spänningen av Traillopp och MTB-lopp i vackra Rya Åsar naturreservat i Borås den 7-8 oktober 2023. Vårt evenemang erbjuder en 12 km lång bansträcka i riktig trail-terräng för både löpare och cyklister. Ta med din familj och vänner för att stödja dig och njut av en helg fylld med gemenskap och spänning. Anmäl dig redan idag och var med på en oförglömlig upplevelse på Rya Åsar!</p>
+            </div>
+          </div>
+          
+          <div
+            class="race-info-box margin-bottom--small border-style"
+            data-marker-id="bohusläns-bästa_20241012_httpswwwtrailrunningswedensetrailkalendern"
+            style="display: block"
+          >
+            <div class="race-info-box-upper-content">
+              <p class="race-date">12 okt.</p>
+              <div class="race-text-box margin-bottom--tiny">
+                <h3 class="race-name tertiary-header">Bohusläns Bästa</h3>
+                <div class="race-type-box margin-bottom--tiny">
+                  <div class="text-icon-trail"></div>
+                  <p class="race-type">trail</p>
+                </div>
+                <p class="race-distance">22 km</p>
+              </div>
+              <a class="race-website" href="/race-pages/bohuslans-basta.html" target="_blank"
+                >Mer info</a
+              >
+            </div>
+            <div class="race-info-summary">
+              <p class="race-info-summary-content">Hej! Vår årliga terränglöpningstävling är snart här! Ta chansen att utmana dig själv i vacker natur på vår 22 km långa trailbana. Start och mål ligger vid vår vackra startlinje och banan tar dig genom skogar, över berg och genom gläntor. En perfekt chans att testa dina färdigheter och umgås med andra löpare. Vi ses vid startlinjen!</p>
+            </div>
+          </div>
+           
+          <!-- Month Header -->
+          <div class="month-name" style="display: block">
+            <h2
+              class="secondary-header"
+              style="margin-bottom: 0.3rem; padding-left: 0.2rem"
+            >
+              November 2024
+            </h2>
+          </div>
+
+          <!-- Race Containers for the Month -->
+          
+          <div
+            class="race-info-box margin-bottom--small border-style"
+            data-marker-id="kullamannen-by-utmb_20241101_httpswwwtrailrunningswedensetrailkalendern"
+            style="display: block"
+          >
+            <div class="race-info-box-upper-content">
+              <p class="race-date">1 nov.</p>
+              <div class="race-text-box margin-bottom--tiny">
+                <h3 class="race-name tertiary-header">Kullamannen by UTMB</h3>
+                <div class="race-type-box margin-bottom--tiny">
+                  <div class="text-icon-trail"></div>
+                  <p class="race-type">trail</p>
+                </div>
+                <p class="race-distance">20 km, 50 km, 100 km, 161 km</p>
+              </div>
+              <a class="race-website" href="/race-pages/kullamannen-by-utmb.html" target="_blank"
+                >Mer info</a
+              >
+            </div>
+            <div class="race-info-summary">
+              <p class="race-info-summary-content">Upplev naturens tuffaste utmaningar på Kullamannen by UTMB! Våra lopp inkluderar distanser som 20 km, trail ultramarathon och till och med 100 miles. Utmana dig själv i den ultimata terrängen och känn adrenalinet flöda medan du navigerar genom våra utmanande banor. En upplevelse du sent kommer att glömma!</p>
+            </div>
+          </div>
+           
+        </div>
+
         <div class="add-new-race-box margin-bottom--default">
           <h2 class="add-new-race-header secondary-header">
             Saknar du ditt lopp på kartan? Lägg till det här!
@@ -281,8 +1970,7 @@
             id="addRaceButton"
             href="/lagg-till-lopp.html"
             class="add-race-button border-style"
-          >
-            Lägg till lopp
+            >Lägg till lopp
           </a>
         </div>
       </div>

@@ -15,3 +15,6 @@ python approvalGUI.py
 
 -- Generates individual race pages per race based on a jinja template
 python generate_pages.py
+
+-- Update main list html
+python update_main_list.py
