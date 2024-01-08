@@ -16,7 +16,7 @@ export function filterRaces() {
   const countySelector = document.querySelector(".lan-filter-button");
 
   // Load the JSON data
-  fetch("all_races_w_formatted_summary.json")
+  fetch("/all_races_w_formatted_summary.json")
     .then((response) => response.json())
     .then((data) => {
       const filteredData = data.filter((race) => {
@@ -104,6 +104,7 @@ export function filterRaces() {
         /* checking county */
         let isCounty = false;
         const selectedValue = countySelector.value;
+        console.log("selectedValue: " + selectedValue);
 
         if (selectedValue) {
           if (selectedValue === "Alla län") {
