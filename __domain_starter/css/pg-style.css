@@ -689,6 +689,14 @@ input[type="date"]::-webkit-calendar-picker-indicator {
   font-size: 1.65rem;
   color: #000;
 }
+
+.highlight-link {
+  font-size: 1.65rem;
+  color: var(--highlight-color);
+  text-decoration: none;
+  font-weight: 500;
+}
+
 .highlight-info {
   display: flex;
   align-items: center;
@@ -976,5 +984,3 @@ h3 {
   position: absolute;
   margin-bottom: 5rem;
 }
-
-
