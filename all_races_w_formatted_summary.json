@@ -1,65 +1,5 @@
 [
     {
-        "date": "20240113",
-        "type": "trail",
-        "name": "SUS 50 miles",
-        "distance": "80",
-        "distance_m": [],
-        "place": "SUS 50 miles",
-        "latitude": 59.32331850000001,
-        "longitude": 14.9226945,
-        "organizer": "",
-        "website": "https://www.storstenshojden100miles.se/50-miles/",
-        "src_url": "https://www.trailrunningsweden.se/trailkalendern/",
-        "short_summary": "Hej löpare! Välkomna till Storstenshöjden löptävlingen i de vackra skogarna utanför staden. Vi erbjuder två distanser - 50 miles och 100 miles på vackra stigar omgivna av naturskön atmosfär. Båda banorna är utmanande och inspirerande för löpare på alla nivåer. Oavsett erfarenhet, kommer vår traillopp att ge dig en unik och variationsrik upplevelse. Kom och släpp loss din inre löpare och testa dina gränser i naturen!",
-        "county": "Örebro",
-        "new_version": true,
-        "id": "8a0b2ab0-ed71-4198-aa62-d01e27e3599a",
-        "summary": "Hej löpare! Välkomna till Storstenshöjden löptävlingen i de vackra skogarna utanför staden. Vi erbjuder två distanser - 50 miles och 100 miles på vackra stigar omgivna av naturskön atmosfär. Båda banorna är utmanande och inspirerande för löpare på alla nivåer. Oavsett erfarenhet, kommer vår traillopp att ge dig en unik och variationsrik upplevelse. Kom och släpp loss din inre löpare och testa dina gränser i naturen!"
-    },
-    {
-        "date": "20240113",
-        "type": "track",
-        "name": "Örebro Indoor Games",
-        "distance": "event-60-m event-200-m event-400-m event-800-m event-1500-m event-3000-m event-60-m-hack event-hojdhopp event-stavhopp event-langdhopp event-tresteg event-kula event-1000-m event-600-m",
-        "distance_m": [
-            1500,
-            3000
-        ],
-        "place": "Örebro",
-        "latitude": 59.2752626,
-        "longitude": 15.2134105,
-        "organizer": "KFUM Örebro Friidrott",
-        "website": "https://orebroindoorgames.se",
-        "src_url": "https://www.friidrott.se/tavling-landslag/tavling/tavlingskalender/tavlingar-i-sverige/inomhustavlingar/?sida=3",
-        "short_summary": "Välkomna till Örebro Indoor Games! Vi erbjuder spännande tävlingar på en inomhusbana där du kan utmana dig själv. Oavsett om du är erfaren eller nybörjare, har vi distanser på 1500 meter och 3000 meter för alla löpare. Med högkvalitativa faciliteter och kompetenta arrangörer strävar vi efter att skapa en fantastisk tävlingsmiljö där varje löpare kan prestera sitt bästa. Kom och var med på en energifylld och utmanande upplevelse!",
-        "county": "Örebro",
-        "new_version": true,
-        "id": "30590353-68a3-4a66-bfe8-ac15563184ac",
-        "summary": "Välkomna till Örebro Indoor Games! Vi erbjuder spännande tävlingar på en inomhusbana där du kan utmana dig själv. Oavsett om du är erfaren eller nybörjare, har vi distanser på 1500 meter och 3000 meter för alla löpare. Med högkvalitativa faciliteter och kompetenta arrangörer strävar vi efter att skapa en fantastisk tävlingsmiljö där varje löpare kan prestera sitt bästa. Kom och var med på en energifylld och utmanande upplevelse!"
-    },
-    {
-        "date": "20240113",
-        "type": "track",
-        "name": "KA 2-spelen",
-        "distance": "event-60-m event-200-m event-400-m event-800-m event-1500-m event-3000-m event-60-m-hack event-hojdhopp event-stavhopp event-langdhopp event-tresteg event-kula event-1000-m",
-        "distance_m": [
-            1500,
-            3000
-        ],
-        "place": "Karlskrona",
-        "latitude": 56.161224,
-        "longitude": 15.5869,
-        "organizer": "KA 2 IF",
-        "website": "http://www.ka2if.se",
-        "src_url": "https://www.friidrott.se/tavling-landslag/tavling/tavlingskalender/tavlingar-i-sverige/inomhustavlingar/?sida=3",
-        "short_summary": "Välkomna till årets löptävling! Vi erbjuder två distanser: 1500 meter och 3000 meter på bana. Oavsett erfarenhet är alla välkomna att delta. Det kommer att bli en spännande dag med utmaningar och glädje! Lycka till!",
-        "county": null,
-        "new_version": true,
-        "id": "39b81a2c-770f-4ccc-bdca-87876334d0d5",
-        "summary": "Välkomna till årets löptävling! Vi erbjuder två distanser: 1500 meter och 3000 meter på bana. Oavsett erfarenhet är alla välkomna att delta. Det kommer att bli en spännande dag med utmaningar och glädje! Lycka till!"
-    },
-    {
         "date": "20240119",
         "month": "januari",
         "day": "19",
@@ -1097,6 +1037,24 @@
         "id": "88bbc634-571e-42a6-97f6-e66864789de8",
         "summary": "adidas Premiärmilen är det perfekta loppet att dra igång löparsäsongen med. Loppet går på Norra Djurgården i Stockholm och här gör du en formkoll inför kommande tävlingar, seedar dig till adidas Stockholm Marathon eller helt enkelt kickar igång årets löpsäsong.  adidas Premiärmilen är det enda milloppet som är seedningsgrundande för adidas Stockholm Marathon.",
         "county": "Stockholms"
+    },
+    {
+        "date": "20240401",
+        "type": "trail",
+        "name": "SpriT Frontyard - Genarp 2024",
+        "distance": "1 - 21 km",
+        "distance_m": "backyard",
+        "place": "SpriT Frontyard - Genarp 2024",
+        "latitude": 55.6002993,
+        "longitude": 13.3975053,
+        "organizer": "",
+        "website": "/race-pages/sprit-frontyard-genarp-2024.html",
+        "src_url": "https://www.trailrunningsweden.se/trailkalendern/",
+        "county": "Skåne",
+        "id": "sprit-frontyard-genarp-2024_20240401_httpswwwtrailrunningswedensetrailkalendern",
+        "summary": "SpriT Frontyard - Sprint Trail Frontyard Genarp 2024. \nEn snabb bana vid Genarpsbadet: en blandning av grusväg, skogstig och sand ... utan asfalt i år!!! Bara en \"liten\" backe i mitten och en \"liten\" till på slutet med det kommer att gå fort!",
+        "website_organizer": "https://www.sportstiming.dk/event/13825",
+        "new_version": true
     },
     {
         "date": "20240406",
@@ -2521,6 +2479,27 @@
         "id": "109301d1-d575-4b05-891d-1fe47f8d38b1",
         "summary": "Fjällmaraton Sälen by EQPE är trailäventyret för dig som gillar upplevelser, löpning och vacker natur. Du väljer att springa 42 km, 21 km eller 10 km och kan även låta barnen delta i Barnens Fjällmaraton. Som deltagare erbjuds du ett utmanande fjällopp utan att behöva åka allt för långt. I natursköna Sälen bjuder Fjällmaraton Sälen by EQPE på en löparutmaning deluxe. Längs fjällstigar, leder, spänger och vägar utmanas du av naturen på din väg mot målet på Experiumtorget i Lindvallen.",
         "county": "Dalarnas"
+    },
+    {
+        "date": "20240831",
+        "type": "trail",
+        "name": "Alpe de Bispberg Trail Run",
+        "distance": "11 km, 21 km",
+        "distance_m": [
+            11000,
+            21000
+        ],
+        "place": "Solvarboravinen Säter Södra Dalarna",
+        "latitude": 60.35347227063172,
+        "longitude": 15.764207839529266,
+        "organizer": "Tommy & Sara Bispberg 5",
+        "website": "/race-pages/alpe-de-bispberg-trail-run.html",
+        "src_url": "manual",
+        "county": "Dalarnas",
+        "id": "alpe-de-bispberg-trail-run-2024_20240831",
+        "summary": "Välkommen till Alpe De Bispberg Trail Run! Häng med och bestig de två alptopparna på Bispbergs klack i Dalarna. Vi erbjuder två spännande lopp - 11 km och Trail Halvmarathon.",
+        "website_organizer": "https://www.facebook.com/share/6rWn7LbB2HSwvqqm/?mibextid=K35XfP",
+        "new_version": true
     },
     {
         "date": "20240831",
