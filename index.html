@@ -102,6 +102,36 @@
           </div>
 
           <div class="map-or-list-view margin-bottom--tiny">
+            <div id="category-selector" class="select-wrapper">
+              <select class="view-button category-filter-button">
+                <option value="">Loppkategori</option>
+                <option value="Stockholms">Stockholms</option>
+                <option value="Uppsala">Uppsala</option>
+                <option value="Södermanlands">Södermanlands</option>
+                <option value="Östergötlands">Östergötlands</option>
+                <option value="Jönköpings">Jönköpings</option>
+                <option value="Kronobergs">Kronobergs</option>
+                <option value="Kalmar">Kalmar</option>
+                <option value="Gotlands">Gotlands</option>
+                <option value="Blekinge">Blekinge</option>
+                <option value="Skåne">Skåne</option>
+                <option value="Hallands">Hallands</option>
+                <option value="Västra Götalands">Västra Götalands</option>
+                <option value="Värmlands">Värmlands</option>
+                <option value="Örebro">Örebro</option>
+                <option value="Västmanlands">Västmanlands</option>
+                <option value="Dalarnas">Dalarnas</option>
+                <option value="Gävleborgs">Gävleborgs</option>
+                <option value="Västernorrlands">Västernorrlands</option>
+                <option value="Jämtlands">Jämtlands</option>
+                <option value="Västerbottens">Västerbottens</option>
+                <option value="Norrbottens">Norrbottens</option>
+              </select>
+              <ion-icon
+                class="menu-icon"
+                name="chevron-down-outline"
+              ></ion-icon>
+            </div>
             <div id="county-selector" class="select-wrapper">
               <select class="view-button lan-filter-button">
                 <option value="">Alla län</option>
@@ -132,9 +162,9 @@
                 name="chevron-down-outline"
               ></ion-icon>
             </div>
-            <button class="view-button list-view-button">Lista</button>
-            <button class="view-button map-view-button active-button">
-              Karta
+
+            <button class="view-button list-view-button toggle-button">
+              Lista
             </button>
           </div>
 

@@ -59,6 +59,13 @@ function toggleActiveClass(event) {
       countySelector.style.opacity = "1";
     }, 10);
 
+    // add category filter
+    const categorySelector = document.getElementById("category-selector");
+    categorySelector.style.display = "block";
+    setTimeout(function () {
+      categorySelector.style.opacity = "1";
+    }, 10);
+
     const element = document.querySelector(".map-or-list-view");
     element.style.width = "32rem";
     element.style.paddingRight = "8rem";
@@ -66,14 +73,27 @@ function toggleActiveClass(event) {
     countySelector.addEventListener("change", function () {
       filterRaces();
     });
+
+    // add event listener for category selector
+    categorySelector.addEventListener("change", function () {
+      filterRaces();
+    });
   } else {
     listHeader.style.display = "none";
     mapHeader.style.display = "block";
+
     const countySelector = document.getElementById("county-selector");
     countySelector.style.opacity = "0";
+
+    const categorySelector = document.getElementById("category-selector");
+    categorySelector.style.opacity = "0";
+
     const checkboxes = document.querySelector(".checkboxes");
+
     setTimeout(function () {
       countySelector.style.display = "none";
+      categorySelector.style.display = "none";
+
       const element = document.querySelector(".map-or-list-view");
       element.style.width = "16rem";
       element.style.paddingRight = "0";

@@ -40,12 +40,12 @@ fetch("/all_races_w_formatted_summary.json")
   .then((response) => response.json())
   .then((races) => {
     races.forEach((markerRace) => {
-      console.log(`
+      /*       console.log(`
       <div 
         data-marker-id="${markerRace.id}"
         data-marker-lat-long="${markerRace.latitude}, ${markerRace.longitude}"
         data-marker-distance_m="${markerRace.distance_m}"
-      ></div>`);
+      ></div>`); */
       /* ONLY ROAD AND TRAIL FOR NOW */
       if (
         markerRace.type.includes("trail") ||
