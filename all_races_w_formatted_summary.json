@@ -1118,6 +1118,27 @@
     },
     {
         "date": "20240413",
+        "type": "trail",
+        "name": "Falktouren vårloppet",
+        "distance": "10 km 5 km och Barnlopp",
+        "distance_m": [
+            5000,
+            10000
+        ],
+        "place": "Falktouren vårloppet",
+        "latitude": 0,
+        "longitude": 0,
+        "organizer": "",
+        "website": "/race-pages/falktouren-varloppet.html",
+        "src_url": "https://www.trailrunningsweden.se/trailkalendern/",
+        "county": null,
+        "id": "falktouren-vårloppet_20240413_httpswwwtrailrunningswedensetrailkalendern",
+        "summary": "Vårloppet 2024 - Falktouren är ett adrenalinfyllt traillopp som välkomnar äventyrsentusiaster av alla nivåer. Oavsett om du är nybörjare eller erfaren löpare, har vi en kategori för dig - från korta 5 km till tuffa 25 km. Utmana dig själv i den vackra naturen och låt stigen guida dig till en upplevelse utöver det vanliga! Anmäl dig redan idag och känn pulsen av detta episka lopp.",
+        "website_organizer": "https://event.falktouren.se/event",
+        "new_version": true
+    },
+    {
+        "date": "20240413",
         "month": "april",
         "day": "13",
         "type": "trail",
@@ -1453,6 +1474,26 @@
         "county": "Uppsala"
     },
     {
+        "date": "20240509",
+        "type": "trail",
+        "name": "OTTARSLOPPET",
+        "distance": "Tidslopp",
+        "distance_m": [
+            "tidslopp"
+        ],
+        "place": "VENDEL, OTTARSBORG",
+        "latitude": 0,
+        "longitude": 0,
+        "organizer": "",
+        "website": "/race-pages/ottarsloppet.html",
+        "src_url": "https://www.jogg.se/Kalender/Tavlingar.aspx?aar=2024&mon=13&fdist=0&tdist=1000&type=0&country=1&region=0&tlopp=False&relay=False&surface=ter&tridist=0&title=1",
+        "county": null,
+        "id": "ottarsloppet_20240509_httpswwwjoggsekalendertavlingaraspxaar2024mon13fdist0tdist1000type0country1region0tloppfalserelayfalsesurfacetertridist0title1",
+        "summary": "Välkomna till Ottarsloppet den 9 maj 2024! Vi arrangerar terränglopp för löpare och cyklister på Kristi Himmelsfärdsdagen. Det blir en utmanande men underbar upplevelse på naturliga stigar och skogsvägar i Vendelåsen. Vi erbjuder också MTB-lopp samma dag. Oavsett om du är erfaren eller nybörjare har vi en distans för dig, inklusive trail-löpning. Välkommen till en fantastisk dag med löpning, cykling och gemenskap!",
+        "website_organizer": "https://ottarsloppet.se/",
+        "new_version": true
+    },
+    {
         "date": "20240511",
         "type": "trail",
         "name": "Sundsvall Trail",
@@ -1601,6 +1642,70 @@
         "summary": "Delta i vår spännande löptävling Uka Pain! Vi erbjuder distanser för alla nivåer: 28 km, Trail Ultramarathon, och 100 miles. Upplev vackra landskap och utmana din uthållighet. Uka Pain är en oförglömlig löpupplevelse för äventyrslystna löpare. Anmäl dig nu och testa din styrka i höstens stora loppupplevelse!",
         "county": "Dalarnas",
         "website_organizer": "https://www.ukapain.se/"
+    },
+    {
+        "date": "20240525",
+        "type": "trail",
+        "name": "VirsboRUN",
+        "distance": "0,8 km, 5,3 km, 10,6 km, 15,9 km, 21,2 km",
+        "distance_m": [
+            0,
+            5000,
+            10000,
+            15000,
+            21000
+        ],
+        "place": "VirsboRUN",
+        "latitude": 0,
+        "longitude": 0,
+        "organizer": "",
+        "website": "/race-pages/virsborun.html",
+        "src_url": "https://www.trailrunningsweden.se/trailkalendern/",
+        "county": null,
+        "id": "virsborun_20240525_httpswwwtrailrunningswedensetrailkalendern",
+        "summary": "VirsboRUN är tillbaka 25 maj 2024! Oavsett om du är erfaren eller nybörjare finns en distans för dig: 0 km, 5 km, 10 km, 15 km eller vårt Trail Halvmarathon. Ta dig an den vackra och utmanande terrängen och njut av mat, dryck och underhållning efter loppet. Anmäl dig redan idag för att vara med på detta fantastiska löpevent!",
+        "website_organizer": "http://virsborun.se/",
+        "new_version": true
+    },
+    {
+        "date": "20240525",
+        "type": "trail",
+        "name": "Virsborun, 5,3, 10,6, 15,9 eller 21,2 k...",
+        "distance": "21,20 km",
+        "distance_m": [
+            21200
+        ],
+        "place": "Virsbo",
+        "latitude": 59.8730726,
+        "longitude": 16.0444141,
+        "organizer": "",
+        "website": "/race-pages/virsborun,-5,3,-10,6,-15,9-eller-21,2-k....html",
+        "src_url": "https://www.jogg.se/Kalender/Tavlingar.aspx?aar=2024&mon=13&fdist=0&tdist=1000&type=0&country=1&region=0&tlopp=False&relay=False&surface=ter&tridist=0&title=1",
+        "county": "Västmanlands",
+        "id": "virsborun-53-106-159-eller-212-k_20240525_httpswwwjoggsekalendertavlingaraspxaar2024mon13fdist0tdist1000type0country1region0tloppfalserelayfalsesurfacetertridist0title1",
+        "summary": "Välkommen till VirsboRUN den 25 maj 2024! Ett traillopp öppet för alla åldrar och erfarenhetsnivåer. Vi erbjuder två distanser, inklusive trailhalvmarathon, i den vackra naturen runt Virsbo. Oavsett om det är din första gång på en trailbana eller om du är en erfaren löpare, kommer detta lopp att inspirera dig att prestera på din bästa nivå. Anmäl dig nu och gör dig redo för en dag fylld med spännande löpning och gemenskap!",
+        "website_organizer": "https://virsborun.se/",
+        "new_version": true
+    },
+    {
+        "date": "20240525",
+        "type": "trail",
+        "name": "Virsborun knattar",
+        "distance": "0,80 km",
+        "distance_m": [
+            800
+        ],
+        "place": "Virsbo",
+        "latitude": 59.8730726,
+        "longitude": 16.0444141,
+        "organizer": "",
+        "website": "/race-pages/virsborun-knattar.html",
+        "src_url": "https://www.jogg.se/Kalender/Tavlingar.aspx?aar=2024&mon=13&fdist=0&tdist=1000&type=0&country=1&region=0&tlopp=False&relay=False&surface=ter&tridist=0&title=1",
+        "county": "Västmanlands",
+        "id": "virsborun-knattar_20240525_httpswwwjoggsekalendertavlingaraspxaar2024mon13fdist0tdist1000type0country1region0tloppfalserelayfalsesurfacetertridist0title1",
+        "summary": "VirsboRUN är tillbaka den 25 maj 2024 med en spännande löptävling! Oavsett om du är en erfaren löpare eller bara ute efter en rolig helgaktivitet, har vi något för alla. Anmäl dig till vår 1 km långa trailbana och utmana dig själv att springa genom vacker och varierande terräng. Ta med familj och vänner för en rolig dag i naturen och upplev gemenskapen i VirsboRUN! Anmäl dig idag och bli en del av denna fantastiska löptävling!",
+        "website_organizer": "https://virsborun.se/",
+        "new_version": true
     },
     {
         "date": "20240525",
@@ -1803,6 +1908,26 @@
         "summary": "BMTR GPX-ULTRA 54k är ett spännande trail ultramarathon-lopp med en vacker och utmanande terräng. Loppet erbjuder olika kategorier för löpare och en upplyftande stämning, vilket ger en chans för löpare att utmana sig själva och sätta nya personliga mål. Oavsett om man är erfaren eller ny inom trailrunning, är detta loppet designat för att vara en minnesvärd och spännande upplevelse för alla äventyrslystna löpare.",
         "new_version": true,
         "website_organizer": "https://trailmakaren.webnode.se/bmtr-gpx-ultra-54k/"
+    },
+    {
+        "date": "20240615",
+        "type": "trail",
+        "name": "Björkö Runt - halvmara",
+        "distance": "21",
+        "distance_m": [
+            21000
+        ],
+        "place": "Björkö Runt - halvmara",
+        "latitude": 0,
+        "longitude": 0,
+        "organizer": "",
+        "website": "/race-pages/bjorko-runt-halvmara.html",
+        "src_url": "https://www.trailrunningsweden.se/trailkalendern/",
+        "county": null,
+        "id": "björkö-runt-halvmara_20240615_httpswwwtrailrunningswedensetrailkalendern",
+        "summary": "Välkommen till Björkö Trail! Upplev naturen och utmana dig själv i vår härliga trail halvmarathon. Vi erbjuder också kortare traillopp för löpare i alla åldrar och färdighetsnivåer. Oavsett om du är erfaren eller nybörjare, finns det något för alla att njuta av. Ta med familj och vänner för en spännande dag i vackra skogsområden! Anmäl dig idag och vara en del av en fantastisk löparupplevelse!",
+        "website_organizer": "https://bjorkotrail.blogspot.com/",
+        "new_version": true
     },
     {
         "date": "20240615",
