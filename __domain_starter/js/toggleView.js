@@ -1,29 +1,24 @@
 import { filterRaces } from "/js/filterRaces.js";
 
-// Get references to the buttons and header elements
-const listViewButton = document.querySelector(".list-view-button");
-const mapViewButton = document.querySelector(".map-view-button");
+// Get reference to the toggle button and header elements
+const toggleButton = document.querySelector(".toggle-button");
 const listHeader = document.querySelector(".list-header");
 const mapHeader = document.querySelector(".map-header");
 
-// Add event listeners to the buttons
-listViewButton.addEventListener("click", toggleActiveClass);
-mapViewButton.addEventListener("click", toggleActiveClass);
+// Add event listener to the toggle button
+toggleButton.addEventListener("click", toggleView);
 
-// Define the toggleActiveClass function
-function toggleActiveClass(event) {
-  // Prevent the default button behavior (e.g. page refresh)
+// Define the toggleView function
+function toggleView(event) {
+  // Prevent the default button behavior (e.g., page refresh)
   event.preventDefault();
-  if (event.target.classList.contains("active-button")) {
-    /* if clicked already ActiveXObject, no nothin */
-    return;
-  }
-  // Toggle the "active-button" class on both buttons
-  listViewButton.classList.toggle("active-button");
-  mapViewButton.classList.toggle("active-button");
+
+  // Toggle the "active-button" class on the toggle button
+  toggleButton.classList.toggle("active-button");
 
   // Toggle the display of the header elements
-  if (listViewButton.classList.contains("active-button")) {
+  //active-button on == list view
+  if (toggleButton.classList.contains("active-button")) {
     listHeader.style.display = "block";
     mapHeader.style.display = "none";
 
@@ -66,9 +61,9 @@ function toggleActiveClass(event) {
       categorySelector.style.opacity = "1";
     }, 10);
 
-    const element = document.querySelector(".map-or-list-view");
-    element.style.width = "32rem";
-    element.style.paddingRight = "8rem";
+    /*     const element = document.querySelector(".map-or-list-view");
+    element.style.width = "46rem";
+    element.style.paddingRight = "13rem"; */
 
     countySelector.addEventListener("change", function () {
       filterRaces();
@@ -91,12 +86,11 @@ function toggleActiveClass(event) {
     const checkboxes = document.querySelector(".checkboxes");
 
     setTimeout(function () {
-      countySelector.style.display = "none";
-      categorySelector.style.display = "none";
-
-      const element = document.querySelector(".map-or-list-view");
+      /*       countySelector.style.display = "none";
+      categorySelector.style.display = "none"; */
+      /*       const element = document.querySelector(".map-or-list-view");
       element.style.width = "16rem";
-      element.style.paddingRight = "0";
+      element.style.paddingRight = "0"; */
       /* checkboxes.style.marginTop = "0rem"; */
     }, 200);
 
@@ -119,4 +113,9 @@ function toggleActiveClass(event) {
       monthName.style.display = "none";
     });
   }
+  // Update the text of the toggle button based on the active state
+  const buttonText = toggleButton.classList.contains("active-button")
+    ? "Karta"
+    : "Lista";
+  toggleButton.textContent = buttonText;
 }

@@ -692,7 +692,6 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 
 .highlight-link {
   font-size: 1.65rem;
-  color: var(--highlight-color);
   text-decoration: none;
   font-weight: 500;
 }

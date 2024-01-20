@@ -9,16 +9,17 @@ body {
   top: 31.9rem;
   left: 50%;
   transform: translateX(-50%);
-  width: 16rem;
+  width: 46rem;
   height: 4rem;
+  padding-right: 13rem;
   display: flex;
   align-items: center;
   justify-content: center;
   z-index: 401;
 }
 .view-button-wrapper {
-  width: 16rem;
-  height: 4rem;
+  width: 100%;
+  height: 100%;
 }
 .view-button {
   border: none;
@@ -39,7 +40,7 @@ body {
 #category-selector {
   position: relative;
   display: inline-block;
-  display: none;
+  display: block;
   opacity: 0;
   width: 100%;
   height: 100%;
