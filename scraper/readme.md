@@ -22,3 +22,6 @@ python generate_pages.py 0
 
 -- Update main list html
 python update_main_list.py
+
+--- Update seo folders
+python update_seo_folders.py

@@ -1,24 +1,45 @@
-export function filterRaces() {
-  const button = document.querySelector(".view-button.map-view-button");
+export async function loadCategoryMapping() {
+  try {
+    const response = await fetch(
+      "/collection_configuration/general_config.yaml"
+    );
+    const yamlText = await response.text();
+    const categoryMapping = jsyaml.load(yamlText);
+    return [
+      categoryMapping.category_mapping,
+      categoryMapping.category_label_text,
+    ];
+  } catch (error) {
+    console.error("Error loading category mapping:", error);
+    return null;
+  }
+}
+
+export async function filterRaces() {
+  const button = document.querySelector(".toggle-button");
 
   if (button.classList.contains("active-button")) {
-    // this is a list filter so dont filter if map is active
-    return;
-  }
-  // Get the values of the filters
-  // Select all the checkboxes and store them in separate constants
-  const trailCheckbox = document.querySelector("#trailCheckbox");
-  const backyardCheckbox = document.querySelector("#backyardCheckbox");
-  const terrainCheckbox = document.querySelector("#terrainCheckbox");
-  const trackCheckbox = document.querySelector("#trackCheckbox");
-  const roadCheckbox = document.querySelector("#roadCheckbox");
-  const relayCheckbox = document.querySelector("#relayCheckbox");
-  const countySelector = document.querySelector(".lan-filter-button");
+    // active button == list view
 
-  // Load the JSON data
-  fetch("all_races_w_formatted_summary.json")
-    .then((response) => response.json())
-    .then((data) => {
+    // Get the values of the filters
+    // Select all the checkboxes and store them in separate constants
+    const trailCheckbox = document.querySelector("#trailCheckbox");
+    const backyardCheckbox = document.querySelector("#backyardCheckbox");
+    const terrainCheckbox = document.querySelector("#terrainCheckbox");
+    const trackCheckbox = document.querySelector("#trackCheckbox");
+    const roadCheckbox = document.querySelector("#roadCheckbox");
+    const relayCheckbox = document.querySelector("#relayCheckbox");
+    const countySelector = document.querySelector(".lan-filter-button");
+    const categorySelector = document.querySelector(".category-filter-button");
+    try {
+      // Load the JSON data
+      const response = await fetch("/all_races_w_formatted_summary.json");
+      const data = await response.json();
+
+      // Load category_mapping from YAML
+      const categoryMappingObject = await loadCategoryMapping();
+      const categoryMapping = categoryMappingObject[0];
+      const categoryLabelText = categoryMappingObject[1];
       const filteredData = data.filter((race) => {
         let dateString = race.date;
 
@@ -44,15 +65,11 @@ export function filterRaces() {
         const currentDate = new Date();
         const diff = Math.max(raceDate - currentDate, 0);
         const diffInDays = Math.ceil(diff / (1000 * 3600 * 24));
-        /*         console.log("low: " + daysLow);
-        console.log("diffInDays: " + diffInDays);
-        console.log("racedate: " + raceDate); */
 
         const distanceM = race.distance_m.toString();
-        console.log("distanceM: " + distanceM);
         const distanceArr = distanceM.split(",").map((x) => parseInt(x));
         let isInRange = false;
-        console.log("distanceArr: " + distanceArr);
+
         for (let j = 0; j < distanceArr.length; j++) {
           if (
             distanceArr[j] >= minDistance * 1000 &&
@@ -64,7 +81,6 @@ export function filterRaces() {
         }
 
         if (distanceM === "backyard" || distanceM === "relay") {
-          /* if distanceM is "backyard" or "time" we show it independently of distance slider, such as backyard and time races */
           isInRange = true;
         }
 
@@ -101,9 +117,10 @@ export function filterRaces() {
             }
             break;
         }
-        /* checking county */
+
         let isCounty = false;
         const selectedValue = countySelector.value;
+        console.log(selectedValue);
 
         if (selectedValue) {
           if (selectedValue === "Alla län") {
@@ -111,27 +128,51 @@ export function filterRaces() {
           } else {
             const raceCounty = race.county;
             if (raceCounty) {
-              if (raceCounty === selectedValue) {
-                isCounty = true;
-              } else {
-                isCounty = false;
-              }
+              isCounty = raceCounty === selectedValue;
             }
           }
         } else {
           isCounty = true;
         }
 
-        if (
+        let categoryIsChecked = false;
+        const selectedCategory = categorySelector.value;
+        // Check if the selected category is the default value
+        if (categoryMapping[selectedCategory] === undefined) {
+          categoryIsChecked = true;
+        }
+        // Check if the selected category exists in categoryMapping
+        else if (categoryMapping[selectedCategory]) {
+          console.log(categoryLabelText);
+          // Access properties of the category from categoryMapping
+          const categoryData = categoryMapping[selectedCategory];
+
+          if (Array.isArray(categoryData.range)) {
+            const [minDistance, maxDistance] = categoryData.range;
+            if (
+              distanceArr.some(
+                (distance) =>
+                  distance >= minDistance * 1000 &&
+                  distance <= maxDistance * 1000
+              )
+            ) {
+              categoryIsChecked = true;
+            }
+          } else {
+            if (distanceM.includes(categoryData)) {
+              categoryIsChecked = true;
+            }
+          }
+        }
+
+        return (
           isCounty &&
           isInRange &&
           typeIsChecked &&
           diffInDays > daysLow &&
-          diffInDays < daysHigh
-        ) {
-          return true;
-        }
-        return false;
+          diffInDays < daysHigh &&
+          categoryIsChecked
+        );
       });
 
       //Turn off all months each time, maybe a more efficient way of doing this?
@@ -162,16 +203,19 @@ export function filterRaces() {
           }
         }
       });
+    } catch (error) {
+      console.error("Error fetching or processing data:", error);
+    }
+  }
+}
 
-      function getNearestMonthNameSibling(element) {
-        let sibling = element.previousElementSibling;
-        while (sibling) {
-          if (sibling.classList.contains("month-name")) {
-            return sibling;
-          }
-          sibling = sibling.previousElementSibling;
-        }
-        return null;
-      }
-    });
+function getNearestMonthNameSibling(element) {
+  let sibling = element.previousElementSibling;
+  while (sibling) {
+    if (sibling.classList.contains("month-name")) {
+      return sibling;
+    }
+    sibling = sibling.previousElementSibling;
+  }
+  return null;
 }

@@ -5,8 +5,10 @@ google_analytics_id: "G-EJBRM67XCS"
 title: "Sveriges mest kompletta lista och kalender över löpartävlingar och lopp 2024"
 title_find: "Sveriges mest kompletta lista och kalender över löpartävlingar och lopp"
 seo_county_title: "Alla lopp och löpartävlingar i %s"
+seo_category_title: "Alla %s och andra löpartävlingar i Sverige. På ett och samma ställe."
 description: "Vi har samlat alla svenska löplopp i en datumsorterad lista. Hitta ditt nästa millopp, tidslopp, traillopp, halvmara, marathon eller ultra marathon hos oss idag."
 seo_county_description: "Här har vi samlat alla lopp och löpartävlingar i %s 2024. Hitta ditt nästa millopp, tidslopp, traillopp, halvmara, marathon eller ultra marathon hos oss idag."
+seo_category_description: "Här har vi samlat alla %s och andra löpartävlingar i Sverige 2024. Hitta ditt nästa lopp hos oss idag."
 promotion_text: "Obetalt samarbete med:"
 list_button_text: "Lista"
 map_button_text: "Karta"
@@ -110,27 +112,62 @@ distance_units:
   - range: [41.9, 42.4]
     label: Marathon
 
+county_label_text: "Alla län"
 county_mapping:
-  "Stockholms":  "Stockholm"
-  "Uppsala":  "Uppsala"
-  "Södermanlands":  "Södermanland"
-  "Östergötlands":  "Östergötland"
-  "Jönköpings":  "Jönköping"
-  "Kronobergs":  "Kronoberg"
-  "Kalmar":  "Kalmar"
-  "Kalmar":  "Öland"
-  "Gotlands":  "Gotland"
-  "Blekinge":  "Blekinge"
-  "Skåne":  "Skåne"
-  "Hallands":  "Halland"
-  "Västra Götalands":  "Västra Götaland"
-  "Västra Götalands":  "Göteborg"
-  "Värmlands":  "Värmland"
-  "Örebro":  "Örebro"
-  "Västmanlands":  "Västmanland"
-  "Dalarnas":  "Dalarna"
-  "Gävleborgs":  "Gävleborg"
-  "Västernorrlands":  "Västernorrland"
-  "Jämtlands":  "Jämtland"
-  "Västerbottens":  "Västerbotten"
-  "Norrbottens":  "Norrbotten"
+  "Stockholms": "Stockholm"
+  "Uppsala": "Uppsala"
+  "Södermanlands": "Södermanland"
+  "Östergötlands": "Östergötland"
+  "Jönköpings": "Jönköping"
+  "Kronobergs": "Kronoberg"
+  "Kalmar": "Kalmar"
+  #"Kalmar":  "Öland"
+  "Gotlands": "Gotland"
+  "Blekinge": "Blekinge"
+  "Skåne": "Skåne"
+  "Hallands": "Halland"
+  "Västra Götalands": "Västra Götaland"
+  #"Västra Götalands":  "Göteborg"
+  "Värmlands": "Värmland"
+  "Örebro": "Örebro"
+  "Västmanlands": "Västmanland"
+  "Dalarnas": "Dalarna"
+  "Gävleborgs": "Gävleborg"
+  "Västernorrlands": "Västernorrland"
+  "Jämtlands": "Jämtland"
+  "Västerbottens": "Västerbotten"
+  "Norrbottens": "Norrbotten"
+
+category_label_text: "Loppkategori"
+category_mapping:
+  "1500 meter":
+    range: [1.5, 1.5]
+  "3000 meter":
+    range: [3, 3]
+  "5000 meter":
+    range: [5, 5]
+  "10000 meter":
+    range: [10, 10]
+  "5 km":
+    range: [4, 6]
+  "10 km":
+    range: [9, 11]
+  "Millopp":
+    range: [9, 11]
+  "Halvmarathon":
+    range: [20, 22]
+  "Marathon":
+    range: [40, 44]
+  "Backyard Ultra": "backyard"
+  "Ultra Marathon":
+    range: [42, 500]
+  "50 miles":
+    range: [75, 100]
+  "100 miles":
+    range: [150, 170]
+  "200 miles":
+    range: [300, 500]
+  "50 km":
+    range: [45, 55]
+  "100 km":
+    range: [90, 110]

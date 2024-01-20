@@ -70,6 +70,9 @@
       nomodule=""
       src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
     ></script>
+    <script src="
+    https://cdn.jsdelivr.net/npm/js-yaml@4.1.0/dist/js-yaml.min.js
+    "></script>
     <script defer src="/js/mobile-nav.js"></script>
     <script type="module" src="/js/loadHiddenRaces.js"></script>
     <script type="module" src="/js/toggleView.js"></script>
@@ -102,30 +105,39 @@
           </div>
 
           <div class="map-or-list-view margin-bottom--tiny">
-            <div id="category-selector" class="select-wrapper">
+            <div id="category-selector" class="select-wrapper show">
               <select class="view-button category-filter-button">
                 <option value="">Loppkategori</option>
-                <option value="Stockholms">Stockholms</option>
-                <option value="Uppsala">Uppsala</option>
-                <option value="Södermanlands">Södermanlands</option>
-                <option value="Östergötlands">Östergötlands</option>
-                <option value="Jönköpings">Jönköpings</option>
-                <option value="Kronobergs">Kronobergs</option>
-                <option value="Kalmar">Kalmar</option>
-                <option value="Gotlands">Gotlands</option>
-                <option value="Blekinge">Blekinge</option>
-                <option value="Skåne">Skåne</option>
-                <option value="Hallands">Hallands</option>
-                <option value="Västra Götalands">Västra Götalands</option>
-                <option value="Värmlands">Värmlands</option>
-                <option value="Örebro">Örebro</option>
-                <option value="Västmanlands">Västmanlands</option>
-                <option value="Dalarnas">Dalarnas</option>
-                <option value="Gävleborgs">Gävleborgs</option>
-                <option value="Västernorrlands">Västernorrlands</option>
-                <option value="Jämtlands">Jämtlands</option>
-                <option value="Västerbottens">Västerbottens</option>
-                <option value="Norrbottens">Norrbottens</option>
+
+                <option value="1500 meter">1500 meter</option>
+
+                <option value="3000 meter">3000 meter</option>
+
+                <option value="5000 meter">5000 meter</option>
+
+                <option value="10000 meter">10000 meter</option>
+
+                <option value="5 km">5 km</option>
+
+                <option value="10 km">10 km</option>
+
+                <option value="Halvmarathon">Halvmarathon</option>
+
+                <option value="Marathon">Marathon</option>
+
+                <option value="Backyard Ultra">Backyard Ultra</option>
+
+                <option value="Ultra Marathon">Ultra Marathon</option>
+
+                <option value="50 miles">50 miles</option>
+
+                <option value="100 miles">100 miles</option>
+
+                <option value="200 miles">200 miles</option>
+
+                <option value="50 km">50 km</option>
+
+                <option value="100 km">100 km</option>
               </select>
               <ion-icon
                 class="menu-icon"

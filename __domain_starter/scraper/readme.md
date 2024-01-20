@@ -14,4 +14,14 @@ python main_scraper.py
 python approvalGUI.py
 
 -- Generates individual race pages per race based on a jinja template
+--if you want to run only races that is not already in main all_races json, i.e newly collected run this and thats also by default
 python generate_pages.py
+
+--if you want to load all current races with images:
+python generate_pages.py 0
+
+-- Update main list html
+python update_main_list.py
+
+--- Update seo folders
+python update_seo_folders.py

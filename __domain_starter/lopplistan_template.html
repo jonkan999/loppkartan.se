@@ -39,6 +39,9 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     ></script>
+    <script src="
+    https://cdn.jsdelivr.net/npm/js-yaml@4.1.0/dist/js-yaml.min.js
+    "></script>
 
     <!--     <script src="https://api.mapbox.com/mapbox-gl-js/v1.11.0/mapbox-gl.js"></script>
     <link
@@ -100,41 +103,42 @@
           </div>
 
           <div class="map-or-list-view margin-bottom--tiny">
-            <div id="county-selector" class="select-wrapper show">
-              <select class="view-button lan-filter-button">
-                <option value="">Alla län</option>
-                <option value="Stockholms">Stockholms</option>
-                <option value="Uppsala">Uppsala</option>
-                <option value="Södermanlands">Södermanlands</option>
-                <option value="Östergötlands">Östergötlands</option>
-                <option value="Jönköpings">Jönköpings</option>
-                <option value="Kronobergs">Kronobergs</option>
-                <option value="Kalmar">Kalmar</option>
-                <option value="Gotlands">Gotlands</option>
-                <option value="Blekinge">Blekinge</option>
-                <option value="Skåne">Skåne</option>
-                <option value="Hallands">Hallands</option>
-                <option value="Västra Götalands">Västra Götalands</option>
-                <option value="Värmlands">Värmlands</option>
-                <option value="Örebro">Örebro</option>
-                <option value="Västmanlands">Västmanlands</option>
-                <option value="Dalarnas">Dalarnas</option>
-                <option value="Gävleborgs">Gävleborgs</option>
-                <option value="Västernorrlands">Västernorrlands</option>
-                <option value="Jämtlands">Jämtlands</option>
-                <option value="Västerbottens">Västerbottens</option>
-                <option value="Norrbottens">Norrbottens</option>
+            <div
+              id="category-selector"
+              class="select-wrapper show"
+              style="display: block; opacity: 1"
+            >
+              <select class="view-button category-filter-button">
+                <option value="">{{data.config.category_label_text}}</option>
+                {% for category in data.config.category_mapping %}
+                <option value="{{category}}">{{category}}</option>
+                {% endfor %}
               </select>
               <ion-icon
                 class="menu-icon"
                 name="chevron-down-outline"
               ></ion-icon>
             </div>
-            <button class="view-button list-view-button active-button">
-              {{data.config.list_button_text}}
-            </button>
-            <a href="index.html" class="view-button-wrapper">
-              <button class="view-button map-view-button">
+            <div
+              id="county-selector"
+              class="select-wrapper show"
+              style="display: block; opacity: 1"
+            >
+              <select class="view-button lan-filter-button">
+                <option value="">{{data.config.county_label_text}}</option>
+                {% for county in data.config.county_mapping %}
+                <option value="{{county}}">{{county}}</option>
+                {% endfor %}
+              </select>
+              <ion-icon
+                class="menu-icon"
+                name="chevron-down-outline"
+              ></ion-icon>
+            </div>
+            <a class="view-button-wrapper" href="/">
+              <button
+                class="view-button map-view-button toggle-button active-button"
+              >
                 {{data.config.map_button_text}}
               </button>
             </a>

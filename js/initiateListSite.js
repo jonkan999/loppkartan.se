@@ -13,10 +13,10 @@ if (mediaQuery.matches) {
   // Your media query style here
   filterSection.style.marginTop = "6rem";
   checkboxes.style.marginTop = "-4rem";
-  mapViewButton.style.width = "8rem";
+  /* mapViewButton.style.width = "8rem"; */
 } else {
   filterSection.style.marginTop = "3rem";
-  mapViewButton.style.width = "8rem";
+  /* mapViewButton.style.width = "8rem"; */
 }
 // add county filter
 const countySelector = document.getElementById("county-selector");
@@ -24,11 +24,19 @@ countySelector.style.display = "block";
 setTimeout(function () {
   countySelector.style.opacity = "1";
 }, 10);
+// add category filter
+const categorySelector = document.getElementById("category-selector");
+categorySelector.style.display = "block";
+setTimeout(function () {
+  categorySelector.style.opacity = "1";
+}, 10);
 
 const element = document.querySelector(".map-or-list-view");
-element.style.width = "32rem";
-element.style.paddingRight = "8rem";
 
 countySelector.addEventListener("change", function () {
+  filterRaces();
+});
+
+categorySelector.addEventListener("change", function () {
   filterRaces();
 });
