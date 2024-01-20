@@ -5,13 +5,21 @@ import subprocess
 import time
 import subprocess
 
+def copy_missing_files(file_paths, target_folder):
+    for file_path in file_paths:
+        target_path = os.path.join(target_folder, os.path.basename(file_path))
+        shutil.copy(file_path, target_path)
+        print(f"File copied: {target_path}")
 
 def copy_missing_folders(folders_to_check, is_initial=False):
   parent_folder = os.path.dirname(os.getcwd())
 
   for folder in folders_to_check:
     folder_path = os.path.join(parent_folder, folder)
-    if is_initial or not os.path.exists(folder_path):
+    if is_initial:
+      shutil.rmtree(folder_path)
+      shutil.copytree(folder, folder_path)
+    if not os.path.exists(folder_path):
       shutil.copytree(folder, folder_path)
 
   gitignore_path = os.path.join(parent_folder, ".gitignore")
@@ -62,9 +70,14 @@ if __name__ == "__main__":
   is_initial=False
   folders_to_check = ['css', 'img', 'js', 'netlify', 'scraper', 'svg', 'collection_configuration']
   copy_missing_folders(folders_to_check, is_initial)
+  # List of files to copy during initialization
+  files_to_copy = ['lopplistan_template.html', 'index_template.html']
+
   copy_empty_json()
   if is_initial:
+    copy_missing_files(files_to_copy, os.path.dirname(os.getcwd()))
     subprocess.run(["python", "initiate_main_list.py"])
+    subprocess.run(["python", "initiate_main_map.py"])
     print("Initial setup complete.")
 
   
