@@ -17,6 +17,12 @@ seo_category_description: "Här har vi samlat alla %s och andra löpartävlingar
 seo_checkboxes_description: "Här har vi samlat alla svenska lopp och löpartävlingar på %s i Sverige 2024. Hitta ditt nästa lopp hos oss idag."
 
 promotion_text: "Obetalt samarbete med:"
+promotion_link:
+  url: "http://www.kungsholmenrunt.se/Main/Start.asp"
+  target: "_blank"
+promo_logo:
+  src: "/img/logokr_bluebg.jpg"
+  class: "promo-logo-box"
 list_button_text: "Lista"
 map_button_text: "Karta"
 menu_button_text: "Meny"

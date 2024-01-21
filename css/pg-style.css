@@ -721,7 +721,18 @@ input[type="date"]::-webkit-calendar-picker-indicator {
   font-size: 2.25rem;
   margin-bottom: 1.5rem;
 }
+.disclaimer-box {
+  background-color: #f8d7da8e; /* Light red background color, you can change this */
+  color: #721c24; /* Dark red text color, you can change this */
+  padding: 1rem;
+  margin: 0 0 1.5rem 0;
+  border: 1px solid #f5c6cb; /* Border color, you can change this */
+  border-radius: 1px;
+}
 
+.disclaimer-box p {
+  margin: 0; /* Remove default margin for the paragraph inside the box */
+}
 .subsection-split-container {
   display: flex;
   flex-direction: row;

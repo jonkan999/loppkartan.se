@@ -53,7 +53,7 @@ body {
   display: block;
   text-align: center;
   opacity: 0;
-  width: 70%;
+  width: 75%;
   height: 100%;
 }
 
@@ -66,6 +66,8 @@ body {
 
 #county-selector select,
 #category-selector select {
+  /*   appearance: none;
+  -webkit-appearance: none; */
   border-radius: 0;
   text-align: center;
   color: #333;
@@ -95,12 +97,12 @@ body {
 
 .list-view-button {
   background-color: #fff;
-  width: 70%;
+  width: 60%;
   height: 100%;
 }
 .map-view-button {
   background-color: #fff;
-  width: 70%;
+  width: 60%;
   height: 100%;
 }
 .list-view-button:focus,

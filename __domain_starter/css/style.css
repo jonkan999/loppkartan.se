@@ -9,9 +9,9 @@ body {
   top: 31.9rem;
   left: 50%;
   transform: translateX(-50%);
-  width: 46rem;
+  width: 41rem;
   height: 4rem;
-  padding-right: 13rem;
+  padding-right: 11.5rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -34,17 +34,29 @@ body {
 .view-button:active {
   background-color: var(--highlight-color);
   box-shadow: inset 0.2rem 0.2rem 0.2rem 0 #333;
+  cursor: pointer;
 }
 
-#county-selector,
 #category-selector {
   position: relative;
   display: inline-block;
   display: block;
+  text-align: center;
   opacity: 0;
   width: 100%;
   height: 100%;
 }
+
+#county-selector {
+  position: relative;
+  display: inline-block;
+  display: block;
+  text-align: center;
+  opacity: 0;
+  width: 75%;
+  height: 100%;
+}
+
 .select-wrapper .menu-icon {
   position: absolute;
   top: 65%;
@@ -54,11 +66,13 @@ body {
 
 #county-selector select,
 #category-selector select {
-  appearance: none;
-  -webkit-appearance: none;
+  /*   appearance: none;
+  -webkit-appearance: none; */
   border-radius: 0;
-
+  text-align: center;
   color: #333;
+}
+#category-selector option {
   text-align: center;
 }
 .menu-icon {
@@ -83,12 +97,12 @@ body {
 
 .list-view-button {
   background-color: #fff;
-  width: 100%;
+  width: 60%;
   height: 100%;
 }
 .map-view-button {
   background-color: #fff;
-  width: 100%;
+  width: 60%;
   height: 100%;
 }
 .list-view-button:focus,

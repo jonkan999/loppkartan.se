@@ -95,10 +95,13 @@
             <div class="promotion-box">
               <span>{{data.config.promotion_text}}</span>
               <a
-                href="http://www.kungsholmenrunt.se/Main/Start.asp"
-                target="_blank"
+                href="{{ data.config.promotion_link.url }}"
+                target="{{ data.config.promotion_link.target }}"
               >
-                <img src="/img/logokr_bluebg.jpg" class="promo-logo-box" />
+                <img
+                  src="{{ data.config.promo_logo.src }}"
+                  class="{{ data.config.promo_logo.class }}"
+                />
               </a>
             </div>
           </div>
@@ -111,10 +114,10 @@
                 <option value="{{category}}">{{category}}</option>
                 {% endfor %}
               </select>
-              <ion-icon
+              <!--               <ion-icon
                 class="menu-icon"
                 name="chevron-down-outline"
-              ></ion-icon>
+              ></ion-icon> -->
             </div>
             <div id="county-selector" class="select-wrapper">
               <select class="view-button lan-filter-button">
@@ -123,10 +126,10 @@
                 <option value="{{county}}">{{county}}</option>
                 {% endfor %}
               </select>
-              <ion-icon
+              <!--         <ion-icon
                 class="menu-icon"
                 name="chevron-down-outline"
-              ></ion-icon>
+              ></ion-icon> -->
             </div>
 
             <button class="view-button list-view-button toggle-button">

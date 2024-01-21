@@ -4,17 +4,25 @@ domain: "loppkartan.se"
 google_analytics_id: "G-EJBRM67XCS"
 
 title: "Sveriges mest kompletta lista och kalender över löpartävlingar och lopp 2024"
+title_alternative: "Loppkartan som får Sverige att springa fler lopp 2024" # This is used for map
 title_find: "Sveriges mest kompletta lista och kalender över löpartävlingar och lopp"
 seo_county_title: "Alla lopp och löpartävlingar i %s"
 seo_category_title: "Alla %s och andra löpartävlingar i Sverige. På ett och samma ställe."
 seo_checkboxes_title: "Alla svenska lopp och löpartävlingar på %s. På ett och samma ställe."
 
 description: "Vi har samlat alla svenska löplopp i en datumsorterad lista. Hitta ditt nästa millopp, tidslopp, traillopp, halvmara, marathon eller ultra marathon hos oss idag."
+description_alternative: "Vi har samlat alla svenska löplopp i en interaktiv karta. Hitta ditt nästa millopp, tidslopp, traillopp, halvmara, marathon eller ultra marathon hos oss idag."
 seo_county_description: "Här har vi samlat alla lopp och löpartävlingar i %s 2024. Hitta ditt nästa millopp, tidslopp, traillopp, halvmara, marathon eller ultra marathon hos oss idag."
 seo_category_description: "Här har vi samlat alla %s och andra löpartävlingar i Sverige 2024. Hitta ditt nästa lopp hos oss idag."
 seo_checkboxes_description: "Här har vi samlat alla svenska lopp och löpartävlingar på %s i Sverige 2024. Hitta ditt nästa lopp hos oss idag."
 
 promotion_text: "Obetalt samarbete med:"
+promotion_link:
+  url: "http://www.kungsholmenrunt.se/Main/Start.asp"
+  target: "_blank"
+promo_logo:
+  src: "/img/logokr_bluebg.jpg"
+  class: "promo-logo-box"
 list_button_text: "Lista"
 map_button_text: "Karta"
 menu_button_text: "Meny"
@@ -36,9 +44,11 @@ menu_items:
     url: "/lagg-till-lopp.html"
 
 main_header: "Sveriges mest kompletta loppkalender för löpare"
+main_header_alternative: "Sveriges mest kompletta loppkalender för löpare"
 main_subheader: "Här listar vi alla Sveriges lopp och löpartävlingar under 2024.
   Filtrera fram ditt nästa 10 km millopp, halvmaraton eller backyard
   ultra."
+main_subheader_alternative: "Hitta ditt nästa lopp! Välj distans, som millopp eller marathon, samt underlag som trail eller landsväg."
 
 days_filter_text: "Lopp mellan: "
 distance_filter_text: "Distans mellan: "

@@ -16,11 +16,11 @@
     </script>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>Loppkartan som får Sverige att springa fler lopp 2024</title>
+    <title>{{data.config.title_alternative}}</title>
     <link rel="icon" href="/img/logo100px.jpg" />
     <meta
       name="description"
-      content="Vi har samlat alla svenska löplopp i en interaktiv karta. Hitta ditt nästa millopp, tidslopp, traillopp, halvmara, marathon eller ultra marathon hos oss idag."
+      content="{{data.config.description_alternative}}"
     />
     <meta
       name="viewport"
@@ -89,14 +89,14 @@
           <div class="header-and-logo-box">
             <a href="/index.html" class="logo-box"></a>
             <div class="promotion-box">
-              <span>Obetalt samarbete med:</span>
+              <span>{{data.config.promotion_text}}</span>
               <a
-                href="http://www.kungsholmenrunt.se/Main/Start.asp"
-                target="_blank"
+                href="{{ data.config.promotion_link.url }}"
+                target="{{ data.config.promotion_link.target }}"
               >
                 <img
-                  src="/img/logokr_bluebg.jpg"
-                  class="promo-logo-box"
+                  src="{{ data.config.promo_logo.src }}"
+                  class="{{ data.config.promo_logo.class }}"
                 />
               </a>
             </div>
@@ -105,61 +105,21 @@
             <ul class="main-nav-list">
               <li>
                 <h2 class="main-nav-header secondary-header">
-                  Meny
+                  {{data.config.menu_button_text}}
                 </h2>
               </li>
               <ul class="main-nav-list">
-                
+                {% for item in data.config.menu_items %}
                 <li>
                   <a
                     class="main-nav-link tertiary-header"
-                    href="/index.html"
-                    id="navIndex"
+                    href="{{item.url}}"
+                    id="{{item.id}}"
                   >
-                    Loppkartan
+                    {{ item.text }}
                   </a>
                 </li>
-                
-                <li>
-                  <a
-                    class="main-nav-link tertiary-header"
-                    href="/lopplistan.html"
-                    id="navLopplistan"
-                  >
-                    Lopplistan
-                  </a>
-                </li>
-                
-                <li>
-                  <a
-                    class="main-nav-link tertiary-header"
-                    href="/om-oss.html"
-                    id="navAbout"
-                  >
-                    Om Loppkartan.se
-                  </a>
-                </li>
-                
-                <li>
-                  <a
-                    class="main-nav-link tertiary-header"
-                    href="/kontakt.html"
-                    id="navContact"
-                  >
-                    Kontaktuppgifter
-                  </a>
-                </li>
-                
-                <li>
-                  <a
-                    class="main-nav-link tertiary-header"
-                    href="/lagg-till-lopp.html"
-                    id="navAddRace"
-                  >
-                    Lägg till lopp
-                  </a>
-                </li>
-                
+                {% endfor %}
               </ul>
             </ul>
           </nav>
@@ -172,7 +132,7 @@
         <div id="map" class="margin-bottom--small"></div>
         <div id="latlongBox" class="margin-bottom--small">
           <div id="placeMarkerUrge" class="margin-bottom--small">
-            <p>Placera ut ditt lopp genom att klicka på kartan</p>
+            <p>{{data.config_aux.map_message}}</p>
           </div>
         </div>
         <form
@@ -183,116 +143,104 @@
           netlify
         >
           <div class="race-form-input-box race-date-input">
-            <label for="date">Datum:</label>
+            <label for="date">{{data.config_aux.date_text}}:</label>
             <input type="date" id="date" name="date" required />
           </div>
 
           <div class="race-form-input-box">
-            <label for="type">Typ av underlag / Typ av lopp:</label>
+            <label for="type">{{data.config_aux.type_text}}:</label>
             <select id="type" name="type">
               <option value="default">
-                Välj underlag / typ av lopp
+                {{data.config_aux.type_select_placeholder}}
               </option>
-              
-              <option value="Landsväg">Landsväg</option>
-              
-              <option value="Terräng">Terräng</option>
-              
-              <option value="Trail">Trail</option>
-              
-              <option value="Backyard Ultra">Backyard Ultra</option>
-              
-              <option value="Stafett">Stafett</option>
-              
-              <option value="Bana">Bana</option>
-              
-              <option value="Övrigt">Övrigt</option>
-              
+              {% for type_option in data.config_aux.type_options %}
+              <option value="{{ type_option }}">{{ type_option }}</option>
+              {% endfor %}
             </select>
           </div>
           <div class="race-form-input-box">
-            <label for="name">Loppets namn:</label>
+            <label for="name">{{data.config_aux.name_label}}</label>
             <input
               type="text"
               id="name"
               name="name"
               required
-              placeholder="t ex Kungsholmen runt"
+              placeholder="{{data.config_aux.name_placeholder}}"
             />
           </div>
           <div class="race-form-input-box">
-            <label for="distance">Distanser:</label>
+            <label for="distance">{{data.config_aux.distance_label}}</label>
             <input
               type="text"
               id="distance"
               name="distance"
-              placeholder="10 km, halvmara och knattelopp"
+              placeholder="{{data.config_aux.distance_placeholder}}"
             />
           </div>
           <div class="race-form-input-box">
-            <label for="place">Plats:</label>
+            <label for="place">{{data.config_aux.place_label}}</label>
             <input
               type="text"
               id="place"
               name="place"
-              placeholder="Rålambshovsparken, Stockholm"
+              placeholder="{{data.config_aux.place_placeholder}}"
             />
           </div>
           <div class="race-form-input-box">
-            <label for="organizer">Arrangör:</label>
+            <label for="organizer">{{data.config_aux.organizer_label}}</label>
             <input
               type="text"
               id="organizer-contact"
               name="organizer-contact"
-              placeholder="FK Studenterna"
+              placeholder="{{data.config_aux.organizer_contact_placeholder}}"
               required
             />
           </div>
           <div class="race-form-input-box">
             <label for="organizer"
-              >Mail till kontaktperson:</label
+              >{{data.config_aux.organizer_contact_label}}</label
             >
             <input
               type="mail"
               id="organizer-mail"
               name="organizer-mail"
-              placeholder="info@LoppKartan.se"
+              placeholder="{{data.config_aux.organizer_mail_placeholder}}"
               required
             />
           </div>
           <div class="race-form-input-box">
-            <label for="website">Arrangörshemsida:</label>
+            <label for="website">{{data.config_aux.website_label}}</label>
             <input
               type="text"
               id="website"
               name="website"
-              placeholder="https://fkstudenterna.se/"
+              placeholder="{{data.config_aux.website_placeholder}}"
             />
           </div>
 
           <div class="race-form-input-box race-summary-input">
-            <label for="summary">Beskriv loppet</label>
+            <label for="summary">{{data.config_aux.summary_label}}</label>
             <textarea
               id="summary"
               name="summary"
               rows="4"
               maxlength="800"
-              placeholder="KfS Kungsholmen Runt är en milbana med långa, flacka rakor ..."
+              placeholder="{{data.config_aux.summary_placeholder}}"
             ></textarea>
           </div>
 
           <input type="hidden" id="latitude" name="latitude" value="" />
           <input type="hidden" id="longitude" name="longitude" value="" />
           <div id="preview" class="preview-button border-style">
-            <span>Förhandsgranska</span>
+            <span>{{data.config_aux.preview_button}}</span>
           </div>
           <button type="submit" class="border-style">
-            Skicka
+            {{data.config_aux.submit_button}}
           </button>
         </form>
 
         <button id="previewExit" class="preview-button border-style hide">
-          Tillbaka
+          {{data.config_aux.preview_exit_button}}
         </button>
       </div>
     </div>

@@ -143,7 +143,22 @@ export async function filterRaces() {
         }
         // Check if the selected category exists in categoryMapping
         else if (categoryMapping[selectedCategory]) {
-          console.log(categoryLabelText);
+          // If a distance category is selected, ignore distance slider and set it to min/max:
+          // Set isInRange to true
+          isInRange = true;
+
+          // Set slider distance handles to minimum and maximum values
+          $("#sliderDistance").slider(
+            "values",
+            0,
+            $("#sliderDistance").slider("option", "min")
+          );
+          $("#sliderDistance").slider(
+            "values",
+            1,
+            $("#sliderDistance").slider("option", "max")
+          );
+
           // Access properties of the category from categoryMapping
           const categoryData = categoryMapping[selectedCategory];
 

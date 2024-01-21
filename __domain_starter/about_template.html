@@ -3,13 +3,17 @@
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>Tack för ditt bidrag!</title>
+    <title>{{data.config_aux.title}}</title>
     <link rel="icon" href="/img/logo100px.jpg" />
     <link
       href="https://fonts.googleapis.com/css2?family=Lato:wght@400;500;600;700;800;900&display=swap"
       rel="stylesheet"
     />
-    <meta name="description" content="Tack för ditt bidrag! Vi kommer att granska ditt lopp och lägga upp det så snart som möjligt." />
+    <meta name="description" content="{{data.config_aux.description}}" />
+    <meta
+      name="viewport"
+      content="initial-scale=1,maximum-scale=1,user-scalable=no"
+    />
     <link
       rel="stylesheet"
       href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css"
@@ -49,12 +53,12 @@
       nomodule=""
       src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
     ></script>
+
     <script defer src="/js/mobile-nav.js"></script>
+
     <link rel="stylesheet" href="/css/general.css" />
     <link rel="stylesheet" href="/css/style.css" />
-    <link rel="stylesheet" href="/css/add-race.css" />
     <link rel="stylesheet" href="/css/queries.css" />
-    <link rel="stylesheet" href="/css/add-race-queries.css" />
 
     <style></style>
   </head>
@@ -65,77 +69,38 @@
           <div class="header-and-logo-box">
             <a href="/index.html" class="logo-box"></a>
             <div class="promotion-box">
-              <span>Obetalt samarbete med:</span>
+              <span>{{data.config.promotion_text}}</span>
               <a
-                href="http://www.kungsholmenrunt.se/Main/Start.asp"
-                target="_blank"
+                href="{{ data.config.promotion_link.url }}"
+                target="{{ data.config.promotion_link.target }}"
               >
                 <img
-                  src="/img/logokr_bluebg.jpg"
-                  class="promo-logo-box"
+                  src="{{ data.config.promo_logo.src }}"
+                  class="{{ data.config.promo_logo.class }}"
                 />
               </a>
             </div>
           </div>
+
           <nav class="main-nav">
             <ul class="main-nav-list">
               <li>
                 <h2 class="main-nav-header secondary-header">
-                  Meny
+                  {{data.config.menu_button_text}}
                 </h2>
               </li>
               <ul class="main-nav-list">
-                
+                {% for item in data.config.menu_items %}
                 <li>
                   <a
                     class="main-nav-link tertiary-header"
-                    href="/index.html"
-                    id="navIndex"
+                    href="{{item.url}}"
+                    id="{{item.id}}"
                   >
-                    Loppkartan
+                    {{ item.text }}
                   </a>
                 </li>
-                
-                <li>
-                  <a
-                    class="main-nav-link tertiary-header"
-                    href="/lopplistan.html"
-                    id="navLopplistan"
-                  >
-                    Lopplistan
-                  </a>
-                </li>
-                
-                <li>
-                  <a
-                    class="main-nav-link tertiary-header"
-                    href="/om-oss.html"
-                    id="navAbout"
-                  >
-                    Om Loppkartan.se
-                  </a>
-                </li>
-                
-                <li>
-                  <a
-                    class="main-nav-link tertiary-header"
-                    href="/kontakt.html"
-                    id="navContact"
-                  >
-                    Kontaktuppgifter
-                  </a>
-                </li>
-                
-                <li>
-                  <a
-                    class="main-nav-link tertiary-header"
-                    href="/lagg-till-lopp.html"
-                    id="navAddRace"
-                  >
-                    Lägg till lopp
-                  </a>
-                </li>
-                
+                {% endfor %}
               </ul>
             </ul>
           </nav>
@@ -144,17 +109,40 @@
             <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
           </button>
         </header>
+        <h1 class="main-header margin-bottom--small">
+          {{data.config_aux.main_header}}
+        </h1>
+        <p class="standard-paragraph margin-bottom--small">
+          {{data.config_aux.paragraph1}}
+        </p>
+        <p class="standard-paragraph margin-bottom--small">
+          {{data.config_aux.paragraph2}}
+        </p>
+        <p class="standard-paragraph margin-bottom--default">
+          {{data.config_aux.paragraph3}}
+        </p>
+        <p class="standard-paragraph margin-bottom--small">
+          {{data.config_aux.paragraph4}}
+        </p>
+        <div class="mail-to-link-wrapper margin-bottom--default">
+          <a
+            class="inline-link mail-to-link"
+            href="mailto:{{data.config_aux.mail_to_link}}"
+            >{{data.config_aux.mail_to_link}}</a
+          >
+        </div>
 
-        <h1 class="submission-header">Tack för ditt bidrag! Alla tillägg behöver granskas, men vi går löpande igenom loppen vi får in och kommer publicera ert snarast.</h1>
-        <div class="back-to-map-box margin-bottom--default">
-          <h2 class="secondary-header">
-            Gå gärna tillbaka till vår loppkarta och kolla in alla andra lopp sålänge:
+        <div class="add-new-race-box margin-bottom--default">
+          <h2
+            class="add-new-race-header secondary-header margin-bottom--default"
+          >
+            {{data.config_aux.add_new_race_box_header}}
           </h2>
           <a href="/index.html" class="add-race-button border-style"
-            >KARTAN</a
+            >{{data.config_aux.map_button_text}}</a
           >
           <a href="/lopplistan.html" class="add-race-button border-style"
-            >LISTAN</a
+            >{{data.config_aux.list_button_text}}</a
           >
         </div>
       </div>

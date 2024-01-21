@@ -21,6 +21,12 @@ $(function () {
 
       $("#distanceFilterText").val(minDistance + " - " + maxDistance + "km");
 
+      // Reset categorySelector.value to its default
+      const categorySelector = document.querySelector(
+        ".category-filter-button"
+      );
+      categorySelector.value = ""; // Set to the default value, adjust as needed
+
       filterMarkersOnDistance(minDistance, maxDistance);
       filterRaces();
     },
@@ -40,6 +46,12 @@ $(function () {
   $("#sliderDistance .ui-slider-handle").on(
     "touchstart mousedown",
     function () {
+      // Reset categorySelector.value to its default
+      const categorySelector = document.querySelector(
+        ".category-filter-button"
+      );
+      categorySelector.value = ""; // Set to the default value, adjust as needed
+
       // Trigger the slider handle's mouseenter event
       $(this).trigger("mouseenter");
     }
