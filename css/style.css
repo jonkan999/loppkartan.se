@@ -66,6 +66,7 @@ body {
 
 #county-selector select,
 #category-selector select {
+  border-radius: 0;
   text-align: center;
   color: #333;
 }
