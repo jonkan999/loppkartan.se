@@ -5,8 +5,8 @@ import sys
 
 from extraction import (
     extract_data_fri_Indoor_2024,
-    extract_data_jogg_road,
     extract_data_jogg_trail,
+    extract_data_jogg_road,
     extract_data_trailkalendern,
 )
 from scraper_package.race_classes import Race, RaceCollection

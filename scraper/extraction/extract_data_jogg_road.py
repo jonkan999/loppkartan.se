@@ -5,7 +5,7 @@ from scraper_package.race_classes import Race, RaceCollection
 def main():
 
     subdomain = "jogg"
-    url = "https://www.jogg.se/Kalender/Tavlingar.aspx?aar=2024&mon=13&fdist=0&tdist=1000&type=0&country=1&region=0&tlopp=False&relay=False&surface=asf&tridist=0&title=1"
+    url = "https://www.jogg.se/Kalender/Tavlingar.aspx?aar=2024&mon=13&fdist=0&tdist=1000&type=0&country=1&region=0&tlopp=False&relay=False&surface=&tridist=0&title=1"
     race_type = "road"
     
     response = requests.get(url)

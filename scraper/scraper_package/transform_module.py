@@ -211,6 +211,7 @@ def check_allowed_url(url, query):
         "https://www.jogg.se",
         "https://raceid.com",
         "https://www.raceone.com",
+        "https://mittlopp.se"
     }
 
     if not url.startswith(tuple(disallowed_urls)) and url != "":

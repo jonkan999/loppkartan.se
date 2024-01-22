@@ -1,109 +1,5 @@
 [
     {
-        "date": "20240119",
-        "month": "januari",
-        "day": "19",
-        "type": "trail",
-        "name": "Sandsjöbacka Trail",
-        "distance": "30k, 60k, 90k, 180k",
-        "distance_m": [
-            30000,
-            60000,
-            90000,
-            180000
-        ],
-        "place": "Skatås",
-        "latitude": 57.70381219999999,
-        "longitude": 12.0356398,
-        "organizer": "",
-        "website": "https://sandsjobackatrail.se/",
-        "src_url": "https://trailrunningsweden.se/trailkalendern/",
-        "id": "c5930ef1-da14-42fb-bdd3-1f1fc19df2e2",
-        "summary": "Sandsjöbacka Trail är ett av de häftigaste och härligaste Trailloppen i Göteborg under vinterperioden. Vi erbjuder att en utmaning som passar dig oavsett om du är en inbiten Ultralöpare eller om du vill prova att springa distansrekord som glad motionär. Vår banläggning är gjord för att maximera upplevelsen och utmaningen för just dig. Alltifrån lättlöpt mark till slingrig och teknisk traillöpning. Vi lovar en rejäl och härlig utmaning i en magisk miljö. Så varmt välkommen att springa med oss.",
-        "county": "Västra Götalands"
-    },
-    {
-        "date": "20240119",
-        "type": "track",
-        "name": "Quality Hotel Games",
-        "distance": "event-60-m event-200-m event-400-m event-800-m event-1500-m event-60-m-hack event-hojdhopp event-stavhopp event-langdhopp event-tresteg event-kula event-1000-m",
-        "distance_m": [
-            1500
-        ],
-        "place": "Växjö",
-        "latitude": 56.8790044,
-        "longitude": 14.8058522,
-        "organizer": "IFK Växjö",
-        "website": "http://www.qualityhotelgames.se/",
-        "src_url": "https://www.friidrott.se/tavling-landslag/tavling/tavlingskalender/tavlingar-i-sverige/inomhustavlingar/?sida=3",
-        "short_summary": "Välkommen till Quality Hotel Games! Vi är glada att kunna erbjuda ett fantastiskt löpevent för löpare i alla åldrar och färdighetsnivåer. På vår fina löparbana kommer vi att ha en 1500 meter lång lopp för dig att utmana dig själv och pusha dina gränser. Oavsett om du är en erfaren tävlingslöpare eller bara vill prova på en kortare distans, så är detta lopp perfekt för dig. Vi ser fram emot att se dig på startlinjen för en spännande tävling!",
-        "county": "Kronobergs",
-        "new_version": true,
-        "id": "6072ff8d-001c-43aa-b684-f019ca2d4f16",
-        "summary": "Välkommen till Quality Hotel Games! Vi är glada att kunna erbjuda ett fantastiskt löpevent för löpare i alla åldrar och färdighetsnivåer. På vår fina löparbana kommer vi att ha en 1500 meter lång lopp för dig att utmana dig själv och pusha dina gränser. Oavsett om du är en erfaren tävlingslöpare eller bara vill prova på en kortare distans, så är detta lopp perfekt för dig. Vi ser fram emot att se dig på startlinjen för en spännande tävling!"
-    },
-    {
-        "date": "20240119",
-        "month": "JANUARI",
-        "day": "19",
-        "type": "track",
-        "name": "Täby Vinterspel",
-        "distance": "event-60-m event-200-m event-400-m event-800-m event-1500-m event-3000-m event-60-m-hack event-hojdhopp event-stavhopp event-langdhopp event-tresteg event-kula event-vikt event-1000-m",
-        "distance_m": [
-            1500,
-            3000
-        ],
-        "place": "Sätra friidrottshall",
-        "latitude": 59.2896221,
-        "longitude": 17.9276601,
-        "organizer": "",
-        "website": "https://www.tabyfriidrott.se/tabyvinterspel",
-        "src_url": "https://www.friidrott.se/tavling-landslag/tavling/tavlingskalender/tavlingar-i-sverige/inomhustavlingar/?sida=3",
-        "id": "86c2c9b1-1653-4ed6-919a-e6abe784615f",
-        "summary": "Varmt välkomna till Täby Vinterspel den 20-21 januari 2024  i Sätra Friidrottshall! 1500 m och 3000 m på inomhusbana för medeldistansare.",
-        "county": "Stockholms"
-    },
-    {
-        "date": "20240120",
-        "month": "JANUARI",
-        "day": "20",
-        "type": "track",
-        "name": "Inlagda Gurkspelen",
-        "distance": "event-60-m event-200-m event-800-m event-hojdhopp event-stavhopp event-langdhopp event-tresteg event-vikt event-400-m event-1000-m event-1500-m event-kula event-stafett-4x200m-mix",
-        "distance_m": [
-            1500
-        ],
-        "place": "Västerås Friidrottsklubb",
-        "latitude": 59.61041700000001,
-        "longitude": 16.561912,
-        "organizer": "",
-        "website": "https://www.vasterasfriidrott.se/inlagda-gurkspelen/",
-        "src_url": "https://www.friidrott.se/tavling-landslag/tavling/tavlingskalender/tavlingar-i-sverige/inomhustavlingar/?sida=3",
-        "id": "fcf59e3e-acc0-456d-b084-fc63829a6e21",
-        "summary": "Varmt välkommen till Inlagda Gurkspelen 2024! och 1500 m inomhus i Västerås.",
-        "county": "Västmanlands"
-    },
-    {
-        "date": "20240120",
-        "type": "road",
-        "name": "Bore Cup",
-        "distance": "8,00 km",
-        "distance_m": [
-            8000
-        ],
-        "place": "Björklinge",
-        "latitude": 60.03177649999999,
-        "longitude": 17.5521021,
-        "organizer": "",
-        "website": "https://www.borecup.se/",
-        "src_url": "https://www.jogg.se/Kalender/Tavlingar.aspx?aar=2024&mon=13&fdist=0&tdist=1000&type=0&country=1&region=0&tlopp=False&relay=False&surface=asf&tridist=0&title=1",
-        "short_summary": "Välkommen till Bore Cup - vinterserietävling i löpning! En spännande vintertävling på öppen väg med en mångfald av racekategorier, inklusive den populära distansen 8 km. Oavsett om du är en erfaren löpare som vill utmana dig själv eller en nybörjare som söker en rolig och givande utmaning, har detta lopp något för alla. Kom och var med på en oförglömlig dag av tävling, kamratskap och prestation där vi firar löpningens sport i all dess prakt. Missa inte chansen att vara en del av detta spännande evenemang och göra ditt avtryck på Bore Cup - vinterserietävling i löpning.",
-        "county": "Uppsala",
-        "new_version": true,
-        "id": "99213cfa-d786-4d1e-9e42-2d1f3eb328fa",
-        "summary": "Välkommen till Bore Cup - vinterserietävling i löpning! En spännande vintertävling på öppen väg med en mångfald av racekategorier, inklusive den populära distansen 8 km. Oavsett om du är en erfaren löpare som vill utmana dig själv eller en nybörjare som söker en rolig och givande utmaning, har detta lopp något för alla. Kom och var med på en oförglömlig dag av tävling, kamratskap och prestation där vi firar löpningens sport i all dess prakt. Missa inte chansen att vara en del av detta spännande evenemang och göra ditt avtryck på Bore Cup - vinterserietävling i löpning."
-    },
-    {
         "date": "20240122",
         "type": "track",
         "name": "BANNISTER IGNITION",
@@ -203,6 +99,27 @@
         "id": "faee3de1-2295-4d3a-83c2-3dc99769ee8e",
         "summary": "Varmt välkomna till Hissmoforsspelen i Krokom och att springa 3000 m inomhus.",
         "county": "Jämtlands"
+    },
+    {
+        "date": "20240127",
+        "type": "road",
+        "name": "Billdalsparkens Parkrun",
+        "distance": "5,00 km",
+        "distance_m": [
+            5000,
+            5000
+        ],
+        "place": "Billdal",
+        "latitude": 57.57514810000001,
+        "longitude": 11.9420489,
+        "organizer": "",
+        "website": "/race-pages/billdalsparkens-parkrun.html",
+        "src_url": "https://www.jogg.se/Kalender/Tavlingar.aspx?aar=2024&mon=13&fdist=0&tdist=1000&type=0&country=1&region=0&tlopp=False&relay=False&surface=&tridist=0&title=1",
+        "county": null,
+        "id": "billdalsparkens-parkrun_20240127_httpswwwjoggsekalendertavlingaraspxaar2024mon13fdist0tdist1000type0country1region0tloppfalserelayfalsesurfacetridist0title1",
+        "summary": "Välkomna till vår årliga löptävling! Oavsett om du är nybörjare eller erfaren löpare, har vi något för dig. Välj mellan 5 km eller 10 km distansen och upplev vår vackra stad längs vägarna. Det är en perfekt chans att utmana dig själv och njuta av gemenskapen med andra löpare. Oavsett vilken distans du väljer, är vår lopp en fantastisk möjlighet att fira hälsa, gemenskap och löpningens glädje. Vi ser fram emot att heja på er när ni kämpar er fram till målet!",
+        "website_organizer": "https://www.parkrun.se/billdalsparken/course/",
+        "new_version": true
     },
     {
         "date": "20240127",
@@ -346,6 +263,26 @@
         "summary": "Vinthundsvintern är ett spännande löparlopp med FK Studenterna. I år erbjuder vi olika distanser och kategorier, inklusive den populära 3000 meter-tracken. Upplev en vacker vinterdag med snöklädda träd längs banan och utmana dig själv i kampen mot klockan. Oavsett erfarenhet, är detta loppet för dig! Kom och delta i FK Studenternas mest spännande vinterlopp!"
     },
     {
+        "date": "20240127",
+        "type": "road",
+        "name": "Winter Run Stockholm",
+        "distance": "10,00 km",
+        "distance_m": [
+            10000
+        ],
+        "place": "Djurgården",
+        "latitude": 59.326284,
+        "longitude": 18.1132151,
+        "organizer": "",
+        "website": "/race-pages/winter-run-stockholm.html",
+        "src_url": "https://www.jogg.se/Kalender/Tavlingar.aspx?aar=2024&mon=13&fdist=0&tdist=1000&type=0&country=1&region=0&tlopp=False&relay=False&surface=&tridist=0&title=1",
+        "county": "Stockholms",
+        "id": "winter-run-stockholm_20240127_httpswwwjoggsekalendertavlingaraspxaar2024mon13fdist0tdist1000type0country1region0tloppfalserelayfalsesurfacetridist0title1",
+        "summary": "Varmt välkommen till årets löparlopp! Vi erbjuder en vacker 10 km-sträcka perfekt för alla löpare, oavsett erfarenhet. Vi har även barnklasser och underhållning längs banan för hela familjen. Oavsett om du är ute efter att sätta rekord eller bara njuta av löpningen, så är detta loppet för dig. Välkommen till startlinjen!",
+        "website_organizer": "https://winterrun.com/winterrunsthlm/",
+        "new_version": true
+    },
+    {
         "date": "20240130",
         "type": "track",
         "name": "Gothenburg Games",
@@ -410,6 +347,26 @@
     },
     {
         "date": "20240203",
+        "type": "road",
+        "name": "Vallaskogens Parkrun",
+        "distance": "5,00 km",
+        "distance_m": [
+            5000
+        ],
+        "place": "Linköping",
+        "latitude": 58.41080700000001,
+        "longitude": 15.6213727,
+        "organizer": "",
+        "website": "/race-pages/vallaskogens-parkrun.html",
+        "src_url": "https://www.jogg.se/Kalender/Tavlingar.aspx?aar=2024&mon=13&fdist=0&tdist=1000&type=0&country=1&region=0&tlopp=False&relay=False&surface=&tridist=0&title=1",
+        "county": "Östergötlands",
+        "id": "vallaskogens-parkrun_20240203_httpswwwjoggsekalendertavlingaraspxaar2024mon13fdist0tdist1000type0country1region0tloppfalserelayfalsesurfacetridist0title1",
+        "summary": "Välkomna till årets löptävling mitt i staden! Oavsett om du är nybörjare eller erfaren löpare, har vi något för alla. Vår 5 km-distans tar dig genom stadens vackra gator och erbjuder en fantastisk vy. Det blir en rolig och givande upplevelse för både deltagare och åskådare. Vi ser fram emot att dela denna fantastiska dag med er vid startlinjen!",
+        "website_organizer": "https://www.parkrun.se/vallaskogen/",
+        "new_version": true
+    },
+    {
+        "date": "20240203",
         "type": "track",
         "name": "Folksam Grand Prix Stockholm Indoor",
         "distance": "event-60-m event-800-m event-1500-m event-60-m-hack event-hojdhopp event-langdhopp event-400-m event-stavhopp event-kula",
@@ -448,6 +405,26 @@
         "new_version": true,
         "id": "cd6d47ee-9d2a-4211-86eb-524d1c62bbcb",
         "summary": "Välkommen till Raka Spåret! Vi är glada att välkomna löpare i alla åldrar och nivåer till denna spännande tävling. Vi erbjuder 1500 meter och 3000 meter lopp på vår snabba och platta bana. Oavsett om du är erfaren eller nybörjare, finns det en kategori och distans för dig att delta i. Kom och upplev den energiska gemenskapen på Raka Spåret och gör ditt bästa!"
+    },
+    {
+        "date": "20240204",
+        "type": "road",
+        "name": "Februarimaran - Borås",
+        "distance": "42,20 km",
+        "distance_m": [
+            42000
+        ],
+        "place": "Borås",
+        "latitude": 57.72103500000001,
+        "longitude": 12.939819,
+        "organizer": "",
+        "website": "/race-pages/februarimaran-boras.html",
+        "src_url": "https://www.jogg.se/Kalender/Tavlingar.aspx?aar=2024&mon=13&fdist=0&tdist=1000&type=0&country=1&region=0&tlopp=False&relay=False&surface=&tridist=0&title=1",
+        "county": "Västra Götalands",
+        "id": "februarimaran-borås_20240204_httpswwwjoggsekalendertavlingaraspxaar2024mon13fdist0tdist1000type0country1region0tloppfalserelayfalsesurfacetridist0title1",
+        "summary": "Välkommen till Februarimaran i Borås den 4 februari kl 10.00! Banan består av hårdpackat grus och innehåller få höjdmeter. Tidtagning sker med chip runt fotleden. För att undvika avgift, returnera chip efter loppet. Det finns vatten och sportdryck vid varvning och även möjligt ätbart. Efter loppet får alla deltagare en medalj. Anmälan senast 1 februari kl 18.00. Extra avgift för efteranmälan. Max 100 deltagare tillåts. Loppet är sanktionerat av Svenska Friidrottsförbundet och har distansen marathon. Vi ser fram emot en fantastiskt lopp – hoppas ni är lika entusiastiska som vi är!",
+        "website_organizer": "https://www.borasloparklubb.se/",
+        "new_version": true
     },
     {
         "date": "20240206",
@@ -533,6 +510,26 @@
     },
     {
         "date": "20240210",
+        "type": "road",
+        "name": "Haradalsloppet",
+        "distance": "5,00 km",
+        "distance_m": [
+            5000
+        ],
+        "place": "Ängelholm",
+        "latitude": 56.245748,
+        "longitude": 12.863881,
+        "organizer": "",
+        "website": "/race-pages/haradalsloppet.html",
+        "src_url": "https://www.jogg.se/Kalender/Tavlingar.aspx?aar=2024&mon=13&fdist=0&tdist=1000&type=0&country=1&region=0&tlopp=False&relay=False&surface=&tridist=0&title=1",
+        "county": "Skåne",
+        "id": "haradalsloppet_20240210_httpswwwjoggsekalendertavlingaraspxaar2024mon13fdist0tdist1000type0country1region0tloppfalserelayfalsesurfacetridist0title1",
+        "summary": "Kom och var med på Haradalsloppet den 10 februari för att inviga vår nya bro och upplev spännande lopp och gemenskap! Vi erbjuder barnlopp, motionärslopp och ett 5 km landsvägslöpning för dem som vill utmana sig lite extra. Prisutdelning för alla loppen kommer att hållas för att fira våra duktiga löpare. Välkommen till Haradalsloppet!",
+        "website_organizer": "https://www.engelholm.se/nyhetsarkiv/nyheter/2024-01-09-haradalsloppet--den-10-februari-springviger-vi-var-nyaste-bro.html",
+        "new_version": true
+    },
+    {
+        "date": "20240210",
         "type": "track",
         "name": "Atleticumspelen",
         "distance": "event-60-m event-200-m event-800-m event-hojdhopp event-stavhopp event-langdhopp event-tresteg event-kula event-1500-m event-1000-m event-lopgrenar",
@@ -550,6 +547,26 @@
         "new_version": true,
         "id": "9950f969-4aa9-45b6-90cc-04609fcee41d",
         "summary": "Välkommen till Atleticumspelen! Heleneholms IF deltar i en spännande friidrottstävling med tävlingar på 1500 meter löpning. Oavsett ålder eller färdighetsnivå, kan alla delta på banan. Stöd löparna och njut av en fantastisk dag med friidrott!"
+    },
+    {
+        "date": "20240210",
+        "type": "road",
+        "name": "Vallaskogens Parkrun",
+        "distance": "5,00 km",
+        "distance_m": [
+            5000
+        ],
+        "place": "Linköping",
+        "latitude": 58.41080700000001,
+        "longitude": 15.6213727,
+        "organizer": "",
+        "website": "/race-pages/vallaskogens-parkrun.html",
+        "src_url": "https://www.jogg.se/Kalender/Tavlingar.aspx?aar=2024&mon=13&fdist=0&tdist=1000&type=0&country=1&region=0&tlopp=False&relay=False&surface=&tridist=0&title=1",
+        "county": "Östergötlands",
+        "id": "vallaskogens-parkrun_20240210_httpswwwjoggsekalendertavlingaraspxaar2024mon13fdist0tdist1000type0country1region0tloppfalserelayfalsesurfacetridist0title1",
+        "summary": "Välkommen till vår årliga löptävling! Vi erbjuder loppet i sex olika kategorier, inklusive en 5 km-distans för både motionärer och erfarna löpare. Banan tar dig genom stadens gator och parker, vilket ger dig en unik chans att uppleva staden på ett nytt sätt. Ta med familj och vänner för att heja på dig längs banan och njut av mat och underhållning efter loppet. Vi ser fram emot att se dig på startlinjen!",
+        "website_organizer": "https://www.parkrun.se/vallaskogen/",
+        "new_version": true
     },
     {
         "date": "20240210",
@@ -654,6 +671,26 @@
     },
     {
         "date": "20240217",
+        "type": "road",
+        "name": "Vallaskogens Parkrun",
+        "distance": "5,00 km",
+        "distance_m": [
+            5000
+        ],
+        "place": "Linköping",
+        "latitude": 58.41080700000001,
+        "longitude": 15.6213727,
+        "organizer": "",
+        "website": "/race-pages/vallaskogens-parkrun.html",
+        "src_url": "https://www.jogg.se/Kalender/Tavlingar.aspx?aar=2024&mon=13&fdist=0&tdist=1000&type=0&country=1&region=0&tlopp=False&relay=False&surface=&tridist=0&title=1",
+        "county": "Östergötlands",
+        "id": "vallaskogens-parkrun_20240217_httpswwwjoggsekalendertavlingaraspxaar2024mon13fdist0tdist1000type0country1region0tloppfalserelayfalsesurfacetridist0title1",
+        "summary": "Sommarloppet är tillbaka och bättre än någonsin! Delta i vårt populära 5 km landsvägsløp längs vattnet. Oavsett om du är erfaren eller nybörjare, finns det distanser för alla åldrar och förmågor. Hela familjen kan delta och ha kul. Anmäl dig idag och upplev spänningen och gemenskapen i Sommarloppet!",
+        "website_organizer": "https://www.parkrun.se/vallaskogen/",
+        "new_version": true
+    },
+    {
+        "date": "20240217",
         "type": "track",
         "name": "Siljan Indoor games",
         "distance": "event-60-m event-1500-m event-langdhopp event-kula event-800-m event-60-m-hack event-hojdhopp event-gang-1000-m event-600-m event-lopgrenar event-hoppgrenar event-kastgrenar",
@@ -671,6 +708,26 @@
         "new_version": true,
         "id": "d8dc3b7e-3601-4cb2-9071-ba76521d2177",
         "summary": "Välkommen till vår senaste löpartävling på IFK Mora Friidrottsklubb! Vi är så glada att alla löpare är här för att delta i vårt 1500 meter lopp på friidrottsbanan. Det blir en intensiv och spännande tävling där löparna får visa sin styrka och uthållighet. Vi ser fram emot fantastiska prestationer och önskar alla lycka till!"
+    },
+    {
+        "date": "20240217",
+        "type": "track",
+        "name": "IUDM 2024",
+        "distance": "event-60-m event-200-m event-1500-m event-60-m-hack event-hojdhopp event-stavhopp event-langdhopp event-tresteg event-kula event-vikt event-stafett-6x200-m event-1000-m event-800-m event-600",
+        "distance_m": [
+            1500
+        ],
+        "place": "Skärholmen",
+        "latitude": 59.27425389999999,
+        "longitude": 17.9023009,
+        "organizer": "Gotland-Stockholm Friidrottsförbund",
+        "website": "/race-pages/iudm-2024.html",
+        "src_url": "https://www.friidrott.se/tavling-landslag/tavling/tavlingskalender/tavlingar-i-sverige/inomhustavlingar/?sida=3",
+        "county": "Stockholms",
+        "id": "iudm-2024_20240217_httpswwwfriidrottsetavling-landslagtavlingtavlingskalendertavlingar-i-sverigeinomhustavlingarsida3",
+        "summary": "Vi är glada att berätta att vår årliga löpartävling närmar sig! I år kommer vi erbjuda olika distanser och kategorier för löpare att delta i, inklusive det spännande 1500 meters lopp på löparbanan. Oavsett om du är nybörjare eller erfaren löpare, finns det något för dig. Kom och delta i vårt lopp och upplev spänningen och gemenskapen i löpning på banan!",
+        "website_organizer": "http://www.08fri.se",
+        "new_version": true
     },
     {
         "date": "20240224",
@@ -691,6 +748,26 @@
         "new_version": true,
         "id": "3f40acf6-07b9-4f07-8ef8-239c6e862275",
         "summary": "Vi välkomnar dig till Nordiska Ungdomsspelen på Östersunds GIF den 24-25 februari 2024! Kom och tävla i olika distanser, inklusive 1500 meter på bana. Detta är en fantastisk möjlighet för unga löpare att visa upp sin talang och utmana sig själva. Delta i denna spännande händelse och var en del av gemenskapen av idrottsutövare från hela regionen. Vi ser fram emot att se dig tävla! Lycka till!"
+    },
+    {
+        "date": "20240224",
+        "type": "road",
+        "name": "Vallaskogens Parkrun",
+        "distance": "5,00 km",
+        "distance_m": [
+            5000
+        ],
+        "place": "Linköping",
+        "latitude": 58.41080700000001,
+        "longitude": 15.6213727,
+        "organizer": "",
+        "website": "/race-pages/vallaskogens-parkrun.html",
+        "src_url": "https://www.jogg.se/Kalender/Tavlingar.aspx?aar=2024&mon=13&fdist=0&tdist=1000&type=0&country=1&region=0&tlopp=False&relay=False&surface=&tridist=0&title=1",
+        "county": "Östergötlands",
+        "id": "vallaskogens-parkrun_20240224_httpswwwjoggsekalendertavlingaraspxaar2024mon13fdist0tdist1000type0country1region0tloppfalserelayfalsesurfacetridist0title1",
+        "summary": "Välkommen till vårt årliga löpevenemang! Vi erbjuder olika distanser och kategorier för löpare på alla nivåer. Den vackra 5 km långa vägbanan ger en perfekt möjlighet att utmana sig själv och njuta av en härlig löprunda. Oavsett erfarenhetsnivå kommer vårt lopp att ge en fantastisk atmosfär och känsla av gemenskap. Vi ser fram emot att se dig där!",
+        "website_organizer": "https://www.parkrun.se/vallaskogen/course/",
+        "new_version": true
     },
     {
         "date": "20240227",
@@ -754,6 +831,26 @@
         "summary": "Välkommen till SFT 2024! Anmäl dig till vårt spännande terränglopp med distanserna 30 km och Trail Ultramarathon. Upplev vacker natur och utmana dig själv längs banan. Registrera dig tidigt för en chans att delta på detta fantastiska lopp. Missa inte chansen att vara med på detta oförglömliga äventyr!"
     },
     {
+        "date": "20240302",
+        "type": "road",
+        "name": "Vallaskogens Parkrun",
+        "distance": "5,00 km",
+        "distance_m": [
+            5000
+        ],
+        "place": "Linköping",
+        "latitude": 58.41080700000001,
+        "longitude": 15.6213727,
+        "organizer": "",
+        "website": "/race-pages/vallaskogens-parkrun.html",
+        "src_url": "https://www.jogg.se/Kalender/Tavlingar.aspx?aar=2024&mon=13&fdist=0&tdist=1000&type=0&country=1&region=0&tlopp=False&relay=False&surface=&tridist=0&title=1",
+        "county": "Östergötlands",
+        "id": "vallaskogens-parkrun_20240302_httpswwwjoggsekalendertavlingaraspxaar2024mon13fdist0tdist1000type0country1region0tloppfalserelayfalsesurfacetridist0title1",
+        "summary": "Välkommen till årets löpevent! Vi är glada att presentera årets race, inklusive en 5 km löptävling längs vägarna. Oavsett om du är nybörjare eller erfaren löpare är du välkommen att utmana dig själv i denna positiva och inkluderande atmosfär. Ta på dig dina löparskor och gör dig redo för en härlig löparkväll! Vi ses vid startlinjen!",
+        "website_organizer": "https://www.parkrun.se/vallaskogen/",
+        "new_version": true
+    },
+    {
         "date": "20240303",
         "month": "mars",
         "day": "03",
@@ -791,6 +888,46 @@
         "new_version": true,
         "id": "d3eb611f-ddb4-4a25-82f7-ad075aa7f667",
         "summary": "Välkommen till Medelpad Skimo Classic! Vi är stolta att presentera vårt lopp den 9 mars 2024. Vi erbjuder distanser för både erfarna löpare och nybörjare, inklusive [5 km, 10 km, 21 km] på trail. Kom och utmana dig själv på vackra och utmanande stigar samtidigt som du njuter av naturen. Anmäl dig idag och var med och tävla mot andra löpare!"
+    },
+    {
+        "date": "20240309",
+        "type": "road",
+        "name": "6-Timmars",
+        "distance": "Tidslopp",
+        "distance_m": [
+            0
+        ],
+        "place": "Skövde",
+        "latitude": 58.3902782,
+        "longitude": 13.8461208,
+        "organizer": "",
+        "website": "/race-pages/6-timmars.html",
+        "src_url": "https://www.jogg.se/Kalender/Tavlingar.aspx?aar=2024&mon=13&fdist=0&tdist=1000&type=0&country=1&region=0&tlopp=False&relay=False&surface=&tridist=0&title=1",
+        "county": "Västra Götalands",
+        "id": "6-timmars_20240309_httpswwwjoggsekalendertavlingaraspxaar2024mon13fdist0tdist1000type0country1region0tloppfalserelayfalsesurfacetridist0title1",
+        "summary": "Välkommen till Skövde 6-timmars, en löpningsevenemang som erbjuder distanser på 1 och 3 timmar. Banan är en slinga på 1200 meter med variationer i underlag. Vi välkomnar löpare av alla nivåer, inklusive nybörjare och bjuder in till en spännande och utmanande löpupplevelse. Vi erbjuder även kategorin 0 km för de som vill delta utan att springa en specifik distans. Välkomna till en härlig löpardag i vacker natur!",
+        "website_organizer": "https://runagain.com/sv/run/Skovde6-timmars",
+        "new_version": true
+    },
+    {
+        "date": "20240309",
+        "type": "road",
+        "name": "Vallaskogens Parkrun",
+        "distance": "5,00 km",
+        "distance_m": [
+            5000
+        ],
+        "place": "Linköping",
+        "latitude": 58.41080700000001,
+        "longitude": 15.6213727,
+        "organizer": "",
+        "website": "/race-pages/vallaskogens-parkrun.html",
+        "src_url": "https://www.jogg.se/Kalender/Tavlingar.aspx?aar=2024&mon=13&fdist=0&tdist=1000&type=0&country=1&region=0&tlopp=False&relay=False&surface=&tridist=0&title=1",
+        "county": "Östergötlands",
+        "id": "vallaskogens-parkrun_20240309_httpswwwjoggsekalendertavlingaraspxaar2024mon13fdist0tdist1000type0country1region0tloppfalserelayfalsesurfacetridist0title1",
+        "summary": "Välkommen till årets löpningsevenemang! Vi har olika kategorier och avstånd för alla löpare, oavsett erfarenhet. För de som vill springa snabbt och platt har vi 5 km-loppet längs vägen. Perfekt för både erfarna löpare och nybörjare. Gör er redo och låt oss göra dagen till en fantastisk löpning!",
+        "website_organizer": "https://www.parkrun.se/vallaskogen/",
+        "new_version": true
     },
     {
         "date": "20240309",
@@ -853,6 +990,46 @@
         "id": "kransmossen-trail-2024_20240316_httpswwwjoggsekalendertavlingaraspxaar2024mon13fdist0tdist1000type0country1region0tloppfalserelayfalsesurfacetertridist0title1",
         "summary": "Nu kan du anmäla dig till vårt kommande löpevent - MittLopp! Vi erbjuder en inspirerande löptävling med flera kategorier och distanser att välja mellan, inklusive en utmanande 14km-trailbana. Vår professionella tidtagningssystem garanterar noggrann tidtagning. Oavsett din erfarenhet är du välkommen att delta i denna minnesvärda och utmanande löpardag i vildmarken. Vi ser fram emot att välkomna dig till MittLopp för en unik löparupplevelse!",
         "website_organizer": "https://www.borasloparklubb.se/evenemang/",
+        "new_version": true
+    },
+    {
+        "date": "20240316",
+        "type": "road",
+        "name": "Nora Marathon",
+        "distance": "42,20 km",
+        "distance_m": [
+            42000
+        ],
+        "place": "NORA",
+        "latitude": 59.5136231,
+        "longitude": 14.9784353,
+        "organizer": "",
+        "website": "/race-pages/nora-marathon.html",
+        "src_url": "https://www.jogg.se/Kalender/Tavlingar.aspx?aar=2024&mon=13&fdist=0&tdist=1000&type=0&country=1&region=0&tlopp=False&relay=False&surface=&tridist=0&title=1",
+        "county": "Örebro",
+        "id": "nora-marathon_20240316_httpswwwjoggsekalendertavlingaraspxaar2024mon13fdist0tdist1000type0country1region0tloppfalserelayfalsesurfacetridist0title1",
+        "summary": "Välkommen till Nora Marathon! Ett fantastiskt lopp längs vackra vägar som erbjuder något för löpare i alla åldrar och färdighetsnivåer. Vår maratonbana tar dig genom vacker natur och är perfekt för snabba tider samt njutningsfull löpning. Kom och vara med oss för en dag fylld med glädje, prestation och gemenskap. Vi ser fram emot att välkomna dig till startlinjen!",
+        "website_organizer": "http://www.ifknora.com/Nora_Marathon/Nora_Marathon_start.htm",
+        "new_version": true
+    },
+    {
+        "date": "20240316",
+        "type": "road",
+        "name": "Vallaskogens Parkrun",
+        "distance": "5,00 km",
+        "distance_m": [
+            5000
+        ],
+        "place": "Linköping",
+        "latitude": 58.41080700000001,
+        "longitude": 15.6213727,
+        "organizer": "",
+        "website": "/race-pages/vallaskogens-parkrun.html",
+        "src_url": "https://www.jogg.se/Kalender/Tavlingar.aspx?aar=2024&mon=13&fdist=0&tdist=1000&type=0&country=1&region=0&tlopp=False&relay=False&surface=&tridist=0&title=1",
+        "county": "Östergötlands",
+        "id": "vallaskogens-parkrun_20240316_httpswwwjoggsekalendertavlingaraspxaar2024mon13fdist0tdist1000type0country1region0tloppfalserelayfalsesurfacetridist0title1",
+        "summary": "Välkomna till årets löplopp! Ta på dina löparskor och gör dig redo för 5 km spänning på stadens vägar. Oavsett om du är nybörjare eller erfaren löpare, har vi något för alla. Banan tar dig genom stadens gator och skapar en unik och minnesvärd löparupplevelse. Och med olika starttider för olika kategorier ser vi till att alla får en rättvis tävlingsupplevelse. Varmt välkomna till årets lopp!",
+        "website_organizer": "https://www.parkrun.se/vallaskogen/",
         "new_version": true
     },
     {
@@ -1000,6 +1177,26 @@
     },
     {
         "date": "20240323",
+        "type": "road",
+        "name": "Vallaskogens Parkrun",
+        "distance": "5,00 km",
+        "distance_m": [
+            5000
+        ],
+        "place": "Linköping",
+        "latitude": 58.41080700000001,
+        "longitude": 15.6213727,
+        "organizer": "",
+        "website": "/race-pages/vallaskogens-parkrun.html",
+        "src_url": "https://www.jogg.se/Kalender/Tavlingar.aspx?aar=2024&mon=13&fdist=0&tdist=1000&type=0&country=1&region=0&tlopp=False&relay=False&surface=&tridist=0&title=1",
+        "county": "Östergötlands",
+        "id": "vallaskogens-parkrun_20240323_httpswwwjoggsekalendertavlingaraspxaar2024mon13fdist0tdist1000type0country1region0tloppfalserelayfalsesurfacetridist0title1",
+        "summary": "Välkommen till årets lopp! Vår årliga löpartävling äger rum längs stadens vackra vägar och välkomnar löpare i alla åldrar och nivåer. Med en sträcka på 5 km är det perfekt för både nybörjare och erfarna löpare att delta och utmana sig själva. Anmäl dig idag för en oförglömlig löparupplevelse på stadens gator!",
+        "website_organizer": "https://www.parkrun.se/vallaskogen/",
+        "new_version": true
+    },
+    {
+        "date": "20240323",
         "month": "MARS",
         "day": "23",
         "type": "track",
@@ -1039,6 +1236,46 @@
         "county": "Stockholms"
     },
     {
+        "date": "20240326",
+        "type": "road",
+        "name": "Middagsloppet Lillsjön - mars",
+        "distance": "5,00 km",
+        "distance_m": [
+            5000
+        ],
+        "place": "Bromma",
+        "latitude": 59.3397832,
+        "longitude": 17.9397131,
+        "organizer": "",
+        "website": "/race-pages/middagsloppet-lillsjon-mars.html",
+        "src_url": "https://www.jogg.se/Kalender/Tavlingar.aspx?aar=2024&mon=13&fdist=0&tdist=1000&type=0&country=1&region=0&tlopp=False&relay=False&surface=&tridist=0&title=1",
+        "county": "Stockholms",
+        "id": "middagsloppet-lillsjön-mars_20240326_httpswwwjoggsekalendertavlingaraspxaar2024mon13fdist0tdist1000type0country1region0tloppfalserelayfalsesurfacetridist0title1",
+        "summary": "Varmt välkommen till Naturfys årliga löptävling! Vi erbjuder ett 5 km lopp som tar löpare genom vackra vägar och ger en härlig löpupplevelse. Oavsett om du är en erfaren maratonlöpare eller nybörjare, har vi något för dig. Anmäl dig och njut av en rolig och utmanande bana med vacker natur. Vi ser fram emot att se dig vid startlinjen!",
+        "website_organizer": "https://lunchloppet.se/middagsloppet-lillsjon/",
+        "new_version": true
+    },
+    {
+        "date": "20240330",
+        "type": "road",
+        "name": "Vallaskogens Parkrun",
+        "distance": "5,00 km",
+        "distance_m": [
+            5000
+        ],
+        "place": "Linköping",
+        "latitude": 58.41080700000001,
+        "longitude": 15.6213727,
+        "organizer": "",
+        "website": "/race-pages/vallaskogens-parkrun.html",
+        "src_url": "https://www.jogg.se/Kalender/Tavlingar.aspx?aar=2024&mon=13&fdist=0&tdist=1000&type=0&country=1&region=0&tlopp=False&relay=False&surface=&tridist=0&title=1",
+        "county": "Östergötlands",
+        "id": "vallaskogens-parkrun_20240330_httpswwwjoggsekalendertavlingaraspxaar2024mon13fdist0tdist1000type0country1region0tloppfalserelayfalsesurfacetridist0title1",
+        "summary": "Kom och delta i vår årliga löpartävling med en fantastisk 5 km landsvägstävling! Oavsett om du är en erfaren löpare eller nybörjare är du välkommen att delta. Banan erbjuder vackra vyer och en platt terräng för snabba tider. Efter loppet kommer det finnas priser och firande. Dra på dig dina löparskor och gör dig redo för en härlig dag på vägarna! Vi ser fram emot att få se dig i startlinjen. Lycka till!",
+        "website_organizer": "https://www.parkrun.se/vallaskogen/",
+        "new_version": true
+    },
+    {
         "date": "20240401",
         "type": "trail",
         "name": "SpriT Frontyard - Genarp 2024",
@@ -1054,6 +1291,26 @@
         "id": "sprit-frontyard-genarp-2024_20240401_httpswwwtrailrunningswedensetrailkalendern",
         "summary": "SpriT Frontyard - Sprint Trail Frontyard Genarp 2024. \nEn snabb bana vid Genarpsbadet: en blandning av grusväg, skogstig och sand ... utan asfalt i år!!! Bara en \"liten\" backe i mitten och en \"liten\" till på slutet med det kommer att gå fort!",
         "website_organizer": "https://www.sportstiming.dk/event/13825",
+        "new_version": true
+    },
+    {
+        "date": "20240405",
+        "type": "road",
+        "name": "Lunchloppet Solna - april",
+        "distance": "5,00 km",
+        "distance_m": [
+            5000
+        ],
+        "place": "Solna",
+        "latitude": 59.36887909999999,
+        "longitude": 18.0084334,
+        "organizer": "",
+        "website": "/race-pages/lunchloppet-solna-april.html",
+        "src_url": "https://www.jogg.se/Kalender/Tavlingar.aspx?aar=2024&mon=13&fdist=0&tdist=1000&type=0&country=1&region=0&tlopp=False&relay=False&surface=&tridist=0&title=1",
+        "county": "Stockholms",
+        "id": "lunchloppet-solna-april_20240405_httpswwwjoggsekalendertavlingaraspxaar2024mon13fdist0tdist1000type0country1region0tloppfalserelayfalsesurfacetridist0title1",
+        "summary": "Välkommen till Lunchloppet och Middagsloppet! Vi erbjuder en rolig och utmanande löparupplevelse på 5 km. Oavsett ålder och nivå är du välkommen att delta i denna spännande tävling. Läs om andras erfarenheter på vår hemsida och låt dig inspireras inför loppet. Vi ser fram emot att välkomna dig till en säker och rolig tävling på vägen! Kom och utmana dig själv och njut av gemenskapen med andra löpare.",
+        "website_organizer": "https://lunchloppet.se/",
         "new_version": true
     },
     {
@@ -1095,6 +1352,46 @@
         "county": "Kalmar"
     },
     {
+        "date": "20240406",
+        "type": "road",
+        "name": "Vallaskogens Parkrun",
+        "distance": "5,00 km",
+        "distance_m": [
+            5000
+        ],
+        "place": "Linköping",
+        "latitude": 58.41080700000001,
+        "longitude": 15.6213727,
+        "organizer": "",
+        "website": "/race-pages/vallaskogens-parkrun.html",
+        "src_url": "https://www.jogg.se/Kalender/Tavlingar.aspx?aar=2024&mon=13&fdist=0&tdist=1000&type=0&country=1&region=0&tlopp=False&relay=False&surface=&tridist=0&title=1",
+        "county": "Östergötlands",
+        "id": "vallaskogens-parkrun_20240406_httpswwwjoggsekalendertavlingaraspxaar2024mon13fdist0tdist1000type0country1region0tloppfalserelayfalsesurfacetridist0title1",
+        "summary": "Hej löpare! Anmäl dig till årets stora löparfest och delta i vår traditionella väglopp med 5 km-distans. Perfekt för både erfarna löpare och nybörjare, vår vackra bana tar dig genom pittoreska landskap och utmanande backar. Oavsett om du är ute efter att sätta nytt personbästa, njuta av naturen eller bara ha kul med vänner och familj, kommer du inte bli besviken. Anmäl dig redan idag och delta i denna spännande och minnesvärda löparupplevelse!",
+        "website_organizer": "https://www.parkrun.se/vallaskogen/",
+        "new_version": true
+    },
+    {
+        "date": "20240407",
+        "type": "road",
+        "name": "Slottsrundan",
+        "distance": "5,00 km",
+        "distance_m": [
+            5000
+        ],
+        "place": "Rånäs",
+        "latitude": 32.7470944,
+        "longitude": -116.9873389,
+        "organizer": "",
+        "website": "/race-pages/slottsrundan.html",
+        "src_url": "https://www.jogg.se/Kalender/Tavlingar.aspx?aar=2024&mon=13&fdist=0&tdist=1000&type=0&country=1&region=0&tlopp=False&relay=False&surface=&tridist=0&title=1",
+        "county": null,
+        "id": "slottsrundan_20240407_httpswwwjoggsekalendertavlingaraspxaar2024mon13fdist0tdist1000type0country1region0tloppfalserelayfalsesurfacetridist0title1",
+        "summary": "Välkommen till Slottsrundan, ett landsvägs- och motionslopp vid Rånäs Slott. Loppet erbjuder distanser för alla åldrar och nivåer, inklusive en 5 km sträcka för nybörjare eller de som vill njuta av en kortare landsvägsutmaning. Kom och utmana dig själv på detta spektakulära lopp i vackra Roslagen!",
+        "website_organizer": "https://www.lkroslagen.se/arrangemang/slottsrundan-46292350",
+        "new_version": true
+    },
+    {
         "date": "20240407",
         "type": "road",
         "name": "Udd Loppet",
@@ -1114,6 +1411,26 @@
         "id": "udd-loppet_20240407_httpswwwjoggsekalendertavlingaraspxaar2024mon13fdist0tdist1000type0country1region0tloppfalserelayfalsesurfaceasftridist0title1",
         "summary": "Uddloppet den 7/4 2024 är en spännande löptävling längs vägarna. Oavsett ålder eller erfarenhet är alla välkomna att delta i den välorganiserade och roliga tävlingen. Ta chansen att testa dina gränser och njut av gemenskapen med andra löpare. Anmäl dig till Uddloppet 2024 och ta del av den fantastiska atmosfären! Distans: 4 km, 10km elller Halvmarathon.",
         "website_organizer": "https://uddloppet.ifudd.se/",
+        "new_version": true
+    },
+    {
+        "date": "20240412",
+        "type": "road",
+        "name": "Lunchloppet Djurgården - april",
+        "distance": "5,00 km",
+        "distance_m": [
+            5000
+        ],
+        "place": "Stockholm",
+        "latitude": 59.32932349999999,
+        "longitude": 18.0685808,
+        "organizer": "",
+        "website": "/race-pages/lunchloppet-djurgarden-april.html",
+        "src_url": "https://www.jogg.se/Kalender/Tavlingar.aspx?aar=2024&mon=13&fdist=0&tdist=1000&type=0&country=1&region=0&tlopp=False&relay=False&surface=&tridist=0&title=1",
+        "county": "Stockholms",
+        "id": "lunchloppet-djurgården-april_20240412_httpswwwjoggsekalendertavlingaraspxaar2024mon13fdist0tdist1000type0country1region0tloppfalserelayfalsesurfacetridist0title1",
+        "summary": "Välkommen till Lunchloppet | Middagsloppet! Ett spännande lopp på landsväg med 5 km av utmanande löpning. Välj mellan Lunchloppet eller Middagsloppet beroende på vad som passar dig bäst. Vi erbjuder en säker och rolig tävling för löpare i alla åldrar och nivåer. Kom och utmana dig själv och skapa nya löparkamrater i en inkluderande atmosfär. Vi ser fram emot att heja på dig vid mållinjen - lycka till och spring starkt!",
+        "website_organizer": "https://lunchloppet.se/",
         "new_version": true
     },
     {
@@ -1159,6 +1476,26 @@
         "id": "632db7f2-dc0d-4290-aac8-b91256e36906",
         "summary": "Vackra banstäckningar - från Ekoparken, genom bokskogar och längs med Verkeån. Från Simrishamn utmed kusten och över backalandskap. Strikt och äkta hållbarhetsprofil. Spring på vandringsleder och förbi flera historiska byggnader som Alunbruket, Hallamölla, Bengtemölla och många fler.  Start och mål i Christinehofs ekopark.",
         "county": "Skåne"
+    },
+    {
+        "date": "20240413",
+        "type": "road",
+        "name": "Vallaskogens Parkrun",
+        "distance": "5,00 km",
+        "distance_m": [
+            5000
+        ],
+        "place": "Linköping",
+        "latitude": 58.41080700000001,
+        "longitude": 15.6213727,
+        "organizer": "",
+        "website": "/race-pages/vallaskogens-parkrun.html",
+        "src_url": "https://www.jogg.se/Kalender/Tavlingar.aspx?aar=2024&mon=13&fdist=0&tdist=1000&type=0&country=1&region=0&tlopp=False&relay=False&surface=&tridist=0&title=1",
+        "county": "Östergötlands",
+        "id": "vallaskogens-parkrun_20240413_httpswwwjoggsekalendertavlingaraspxaar2024mon13fdist0tdist1000type0country1region0tloppfalserelayfalsesurfacetridist0title1",
+        "summary": "Hej alla löpare! Välkomna till årets stora löptävling! Vi erbjuder en spännande 5 km-lopp på landsväg för både erfarna och nybörjare löpare. Det är en utmärkt chans att utmana dig själv och njuta av det vackra landskapet. Vi ser fram emot att se er alla vid startlinjen och önskar er en härlig löpupplevelse!",
+        "website_organizer": "https://www.parkrun.se/vallaskogen/",
+        "new_version": true
     },
     {
         "date": "20240413",
@@ -1248,6 +1585,46 @@
     },
     {
         "date": "20240420",
+        "type": "road",
+        "name": "Vallaskogens Parkrun",
+        "distance": "5,00 km",
+        "distance_m": [
+            5000
+        ],
+        "place": "Linköping",
+        "latitude": 58.41080700000001,
+        "longitude": 15.6213727,
+        "organizer": "",
+        "website": "/race-pages/vallaskogens-parkrun.html",
+        "src_url": "https://www.jogg.se/Kalender/Tavlingar.aspx?aar=2024&mon=13&fdist=0&tdist=1000&type=0&country=1&region=0&tlopp=False&relay=False&surface=&tridist=0&title=1",
+        "county": "Östergötlands",
+        "id": "vallaskogens-parkrun_20240420_httpswwwjoggsekalendertavlingaraspxaar2024mon13fdist0tdist1000type0country1region0tloppfalserelayfalsesurfacetridist0title1",
+        "summary": "Välkommen till vår årliga löptävling! Vi erbjuder flera tävlingskategorier, inklusive den populära 5 km-loppet. Banan är snabb och platt, perfekt för löpare på alla nivåer. Vi markerar huvudledaren och har vattenstationer längs banan för att hålla dig hydrerad. Efter loppet blir det prisutdelning och en festlig stämning. Oavsett om du är nybörjare eller erfaren löpare, har vi något för alla. Lycka till i träningen inför loppet!",
+        "website_organizer": "https://www.parkrun.se/vallaskogen/course/",
+        "new_version": true
+    },
+    {
+        "date": "20240420",
+        "type": "road",
+        "name": "Kalmar Back Yard Ultra",
+        "distance": "0,00 km",
+        "distance_m": [
+            "backyard"
+        ],
+        "place": "Kalmar",
+        "latitude": 56.6634447,
+        "longitude": 16.356779,
+        "organizer": "",
+        "website": "/race-pages/kalmar-back-yard-ultra.html",
+        "src_url": "https://www.jogg.se/Kalender/Tavlingar.aspx?aar=2024&mon=13&fdist=0&tdist=1000&type=0&country=1&region=0&tlopp=False&relay=False&surface=&tridist=0&title=1",
+        "county": "Kalmar",
+        "id": "kalmar-back-yard-ultra_20240420_httpswwwjoggsekalendertavlingaraspxaar2024mon13fdist0tdist1000type0country1region0tloppfalserelayfalsesurfacetridist0title1",
+        "summary": "Välkommen till Loppet Kalmars första Backyard Ultra-lopp! Ett unikt lopp där deltagarna måste springa en 6706 meter lång slinga inom en timme för att fortsätta tävla. Platsen är Kalmar och vi erbjuder olika kategorier/distanser, inklusive 0 km. Banan går längs vägar och bjuder på vackra landskapsvyer. En utmaning för löpare att testa sina gränser!",
+        "website_organizer": "https://irunkalmar.com/kalmar-backyard-ultra/",
+        "new_version": true
+    },
+    {
+        "date": "20240420",
         "month": "april",
         "day": "20",
         "type": "road",
@@ -1266,6 +1643,26 @@
         "id": "11ef18a4-c4c7-4c9b-8f32-613879129604",
         "summary": "Kom och spring Kvarnloppet som drivits av vår förening i 23 år. Anmälan kan göras via vår hemsida <a href=\"www.skavsaret.se\" target=\"_blank\" class=\"inline-link\">www.skavsaret.se</a> Frågor om loppet kan ställas till info@skavsaret.se  Program för formtoppning på 5 km För dig med bra träningsbas som håller för fem pass per vecka.",
         "county": "Stockholms"
+    },
+    {
+        "date": "20240420",
+        "type": "road",
+        "name": "Adidas Premiärhalvan Sthlm",
+        "distance": "21,10 km",
+        "distance_m": [
+            21000
+        ],
+        "place": "Djurgården",
+        "latitude": 59.326284,
+        "longitude": 18.1132151,
+        "organizer": "",
+        "website": "/race-pages/adidas-premiarhalvan-sthlm.html",
+        "src_url": "https://www.jogg.se/Kalender/Tavlingar.aspx?aar=2024&mon=13&fdist=0&tdist=1000&type=0&country=1&region=0&tlopp=False&relay=False&surface=&tridist=0&title=1",
+        "county": "Stockholms",
+        "id": "adidas-premiärhalvan-sthlm_20240420_httpswwwjoggsekalendertavlingaraspxaar2024mon13fdist0tdist1000type0country1region0tloppfalserelayfalsesurfacetridist0title1",
+        "summary": "Välkommen till adidas Premiärhalvan! Ett härligt halvmaratonlopp på Södra Djurgården i Stockholm, perfekt för att välkomna våren. Oavsett om du är nybörjare eller erfaren löpare, är detta loppet för dig. Upplev den vackra Stockholms innerstad medan du utmanar dig själv. Anmäl dig idag och var med på vårens härligaste halvmara!",
+        "website_organizer": "https://www.stockholmmarathon.se/premiarhalvan/",
+        "new_version": true
     },
     {
         "date": "20240421",
@@ -1348,6 +1745,66 @@
     },
     {
         "date": "20240427",
+        "type": "road",
+        "name": "Vallaskogens Parkrun",
+        "distance": "5,00 km",
+        "distance_m": [
+            5000
+        ],
+        "place": "Linköping",
+        "latitude": 58.41080700000001,
+        "longitude": 15.6213727,
+        "organizer": "",
+        "website": "/race-pages/vallaskogens-parkrun.html",
+        "src_url": "https://www.jogg.se/Kalender/Tavlingar.aspx?aar=2024&mon=13&fdist=0&tdist=1000&type=0&country=1&region=0&tlopp=False&relay=False&surface=&tridist=0&title=1",
+        "county": "Östergötlands",
+        "id": "vallaskogens-parkrun_20240427_httpswwwjoggsekalendertavlingaraspxaar2024mon13fdist0tdist1000type0country1region0tloppfalserelayfalsesurfacetridist0title1",
+        "summary": "Välkommen till årets löpevent! Vårt lopp har något för alla löpare, med huvudfokus på \"backyard\"-distansen. Oavsett om du är nybörjare eller erfaren löpare, så har vi en kategori för dig. Banan tar dig genom vacker natur och utmanar din styrka och uthållighet. Efter loppet väntar musik, mat och gemenskap för hela familjen. Anmäl dig idag och vara med på en oförglömlig dag fylld med löpglädje! Vi ses vid startlinjen!",
+        "website_organizer": "https://www.parkrun.se/vallaskogen/",
+        "new_version": true
+    },
+    {
+        "date": "20240427",
+        "type": "road",
+        "name": "Skälbyloppet",
+        "distance": "8,00 km",
+        "distance_m": [
+            8000
+        ],
+        "place": "Kalmar",
+        "latitude": 56.6634447,
+        "longitude": 16.356779,
+        "organizer": "",
+        "website": "/race-pages/skalbyloppet.html",
+        "src_url": "https://www.jogg.se/Kalender/Tavlingar.aspx?aar=2024&mon=13&fdist=0&tdist=1000&type=0&country=1&region=0&tlopp=False&relay=False&surface=&tridist=0&title=1",
+        "county": null,
+        "id": "skälbyloppet_20240427_httpswwwjoggsekalendertavlingaraspxaar2024mon13fdist0tdist1000type0country1region0tloppfalserelayfalsesurfacetridist0title1",
+        "summary": "Välkommen till Skälbyloppet! Ett familjelopp som passar alla, oavsett ålder och träningsnivå. Med en distans på 8 km och vackra parkvägar genom Skälby Gård, är det det perfekta loppet för att kickstarta löparsäsongen. Ta del av härlig gemenskap och njut av en fantastisk dag på Skälbyloppet!",
+        "website_organizer": "https://irunkalmar.com/skalbyloppet/",
+        "new_version": true
+    },
+    {
+        "date": "20240427",
+        "type": "trail",
+        "name": "STHLM Trail Run",
+        "distance": "10,00 km",
+        "distance_m": [
+            10000
+        ],
+        "place": "Djurgården",
+        "latitude": 59.326284,
+        "longitude": 18.1132151,
+        "organizer": "",
+        "website": "/race-pages/sthlm-trail-run.html",
+        "src_url": "https://www.jogg.se/Kalender/Tavlingar.aspx?aar=2024&mon=13&fdist=0&tdist=1000&type=0&country=1&region=0&tlopp=False&relay=False&surface=&tridist=0&title=1",
+        "county": "Stockholms",
+        "id": "sthlm-trail-run_20240427_httpswwwjoggsekalendertavlingaraspxaar2024mon13fdist0tdist1000type0country1region0tloppfalserelayfalsesurfacetridist0title1",
+        "summary": "Välkommen till STHLM Trail Run 2023! Vår marathongrupp erbjuder en unik trailupplevelse för löpare i alla nivåer den 13 maj 2023. Du kan välja mellan två spännande distanser: 5,2 eller 10 kilometer. Oavsett vilken sträcka du väljer så kommer du att få uppleva en vacker trailbana som tar dig genom skogarna och nära vattnet. Anmäl dig idag och ta del av den fantastiska trailupplevelsen vid STHLM Trail Run!",
+        "website_organizer": "https://marathongruppen.se/sthlm-trail-run/",
+        "new_version": true
+    },
+    {
+        "date": "20240427",
         "month": "april",
         "day": "27",
         "type": "backyard",
@@ -1365,6 +1822,26 @@
         "id": "e2695446-f1c6-49cc-b485-bb913e35002a",
         "summary": "Banan är 3 km lång och lagd av traillöpare på Utö längs den norra delen av ön. Den kommer vara utmanande, kuperad och tuff! Som löpare ska du genomföra banan på maximalt 30 minuter. Efter 30 minuter startar nästa varv på banan.",
         "county": "Stockholms"
+    },
+    {
+        "date": "20240430",
+        "type": "backyard",
+        "name": "Middagsloppet Lillsjön - april",
+        "distance": "5,00 km",
+        "distance_m": [
+            5000
+        ],
+        "place": "Bromma",
+        "latitude": 59.3397832,
+        "longitude": 17.9397131,
+        "organizer": "",
+        "website": "/race-pages/middagsloppet-lillsjon-april.html",
+        "src_url": "https://www.jogg.se/Kalender/Tavlingar.aspx?aar=2024&mon=13&fdist=0&tdist=1000&type=0&country=1&region=0&tlopp=False&relay=False&surface=&tridist=0&title=1",
+        "county": "Stockholms",
+        "id": "middagsloppet-lillsjön-april_20240430_httpswwwjoggsekalendertavlingaraspxaar2024mon13fdist0tdist1000type0country1region0tloppfalserelayfalsesurfacetridist0title1",
+        "summary": "Kom och delta i Naturfys årstidslopp! En spännande löpartävling med distanser för alla nivåer och åldrar, inklusive vår populära och utmanande \"backyard\" - en unik distans som tar dig genom vacker natur. Upplev gemenskapen och glädjen i att springa tillsammans med andra och njut av den vackra naturen längs vägen. Oavsett erfarenhet, det är ett perfekt tillfälle att utmana dig själv. Välkommen till Naturfys årstidslopp!",
+        "website_organizer": "https://lunchloppet.se/middagsloppet-lillsjon/",
+        "new_version": true
     },
     {
         "date": "20240504",
@@ -1391,6 +1868,27 @@
         "id": "2a0a18f0-b489-4bdc-92e4-b3889a14c18d",
         "summary": "Det kommer finnas banor från 1 km för de yngsta barnen till 30 km för de som vill springa långt och start och mål kommer vara vid Zooliden på Nordens Ark.  15 km-banan går även den på Soteleden men här springer vi mest i Nordens Ark Ekopark där de genom avverkning av granskogen och sedan med utmarksbetning med lantraser av både nöt och får (fjällnära ko, rödkulla, gutefår, värmlandsfår med flera) vill gynna hotade arter och den biologiska mångfalden. 8 km-banan är en förkortad variant av 15 km där vi direkt efter Ekoparken viker ner till bäcken som leder tillbaka till Nordens Ark och målet.",
         "county": "Västra Götalands"
+    },
+    {
+        "date": "20240504",
+        "type": "backyard",
+        "name": "Aros Marathon 25 km & Backyard",
+        "distance": "25,00 km",
+        "distance_m": [
+            25000,
+            50000
+        ],
+        "place": "Uppsala",
+        "latitude": 59.85856380000001,
+        "longitude": 17.6389267,
+        "organizer": "",
+        "website": "/race-pages/aros-marathon-25-km-&-backyard.html",
+        "src_url": "https://www.jogg.se/Kalender/Tavlingar.aspx?aar=2024&mon=13&fdist=0&tdist=1000&type=0&country=1&region=0&tlopp=False&relay=False&surface=&tridist=0&title=1",
+        "county": "Uppsala",
+        "id": "aros-marathon-25-km_20240504_httpswwwjoggsekalendertavlingaraspxaar2024mon13fdist0tdist1000type0country1region0tloppfalserelayfalsesurfacetridist0title1",
+        "summary": "Hej löpare! Välkommen till Aros Marathon - Lite längre! Ett spännande evenemang med olika distanser för alla löpare, inklusive det unika \"backyard\" loppet. Upplev en vacker, naturskön miljö samtidigt som du testar din uthållighet. Vi strävar efter en inkluderande och festlig atmosfär där alla prestationer firas. Oavsett om du är ute efter att slå ditt personliga rekord eller utmana dig själv på en ny distans, så är Aros Marathon - Lite längre något för dig. Kom och bli en del av vår löparfamilj!",
+        "website_organizer": "http://arosmarathon.se/",
+        "new_version": true
     },
     {
         "date": "20240504",
