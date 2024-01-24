@@ -13,7 +13,12 @@ def transform_and_store_race(race, costometer, openai=True):
               {race["name"]}
               ----------------------------------
                 """)
-
+        # Check if "park run" or "parkrun" is in the race name, and skip transformation if true
+        if "park run" in race["name"].lower() or "parkrun" in race["name"].lower():
+            print(f"Skipping transformation for race with name: {race['name']} because it contains 'park run' or 'parkrun'")
+            in_race = Race(**race)
+            in_race.set_is_transformed(in_bool=True, update_source_json=True)
+            return race
         # Get website if not allowed or missing
         print("getting website")
         race["website"] = transform_module.check_allowed_url(race["website"], race["website_ai_fallback"])
