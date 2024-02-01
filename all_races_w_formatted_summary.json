@@ -415,11 +415,9 @@
     "organizer": "Örgryte IS FIK, Sävedalens AIK",
     "website": "https://www.goteborgfriidrott.se/gothenburggames/",
     "src_url": "https://www.friidrott.se/tavling-landslag/tavling/tavlingskalender/tavlingar-i-sverige/inomhustavlingar/?sida=3",
-    "short_summary": "Vi är glada att välkomna löpare från hela världen till Gothenburg Games! I år är vi en del av World Athletics Indoor Tour och stolta över att vara värd för en av dessa prestigefyllda tävlingar. Med nästan utsålda biljetter och en spännande line-up, blir det en oförglömlig dag med högklassig friidrott. Höjdpunkten är 1500 meter-loppet, där världens främsta löpare kommer att tävla om segern. Kom och heja på dina favoriter på banan!",
-    "county": "Västra Götalands",
-    "new_version": true,
     "id": "ab09b372-c547-4473-b9c0-fef7aed9e721",
-    "summary": "Vi är glada att välkomna löpare från hela världen till Gothenburg Games! I år är vi en del av World Athletics Indoor Tour och stolta över att vara värd för en av dessa prestigefyllda tävlingar. Med nästan utsålda biljetter och en spännande line-up, blir det en oförglömlig dag med högklassig friidrott. Höjdpunkten är 1500 meter-loppet, där världens främsta löpare kommer att tävla om segern. Kom och heja på dina favoriter på banan!"
+    "summary": "Vi är glada att välkomna löpare från hela världen till Gothenburg Games! I år är vi en del av World Athletics Indoor Tour och stolta över att vara värd för en av dessa prestigefyllda tävlingar. Med nästan utsålda biljetter och en spännande line-up, blir det en oförglömlig dag med högklassig friidrott. Höjdpunkten är 1500 meter-loppet, där världens främsta löpare kommer att tävla om segern. Kom och heja på dina favoriter på banan!",
+    "county": "Västra Götalands"
   },
   {
     "date": "20240202",
@@ -1786,6 +1784,28 @@
   {
     "date": "20240421",
     "type": "trail",
+    "name": "Hässleholmsloppet Trail",
+    "distance": "5,4 km, 10 km och 21 km",
+    "distance_m": [
+      5000,
+      10000,
+      21000
+    ],
+    "place": "Hässleholmsloppet Trail",
+    "latitude": 56.15891449999999,
+    "longitude": 13.7667655,
+    "organizer": "",
+    "website": "/race-pages/hassleholmsloppet-trail.html",
+    "src_url": "https://www.trailrunningsweden.se/trailkalendern/",
+    "county": "Skåne",
+    "id": "hässleholmsloppet-trail_20240421_httpswwwtrailrunningswedensetrailkalendern",
+    "summary": "Välkommen till Hässleholms AIS Traillopp! Vi erbjuder tre olika sträckor för löpare på olika nivåer - 21 km, 10 km och 5,4 km. Banorna bjuder på vacker natur och omväxlande terräng. För den som föredrar trail-lopp är detta en perfekt utmaning. Vi ser fram emot en fantastisk dag med löpning och gemenskap. Kom och delta eller heja på deltagarna!",
+    "website_organizer": "https://hassleholmsloppet.com/",
+    "new_version": true
+  },
+  {
+    "date": "20240421",
+    "type": "trail",
     "name": "Isaberg500",
     "distance": "Isaberg500",
     "distance_m": [
@@ -2212,6 +2232,27 @@
     "summary": "Upptäck skönheten i naturen genom att delta i Trailvarvet, ett spännande lopp som tar dig genom den vackra och kuperade terrängen i Änggårdsbergen. Välj mellan en 6 km eller 11,5 km distans och utmana dig själv oavsett om du är nybörjare eller erfaren trail-löpare. Kom och upplev naturen från en helt ny synvinkel med Trailvarvet!",
     "county": "Västra Götalands",
     "website_organizer": "https://www.goteborgsvarvet.se/varvetveckan/trailvarvet"
+  },
+  {
+    "date": "20240513",
+    "type": "road",
+    "name": "Blodomloppet Dals-Ed 10 km",
+    "distance": "10,00 km",
+    "distance_m": [
+      5000,
+      10000
+    ],
+    "place": "Ed",
+    "latitude": 58.95811,
+    "longitude": 11.89495,
+    "organizer": "",
+    "website": "/race-pages/blodomloppet-dals-ed-10-km.html",
+    "src_url": "https://www.jogg.se/Kalender/Tavlingar.aspx?aar=2024&mon=13&fdist=0&tdist=1000&type=0&country=1&region=0&tlopp=False&relay=False&surface=&tridist=0&title=1",
+    "county": "Västra Götalands",
+    "id": "blodomloppet-dals-ed-10-km_20240513_httpswwwjoggsekalendertavlingaraspxaar2024mon13fdist0tdist1000type0country1region0tloppfalserelayfalsesurfacetridist0title1",
+    "summary": "Blodomloppet Dals-Ed är tillbaka 2024 och vi bjuder in dig att delta i detta fantastiska evenemang för att uppmärksamma blodgivning. Gå, jogga eller spring 5 km eller 10 km, oavsett nivå. Evenemanget äger rum den 13 maj 2024 och välkomnar löpare i alla åldrar. Kom och träna, umgås och stöd blodgivningen – var med i Blodomloppet Dals-Ed 2024!",
+    "website_organizer": "https://blodomloppet.se/vara-lopp/dalsed/",
+    "new_version": true
   },
   {
     "date": "20240518",
@@ -3595,6 +3636,26 @@
     "website_organizer": "https://www.bbut.org/"
   },
   {
+    "date": "20240810",
+    "type": "trail",
+    "name": "Arctic Circle Race",
+    "distance": "18 km",
+    "distance_m": [
+      18000
+    ],
+    "place": "Arctic Circle Race",
+    "latitude": 59.06393250000001,
+    "longitude": 17.6063377,
+    "organizer": "",
+    "website": "/race-pages/arctic-circle-race.html",
+    "src_url": "https://www.trailrunningsweden.se/trailkalendern/",
+    "county": "Stockholms",
+    "id": "arctic-circle-race_20240810_httpswwwtrailrunningswedensetrailkalendern",
+    "summary": "Är du redo för en riktig utmaning mitt i vildmarken? Då är Arctic Circle Race 2021 något för dig! Det här terrängloppet tar dig med helikopter 1,8 mil in i fjällvärlden längs polcirkeln, där du sedan får springa tillbaka till civilisationen. Upplev den mäktiga naturen och den frihetskänsla som bara infinner sig mitt i detta lopp. Vi erbjuder en distans på 18 km, perfekt för dig som älskar terränglöpning. Det här är inget vanligt lopp - det är en äventyrsresa bland bergen och fjordarna! Kom och ta chansen att utmana dig själv och upplev den oberörda vildmarken på riktigt.",
+    "website_organizer": "https://arcticcirclerace.se/",
+    "new_version": true
+  },
+  {
     "date": "20240816",
     "type": "trail",
     "name": "Trail- och Ultravasan",
@@ -3615,6 +3676,26 @@
     "summary": "Välkommen till Ultravasan 90 - en utmanande och häftig trail-löpartävling i vackra Dalarna. Vi erbjuder distanser på 10 km, 30 km samt en ultramaratonsträcka på 90 km. Oavsett erfarenhet och ålder är alla välkomna att delta och njuta av naturen. Ta med dina trailskor och ge dig ut på ett otroligt äventyr i vildmarken!",
     "county": null,
     "website_organizer": "https://www.vasaloppet.se/lopp/loplopp/ultravasan90/"
+  },
+  {
+    "date": "20240817",
+    "type": "trail",
+    "name": "Västerlösa Five Point Challenge",
+    "distance": "9,8KM",
+    "distance_m": [
+      9000
+    ],
+    "place": "Västerlösa Five Point Challenge",
+    "latitude": 58.4204295,
+    "longitude": 15.3384857,
+    "organizer": "",
+    "website": "/race-pages/vasterlosa-five-point-challenge.html",
+    "src_url": "https://www.trailrunningsweden.se/trailkalendern/",
+    "county": "Östergötlands",
+    "id": "västerlösa-five-point-challenge_20240817_httpswwwtrailrunningswedensetrailkalendern",
+    "summary": "Välkommen till Five Point Challenge, en löpartävling som tar dig genom vackra skogar och kuperade terränger på en 9 km lång trailbana. Oavsett om du är nybörjare eller erfaren löpare, är alla välkomna att delta i denna unika och utmanande upplevelse. Efter loppet väntar en belöning i form av en uppfriskande öl och gemenskap med andra löpare. Kom och upplev den härliga atmosfären vid Five Point Challenge!",
+    "website_organizer": "https://www.vrbc.app/five-point-challenge",
+    "new_version": true
   },
   {
     "date": "20240817",

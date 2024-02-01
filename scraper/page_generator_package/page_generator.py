@@ -90,7 +90,7 @@ class PageGenerator:
 
   def update_sitemap(self):
     #impute sitemap with new page
-    sitemap_url = f"https://loppkartan.se/{self.config['sub_domain']}/{self.clean_filename}.html"
+    sitemap_url = f"https://loppkartan.se/{self.config['sub_domain']}/{self.clean_filename}"
     sitemap_url = sitemap_url.replace('&', '&amp;') 
 
     with open(self.sitemap_path, 'r', encoding='utf-8') as f:
