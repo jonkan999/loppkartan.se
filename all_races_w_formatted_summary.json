@@ -1683,6 +1683,26 @@
   {
     "date": "20240420",
     "type": "road",
+    "name": "Skrylleloppet 5km & 10km",
+    "distance": "10,00 km",
+    "distance_m": [
+      10000
+    ],
+    "place": "Skrylle",
+    "latitude": 55.6925881,
+    "longitude": 13.360008,
+    "organizer": "",
+    "website": "/race-pages/skrylleloppet-5km-&-10km.html",
+    "src_url": "https://www.jogg.se/Kalender/Tavlingar.aspx?aar=2024&mon=13&fdist=0&tdist=1000&type=0&country=1&region=0&tlopp=False&relay=False&surface=&tridist=0&title=1",
+    "county": "Skåne",
+    "id": "skrylleloppet-5km-10km_20240420_httpswwwjoggsekalendertavlingaraspxaar2024mon13fdist0tdist1000type0country1region0tloppfalserelayfalsesurfacetridist0title1",
+    "summary": "Välkommen till årets Skryllelopp! En spännande tävling för löpare i alla åldrar och nivåer. Ta på dig dina löparskor och gör dig redo för en oförglömlig upplevelse med 10 km löpning längs vägarna i vårt vackra område. Vi ser till att du håller dig hydrerad och efter loppet kan du fira din prestation tillsammans med andra deltagare. Missa inte årets Skryllelopp!",
+    "website_organizer": "https://www.skrylleloppet.se/",
+    "new_version": true
+  },
+  {
+    "date": "20240420",
+    "type": "road",
     "name": "Kalmar Back Yard Ultra",
     "distance": "0,00 km",
     "distance_m": [
@@ -2423,6 +2443,26 @@
     "id": "virsborun_20240525_httpswwwtrailrunningswedensetrailkalendern",
     "summary": "VirsboRUN är tillbaka 25 maj 2024! Oavsett om du är erfaren eller nybörjare finns en distans för dig: 0 km, 5 km, 10 km, 15 km eller vårt Trail Halvmarathon. Ta dig an den vackra och utmanande terrängen och njut av mat, dryck och underhållning efter loppet. Anmäl dig redan idag för att vara med på detta fantastiska löpevent!",
     "website_organizer": "http://virsborun.se/",
+    "new_version": true
+  },
+  {
+    "date": "20240525",
+    "type": "road",
+    "name": "Hälsoloppet 2024",
+    "distance": "5 km",
+    "distance_m": [
+      5000
+    ],
+    "place": "Alby, Stockholm",
+    "latitude": 59.2383118019362,
+    "longitude": 17.85285615907924,
+    "organizer": "Konya Spor",
+    "website": "/race-pages/halsoloppet-2024.html",
+    "src_url": "",
+    "county": "Stockholms",
+    "id": "halsoloppet-5km-10km_20240420_httpswwwjoggsekalendertavlingaraspxaar2024mon13fdist0tdist1000type0country1region0tloppfalserelayfalsesurfacetridist0title1",
+    "summary": "I år kommer Hälsoloppet att äga rum i Maj och kommer att vara en sträcka på 4,7km. Vi vill utveckla loppet ännu mer genom att skapa medvetenhet kring hälsa med detta hälsoevent. Kom och delta - vi lovar en oförglömlig löpupplevelse på vägen!",
+    "website_organizer": "https://www.konyaspor.se/start/",
     "new_version": true
   },
   {

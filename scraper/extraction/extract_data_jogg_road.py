@@ -52,6 +52,8 @@ def main():
                     except ValueError:
                         pass
                 #mappig out backyard ultras
+                print(name)
+                print(name.find("ackyard"))
                 if name.find("ackyard") != -1:
                     distance_m = "backyard"
                     race_type = "backyard"
@@ -60,7 +62,7 @@ def main():
                 place = place_div.text.strip()
                 organizer = ""
                 website_ai_fallback = name + " " + place + " " + distance_str
-
+                print(race_type)
                 race = Race(date = proper_date, type =  race_type,  name = name, distance = distance_str, distance_m = [distance_m], place = place, organizer = organizer, website = website, src_url = url, website_ai_fallback = website_ai_fallback)
 
                 # Check if race already exists but on other distance
