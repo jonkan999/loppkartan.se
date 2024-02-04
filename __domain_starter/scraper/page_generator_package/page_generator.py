@@ -12,6 +12,7 @@ class PageGenerator:
   def __init__(self, config_file_path, json_data, sitemap_path, image_data=None):
     with open(config_file_path, 'r', encoding='utf-8') as f:
       self.config = yaml.safe_load(f) 
+    print(self.config)
     self.json_data = json_data
     self.sitemap_path = sitemap_path
     
@@ -77,6 +78,7 @@ class PageGenerator:
       "event": self.json_data,
       "image_paths": self.image_paths
     }
+    
 
     # Render the template with the formatted data
     html = template.render(data=formatted_data)
@@ -88,7 +90,7 @@ class PageGenerator:
 
   def update_sitemap(self):
     #impute sitemap with new page
-    sitemap_url = f"https://loppkartan.se/{self.config['sub_domain']}/{self.clean_filename}.html"
+    sitemap_url = f"https://loppkartan.se/{self.config['sub_domain']}/{self.clean_filename}"
     sitemap_url = sitemap_url.replace('&', '&amp;') 
 
     with open(self.sitemap_path, 'r', encoding='utf-8') as f:

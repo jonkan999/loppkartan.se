@@ -3,24 +3,7 @@ import os
 import base64
 import json
 import yaml
-
-def map_distance(distance, race_type, distance_mapping, distance_units):
-    if isinstance(distance, str):
-        return distance_mapping.get(distance, distance) # If distance is not in the mapping, return the original value
-    elif isinstance(distance, list):
-        return [map_distance(d, race_type, distance_mapping, distance_units) for d in distance] # Recursively map each distance in the list
-    elif isinstance(distance, (int, float)):
-        if race_type == 'track':
-            for unit in distance_units:
-                if unit['range'][0] <= distance <= unit['range'][1]:
-                    return f"{int(distance)} {unit['label']}"
-            return f"{int(distance)} meter"
-        else:
-            distance = distance / 1000
-            for unit in distance_units:
-                if unit['range'][0] <= distance <= unit['range'][1]:
-                    return f"{unit['label']}"
-            return f"{int(distance)} km"
+from page_generator_package.functions import map_distance
 
 # Load the Jinja2 template
 # Get the directory path of the current script
@@ -69,7 +52,7 @@ if __name__ == "__main__":
     }
     html = template.render(data=data)
 
-    page_path = f"../output.html"
+    page_path = f"../lopplistan.html"
     print(f"Saving page to {page_path}")
     # Save the generated HTML page
     with open(page_path, 'w', encoding='utf-8') as f:

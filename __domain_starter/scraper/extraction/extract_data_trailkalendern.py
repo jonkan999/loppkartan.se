@@ -64,6 +64,11 @@ def main():
                                     distances.append(int(match)*1609)
                             except:
                                 pass
+                        else:
+                            try:
+                                distances.append(int(distance_item)*1000)
+                            except:
+                                pass
                 except: 
                     pass
                 #mappig out backyard ultras

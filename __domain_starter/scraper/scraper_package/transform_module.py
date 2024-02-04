@@ -210,6 +210,13 @@ def check_allowed_url(url, query):
         "https://www.loppkartan.se",
         "https://www.jogg.se",
         "https://raceid.com",
+        "https://www.raceone.com",
+        "https://mittlopp.se",
+        "https://runagain.com",
+        "https://www.myraceland.com",
+        "https://www.kondis.no",
+        "https://www.sidespor.no",
+        "https://www.friidrett.no/"
     }
 
     if not url.startswith(tuple(disallowed_urls)) and url != "":
@@ -590,10 +597,11 @@ def map_distance(distance, race_type):
     return 'Unknown'
 
 def race_category_mapping(distances, race_type):
-    race_cateogories = []
+    race_categories = []
     for distance in distances:
-        race_cateogories.append(map_distance(distance, race_type))
-    return race_cateogories
+        race_categories.append(map_distance(distance, race_type))
+    
+    return ', '.join(race_categories)
 
 def get_all_ids_from_json(file_path):
     try:

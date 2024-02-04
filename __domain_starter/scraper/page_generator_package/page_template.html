@@ -259,7 +259,9 @@
                 role="img"
                 aria-label="star"
               ></ion-icon>
-              <a href="{{ data.event.website }}">Länk till anmälan</a>
+              <a class="highlight-link" href="{{ data.event.website }}"
+                >Länk till anmälan</a
+              >
             </div>
           </ul>
 
@@ -268,6 +270,9 @@
             <!-- Description Container -->
             <div class="description-container">
               <h2>{{ data.config.about_local }}:</h2>
+              <div class="disclaimer-box">
+                <p>{{ data.config.disclaimer_text }}</p>
+              </div>
               <p class="venue-description">
                 {{ data.event.long_summary | replace('\\n', '<br />') | safe }}
               </p>

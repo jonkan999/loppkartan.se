@@ -5,7 +5,7 @@ from scraper_package.race_classes import Race, RaceCollection
 def main():
 
     subdomain = "jogg"
-    url = "https://www.jogg.se/Kalender/Tavlingar.aspx?aar=2024&mon=13&fdist=0&tdist=1000&type=0&country=1&region=0&tlopp=False&relay=False&surface=asf&tridist=0&title=1"
+    url = "https://www.jogg.se/Kalender/Tavlingar.aspx?aar=2024&mon=13&fdist=0&tdist=1000&type=0&country=1&region=0&tlopp=False&relay=False&surface=&tridist=0&title=1"
     race_type = "road"
     
     response = requests.get(url)
@@ -52,6 +52,8 @@ def main():
                     except ValueError:
                         pass
                 #mappig out backyard ultras
+                print(name)
+                print(name.find("ackyard"))
                 if name.find("ackyard") != -1:
                     distance_m = "backyard"
                     race_type = "backyard"
@@ -60,7 +62,7 @@ def main():
                 place = place_div.text.strip()
                 organizer = ""
                 website_ai_fallback = name + " " + place + " " + distance_str
-
+                print(race_type)
                 race = Race(date = proper_date, type =  race_type,  name = name, distance = distance_str, distance_m = [distance_m], place = place, organizer = organizer, website = website, src_url = url, website_ai_fallback = website_ai_fallback)
 
                 # Check if race already exists but on other distance

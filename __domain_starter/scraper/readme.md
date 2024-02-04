@@ -21,6 +21,7 @@ python generate_pages.py
 python generate_pages.py 0
 
 -- Update main list html
+python update_current_races.py
 python update_main_list.py
 
 --- Update seo folders
