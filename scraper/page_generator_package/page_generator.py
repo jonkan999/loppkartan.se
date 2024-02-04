@@ -98,7 +98,7 @@ class PageGenerator:
       if sitemap_url in sitemap:
         print(f"Skipped adding '{sitemap_url}' to sitemap as it already exists.")
         return
-      sitemap = sitemap.replace("</urlset>",f'<url>\n  <loc>{sitemap_url}</loc>\n  <lastmod>{datetime.now().isoformat()}+00:00</lastmod>\n  <priority>0.8</priority>\n</url>')
+      sitemap = sitemap.replace("</urlset>",f'<url>\n  <loc>{sitemap_url}</loc>\n  <lastmod>{datetime.now().isoformat()}+00:00</lastmod>\n  <priority>0.8</priority>\n</url></urlset>')
       
     with open(self.sitemap_path, 'w', encoding='utf-8') as f:
       f.write(sitemap)
