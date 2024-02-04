@@ -74,10 +74,10 @@ if __name__ == "__main__":
   files_to_copy = ['lopplistan_template.html', 'index_template.html']
 
   copy_empty_json()
-  if is_initial:
-    copy_missing_files(files_to_copy, os.path.dirname(os.getcwd()))
-    subprocess.run(["python", "initiate_main_list.py"])
-    subprocess.run(["python", "initiate_main_map.py"])
-    print("Initial setup complete.")
+  #if is_initial: RUN THESE TWO MANUALLY FOR NOW
+  #  copy_missing_files(files_to_copy, os.path.dirname(os.getcwd()))
+  #  subprocess.run(["python", "initiate_main_list.py"])
+  #  subprocess.run(["python", "initiate_main_map.py"])
+  #  print("Initial setup complete.")
 
   
