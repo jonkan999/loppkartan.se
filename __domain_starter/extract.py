@@ -78,6 +78,7 @@ if __name__ == "__main__":
   #  copy_missing_files(files_to_copy, os.path.dirname(os.getcwd()))
   #  subprocess.run(["python", "initiate_main_list.py"])
   #  subprocess.run(["python", "initiate_main_map.py"])
+  #  subprocess.run(["python", "initiate_add_auxilliary_pages.py"])
   #  print("Initial setup complete.")
 
   
