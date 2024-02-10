@@ -5,7 +5,7 @@ from scraper_package.race_classes import Race, RaceCollection
 from transform_race import transform_and_store_race
 
 
-if __name__ == "__main__":
+def transform_untransformed_races(max_races=25):
     try:
         run_all_scraper_scripts()
     except Exception as e:
@@ -16,23 +16,25 @@ if __name__ == "__main__":
     untransformed_races = RaceCollection()
     untransformed_races.load_not_transformed_from_source_json()
     costometer=0
-    #transform all untransformed
-    print(untransformed_races.races)
-    for i, race in enumerate(untransformed_races.races):
+    num_races = min(max_races, len(untransformed_races.races))
+    #print(untransformed_races.races)
+    for i, race in enumerate(untransformed_races.races[:num_races]):
         print(f"""
         TRANSFORMING----------------------
         ----------------------------------
         {race["name"]}
-        RACES TRANSFORMED: {i} / {len(untransformed_races.races)}
+        RACES TRANSFORMED: {i+1} / {num_races}
         ----------------------------------
           """)
         transform_and_store_race(race.data,costometer,openai=True)
     print(f"""
     DONE TRANSFORMING----------------------
     ----------------------------------
-    RACES TRANSFORMED: {i+1} / {len(untransformed_races.races)}
+    RACES TRANSFORMED:  {num_races} / {len(untransformed_races.races)}
     ----------------------------------
     """)
+if __name__ == "__main__":
+    transform_untransformed_races()  # Specify the maximum number of races to load at a time
 
 
     
