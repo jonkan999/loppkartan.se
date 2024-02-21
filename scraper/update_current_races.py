@@ -28,10 +28,16 @@ def append_approved_races(current_races, approved_races_raw):
         if race_id is not None and race_id not in {r.get('id') for r in current_races}:
             current_races.append(race)
 
-def sort_and_save_all_races(all_races_file_path, current_races):
+def sort_and_save_newer_races(all_races_file_path, current_races):
+    # Get today's date
+    today = datetime.now().date()
+
+    # Filter the races to keep only those with dates newer than today
+    current_races = [race for race in current_races if datetime.strptime(race.get('date'), '%Y%m%d').date() >= today]
+
     # Sort the races by date, lat, and log
     current_races.sort(key=lambda x: (x.get('date'), x.get('latitude'), x.get('longitute')))
-    
+
     # Save the sorted races back to the file
     save_json(all_races_file_path, current_races)
 
@@ -62,7 +68,7 @@ def main():
         append_approved_races(current_races, approved_races_raw)
     
     # Sort and save the updated races
-    sort_and_save_all_races(all_races_file_path, current_races)
+    sort_and_save_newer_races(all_races_file_path, current_races)
 
 if __name__ == "__main__":
     main()
