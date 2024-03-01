@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+      re
+    />
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+
+    <script src="https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.js"></script>
+    <link
+      href="https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.css"
+      rel="stylesheet"
+    />
+
+    <script defer="" src="/js/pgJs.js"></script>
+
+    <link href="/css/pg-style.css" rel="stylesheet" />
+    <link href="/css/pg-queries.css" rel="stylesheet" />
+
+    <title>
+      Loppsida för High Coast Ultra - 
+    </title>
+    <link rel="icon" href="/img/logo100px.jpg"" />
+    <meta name="description" content="Välkommen till High Coast Ultra 2024! Ett av Sveriges mest utmanande lopp som äger rum den 7-8 juni. Vi söker sponsorer för att göra evenemanget minnesvärt. Med flera kategorier och sträckor, inklusive Trail Ultramarathon, tar vi löparna genom vilda skogar, branta klippor och vackra dalar med en fantastisk utsikt över Höga Kusten. Oavsett om du är erfaren ultra-löpare eller nybörjare, kommer du att få testa dina gränser och uppleva den vackra svenska naturen på ett helt nytt sätt. Välkommen att utmana dig själv på High Coast Ultra 2024!" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+
+  <body>
+    <div class="show-all-overlay" id="showAllOverlay"></div>
+    <button class="hide-grid" id="hideGrid">
+      <ion-icon name="close-outline" class="close-icon"></ion-icon>
+    </button>
+    <header class="header header-black section">
+      <div class="brand-box">
+        <a class="header-brand-name" href="/index.html">
+          <img
+            class="brand-box-small-image"
+            src="/img/logo.svg"
+            alt="Brand logo"
+        /></a>
+      </div>
+      <div class="menu">
+        <ul>
+          <li>
+            <p class="category-link">
+              Loppsida för: High Coast Ultra
+            </p>
+          </li>
+        </ul>
+      </div>
+    </header>
+    <main>
+      <section class="venue-page" id="venuePage">
+        <div class="show-all-grid" id="showAllGrid">
+          
+          <div class="gallery-image">
+            <img
+              class="image-inner-img"
+              src="/race-pages/img/high-coast-ultra_1.webp"
+              alt="image 1 for: High Coast Ultra"
+            />
+            <div class="gallery-overlay"></div>
+          </div>
+          
+          <div class="gallery-image">
+            <img
+              class="image-inner-img"
+              src="/race-pages/img/high-coast-ultra_2.webp"
+              alt="image 2 for: High Coast Ultra"
+            />
+            <div class="gallery-overlay"></div>
+          </div>
+          
+          <div class="gallery-image">
+            <img
+              class="image-inner-img"
+              src="/race-pages/img/high-coast-ultra_3.webp"
+              alt="image 3 for: High Coast Ultra"
+            />
+            <div class="gallery-overlay"></div>
+          </div>
+          
+          <div class="gallery-image">
+            <img
+              class="image-inner-img"
+              src="/race-pages/img/high-coast-ultra_4.webp"
+              alt="image 4 for: High Coast Ultra"
+            />
+            <div class="gallery-overlay"></div>
+          </div>
+          
+          <div class="gallery-image">
+            <img
+              class="image-inner-img"
+              src="/race-pages/img/high-coast-ultra_5.webp"
+              alt="image 5 for: High Coast Ultra"
+            />
+            <div class="gallery-overlay"></div>
+          </div>
+          
+          <div class="gallery-image">
+            <img
+              class="image-inner-img"
+              src="/race-pages/img/high-coast-ultra_6.webp"
+              alt="image 6 for: High Coast Ultra"
+            />
+            <div class="gallery-overlay"></div>
+          </div>
+          
+        </div>
+        <div class="images-section section airy-margin" id="imageSection">
+          <div class="left-image">
+            <img
+              class="image-inner-img"
+              src="/race-pages/img/high-coast-ultra_1.webp"
+              alt="image 1 for: High Coast Ultra"
+            />
+            <div class="image-overlay"></div>
+          </div>
+          <div class="right-images-section">
+            <div class="top-right-image">
+              <img
+                class="image-inner-img"
+                src="/race-pages/img/high-coast-ultra_2.webp"
+                alt="image 2 for: High Coast Ultra"
+              />
+              <div class="image-overlay"></div>
+            </div>
+            <div class="bottom-right-images">
+              <div class="bottom-right-image">
+                <img
+                  class="image-inner-img"
+                  src="/race-pages/img/high-coast-ultra_3.webp"
+                  alt="image 3 for: High Coast Ultra"
+                />
+                <div class="image-overlay"></div>
+              </div>
+              <div class="bottom-right-image">
+                <img
+                  class="image-inner-img"
+                  src="/race-pages/img/high-coast-ultra_4.webp"
+                  alt="image 4 for: High Coast Ultra"
+                />
+                <div class="show-all-container" id="showAll">
+                  <div class="square-icon-container-container">
+                    <div class="square-icon-container">
+                      <ion-icon
+                        class="icon ion-ios-square-outline md hydrated"
+                        name="square-outline"
+                        role="img"
+                        aria-label="square outline"
+                      ></ion-icon>
+                    </div>
+                    <div class="square-icon-container">
+                      <ion-icon
+                        class="icon ion-ios-square-outline md hydrated"
+                        name="square-outline"
+                        role="img"
+                        aria-label="square outline"
+                      ></ion-icon>
+                    </div>
+                    <div class="square-icon-container">
+                      <ion-icon
+                        class="icon ion-ios-square-outline md hydrated"
+                        name="square-outline"
+                        role="img"
+                        aria-label="square outline"
+                      ></ion-icon>
+                    </div>
+                    <div class="square-icon-container">
+                      <ion-icon
+                        class="icon ion-ios-square-outline md hydrated"
+                        name="square-outline"
+                        role="img"
+                        aria-label="square outline"
+                      ></ion-icon>
+                    </div>
+                  </div>
+                  <div class="show-all-images-text">
+                    Visa alla
+                  </div>
+                  <div class="image-overlay"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="info-container" id="infoContainer">
+          <!-- Venue Name -->
+          <h1 class="event-space-title">High Coast Ultra</h1>
+
+          <!-- Venue Address -->
+          <div class="adress-div">
+            <ion-icon
+              class="icon ion-ios-location-outline"
+              name="location-outline"
+            ></ion-icon>
+            <p class="event-space-address">High Coast Ultra</p>
+          </div>
+
+          <!-- Highlights Container -->
+          <ul class="highlights-container">
+            <!-- Star Rating -->
+            <div class="highlight-stars">
+              <ion-icon
+                class="star-icon ion-ios-star-outline md hydrated"
+                name="star"
+                role="img"
+                aria-label="star"
+              ></ion-icon>
+              <a href="http://highcoastultra.se"
+                >Länk till anmälan</a
+              >
+            </div>
+
+            <!-- Guests and Size Info -->
+            <li class="highlight-info desktop">
+              <ion-icon
+                class="highlight-icon ion-ios-analytics-outline"
+                name="analytics-outline"
+              ></ion-icon>
+              <p>
+                Distanser: 130 km
+              </p>
+            </li>
+            <li class="highlight-info mobile full-row">
+              <ion-icon
+                class="highlight-icon ion-ios-analytics-outline"
+                name="analytics-outline"
+              ></ion-icon>
+              <p>
+                Distanser: 130 km
+              </p>
+            </li>
+            <li class="highlight-info desktop">
+              <ion-icon
+                class="highlight-icon ion-ios-shapes-outline"
+                name="shapes-outline"
+              ></ion-icon>
+              <p>
+                Underlag: trail
+              </p>
+            </li>
+
+            <!-- Food and Drink Info -->
+            <li class="highlight-info">
+              <ion-icon
+                class="highlight-icon ion-ios-navigate-circle-outline"
+                name="navigate-circle-outline"
+              ></ion-icon>
+              <p>
+                Plats: High Coast Ultra
+              </p>
+            </li>
+            <li class="highlight-info second-col mobile">
+              <ion-icon
+                class="highlight-icon ion-ios-shapes-outline"
+                name="shapes-outline"
+              ></ion-icon>
+              <p>
+                Underlag: trail
+              </p>
+            </li>
+            <li class="highlight-info">
+              <ion-icon
+                class="highlight-icon ion-ios-calendar-clear-outline"
+                name="calendar-clear-outline"
+              ></ion-icon>
+              <p>
+                Datum: 20240607
+              </p>
+            </li>
+            <div class="highlight-star-mobile second-col">
+              <ion-icon
+                class="star-icon ion-ios-star-outline md hydrated"
+                name="star"
+                role="img"
+                aria-label="star"
+              ></ion-icon>
+              <a class="highlight-link" href="http://highcoastultra.se"
+                >Länk till anmälan</a
+              >
+            </div>
+          </ul>
+
+          <!-- Calendar and Mail Template Containers -->
+          <div class="subsection-split-container">
+            <!-- Description Container -->
+            <div class="description-container">
+              <h2>Om loppet:</h2>
+              <div class="disclaimer-box">
+                <p>All info på den här sidan är baserat på öppen källdata. Vi gör vårt bästa för att hålla den uppdaterad men
+kan inte garantera att allt är korrekt. Ser du några felaktigheter, kontakta oss gärna 
+<a href="/kontakt.html">kontakt</a> så rättar vi till det snarast.
+</p>
+              </div>
+              <p class="venue-description">
+                Välkommen till High Coast Ultra, ett av de mest utmanande loppen i Sverige! Årets lopp kommer att äga rum den 7-8 juni 2024 och vi söker sponsorer för att göra evenemanget ännu mer minnesvärt. High Coast Ultra innehåller flera olika kategorier och sträckor, inklusive Trail Ultramarathon. Denna typ av lopp är perfekt för den som älskar utmanande terräng och vacker natur. Vår sträcka tar löparna genom vilda skogar, branta klippor och vackra dalar, allt med den fantastiska utsikten över Höga Kusten.
+
+Vi är stolta över att erbjuda en riktigt unik upplevelse för alla deltagare, oavsett om de är erfarna ultra-löpare eller nybörjare. Genom att delta i High Coast Ultra kommer löparna att få testa sina gränser och uppleva den vackra svenska naturen på ett helt nytt sätt. Vi ser fram emot att välkomna deltagare från hela landet och att skapa en oförglömlig helg för alla inblandade. Kom och utmana dig själv på High Coast Ultra 2024!
+              </p>
+              <h3>Detaljerad information:</h3>
+              <ul>
+                
+                <li>
+                  Distanser: 130 km
+                </li>
+                
+                <li>
+                  Underlag: trail
+                </li>
+                
+                <li>
+                  Plats: High Coast Ultra
+                </li>
+                
+                <li>
+                  Datum: 20240607
+                </li>
+                 
+                <li>
+                  Loppkategorier: Trail Ultramarathon
+                </li>
+                
+                <li>
+                  Län: None
+                </li>
+                
+                <li>
+                  Organisatör: 
+                </li>
+                
+              </ul>
+              <h3>Länk till arrangörens hemsida:</h3>
+              <a class="venue-price" href="http://highcoastultra.se">
+                http://highcoastultra.se
+              </a>
+            </div>
+
+            <div class="subsection-right-split-container">
+              <div
+                data-mapboxCenter="[0, 0]"
+                data-mapboxcenter="[]"
+                class="map-container mapboxgl-map"
+                id="mapboxContainer"
+              ></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Rest of your HTML content -->
+      </section>
+      <div id="errorMessage" class="error-message"></div>
+    </main>
+  </body>
+</html>
