@@ -618,6 +618,46 @@
     "new_version": true
   },
   {
+    "date": "20240414",
+    "type": "road",
+    "name": "ÖST Spring Trail Ekopark",
+    "distance": "14,00 km",
+    "distance_m": [
+      14000
+    ],
+    "place": "Brösarp",
+    "latitude": 55.72526999999999,
+    "longitude": 14.10094,
+    "organizer": "",
+    "website": "/race-pages/ost-spring-trail-ekopark.html",
+    "src_url": "https://www.jogg.se/Kalender/Tavlingar.aspx?aar=2024&mon=13&fdist=0&tdist=1000&type=0&country=1&region=0&tlopp=False&relay=False&surface=&tridist=0&title=1",
+    "county": "Skåne",
+    "id": "öst-spring-trail-ekopark_20240414_httpswwwjoggsekalendertavlingaraspxaar2024mon13fdist0tdist1000type0country1region0tloppfalserelayfalsesurfacetridist0title1",
+    "summary": "Välkommen till vår årliga löptävling på en vacker väg! Vi erbjuder en spännande och utmanande tävling på 14 km, öppen för löpare i alla åldrar och förmågor. Kom och utmana dig själv samtidigt som du njuter av en naturskön bana. Gör dig redo för en fantastisk löpupplevelse och delta i vår vägtävling!",
+    "website_organizer": "https://m.facebook.com/osterlen.spring.trail/?locale=pt_PT",
+    "new_version": true
+  },
+  {
+    "date": "20240419",
+    "type": "road",
+    "name": "Lunchloppet Djurgården - april",
+    "distance": "5,00 km",
+    "distance_m": [
+      5000
+    ],
+    "place": "Stockholm",
+    "latitude": 59.32932349999999,
+    "longitude": 18.0685808,
+    "organizer": "",
+    "website": "/race-pages/lunchloppet-djurgarden-april.html",
+    "src_url": "https://www.jogg.se/Kalender/Tavlingar.aspx?aar=2024&mon=13&fdist=0&tdist=1000&type=0&country=1&region=0&tlopp=False&relay=False&surface=&tridist=0&title=1",
+    "county": "Stockholms",
+    "id": "lunchloppet-djurgården-april_20240419_httpswwwjoggsekalendertavlingaraspxaar2024mon13fdist0tdist1000type0country1region0tloppfalserelayfalsesurfacetridist0title1",
+    "summary": "Välkommen till Startsida - Lunchloppet | Middagsloppet! En spännande löptävling för löpare i alla åldrar och nivåer. Vår tävling erbjuder en perfekt 5 km-distans för dig som älskar löpning på väg. Oavsett om du är nybörjare eller erfaren löpare, har vi något för dig. Vi strävar efter att skapa en rolig och utmanande löpupplevelse med säkra banor och professionell tidtagning. Efter loppet kan du dela dina upplevelser på vår blogg och läsa om andras erfarenheter. Vi ser fram emot att välkomna dig och dina löparkamrater på mållinjen!",
+    "website_organizer": "https://lunchloppet.se/",
+    "new_version": true
+  },
+  {
     "date": "20240420",
     "type": "road",
     "name": "Varvetmilen",
@@ -1019,6 +1059,26 @@
   },
   {
     "date": "20240427",
+    "type": "road",
+    "name": "Munkastigen trailrun",
+    "distance": "44,00 km",
+    "distance_m": [
+      44000
+    ],
+    "place": "Laxå",
+    "latitude": 58.98269,
+    "longitude": 14.62289,
+    "organizer": "",
+    "website": "/race-pages/munkastigen-trailrun.html",
+    "src_url": "https://www.jogg.se/Kalender/Tavlingar.aspx?aar=2024&mon=13&fdist=0&tdist=1000&type=0&country=1&region=0&tlopp=False&relay=False&surface=&tridist=0&title=1",
+    "county": "Örebro",
+    "id": "munkastigen-trailrun_20240427_httpswwwjoggsekalendertavlingaraspxaar2024mon13fdist0tdist1000type0country1region0tloppfalserelayfalsesurfacetridist0title1",
+    "summary": "Välkommen till Munkastigen Trail Run i Laxå kommun! Var med på vårt ultramarathon-lopp som tar dig genom vacker terräng längs skogar och sjöar. Perfekt för både erfarna löpare och nybörjare. Anmäl dig redan idag för en minnesvärd löpupplevelse på väg!",
+    "website_organizer": "https://www.laxa.se/Evenemangkalender/2024-02-12-Munkastigen-Trail-Run.html",
+    "new_version": true
+  },
+  {
+    "date": "20240427",
     "type": "trail",
     "name": "STHLM Trail Run",
     "distance": "10,00 km",
@@ -1266,6 +1326,26 @@
     "id": "råglanna-ruset_20240501_httpswwwjoggsekalendertavlingaraspxaar2024mon13fdist0tdist1000type0country1region0tloppfalserelayfalsesurfacetridist0title1",
     "summary": "Kom och delta i vår årliga löpartävling med olika kategorier och distanser, inklusive ett 5 km landsvägslopp. Oavsett om du är nybörjare eller erfaren löpare, finns det något för alla. Utmana dig själv och njut av det vackra landskapet längs banan. Anmäl dig nu och bli en del av vår gemenskap av löpare för en hälsosam och aktiv livsstil!",
     "website_organizer": "https://www.frammestadsik.se/frammestadsik-ol/sida/104657/raglannaruset-2024",
+    "new_version": true
+  },
+  {
+    "date": "20240503",
+    "type": "road",
+    "name": "Lunchloppet Solna - maj",
+    "distance": "5,00 km",
+    "distance_m": [
+      5000
+    ],
+    "place": "Solna",
+    "latitude": 59.36887909999999,
+    "longitude": 18.0084334,
+    "organizer": "",
+    "website": "/race-pages/lunchloppet-solna-maj.html",
+    "src_url": "https://www.jogg.se/Kalender/Tavlingar.aspx?aar=2024&mon=13&fdist=0&tdist=1000&type=0&country=1&region=0&tlopp=False&relay=False&surface=&tridist=0&title=1",
+    "county": "Stockholms",
+    "id": "lunchloppet-solna-maj_20240503_httpswwwjoggsekalendertavlingaraspxaar2024mon13fdist0tdist1000type0country1region0tloppfalserelayfalsesurfacetridist0title1",
+    "summary": "Välkommen till Lunchloppet - ett fantastiskt lopp över 5 kilometer längs vackra naturområden. Oavsett om du är nybörjare eller erfaren löpare, är detta det perfekta tillfället att utmana dig själv mitt på dagen. Ta chansen att förbättra din tid och upplev en härlig löpning längs vägarna. Upplevelsen är både fartfylld och vacker, perfekt för alla löpare!",
+    "website_organizer": "https://sv-se.facebook.com/Lunchloppet/",
     "new_version": true
   },
   {
@@ -1756,6 +1836,26 @@
     "id": "hällrace-100_20240510_httpswwwtrailrunningswedensetrailkalendern",
     "summary": "Välkommen till Hällrace 100! Ett spännande trail ultramaratonlopp i Sverige som kommer att testa din styrka och uthållighet. Vi erbjuder distanser på 50 miles och ultramaraton, som tar dig genom vacker natur och utmanande terräng. Oavsett om du är erfaren eller ny inom trailrunning, finns det en distans som passar just dig. Anmäl dig redan idag och gör dig redo för en äventyrlig löpning på Hällrace 100!",
     "website_organizer": "https://www.motionzonen.se/pm-hallrace-100/",
+    "new_version": true
+  },
+  {
+    "date": "20240510",
+    "type": "road",
+    "name": "Lunchloppet Djurgården - maj",
+    "distance": "5,00 km",
+    "distance_m": [
+      5000
+    ],
+    "place": "Stockholm",
+    "latitude": 59.32932349999999,
+    "longitude": 18.0685808,
+    "organizer": "",
+    "website": "/race-pages/lunchloppet-djurgarden-maj.html",
+    "src_url": "https://www.jogg.se/Kalender/Tavlingar.aspx?aar=2024&mon=13&fdist=0&tdist=1000&type=0&country=1&region=0&tlopp=False&relay=False&surface=&tridist=0&title=1",
+    "county": "Stockholms",
+    "id": "lunchloppet-djurgården-maj_20240510_httpswwwjoggsekalendertavlingaraspxaar2024mon13fdist0tdist1000type0country1region0tloppfalserelayfalsesurfacetridist0title1",
+    "summary": "Välkommen till Lunchloppet | Middagsloppet! Vårt lopp erbjuder spännande distanser för löpare i alla åldrar och nivåer. Välj mellan snabba 5 km och längre sträckor. Våra välförberedda vägbanor ger en säker och rolig löpupplevelse. Kom och utmana dig själv på vägarna med oss!",
+    "website_organizer": "https://lunchloppet.se/",
     "new_version": true
   },
   {
@@ -3602,6 +3702,26 @@
     "new_version": true
   },
   {
+    "date": "20240607",
+    "type": "road",
+    "name": "Lunchloppet Solna - juni",
+    "distance": "5,00 km",
+    "distance_m": [
+      5000
+    ],
+    "place": "Solna",
+    "latitude": 59.36887909999999,
+    "longitude": 18.0084334,
+    "organizer": "",
+    "website": "/race-pages/lunchloppet-solna-juni.html",
+    "src_url": "https://www.jogg.se/Kalender/Tavlingar.aspx?aar=2024&mon=13&fdist=0&tdist=1000&type=0&country=1&region=0&tlopp=False&relay=False&surface=&tridist=0&title=1",
+    "county": "Stockholms",
+    "id": "lunchloppet-solna-juni_20240607_httpswwwjoggsekalendertavlingaraspxaar2024mon13fdist0tdist1000type0country1region0tloppfalserelayfalsesurfacetridist0title1",
+    "summary": "Välkommen till Lunchloppet - ett 5 km långt lopp längs stadens vägar! Med nummerlapp och tidtagning är det en underhållande tävling för löpare i alla åldrar och nivåer. Oavsett om du är nybörjare eller erfaren, är detta lopp en chans att testa dina färdigheter och uppleva gemenskapen. Anmäl dig idag och bli en del av detta fantastiska lopp!",
+    "website_organizer": "https://sv-se.facebook.com/Lunchloppet/",
+    "new_version": true
+  },
+  {
     "date": "20240608",
     "type": "track",
     "name": "Kil",
@@ -4011,6 +4131,26 @@
   },
   {
     "date": "20240614",
+    "type": "road",
+    "name": "Lunchloppet Djurgården - juni",
+    "distance": "5,00 km",
+    "distance_m": [
+      5000
+    ],
+    "place": "Stockholm",
+    "latitude": 59.32932349999999,
+    "longitude": 18.0685808,
+    "organizer": "",
+    "website": "/race-pages/lunchloppet-djurgarden-juni.html",
+    "src_url": "https://www.jogg.se/Kalender/Tavlingar.aspx?aar=2024&mon=13&fdist=0&tdist=1000&type=0&country=1&region=0&tlopp=False&relay=False&surface=&tridist=0&title=1",
+    "county": "Stockholms",
+    "id": "lunchloppet-djurgården-juni_20240614_httpswwwjoggsekalendertavlingaraspxaar2024mon13fdist0tdist1000type0country1region0tloppfalserelayfalsesurfacetridist0title1",
+    "summary": "Välkommen till Startsida - Lunchloppet | Middagsloppet! Ett spännande löpevenemang med 5 km-lopp på vägar, perfekt för löpare på alla nivåer. Upplev en familjevänlig atmosfär och testa dina gränser i detta fantastiska evenemang. Vi strävar efter att skapa en säker och rolig upplevelse för alla deltagare. Ta chansen att delta i detta energifyllda lopp och njut av den vackra löparslingan längs vägarna. Vi ses på startlinjen!",
+    "website_organizer": "https://lunchloppet.se/",
+    "new_version": true
+  },
+  {
+    "date": "20240614",
     "type": "track",
     "name": "Sollentuna",
     "distance": "event-100-m event-200-m event-400-m event-800-m event-1500-m event-3000-m event-3000-m-hinder event-100110-m-hack event-400-m-hack event-hojdhopp event-stavhopp event-langdhopp event-tresteg event-kula event-diskus event-slagga event-spjut event-2000-m-hinder event-60-m event-600-m event-60-m-hack event-80-m event-300-m event-2000-m event-80-m-hack",
@@ -4299,6 +4439,28 @@
     "id": "urskogsloppet_20240615_httpswwwfriidrottsetavling-landslagtavlingtavlingskalendertavlingar-i-sverigelangloppsida2",
     "summary": "Välkommen till Urskogsloppet! Ett motionslopp i vacker urskogsmiljö i Örnsköldsviks kommun. Välj mellan olika distanser och kategorier, inklusive Trail Ultramarathon för terrängälskare. Målgång och prisutdelning sker i Björna centrum vid Biggevallen under Björnadagen. Kom och utmana dig själv i en fantastisk natur!",
     "website_organizer": "http://www.urskogsloppet.se",
+    "new_version": true
+  },
+  {
+    "date": "20240616",
+    "type": "trail",
+    "name": "Genarps IF Trail - GIFT",
+    "distance": "5 km, 10 km, 25 km",
+    "distance_m": [
+      5000,
+      10000,
+      25000
+    ],
+    "place": "Genarps IF Trail - GIFT",
+    "latitude": 55.6002993,
+    "longitude": 13.3975053,
+    "organizer": "",
+    "website": "/race-pages/genarps-if-trail-gift.html",
+    "src_url": "https://www.trailrunningsweden.se/trailkalendern/",
+    "county": "Skåne",
+    "id": "genarps-if-trail-gift_20240616_httpswwwtrailrunningswedensetrailkalendern",
+    "summary": "Vår Genarps IF Trail GIFT 2024 är ett spännande lopp på terrängen med distanser på 5 km, 10 km och 25 km. Det är en vacker löptävling där deltagarna kan utmana sig själva och njuta av naturen. Oavsett om du är en erfaren löpare eller nybörjare så är detta lopp perfekt för dig. Anmäl dig redan idag och bli en del av denna otroliga löpupplevelse! Besök vår hemsida för mer information.",
+    "website_organizer": "https://www.sportstiming.dk/event/13787",
     "new_version": true
   },
   {
@@ -5200,6 +5362,26 @@
     "id": "bollnäs_20240713_httpswwwfriidrottsetavling-landslagtavlingtavlingskalendertavlingar-i-sverigearenatavlingarsida3",
     "summary": "Sommarloppet är tillbaka och erbjuder två distanser på bana: 5000 meter och 3000 meter. Oavsett om du är nybörjare eller erfaren löpare, finns det något för alla att delta i. Det blir en dag full av gemenskap, prestation och glädje för alla deltagare. Kom och känn pulsen öka när du korsar mållinjen med ett leende på läpparna!",
     "website_organizer": "https://www.rehnsbk.se/events/nonamespelen-2024",
+    "new_version": true
+  },
+  {
+    "date": "20240714",
+    "type": "road",
+    "name": "Gardfjällslunken",
+    "distance": "17,00 km",
+    "distance_m": [
+      17000
+    ],
+    "place": "Forsmark/Matsdal Västerbotten",
+    "latitude": 65.3512092,
+    "longitude": 15.8471294,
+    "organizer": "",
+    "website": "/race-pages/gardfjallslunken.html",
+    "src_url": "https://www.jogg.se/Kalender/Tavlingar.aspx?aar=2024&mon=13&fdist=0&tdist=1000&type=0&country=1&region=0&tlopp=False&relay=False&surface=&tridist=0&title=1",
+    "county": "Västerbottens",
+    "id": "gardfjällslunken_20240714_httpswwwjoggsekalendertavlingaraspxaar2024mon13fdist0tdist1000type0country1region0tloppfalserelayfalsesurfacetridist0title1",
+    "summary": "Välkommen till Gardfjällslunken, ett 17 km terränglopp på Norra Gardfjället! Oavsett om du är erfaren eller nybörjare, är du välkommen att delta. Loppet erbjuder en unik och utmanande löpupplevelse genom vackra omgivningar. Uppgradera din webbläsare för att anmäla dig och vara med på denna spännande löparupplevelse!",
+    "website_organizer": "https://www.gardfjallslunken.se/",
     "new_version": true
   },
   {

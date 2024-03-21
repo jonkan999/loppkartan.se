@@ -45,6 +45,7 @@ menu_items:
 
 main_header: "Sveriges mest kompletta loppkalender för löpare"
 main_header_alternative: "Sveriges mest kompletta loppkalender för löpare"
+seo_county_main_header: "Sveriges mest kompletta loppkalender för lopp i %s"
 main_subheader: "Här listar vi alla Sveriges lopp och löpartävlingar under 2024.
   Filtrera fram ditt nästa 10 km millopp, halvmaraton eller backyard
   ultra."
