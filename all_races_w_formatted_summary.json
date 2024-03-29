@@ -1,45 +1,5 @@
 [
   {
-    "date": "20240325",
-    "type": "road",
-    "name": "Nordenskiöldsloppet",
-    "distance": "220,00 km",
-    "distance_m": [
-      220000
-    ],
-    "place": "Jokkmokk",
-    "latitude": 66.60696089999999,
-    "longitude": 19.8229206,
-    "organizer": "",
-    "website": "/race-pages/nordenskioldsloppet.html",
-    "src_url": "https://www.jogg.se/Kalender/Tavlingar.aspx?aar=2024&mon=13&fdist=0&tdist=1000&type=0&country=1&region=0&tlopp=False&relay=False&surface=&tridist=0&title=1",
-    "county": "Norrbottens",
-    "id": "nordenskiöldsloppet_20240325_httpswwwjoggsekalendertavlingaraspxaar2024mon13fdist0tdist1000type0country1region0tloppfalserelayfalsesurfacetridist0title1",
-    "summary": "Välkommen till Nordenskiöldsloppet - världens längsta skidlopp! Tävlingen går 220 km från Jokkmokk till Njavve och tillbaka, genom orörd vildmark norr om polcirkeln. Öppen för både elitåkare och motionärer. Tidgräns på 30 timmar. Vinnarna kan vinna upp till 50 000 kr i prispengar. Nästa lopp äger rum den 23 mars 2024 och följer en historisk bansträckning från 1884. Följ tävlingen på Instagram genom @nordenskioldsloppet. Gå med i den här ultimata skidupplevelsen och skriv din egna hjältehistoria!",
-    "website_organizer": "https://www.nordenskioldsloppet.se/",
-    "new_version": true
-  },
-  {
-    "date": "20240326",
-    "type": "road",
-    "name": "Middagsloppet Lillsjön - mars",
-    "distance": "5,00 km",
-    "distance_m": [
-      5000
-    ],
-    "place": "Bromma",
-    "latitude": 59.3397832,
-    "longitude": 17.9397131,
-    "organizer": "",
-    "website": "/race-pages/middagsloppet-lillsjon-mars.html",
-    "src_url": "https://www.jogg.se/Kalender/Tavlingar.aspx?aar=2024&mon=13&fdist=0&tdist=1000&type=0&country=1&region=0&tlopp=False&relay=False&surface=&tridist=0&title=1",
-    "county": "Stockholms",
-    "id": "middagsloppet-lillsjön-mars_20240326_httpswwwjoggsekalendertavlingaraspxaar2024mon13fdist0tdist1000type0country1region0tloppfalserelayfalsesurfacetridist0title1",
-    "summary": "Varmt välkommen till Naturfys årliga löptävling! Vi erbjuder ett 5 km lopp som tar löpare genom vackra vägar och ger en härlig löpupplevelse. Oavsett om du är en erfaren maratonlöpare eller nybörjare, har vi något för dig. Anmäl dig och njut av en rolig och utmanande bana med vacker natur. Vi ser fram emot att se dig vid startlinjen!",
-    "website_organizer": "https://lunchloppet.se/middagsloppet-lillsjon/",
-    "new_version": true
-  },
-  {
     "date": "20240329",
     "type": "terrain",
     "name": "Ryssbergsloppet",
@@ -756,6 +716,26 @@
     "id": "11ef18a4-c4c7-4c9b-8f32-613879129604",
     "summary": "Kom och spring Kvarnloppet som drivits av vår förening i 23 år. Anmälan kan göras via vår hemsida <a href=\"www.skavsaret.se\" target=\"_blank\" class=\"inline-link\">www.skavsaret.se</a> Frågor om loppet kan ställas till info@skavsaret.se  Program för formtoppning på 5 km För dig med bra träningsbas som håller för fem pass per vecka.",
     "county": "Stockholms"
+  },
+  {
+    "date": "20240421",
+    "type": "trail",
+    "name": "KVANTUMLOPPET TRAIL",
+    "distance": "7 km , 17 km",
+    "distance_m": [
+      17000
+    ],
+    "place": "KVANTUMLOPPET TRAIL",
+    "latitude": 42.8982637,
+    "longitude": -71.6123709,
+    "organizer": "",
+    "website": "/race-pages/kvantumloppet-trail.html",
+    "src_url": "https://www.trailrunningsweden.se/trailkalendern/",
+    "county": null,
+    "id": "kvantumloppet-trail_20240421_httpswwwtrailrunningswedensetrailkalendern",
+    "summary": "Välkommen till Kvantumloppet 2024, arrangerat av Huddinge AIS Friidrott! Vi välkomnar löpare i alla åldrar och erfarenhetsnivåer till vårt spännande terränglopp. Den populära 17 km terrängloppet är ett av många olika sträckor som erbjuds längs vackra stigar och naturstigar. Det är en fantastisk möjlighet att testa sina gränser, upptäcka nya platser och skapa minnen för livet. Vi ser fram emot att välkomna dig till en utmanande och härlig gemenskap!",
+    "website_organizer": "https://huddingeais.se/event/kvantumloppet-2024/",
+    "new_version": true
   },
   {
     "date": "20240421",
@@ -6727,6 +6707,27 @@
     "new_version": true
   },
   {
+    "date": "20240826",
+    "type": "road",
+    "name": "Blodomloppet",
+    "distance": "event-5-km event-10-km",
+    "distance_m": [
+      5000,
+      10000
+    ],
+    "place": "Östersund",
+    "latitude": 63.1766832,
+    "longitude": 14.6360681,
+    "organizer": "Östersunds SK",
+    "website": "/race-pages/blodomloppet.html",
+    "src_url": "https://www.friidrott.se/tavling-landslag/tavling/tavlingskalender/tavlingar-i-sverige/langlopp/?sida=2",
+    "county": "Jämtlands",
+    "id": "blodomloppet_20240826_httpswwwfriidrottsetavling-landslagtavlingtavlingskalendertavlingar-i-sverigelangloppsida2",
+    "summary": "Delta i Blodomloppet Östersund 2024 den 26 augusti och stöd blodgivningen! Spring 5 km eller 10 km på vägarna och gör en positiv skillnad. Förra året hade vi 1075 deltagare - nu hoppas vi på ännu fler. Anmäl dig redan idag och var med och stötta denna viktiga insats. Ses på startlinjen!",
+    "website_organizer": "https://blodomloppet.se/vara-lopp/ostersund/",
+    "new_version": true
+  },
+  {
     "date": "20240827",
     "type": "track",
     "name": "Stockholm",
@@ -7100,6 +7101,27 @@
     "id": "blodomloppet_20240902_httpswwwfriidrottsetavling-landslagtavlingtavlingskalendertavlingar-i-sverigelangloppsida2",
     "summary": "Välkommen till 2024 års Blodomlopp i Borås! Ett fantastiskt lopp för löpare i alla åldrar och nivåer. Vi erbjuder tre olika distanser - 5 km, 10 km och 1 km på varierande terräng. Oavsett om du är erfaren eller nybörjare är det här loppet för dig. Så ta på dig dina löparskor och förbered dig för en härlig löpardag i Borås fylld med gemenskap och glädje!",
     "website_organizer": "https://blodomloppet.se/vara-lopp/boras/",
+    "new_version": true
+  },
+  {
+    "date": "20240903",
+    "type": "road",
+    "name": "Blodomloppet Halmstad",
+    "distance": "event-5-km event-10-km",
+    "distance_m": [
+      5000,
+      10000
+    ],
+    "place": "Halmstad",
+    "latitude": 56.6743748,
+    "longitude": 12.8577884,
+    "organizer": "Halmstad OK",
+    "website": "/race-pages/blodomloppet-halmstad.html",
+    "src_url": "https://www.friidrott.se/tavling-landslag/tavling/tavlingskalender/tavlingar-i-sverige/langlopp/?sida=2",
+    "county": "Halland",
+    "id": "blodomloppet-halmstad_20240903_httpswwwfriidrottsetavling-landslagtavlingtavlingskalendertavlingar-i-sverigelangloppsida2",
+    "summary": "Varmt välkomna till Blodomloppet i Halmstad den 3 september 2024! Oavsett om du gillar att gå, jogga eller springa, kan du njuta av en vacker 5 km eller 10 km löptur längs vägarna i Halmstad. Vi ser fram emot att få se hela Halmstad ute på distanserna och dela den här speciella dagen med er. Anmäl dig idag och var med och gör en skillnad!",
+    "website_organizer": "https://blodomloppet.se/vara-lopp/halmstad/",
     "new_version": true
   },
   {
