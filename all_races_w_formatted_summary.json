@@ -1,88 +1,5 @@
 [
   {
-    "date": "20240621",
-    "type": "trail",
-    "name": "Midsummer with Night Trail Run",
-    "distance": "30 km",
-    "distance_m": [
-      30000
-    ],
-    "place": "Midsummer with Night Trail Run",
-    "latitude": 0,
-    "longitude": 0,
-    "organizer": "",
-    "website": "/race-pages/midsummer-with-night-trail-run.html",
-    "src_url": "https://www.trailrunningsweden.se/trailkalendern/",
-    "county": null,
-    "id": "midsummer-with-night-trail-run_20240621_httpswwwtrailrunningswedensetrailkalendern",
-    "summary": "Välkommen till Sommar - Night Trail Run! Ett unikt lopp på årets ljusaste natt med vackra stigar och en speciell atmosfär. Oavsett om du är nybörjare eller erfaren traillöpare, är detta loppet för dig. Upplev spänningen och de vackra omgivningarna under sommarens starka ljus på en 30 km lång sträcka. Anmäl dig nu och ta chansen att delta i det spektakulära loppet!",
-    "website_organizer": "https://www.nighttrailrun.se/sommar",
-    "new_version": true
-  },
-  {
-    "date": "20240621",
-    "type": "terrain",
-    "name": "Orsakajtn",
-    "distance": "event-25-km event-14-km event-6-km",
-    "distance_m": [
-      25000,
-      14000,
-      6000
-    ],
-    "place": "Orsa",
-    "latitude": 61.1169365,
-    "longitude": 14.6280708,
-    "organizer": "CK Uven",
-    "website": "/race-pages/orsakajtn.html",
-    "src_url": "https://www.friidrott.se/tavling-landslag/tavling/tavlingskalender/tavlingar-i-sverige/langlopp/?sida=2",
-    "county": "Dalarnas",
-    "id": "orsakajtn_20240621_httpswwwfriidrottsetavling-landslagtavlingtavlingskalendertavlingar-i-sverigelangloppsida2",
-    "summary": "Välkommen till Orsakajt'n och Orsabajk'n - en årlig MTB- och löptävling på midsommarafton i Orsa. Våra tre distanser på 25 km, 14 km och 6 km erbjuder något för alla och tävlingen äger rum i varierande terräng. Kom och delta i denna välorganiserade och spännande tävling och upplev en minnesvärd midsommarafton i naturen. Kontakta info@orsakajtn.se för mer information om anmälan och deltagande.",
-    "website_organizer": "http://orsakajtn.se",
-    "new_version": true
-  },
-  {
-    "date": "20240623",
-    "type": "road",
-    "name": "Lilla Nackhällerundan",
-    "distance": "1,80 km",
-    "distance_m": [
-      1000,
-      9000
-    ],
-    "place": "Dagsås",
-    "latitude": 57.0644894,
-    "longitude": 12.485029,
-    "organizer": "",
-    "website": "/race-pages/lilla-nackhallerundan.html",
-    "src_url": "https://www.jogg.se/Kalender/Tavlingar.aspx?aar=2024&mon=13&fdist=0&tdist=1000&type=0&country=1&region=0&tlopp=False&relay=False&surface=&tridist=0&title=1",
-    "county": "Halland",
-    "id": "lilla-nackhällerundan_20240623_httpswwwjoggsekalendertavlingaraspxaar2024mon13fdist0tdist1000type0country1region0tloppfalserelayfalsesurfacetridist0title1",
-    "summary": "Nackhällerundan arrangeras av Orienteringsklubben Nackhe varje midsommarhelg. Sträckningen är 9,5 km och följer grusvägar, skogsvägar och skogsstigar i ett kuperat område norr och nordväst om Nackhestugan. Ett kortare alternativ är Högåsenrundan som är 4,2 km och bjuder på en lång backe över Högåsen. För ungdomar upp till 12 år finns Lilla Nackhällerundan som är 1,8 km och följer ett betydligt mindre kuperat motionsspår i anslutning till Nackhestugan.",
-    "website_organizer": "https://trailrunningsweden.se/events/nackhallerundan-2/",
-    "new_version": true
-  },
-  {
-    "date": "20240623",
-    "type": "road",
-    "name": "Högåsenrundan",
-    "distance": "4,20 km",
-    "distance_m": [
-      4000
-    ],
-    "place": "Dagsås",
-    "latitude": 57.0644894,
-    "longitude": 12.485029,
-    "organizer": "",
-    "website": "/race-pages/hogasenrundan.html",
-    "src_url": "https://www.jogg.se/Kalender/Tavlingar.aspx?aar=2024&mon=13&fdist=0&tdist=1000&type=0&country=1&region=0&tlopp=False&relay=False&surface=&tridist=0&title=1",
-    "county": "Halland",
-    "id": "högåsenrundan_20240623_httpswwwjoggsekalendertavlingaraspxaar2024mon13fdist0tdist1000type0country1region0tloppfalserelayfalsesurfacetridist0title1",
-    "summary": "Välkommen till vårt årliga löpevenemang! Vi erbjuder en spännande och utmanande löpning genom vackra omgivningar, perfekt för löpare i alla åldrar och nivåer. En av våra mest populära distanser är 4 km på vägen, perfekt för nybörjare och erfarna löpare. Kom och var med och upplev gemenskapen och glädjen med löpning!",
-    "website_organizer": "https://www.unco.edu/campus-recreation/pdf/intramural-sports/spring20/running-pace-chart.pdf",
-    "new_version": true
-  },
-  {
     "date": "20240626",
     "type": "trail",
     "name": "Böda Beachrun",
@@ -271,6 +188,26 @@
     "summary": "Välkommen till Bocksten TrailRun! Ett spännande terränglopp med distanser på 5 km, 12 km, 22 km och Trail Ultramarathon. Oavsett om du är nybörjare eller erfaren löpare, har vi något för alla. Upplev den vackra naturen och utmana dig själv. Anmäl dig nu för en oförglömlig löpupplevelse!",
     "county": "Hallands",
     "website_organizer": "https://bockstentrailrun.se/pm-sommar"
+  },
+  {
+    "date": "20240629",
+    "type": "road",
+    "name": "Semesterloppet",
+    "distance": "10,00 km",
+    "distance_m": [
+      10000
+    ],
+    "place": "Mariefred",
+    "latitude": 59.26203809999999,
+    "longitude": 17.22311,
+    "organizer": "",
+    "website": "/race-pages/semesterloppet.html",
+    "src_url": "https://www.jogg.se/Kalender/Tavlingar.aspx?aar=2024&mon=13&fdist=0&tdist=1000&type=0&country=1&region=0&tlopp=False&relay=False&surface=&tridist=0&title=1",
+    "county": "Södermanlands",
+    "id": "semesterloppet_20240629_httpswwwjoggsekalendertavlingaraspxaar2024mon13fdist0tdist1000type0country1region0tloppfalserelayfalsesurfacetridist0title1",
+    "summary": "Gör dig redo för en rolig och spännande väglöpning med vårt team! Vår årliga lopp är perfekt för löpare i alla åldrar och förmågor. Ta med din familj och vänner och anmäl er till denna spännande händelse. Banan är säker och tydligt markerad för att du ska kunna fokusera på att njuta av loppet. Oavsett om du är en erfaren löpare eller nybörjare, är du välkommen att delta på den 10 km sträckan. Vi ser fram emot att se dig där och stödja dig längs hela vägen!",
+    "website_organizer": "http://www.semesterloppet.se/",
+    "new_version": true
   },
   {
     "date": "20240629",
