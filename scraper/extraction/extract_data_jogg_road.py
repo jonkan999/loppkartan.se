@@ -42,6 +42,8 @@ def main():
                 month_num = months_dict.get(month_name.lower(), "00")
                 proper_date = f"2024{month_num}{day}"
                 distance_div = item.find("div", class_="distanceInfo")
+                if not distance_div:
+                    continue #continue if we dont find distance, for like adventure races and such
                 distance_str = distance_div.text.strip()
                 distance_m = 0
                 if distance_str.endswith("km"):

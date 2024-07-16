@@ -1,845 +1,5 @@
 [
   {
-    "date": "20240626",
-    "type": "trail",
-    "name": "Böda Beachrun",
-    "distance": "10,00 km",
-    "distance_m": [
-      10000
-    ],
-    "place": "Böda",
-    "latitude": 43.6533356,
-    "longitude": -70.2665933,
-    "organizer": "",
-    "website": "/race-pages/boda-beachrun.html",
-    "src_url": "https://www.jogg.se/Kalender/Tavlingar.aspx?aar=2024&mon=13&fdist=0&tdist=1000&type=0&country=1&region=0&tlopp=False&relay=False&surface=&tridist=0&title=1",
-    "county": "Kalmar",
-    "id": "böda-beachrun_20240626_httpswwwjoggsekalendertavlingaraspxaar2024mon13fdist0tdist1000type0country1region0tloppfalserelayfalsesurfacetridist0title1",
-    "summary": "Böda Beachrun är en utmanande löptävling på Ölands stränder, perfekt för löpare på alla nivåer. Vi erbjuder olika distanser och kategorier, inklusive Backyard-kategorin för de som vill testa sin uthållighet. Oavsett om du är erfaren eller nybörjare, är du välkommen att delta i denna roliga och tuffa tävling i sand och vatten. Anmäl dig nu och utmana dig själv på Böda Beachrun!",
-    "website_organizer": "https://olandrunning.se/lopp/boda-beachrun/",
-    "new_version": true
-  },
-  {
-    "date": "20240626",
-    "type": "relay",
-    "name": "St Olavsloppet",
-    "distance": "event-345-km50-strackor",
-    "distance_m": [],
-    "place": "Östersund-Trondheim",
-    "latitude": 63.437081,
-    "longitude": 10.4222752,
-    "organizer": "Trångsvikens IF",
-    "website": "/race-pages/st-olavsloppet.html",
-    "src_url": "https://www.friidrott.se/tavling-landslag/tavling/tavlingskalender/tavlingar-i-sverige/langlopp/?sida=2",
-    "county": null,
-    "id": "st-olavsloppet_20240626_httpswwwfriidrottsetavling-landslagtavlingtavlingskalendertavlingar-i-sverigelangloppsida2",
-    "summary": "Vår årliga löptävling är tillbaka och vi är glada över att välkomna löpare i alla åldrar och erfarenhetsnivåer! Vi erbjuder individuella distanser på 5 km, 10 km och halvmaraton, samt stafettalternativ för de som vill springa som en del av ett lag. Vänner och familj är också välkomna att heja på deltagarna längs banan. Anmäl dig nu och var med och tävla i denna roliga och inkluderande löpevent!",
-    "website_organizer": "http://www.st-olavsloppet.com",
-    "new_version": true
-  },
-  {
-    "date": "20240628",
-    "type": "road",
-    "name": "Trosa Stadslopp",
-    "distance": "event-89-km event-4-km event-23-km",
-    "distance_m": [
-      89000,
-      4000,
-      23000
-    ],
-    "place": "Trosa",
-    "latitude": 58.902655,
-    "longitude": 17.5494638,
-    "organizer": "Trosabygdens OK",
-    "website": "/race-pages/trosa-stadslopp.html",
-    "src_url": "https://www.friidrott.se/tavling-landslag/tavling/tavlingskalender/tavlingar-i-sverige/langlopp/?sida=2",
-    "county": "Södermanlands",
-    "id": "trosa-stadslopp_20240628_httpswwwfriidrottsetavling-landslagtavlingtavlingskalendertavlingar-i-sverigelangloppsida2",
-    "summary": "Välkommen till Trosa Stadslopp! Vår spännande löptävling äger rum alltid på fredagen efter midsommar. Oavsett om du är en ultramarathon-löpare, vanlig löpare eller bara vill ha kul med familjen, har vi något för dig. Vi erbjuder distanser på 4 km, 23 km och en utmanande ultramarathon längs stadens gator och vägar. Det blir en härlig stadsfest med stödjande publik längs banan och proffs på plats för att se till att alla löpare är säkra och har en trevlig upplevelse. Anmäl dig idag!",
-    "website_organizer": "https://trosastadslopp.se/",
-    "new_version": true
-  },
-  {
-    "date": "20240629",
-    "type": "trail",
-    "name": "Bocksten TrailRun",
-    "distance": "5 km, 12 km, 22 km, 44 km",
-    "distance_m": [
-      5000,
-      12000,
-      22000,
-      44000
-    ],
-    "place": "Bocksten TrailRun",
-    "latitude": 0,
-    "longitude": 0,
-    "organizer": "",
-    "website": "http://www.bockstentrailrun.se",
-    "src_url": "https://www.trailrunningsweden.se/trailkalendern/",
-    "short_summary": "Kom och delta i Mannen, Myten o Legendens TrailRace! Vi har lopp för alla, från 5 km till Trail Ultramarathon. Utforska vacker natur och utmana dig själv på terrängen. Oavsett om du är nybörjare eller erfaren löpare finns det en distans som passar dig. Registrera dig idag och upplev en oförglömlig löpupplevelse i naturen!",
-    "county": null,
-    "new_version": true,
-    "id": "7fa76084-ade5-4092-aa20-63b096b900ca",
-    "summary": "Kom och delta i Mannen, Myten o Legendens TrailRace! Vi har lopp för alla, från 5 km till Trail Ultramarathon. Utforska vacker natur och utmana dig själv på terrängen. Oavsett om du är nybörjare eller erfaren löpare finns det en distans som passar dig. Registrera dig idag och upplev en oförglömlig löpupplevelse i naturen!"
-  },
-  {
-    "date": "20240629",
-    "type": "trail",
-    "name": "Skogsvargarna Trailrun 2024",
-    "distance": "6 km, 11 km, 22 km och 45 km",
-    "distance_m": [
-      6000,
-      11000
-    ],
-    "place": "Skogsvargarna Trailrun 2024",
-    "latitude": 0,
-    "longitude": 0,
-    "organizer": "",
-    "website": "/race-pages/skogsvargarna-trailrun-2024.html",
-    "src_url": "https://www.trailrunningsweden.se/trailkalendern/",
-    "county": null,
-    "id": "skogsvargarna-trailrun-2024_20240629_httpswwwtrailrunningswedensetrailkalendern",
-    "summary": "Välkommen till Orienteringsklubben Skogsvargarnas årliga terränglopp! Vårt lopp erbjuder två distanser att välja mellan: 6 km och 11 km. Upplev vackra skogar och utmanande terräng, oavsett om du är erfaren eller nybörjare. Efter loppet väntar gemensam picknick och prisutdelning. Anmäl dig och upplev en oförglömlig dag i naturen!",
-    "website_organizer": "https://www.okskogsvargarna.se",
-    "new_version": true
-  },
-  {
-    "date": "20240629",
-    "type": "road",
-    "name": "Kustmaran",
-    "distance": "event-5-km event-10-km event-halvmarathon event-marathon event-4-km event-25-km event-grenar-finns-for-para-klass",
-    "distance_m": [
-      5000,
-      10000,
-      21098,
-      42195,
-      4000,
-      25000
-    ],
-    "place": "Kristianopel, Blekinge",
-    "latitude": 56.2578701,
-    "longitude": 16.0411673,
-    "organizer": "Team Blekinge LF",
-    "website": "/race-pages/kustmaran.html",
-    "src_url": "https://www.friidrott.se/tavling-landslag/tavling/tavlingskalender/tavlingar-i-sverige/langlopp/?sida=2",
-    "county": null,
-    "id": "kustmaran_20240629_httpswwwfriidrottsetavling-landslagtavlingtavlingskalendertavlingar-i-sverigelangloppsida2",
-    "summary": "Varmt välkommen till vårt årliga löpevenemang! Vi erbjuder banor längs stadens vägar för löpare av alla nivåer och åldrar, inklusive 5 km, 10 km, Halvmarathon, Marathon, 4 km och 25 km lopp. Vår tävling är perfekt för dem som vill springa på asfaltsvägar och utmana sig själva. Oavsett om du strävar efter personliga rekord eller bara vill njuta av löpning med vänner och familj, är vårt lopp det perfekta tillfället att delta i en utmanande och rolig löpartävling. Vi ser fram emot att möta dig i startlinjen!",
-    "website_organizer": "https://www.teamblekinge.nu/varalopp/KustmaranochKristianopelRunt/",
-    "new_version": true
-  },
-  {
-    "date": "20240629",
-    "type": "road",
-    "name": "Kalmar Malkars 21 km",
-    "distance": "Kalmar Malkars 21 km",
-    "distance_m": [
-      21000
-    ],
-    "place": "Kalmar",
-    "latitude": 56.6634447,
-    "longitude": 16.356779,
-    "organizer": "",
-    "website": "/race-pages/kalmar-malkars-21-km.html",
-    "src_url": "https://www.jogg.se/Kalender/Tavlingar.aspx?aar=2024&mon=13&fdist=0&tdist=1000&type=0&country=1&region=0&tlopp=False&relay=False&surface=asf&tridist=0&title=1",
-    "id": "kalmar-malkars-21-km_20240629_httpswwwjoggsekalendertavlingaraspxaar2024mon13fdist0tdist1000type0country1region0tloppfalserelayfalsesurfaceasftridist0title1",
-    "summary": "Välkommen till Kalmar Malkars 21KM - en spännande halvmaraton på väg som arrangeras av Malkars Träningscenter. Ta chansen att utmana dig själv och njut av vackra vyer under loppet. Oavsett om du är nybörjare eller erfaren löpare, är du välkommen att delta. Efter loppet kan du fira med oss under Malkarsdagen. Anmäl dig nu och var med på denna fantastiska löpardag!",
-    "county": null,
-    "website_organizer": "https://malkars.se/nyheter/malkars_halvmara/"
-  },
-  {
-    "date": "20240629",
-    "type": "road",
-    "name": "Malkarsfemman",
-    "distance": "5,00 km",
-    "distance_m": [
-      5000
-    ],
-    "place": "Kalmar",
-    "latitude": 56.6634447,
-    "longitude": 16.356779,
-    "organizer": "",
-    "website": "/race-pages/malkarsfemman.html",
-    "src_url": "https://www.jogg.se/Kalender/Tavlingar.aspx?aar=2024&mon=13&fdist=0&tdist=1000&type=0&country=1&region=0&tlopp=False&relay=False&surface=&tridist=0&title=1",
-    "county": "Kalmar",
-    "id": "malkarsfemman_20240629_httpswwwjoggsekalendertavlingaraspxaar2024mon13fdist0tdist1000type0country1region0tloppfalserelayfalsesurfacetridist0title1",
-    "summary": "Malkarsfemman är tillbaka den 29 juni 2019! Alla åldrar och nivåer är välkomna att delta i detta femkilometerslopp på stadens vägar. Anmäl dig idag för en spännande löpupplevelse som du sent kommer att glömma!",
-    "website_organizer": "https://www.facebook.com/events/malkars-tr%C3%A4ningscenter/malkarsfemman/319512622084188/?locale=is_IS",
-    "new_version": true
-  },
-  {
-    "date": "20240629",
-    "type": "trail",
-    "name": "BOCKSTEN  TRAILRUN 12 KM",
-    "distance": "12,00 km",
-    "distance_m": [
-      5000,
-      12000,
-      22000,
-      44000
-    ],
-    "place": "Öströö",
-    "latitude": 57.0681145,
-    "longitude": 12.502482,
-    "organizer": "",
-    "website": "/race-pages/bocksten-trailrun-12-km.html",
-    "src_url": "https://www.jogg.se/Kalender/Tavlingar.aspx?aar=2024&mon=13&fdist=0&tdist=1000&type=0&country=1&region=0&tlopp=False&relay=False&surface=ter&tridist=0&title=1",
-    "id": "bocksten-trailrun-12-km_20240629_httpswwwjoggsekalendertavlingaraspxaar2024mon13fdist0tdist1000type0country1region0tloppfalserelayfalsesurfacetertridist0title1",
-    "summary": "Välkommen till Bocksten TrailRun! Ett spännande terränglopp med distanser på 5 km, 12 km, 22 km och Trail Ultramarathon. Oavsett om du är nybörjare eller erfaren löpare, har vi något för alla. Upplev den vackra naturen och utmana dig själv. Anmäl dig nu för en oförglömlig löpupplevelse!",
-    "county": "Hallands",
-    "website_organizer": "https://bockstentrailrun.se/pm-sommar"
-  },
-  {
-    "date": "20240629",
-    "type": "road",
-    "name": "Semesterloppet",
-    "distance": "10,00 km",
-    "distance_m": [
-      10000
-    ],
-    "place": "Mariefred",
-    "latitude": 59.26203809999999,
-    "longitude": 17.22311,
-    "organizer": "",
-    "website": "/race-pages/semesterloppet.html",
-    "src_url": "https://www.jogg.se/Kalender/Tavlingar.aspx?aar=2024&mon=13&fdist=0&tdist=1000&type=0&country=1&region=0&tlopp=False&relay=False&surface=&tridist=0&title=1",
-    "county": "Södermanlands",
-    "id": "semesterloppet_20240629_httpswwwjoggsekalendertavlingaraspxaar2024mon13fdist0tdist1000type0country1region0tloppfalserelayfalsesurfacetridist0title1",
-    "summary": "Gör dig redo för en rolig och spännande väglöpning med vårt team! Vår årliga lopp är perfekt för löpare i alla åldrar och förmågor. Ta med din familj och vänner och anmäl er till denna spännande händelse. Banan är säker och tydligt markerad för att du ska kunna fokusera på att njuta av loppet. Oavsett om du är en erfaren löpare eller nybörjare, är du välkommen att delta på den 10 km sträckan. Vi ser fram emot att se dig där och stödja dig längs hela vägen!",
-    "website_organizer": "http://www.semesterloppet.se/",
-    "new_version": true
-  },
-  {
-    "date": "20240629",
-    "type": "terrain",
-    "name": "Jordgubbslunken",
-    "distance": "event-10-km event-6-km",
-    "distance_m": [
-      10000,
-      6000
-    ],
-    "place": "Kristinehamn",
-    "latitude": 59.3100677,
-    "longitude": 14.1089192,
-    "organizer": "Rudskoga IF",
-    "website": "/race-pages/jordgubbslunken.html",
-    "src_url": "https://www.friidrott.se/tavling-landslag/tavling/tavlingskalender/tavlingar-i-sverige/langlopp/?sida=2",
-    "county": "Värmlands",
-    "id": "jordgubbslunken_20240629_httpswwwfriidrottsetavling-landslagtavlingtavlingskalendertavlingar-i-sverigelangloppsida2",
-    "summary": "Välkommen till Rudskoga IF Motionsidrotts årliga löpartävling! Vi erbjuder 10 km och 6 km terränglöpning i vackra omgivningar för löpare på alla nivåer. Besök vår lagsida för kommande matcher och senaste nyheter om laget. Fyll i er e-postadress för gratis uppdateringar. Kom och njut av en fantastisk löparupplevelse med oss!",
-    "website_organizer": "https://www.laget.se/RUDSKOGA_IF",
-    "new_version": true
-  },
-  {
-    "date": "20240629",
-    "type": "trail",
-    "name": "Silverleden Ultra 64km",
-    "distance": "64km",
-    "distance_m": [
-      64000
-    ],
-    "place": "Silverleden Ultra 64km",
-    "latitude": 59.7878301,
-    "longitude": 14.5430533,
-    "organizer": "",
-    "website": "/race-pages/silverleden-ultra-64km.html",
-    "src_url": "https://www.trailrunningsweden.se/trailkalendern/",
-    "county": "Örebro",
-    "id": "silverleden-ultra-64km_20240629_httpswwwtrailrunningswedensetrailkalendern",
-    "summary": "Upplev en otrolig löparupplevelse på Silverleden! Vår Trail Ultramarathon sträcker sig över 64 km genom vacker natur och erbjuder en tuff utmaning för erfarna ultralöpare och de som söker äventyr. Efter loppet kommer du känna gemenskap och prestation. Anmäl dig nu och delta i detta episka äventyr på Silverleden!",
-    "new_version": true,
-    "website_organizer": "https://www.silverleden.se/"
-  },
-  {
-    "date": "20240629",
-    "type": "trail",
-    "name": "Fjällmaraton Öppet Fjäll",
-    "distance": "27 K / 42 K",
-    "distance_m": [
-      27000,
-      42000
-    ],
-    "place": "Fjällmaraton Öppet Fjäll",
-    "latitude": 63.21675800000001,
-    "longitude": 13.0448807,
-    "organizer": "",
-    "website": "/race-pages/fjallmaraton-oppet-fjall.html",
-    "src_url": "https://www.trailrunningsweden.se/trailkalendern/",
-    "id": "fjällmaraton-öppet-fjäll_20240629_httpswwwtrailrunningswedensetrailkalendern",
-    "summary": "Välkommen till Öppet fjäll - Fjällmaraton, Sveriges mest avslappnade fjällmaraton! Vi erbjuder olika distanser för löpare i alla nivåer, inklusive 10 km, halvmaraton och fjällmaraton. Våra lopp går på vackra och utmanande stigar i fjällen, vilket ger dig en unik upplevelse av naturen. Oavsett om du är nybörjare eller erfaren löpare, är du välkommen att utmana dig själv i vackra svenska fjällen på Öppet fjäll - Fjällmaraton!",
-    "county": "Jämtlands",
-    "website_organizer": "https://fjallmaraton.se/oppet-fjall/"
-  },
-  {
-    "date": "20240629",
-    "type": "track",
-    "name": "Örnsköldsvik",
-    "distance": "event-100-m event-200-m event-800-m event-3000-m event-hojdhopp event-langdhopp event-tresteg event-kula event-diskus event-slagga event-spjut event-60-m event-80-m",
-    "distance_m": [
-      3000
-    ],
-    "place": "IF Vingarna",
-    "latitude": 63.29004740000001,
-    "longitude": 18.7166166,
-    "organizer": "",
-    "website": "/race-pages/ornskoldsvik.html",
-    "src_url": "https://www.friidrott.se/tavling-landslag/tavling/tavlingskalender/tavlingar-i-sverige/arenatavlingar/?sida=3",
-    "county": "Västernorrlands",
-    "id": "örnsköldsvik_20240629_httpswwwfriidrottsetavling-landslagtavlingtavlingskalendertavlingar-i-sverigearenatavlingarsida3",
-    "summary": "Välkommen till IF Vingarna Friidrotts löptävling! Oavsett om du är en erfaren löpare eller nybörjare, finns det en kategori för dig att delta i. Vi kommer att ha en spännande 3000 meter långdistanslöpning på banan. Kom och utmana dig själv i denna fantastiska tävling med vacker omgivning och stödjande deltagare. Registrera dig nu och var med på startlinjen!",
-    "website_organizer": "http://www.vingarna.se",
-    "new_version": true
-  },
-  {
-    "date": "20240630",
-    "type": "trail",
-    "name": "Atea TrailÖvik",
-    "distance": "Atea TrailÖvik",
-    "distance_m": [
-      2000,
-      6000,
-      12000,
-      22000
-    ],
-    "place": "Atea TrailÖvik",
-    "latitude": 63.3031366,
-    "longitude": 18.6293979,
-    "organizer": "",
-    "website": "/race-pages/atea-trailovik.html",
-    "src_url": "https://www.trailrunningsweden.se/trailkalendern/",
-    "id": "atea-trailövik_20240630_httpswwwtrailrunningswedensetrailkalendern",
-    "summary": "Välkommen till Atea TrailÖvik! Vår spännande traillopp har fyra distanser att välja mellan: 2 km, 6 km, 12 km och 22 km - perfekt för löpare med olika erfarenhetsnivåer. Upplev vacker natur och utmanande terräng med likasinnade löpare. Oavsett om du är nybörjare eller erfaren, har vi något för dig! Kom och vara med på Atea TrailÖvik - trail för alla!",
-    "county": "Västernorrlands",
-    "website_organizer": "https://trailovik.se/"
-  },
-  {
-    "date": "20240702",
-    "type": "road",
-    "name": "Wallanderloppet",
-    "distance": "event-6-km event-38-km",
-    "distance_m": [
-      6000,
-      38000
-    ],
-    "place": "Ystad",
-    "latitude": 55.4295051,
-    "longitude": 13.8200308,
-    "organizer": "Ystads IF FIF",
-    "website": "/race-pages/wallanderloppet.html",
-    "src_url": "https://www.friidrott.se/tavling-landslag/tavling/tavlingskalender/tavlingar-i-sverige/langlopp/?sida=2",
-    "county": null,
-    "id": "wallanderloppet_20240702_httpswwwfriidrottsetavling-landslagtavlingtavlingskalendertavlingar-i-sverigelangloppsida2",
-    "summary": "Välkommen till Ystads IF Friidrottförenings årliga lopp! Vi erbjuder två distanser: 6 km och 38 km längs en väg. Loppet äger rum den 29 februari 2024 kl. 19.00 vid YIF Fotbolls klubbhus. Anmäl dig nu för en fantastisk dag med löpning och gemenskap!",
-    "website_organizer": "http://www.friidrott.ystadsif.se/start/",
-    "new_version": true
-  },
-  {
-    "date": "20240703",
-    "type": "terrain",
-    "name": "Hörby Marknadslopp",
-    "distance": "event-126-km event-61-km event-34-km",
-    "distance_m": [
-      126000,
-      61000,
-      34000
-    ],
-    "place": "Hörby",
-    "latitude": 55.851716,
-    "longitude": 13.6619255,
-    "organizer": "Frosta OK",
-    "website": "/race-pages/horby-marknadslopp.html",
-    "src_url": "https://www.friidrott.se/tavling-landslag/tavling/tavlingskalender/tavlingar-i-sverige/langlopp/?sida=2",
-    "county": "Skåne",
-    "id": "hörby-marknadslopp_20240703_httpswwwfriidrottsetavling-landslagtavlingtavlingskalendertavlingar-i-sverigelangloppsida2",
-    "summary": "Välkommen till vårt spännande trail ultramarathon lopp! Med en sträcka på 34 km på varierande terräng, kommer detta lopp att testa din uthållighet och styrka. Vi välkomnar löpare från alla nivåer och erfarenheter att utmana sig själva i en unik och inspirerande miljö. Kom och upplev den vackra naturen samtidigt som du främjar en hälsosam livsstil och fysisk aktivitet. Vi ser fram emot att skapa en minnesvärd och givande upplevelse för alla deltagare!",
-    "website_organizer": "http://maarknadsloppet.nu",
-    "new_version": true
-  },
-  {
-    "date": "20240704",
-    "type": "track",
-    "name": "Karlstad",
-    "distance": "event-100-m event-800-m event-3000-m event-400-m-hack event-hojdhopp event-stavhopp event-diskus event-200-m event-1500-m event-kula event-slagga",
-    "distance_m": [
-      3000,
-      1500
-    ],
-    "place": "IF Göta Karlstad",
-    "latitude": 59.399103,
-    "longitude": 13.4913499,
-    "organizer": "",
-    "website": "/race-pages/karlstad.html",
-    "src_url": "https://www.friidrott.se/tavling-landslag/tavling/tavlingskalender/tavlingar-i-sverige/arenatavlingar/?sida=3",
-    "county": "Värmlands",
-    "id": "karlstad_20240704_httpswwwfriidrottsetavling-landslagtavlingtavlingskalendertavlingar-i-sverigearenatavlingarsida3",
-    "summary": "Välkommen till årets Folksam Grand Prix i Karlstad! Oavsett ålder eller nivå har vi en spännande tävling för dig. Med banlopp på 3000 meter och 1500 meter kan du utmana dig själv och visa dina talanger. Det kommer finnas priser för de snabbaste löparna och mycket gemenskap. Anmäl dig redan idag och se fram emot en dag fylld med glädje och prestation! Vi ser fram emot att se dig på startlinjen.",
-    "website_organizer": "https://www.friidrott.se/folksam-grand-prix-karlstad/invitation/",
-    "new_version": true
-  },
-  {
-    "date": "20240705",
-    "type": "track",
-    "name": "Göteborg",
-    "distance": "event-100-m event-200-m event-400-m event-800-m event-1500-m event-5000-m event-3000-m-hinder event-100110-m-hack event-400-m-hack event-hojdhopp event-stavhopp event-langdhopp event-tresteg event-kula event-diskus event-slagga event-spjut event-3000-m event-2000-m-hinder event-300-m-hack event-1500-m-hinder event-60-m event-600-m event-60-m-hack event-80-m event-300-m event-2000-m event-80-m-hack",
-    "distance_m": [
-      1500,
-      5000,
-      3000
-    ],
-    "place": "Örgryte IS FIK",
-    "latitude": 57.70887,
-    "longitude": 11.97456,
-    "organizer": "",
-    "website": "/race-pages/goteborg.html",
-    "src_url": "https://www.friidrott.se/tavling-landslag/tavling/tavlingskalender/tavlingar-i-sverige/arenatavlingar/?sida=3",
-    "county": "Västra Götalands",
-    "id": "göteborg_20240705_httpswwwfriidrottsetavling-landslagtavlingtavlingskalendertavlingar-i-sverigearenatavlingarsida3",
-    "summary": "Välkommen till årets löpartävling, där vi har tre olika distanser att erbjuda: 1500 meter, 3000 meter och 5000 meter. Oavsett om du är nybörjare eller erfaren löpare finns det en passande utmaning för dig på banan. Vi har skapat en spännande bana som kommer att testa dina färdigheter och ge dig en rolig och inspirerande upplevelse. Vi ser fram emot att se dig vid startlinjen!",
-    "website_organizer": "http://www.vuspel.se",
-    "new_version": true
-  },
-  {
-    "date": "20240705",
-    "type": "road",
-    "name": "Byrundan",
-    "distance": "event-8-km event-4-km event-15-km",
-    "distance_m": [
-      8000,
-      4000,
-      15000
-    ],
-    "place": "Gamleby",
-    "latitude": 57.89316029999999,
-    "longitude": 16.4060887,
-    "organizer": "Gamleby OK",
-    "website": "/race-pages/byrundan.html",
-    "src_url": "https://www.friidrott.se/tavling-landslag/tavling/tavlingskalender/tavlingar-i-sverige/langlopp/?sida=2",
-    "county": "Kalmar",
-    "id": "byrundan_20240705_httpswwwfriidrottsetavling-landslagtavlingtavlingskalendertavlingar-i-sverigelangloppsida2",
-    "summary": "Upptäck spännande Byrundan i Gamleby - en löptävling i vackra Västervik! Välj mellan distanserna 8 km, 4 km och 15 km och utmana dig själv i sommarlandskapet. Oavsett om du är nybörjare eller erfaren löpare har vi något för alla. Anmäl dig och njut av en härlig löpupplevelse på väg genom varierad terräng!",
-    "website_organizer": "http://www.byrundan.se",
-    "new_version": true
-  },
-  {
-    "date": "20240705",
-    "type": "road",
-    "name": "Skövde Ultrafestival 2024",
-    "distance": "Tidslopp",
-    "distance_m": [
-      0,
-      0
-    ],
-    "place": "Skövde",
-    "latitude": 58.3902782,
-    "longitude": 13.8461208,
-    "organizer": "",
-    "website": "/race-pages/skovde-ultrafestival-2024.html",
-    "src_url": "https://www.jogg.se/Kalender/Tavlingar.aspx?aar=2024&mon=13&fdist=0&tdist=1000&type=0&country=1&region=0&tlopp=False&relay=False&surface=&tridist=0&title=1",
-    "county": "Västra Götalands",
-    "id": "skövde-ultrafestival-2024_20240705_httpswwwjoggsekalendertavlingaraspxaar2024mon13fdist0tdist1000type0country1region0tloppfalserelayfalsesurfacetridist0title1",
-    "summary": "Välkommen till årets löpartävling med Team Ultrasweden! Oavsett om du är nybörjare eller erfaren löpare, har vi distanser för dig, från 5 km till 100 km ultramaraton. Vårt väglopp är utformat för att vara vackert, utmanande och säkert. Anmäl dig idag och var med och skapa minnen under årets Team Ultrasweden!",
-    "website_organizer": "https://ultrasweden.se/",
-    "new_version": true
-  },
-  {
-    "date": "20240706",
-    "type": "road",
-    "name": "Killebom & Stadsloppet 10 km 2024",
-    "distance": "10,00 km",
-    "distance_m": [
-      5000,
-      10000,
-      20000
-    ],
-    "place": "Sölvesborg",
-    "latitude": 56.0537433,
-    "longitude": 14.5796878,
-    "organizer": "",
-    "website": "http://mjmchallenge.se/solvesborgs-stadslopp/",
-    "src_url": "https://www.jogg.se/Kalender/Tavlingar.aspx?aar=2024&mon=13&fdist=0&tdist=1000&type=0&country=1&region=0&tlopp=False&relay=False&surface=asf&tridist=0&title=1",
-    "short_summary": "Välkommen till Sölvesborgs Stadslopp! Ett spännande löplopp med tre distanser att välja mellan - 5 km, 10 km och 20 km. Loppet äger rum på vägar med en vacker utsikt över Sölvesborgs stad och omgivande natur. Oavsett om du är en erfaren löpare eller nybörjare, så finns det något för alla på detta säkra och välorganiserade evenemang. Vi ser fram emot att välkomna dig till detta spännande lopp och önskar dig lycka till på din löparresa!",
-    "county": "Blekinge",
-    "new_version": true,
-    "id": "fd547d52-80e8-49a5-9127-866317ba4d4b",
-    "summary": "Välkommen till Sölvesborgs Stadslopp! Ett spännande löplopp med tre distanser att välja mellan - 5 km, 10 km och 20 km. Loppet äger rum på vägar med en vacker utsikt över Sölvesborgs stad och omgivande natur. Oavsett om du är en erfaren löpare eller nybörjare, så finns det något för alla på detta säkra och välorganiserade evenemang. Vi ser fram emot att välkomna dig till detta spännande lopp och önskar dig lycka till på din löparresa!"
-  },
-  {
-    "date": "20240706",
-    "type": "road",
-    "name": "Kolmården Ultra Trail",
-    "distance": "48,00 km",
-    "distance_m": [
-      25000,
-      48000
-    ],
-    "place": "Kolmården",
-    "latitude": 58.6605369,
-    "longitude": 16.3990328,
-    "organizer": "",
-    "website": "/race-pages/kolmarden-ultra-trail.html",
-    "src_url": "https://www.jogg.se/Kalender/Tavlingar.aspx?aar=2024&mon=13&fdist=0&tdist=1000&type=0&country=1&region=0&tlopp=False&relay=False&surface=&tridist=0&title=1",
-    "county": "Östergötlands",
-    "id": "kolmården-ultra-trail_20240706_httpswwwjoggsekalendertavlingaraspxaar2024mon13fdist0tdist1000type0country1region0tloppfalserelayfalsesurfacetridist0title1",
-    "summary": "Kom och delta i KolmårdsRundan, en spännande löpartävling på 25 km och ultramarathon längs en vacker väg. Upplev naturen samtidigt som du utmanar dina gränser. Vi erbjuder stödpunkter med vatten och energidrycker för att hålla dig energifylld och hydrerad. Vår hjälpsamma personal skapar en positiv atmosfär där du kan känna dig motiverad hela vägen till mållinjen.",
-    "website_organizer": "https://www.kolmardsrundan.se/ultra-trail/",
-    "new_version": true
-  },
-  {
-    "date": "20240706",
-    "type": "road",
-    "name": "Strömstadmilen 10 km",
-    "distance": "10,00 km",
-    "distance_m": [
-      5000,
-      10000
-    ],
-    "place": "Strömstad",
-    "latitude": 58.9383459,
-    "longitude": 11.1791871,
-    "organizer": "",
-    "website": "/race-pages/stromstadmilen-10-km.html",
-    "src_url": "https://www.jogg.se/Kalender/Tavlingar.aspx?aar=2024&mon=13&fdist=0&tdist=1000&type=0&country=1&region=0&tlopp=False&relay=False&surface=&tridist=0&title=1",
-    "county": "Västra Götalands",
-    "id": "strömstadmilen-10-km_20240706_httpswwwjoggsekalendertavlingaraspxaar2024mon13fdist0tdist1000type0country1region0tloppfalserelayfalsesurfacetridist0title1",
-    "summary": "Kom och vara med på årets Strömstadmilen! Ta chansen att uppleva en spännande tävling samtidigt som du njuter av den vackra sommarstaden. Vi erbjuder både promenad- och löparklass på 10 km banan, med chansen att vinna fina priser. Dessutom har vi en kortare backyard-distans för alla, oavsett om du vill sprinta eller promenera. Anmäl dig redan idag för en fantastisk löparupplevelse!",
-    "website_organizer": "https://www.vastsverige.com/stromstad/event/stromstadmilen/",
-    "new_version": true
-  },
-  {
-    "date": "20240707",
-    "type": "trail",
-    "name": "Mora Trail",
-    "distance": "Mora Trail",
-    "distance_m": [
-      2000,
-      4000,
-      8000,
-      17000,
-      30000
-    ],
-    "place": "Mora Trail",
-    "latitude": 37.3344082,
-    "longitude": -122.0988119,
-    "organizer": "",
-    "website": "/race-pages/mora-trail.html",
-    "src_url": "https://www.trailrunningsweden.se/trailkalendern/",
-    "id": "mora-trail_20240707_httpswwwtrailrunningswedensetrailkalendern",
-    "summary": "Välkommen till Mora Trail! Vi har lopp i olika längder och svårighetsgrader för löpare på alla nivåer. Från 2 km till 30 km, våra trailbanor tar dig genom vackra skogar och bergsleder. Oavsett om du är nybörjare eller erfaren, så har vi en distans som passar dig. Kom och följ i legenders spår och upplev den fantastiska naturen med oss!",
-    "county": null,
-    "website_organizer": "http://www.moratrail.se/"
-  },
-  {
-    "date": "20240707",
-    "type": "terrain",
-    "name": "Böda Sandsloppet",
-    "distance": "event-4-km event-65-km event-18-km",
-    "distance_m": [
-      4000,
-      65000,
-      18000
-    ],
-    "place": "Löttorp",
-    "latitude": 57.1660956,
-    "longitude": 16.9930091,
-    "organizer": "Högby IF",
-    "website": "/race-pages/boda-sandsloppet.html",
-    "src_url": "https://www.friidrott.se/tavling-landslag/tavling/tavlingskalender/tavlingar-i-sverige/langlopp/?sida=2",
-    "county": "Kalmar",
-    "id": "böda-sandsloppet_20240707_httpswwwfriidrottsetavling-landslagtavlingtavlingskalendertavlingar-i-sverigelangloppsida2",
-    "summary": "Välkommen till vårt årliga löpevent med tre olika distanser att välja mellan: 4km, Trail Ultramarathon och 18km. Banan tar löparna genom utmanande terräng och vacker natur, vilket ger deltagarna en minnesvärd upplevelse oavsett vilken distans de väljer. Anmäl dig idag och delta i detta spännande lopp!",
-    "website_organizer": "http://www.olandrunning.com",
-    "new_version": true
-  },
-  {
-    "date": "20240708",
-    "type": "road",
-    "name": "Västervik City Run",
-    "distance": "event-6-km",
-    "distance_m": [
-      6000
-    ],
-    "place": "Västervik",
-    "latitude": 57.75771559999999,
-    "longitude": 16.6369759,
-    "organizer": "Västerviks IK",
-    "website": "/race-pages/vastervik-city-run.html",
-    "src_url": "https://www.friidrott.se/tavling-landslag/tavling/tavlingskalender/tavlingar-i-sverige/langlopp/?sida=2",
-    "county": "Kalmar",
-    "id": "västervik-city-run_20240708_httpswwwfriidrottsetavling-landslagtavlingtavlingskalendertavlingar-i-sverigelangloppsida2",
-    "summary": "Välkommen till Västervik löparloppet! Vår 6 km långa bana tar dig genom staden med vackra stadsgator och natursköna vyer. Oavsett om du är nybörjare eller erfaren löpare, är detta loppet för dig. Kom och njut av den härliga gemenskapen och den energifyllda atmosfären med familj, vänner och kollegor. Ta chansen att slå ditt personbästa eller bara njut av en hälsosam aktivitet i vackra omgivningar. Vi ses på startlinjen!",
-    "website_organizer": "https://www.vikhockey.se/cityrun",
-    "new_version": true
-  },
-  {
-    "date": "20240708",
-    "type": "road",
-    "name": "Riddarsprånget",
-    "distance": "5,00 km",
-    "distance_m": [
-      5000
-    ],
-    "place": "Hova",
-    "latitude": 58.8561016,
-    "longitude": 14.2177762,
-    "organizer": "",
-    "website": "/race-pages/riddarspranget.html",
-    "src_url": "https://www.jogg.se/Kalender/Tavlingar.aspx?aar=2024&mon=13&fdist=0&tdist=1000&type=0&country=1&region=0&tlopp=False&relay=False&surface=&tridist=0&title=1",
-    "county": "Västra Götalands",
-    "id": "riddarsprånget_20240708_httpswwwjoggsekalendertavlingaraspxaar2024mon13fdist0tdist1000type0country1region0tloppfalserelayfalsesurfacetridist0title1",
-    "summary": "Välkommen till Riddarsprånget - Hova Riddarvecka! En unik löpartävling i vacker svensk landsbygd. Loppet inkluderar en 5 km-lopp på vägen, perfekt för både nybörjare och erfarna löpare. Efter loppet kan du utforska festivalen med medeltida festivalaktiviteter. En fantastisk dag med härligt löpning och medeltida festligheter väntar! Varmt välkomna!",
-    "website_organizer": "https://www.riddarveckan.com/?page_id=214",
-    "new_version": true
-  },
-  {
-    "date": "20240711",
-    "type": "track",
-    "name": "Eskilstuna",
-    "distance": "event-60-m event-100-m event-400-m event-1500-m event-hojdhopp event-tresteg event-diskus event-spjut event-lopgrenar",
-    "distance_m": [
-      1500
-    ],
-    "place": "Råby-Rekarne FIF",
-    "latitude": 59.38333300000001,
-    "longitude": 16.3,
-    "organizer": "",
-    "website": "/race-pages/eskilstuna.html",
-    "src_url": "https://www.friidrott.se/tavling-landslag/tavling/tavlingskalender/tavlingar-i-sverige/arenatavlingar/?sida=3",
-    "county": "Södermanlands",
-    "id": "eskilstuna_20240711_httpswwwfriidrottsetavling-landslagtavlingtavlingskalendertavlingar-i-sverigearenatavlingarsida3",
-    "summary": "Välkommen till årets Julichansen på Råby-Rekarne FIF! Vi är glada att välkomna alla löpare till denna spännande löptävling. I årets lopp kommer vi ha olika distanser, inklusive en 1500 meter banan på vår fina löparbana. Banan är perfekt för snabba tider och ger en utmanande och rolig upplevelse för löpare i alla åldrar och nivåer. Gör er redo för en fantastisk löparupplevelse!",
-    "website_organizer": "https://www.rabyrekarne.se/rabyrekarnefif/sida/91642/julichansen",
-    "new_version": true
-  },
-  {
-    "date": "20240712",
-    "type": "track",
-    "name": "Helsingborg",
-    "distance": "event-100-m event-200-m event-400-m event-800-m event-1500-m event-5000-m event-100110-m-hack event-400-m-hack event-hojdhopp event-stavhopp event-langdhopp event-tresteg event-kula event-diskus event-slagga event-spjut event-2000-m-hinder event-3000-m event-300-m-hack event-1500-m-hinder event-60-m event-600-m event-60-m-hack event-200-m-hack event-80-m event-300-m event-80-m-hack",
-    "distance_m": [
-      1500,
-      5000,
-      3000
-    ],
-    "place": "IFK Helsingborg",
-    "latitude": 56.0141522,
-    "longitude": 12.726149,
-    "organizer": "",
-    "website": "/race-pages/helsingborg.html",
-    "src_url": "https://www.friidrott.se/tavling-landslag/tavling/tavlingskalender/tavlingar-i-sverige/arenatavlingar/?sida=3",
-    "county": null,
-    "id": "helsingborg_20240712_httpswwwfriidrottsetavling-landslagtavlingtavlingskalendertavlingar-i-sverigearenatavlingarsida3",
-    "summary": "Välkommen till Helsingborg Marathon! Vår löptävling erbjuder något för alla åldrar och förmågor, med distanser på 1500 meter, 5000 meter och 3000 meter på bana. Vi välkomnar även press och media för att dokumentera loppet. All information finns här. Vi ser fram emot att se dig där!",
-    "website_organizer": "https://helsingborgmarathon.se/en/press/",
-    "new_version": true
-  },
-  {
-    "date": "20240712",
-    "type": "backyard",
-    "name": "Kristinehamn Backyard",
-    "distance": "Tidslopp",
-    "distance_m": [
-      "backyard"
-    ],
-    "place": "Kristinehamn",
-    "latitude": 59.3100677,
-    "longitude": 14.1089192,
-    "organizer": "",
-    "website": "/race-pages/kristinehamn-backyard.html",
-    "src_url": "https://www.jogg.se/Kalender/Tavlingar.aspx?aar=2024&mon=13&fdist=0&tdist=1000&type=0&country=1&region=0&tlopp=False&relay=False&surface=&tridist=0&title=1",
-    "county": "Värmland",
-    "id": "kristinehamn-backyard_20240712_httpswwwjoggsekalendertavlingaraspxaar2024mon13fdist0tdist1000type0country1region0tloppfalserelayfalsesurfacetridist0title1",
-    "summary": "Välkommen till vårt årliga lopp i Sverige! Vi erbjuder en vacker och naturskön miljö för löpare att delta i vår tävling. För de äventyrslystna har vi även en \"backyard\" -kategori där deltagarna kan utmana sig själva genom att springa runt en kortare slinga upprepade gånger. Oavsett om du är en professionell idrottare eller en motionär, är du välkommen att delta. Vi ser fram emot att skapa en oförglömlig tävlingsupplevelse tillsammans!",
-    "website_organizer": "https://www.facebook.com/groups/loppisverige/?locale=sv_SE",
-    "new_version": true
-  },
-  {
-    "date": "20240713",
-    "type": "trail",
-    "name": "Fäbodlunken",
-    "distance": "Fäbodlunken",
-    "distance_m": [
-      5000,
-      9000,
-      17000
-    ],
-    "place": "Fäbodlunken",
-    "latitude": 33.9569145,
-    "longitude": -83.9864132,
-    "organizer": "",
-    "website": "/race-pages/fabodlunken.html",
-    "src_url": "https://www.trailrunningsweden.se/trailkalendern/",
-    "id": "fäbodlunken_20240713_httpswwwtrailrunningswedensetrailkalendern",
-    "summary": "Hej löpare! Vårt lopp i den vackra svenska naturen erbjuder tre distanser - 5 km, 9 km och 17 km, alla i trail-lopp. Upplev skogar, berg och dalgångar med fantastisk utsikt längs vägen. Vi finns där för att stötta er och efter loppet väntar en härlig målgångsfest med mat, dryck och prisutdelningar. Vi ser fram emot att dela denna fantastiska upplevelse med er!",
-    "county": null,
-    "website_organizer": "https://trailrunningsweden.se/events/fabodlunken-2023/"
-  },
-  {
-    "date": "20240713",
-    "type": "track",
-    "name": "Löttorp",
-    "distance": "event-100-m event-800-m event-3000-m event-100110-m-hack event-hojdhopp event-stavhopp event-langdhopp event-kula event-diskus event-spjut event-200-m event-5000-m event-60-m event-600-m event-60-m-hack event-80-m event-2000-m event-80-m-hack",
-    "distance_m": [
-      3000,
-      5000
-    ],
-    "place": "Högby IF",
-    "latitude": 57.1671019,
-    "longitude": 17.015088,
-    "organizer": "",
-    "website": "/race-pages/lottorp.html",
-    "src_url": "https://www.friidrott.se/tavling-landslag/tavling/tavlingskalender/tavlingar-i-sverige/arenatavlingar/?sida=3",
-    "county": "Kalmar",
-    "id": "löttorp_20240713_httpswwwfriidrottsetavling-landslagtavlingtavlingskalendertavlingar-i-sverigearenatavlingarsida3",
-    "summary": "Välkommen till Högby IF Friidrottslopp! Vi erbjuder spännande löpning på bana med distanser på 3000 meter och 5000 meter. Oavsett om du är nybörjare eller erfaren löpare är du välkommen att delta. Efter loppet kommer vi att ha prisutdelning och firande för alla deltagare. Kom och testa dina gränser och ha kul med Högby IF Friidrott!",
-    "website_organizer": "http://www.hogbyif.se/friidrott",
-    "new_version": true
-  },
-  {
-    "date": "20240713",
-    "type": "road",
-    "name": "Musköloppet",
-    "distance": "event-5-km event-10-km event-25-km",
-    "distance_m": [
-      5000,
-      10000,
-      25000
-    ],
-    "place": "Muskö",
-    "latitude": 58.9999599,
-    "longitude": 18.1262048,
-    "organizer": "Muskö IF",
-    "website": "/race-pages/muskoloppet.html",
-    "src_url": "https://www.friidrott.se/tavling-landslag/tavling/tavlingskalender/tavlingar-i-sverige/langlopp/?sida=2",
-    "county": "Stockholms",
-    "id": "musköloppet_20240713_httpswwwfriidrottsetavling-landslagtavlingtavlingskalendertavlingar-i-sverigelangloppsida2",
-    "summary": "Välkommen till Musköloppet 2024! En vacker löpartävling i skärgårdsmiljö den 8 juli 2024. Vi erbjuder 5 km, 10 km och 25 km-distanser för löpare på alla nivåer. Anmäl dig idag och utmana dig själv i den vackra skärgården!",
-    "website_organizer": "https://www.muskoloppet.se/",
-    "new_version": true
-  },
-  {
-    "date": "20240713",
-    "type": "road",
-    "name": "Sommarmilen",
-    "distance": "10,00 km",
-    "distance_m": [
-      10000
-    ],
-    "place": "Kumla",
-    "latitude": 59.12653590000001,
-    "longitude": 15.1401053,
-    "organizer": "",
-    "website": "/race-pages/sommarmilen.html",
-    "src_url": "https://www.jogg.se/Kalender/Tavlingar.aspx?aar=2024&mon=13&fdist=0&tdist=1000&type=0&country=1&region=0&tlopp=False&relay=False&surface=&tridist=0&title=1",
-    "county": "Örebro",
-    "id": "sommarmilen_20240713_httpswwwjoggsekalendertavlingaraspxaar2024mon13fdist0tdist1000type0country1region0tloppfalserelayfalsesurfacetridist0title1",
-    "summary": "Välkommen till Sommarmilen 2024, ett 10 km långt motionslopp arrangerat av LK Gränslöst. Loppet äger rum lördagen den 13 juli 2024 med start och mål vid Torps Herrgård mellan Kumla och Fjugesta. Bansträckningen består av både asfalt och grusväg. Tidtagning sker med tidtagningschip och efter loppet hålls en prisutdelning med lottade priser för alla deltagare. Det finns även livemusik, toaletter, omklädningsrum, duschar och sjukvårdspersonal på plats. Anmälan görs via AnmälMigNu! fram till dagen före loppet. Efteranmälan är också möjligt mot en högre avgift. Alla deltagare får medeldaljer vid målgång.",
-    "website_organizer": "https://www.lkgranslost.se/sommarmilen-start/",
-    "new_version": true
-  },
-  {
-    "date": "20240713",
-    "type": "road",
-    "name": "Semesterhalvmaran",
-    "distance": "event-halvmarathon",
-    "distance_m": [
-      21098
-    ],
-    "place": "Fjugesta",
-    "latitude": 59.17642569999999,
-    "longitude": 14.8709161,
-    "organizer": "LK Gränslöst",
-    "website": "/race-pages/semesterhalvmaran.html",
-    "src_url": "https://www.friidrott.se/tavling-landslag/tavling/tavlingskalender/tavlingar-i-sverige/langlopp/?sida=2",
-    "county": "Örebro",
-    "id": "semesterhalvmaran_20240713_httpswwwfriidrottsetavling-landslagtavlingtavlingskalendertavlingar-i-sverigelangloppsida2",
-    "summary": "Välkommen till LK Gränslöst Semesterhalvmaran, vår årliga landsvägshalvmaraton! Detta lopp är perfekt för löpare som vill utmana sig själva och uppleva den energifyllda atmosfären. Oavsett om du är proffs eller nybörjare, så är detta evenemang för dig. Tack för i år och vi ser fram emot att ses vid nästa lopp!",
-    "website_organizer": "https://www.lkgranslost.se/semesterhalvmaran",
-    "new_version": true
-  },
-  {
-    "date": "20240713",
-    "type": "backyard",
-    "name": "Borlänge Backyard ultra",
-    "distance": "Tidslopp",
-    "distance_m": [
-      "backyard"
-    ],
-    "place": "Borlänge",
-    "latitude": 60.484304,
-    "longitude": 15.433969,
-    "organizer": "",
-    "website": "/race-pages/borlange-backyard-ultra.html",
-    "src_url": "https://www.jogg.se/Kalender/Tavlingar.aspx?aar=2024&mon=13&fdist=0&tdist=1000&type=0&country=1&region=0&tlopp=False&relay=False&surface=&tridist=0&title=1",
-    "county": "Dalarnas",
-    "id": "borlänge-backyard-ultra_20240713_httpswwwjoggsekalendertavlingaraspxaar2024mon13fdist0tdist1000type0country1region0tloppfalserelayfalsesurfacetridist0title1",
-    "summary": "Borlänge Backyard är en unik löptävling som erbjuder en spännande och annorlunda loppupplevelse för löpare och motionärer i alla åldrar och nivåer. Deltagarna springer/går en bana på 6,7 km med start varje hel timme och har möjlighet att fortsätta och delta i nästa varv om de klarar det på mindre än en timme. Loppet pågår tills endast en deltagare återstår, och överskottet skänks till välgörenhet. Det är en utmanande och rolig tävling som skapar gemenskap bland deltagarna.",
-    "website_organizer": "https://runagain.com/sv/run/BorlangeBackyard",
-    "new_version": true
-  },
-  {
-    "date": "20240713",
-    "type": "track",
-    "name": "Bollnäs",
-    "distance": "event-100-m event-200-m event-400-m event-800-m event-5000-m event-hojdhopp event-langdhopp event-tresteg event-kula event-spjut event-3000-m event-60-m event-60-m-hack event-80-m event-80-m-hack",
-    "distance_m": [
-      5000,
-      3000
-    ],
-    "place": "Rehns BK",
-    "latitude": 61.34837950000001,
-    "longitude": 16.3942685,
-    "organizer": "",
-    "website": "/race-pages/bollnas.html",
-    "src_url": "https://www.friidrott.se/tavling-landslag/tavling/tavlingskalender/tavlingar-i-sverige/arenatavlingar/?sida=3",
-    "county": "Gävleborgs",
-    "id": "bollnäs_20240713_httpswwwfriidrottsetavling-landslagtavlingtavlingskalendertavlingar-i-sverigearenatavlingarsida3",
-    "summary": "Sommarloppet är tillbaka och erbjuder två distanser på bana: 5000 meter och 3000 meter. Oavsett om du är nybörjare eller erfaren löpare, finns det något för alla att delta i. Det blir en dag full av gemenskap, prestation och glädje för alla deltagare. Kom och känn pulsen öka när du korsar mållinjen med ett leende på läpparna!",
-    "website_organizer": "https://www.rehnsbk.se/events/nonamespelen-2024",
-    "new_version": true
-  },
-  {
-    "date": "20240714",
-    "type": "road",
-    "name": "Gardfjällslunken",
-    "distance": "17,00 km",
-    "distance_m": [
-      17000
-    ],
-    "place": "Forsmark/Matsdal Västerbotten",
-    "latitude": 65.3512092,
-    "longitude": 15.8471294,
-    "organizer": "",
-    "website": "/race-pages/gardfjallslunken.html",
-    "src_url": "https://www.jogg.se/Kalender/Tavlingar.aspx?aar=2024&mon=13&fdist=0&tdist=1000&type=0&country=1&region=0&tlopp=False&relay=False&surface=&tridist=0&title=1",
-    "county": "Västerbottens",
-    "id": "gardfjällslunken_20240714_httpswwwjoggsekalendertavlingaraspxaar2024mon13fdist0tdist1000type0country1region0tloppfalserelayfalsesurfacetridist0title1",
-    "summary": "Välkommen till Gardfjällslunken, ett 17 km terränglopp på Norra Gardfjället! Oavsett om du är erfaren eller nybörjare, är du välkommen att delta. Loppet erbjuder en unik och utmanande löpupplevelse genom vackra omgivningar. Uppgradera din webbläsare för att anmäla dig och vara med på denna spännande löparupplevelse!",
-    "website_organizer": "https://www.gardfjallslunken.se/",
-    "new_version": true
-  },
-  {
-    "date": "20240715",
-    "type": "road",
-    "name": "Victorialoppet",
-    "distance": "event-9-km event-4-km event-2-km event-grenar-finns-for-para-klass",
-    "distance_m": [
-      9000,
-      4000,
-      2000
-    ],
-    "place": "Borgholm",
-    "latitude": 56.88022969999999,
-    "longitude": 16.6562355,
-    "organizer": "IFK Borgholm",
-    "website": "/race-pages/victorialoppet.html",
-    "src_url": "https://www.friidrott.se/tavling-landslag/tavling/tavlingskalender/tavlingar-i-sverige/langlopp/?sida=2",
-    "county": "Kalmar",
-    "id": "victorialoppet_20240715_httpswwwfriidrottsetavling-landslagtavlingtavlingskalendertavlingar-i-sverigelangloppsida2",
-    "summary": "Välkommen till Victorialoppet på Öland den 15 juli 2024! Vi firar 44 år och erbjuder tre distanser: 9 km, 4 km, 2 km - alla på väg. Oavsett om du är erfaren eller nybörjare är du välkommen att delta i denna löparfest. Anmäl dig nu och var en del av detta fantastiska evenemang!",
-    "website_organizer": "http://victorialoppet.se",
-    "new_version": true
-  },
-  {
     "date": "20240717",
     "type": "road",
     "name": "Löttorpsvarvet",
@@ -1002,6 +162,26 @@
     "id": "runmaröloppen_20240721_httpswwwjoggsekalendertavlingaraspxaar2024mon13fdist0tdist1000type0country1region0tloppfalserelayfalsesurfacetridist0title1",
     "summary": "Upptäck den vackra naturen i Stockholms skärgård genom att delta i HEM | RUNmaröloppen! Löpningen äger rum på Runmarö och erbjuder olika distanser att välja mellan, inklusive den spännande backyard-kategorin. Ta chansen att utmana dig själv både fysiskt och mentalt samtidigt som du utforskar den fantastiska ön. En unik upplevelse för alla äventyrsälskande löpare!",
     "website_organizer": "https://www.runmaroloppen.se/",
+    "new_version": true
+  },
+  {
+    "date": "20240723",
+    "type": "road",
+    "name": "Sommarmilen",
+    "distance": "10,00 km",
+    "distance_m": [
+      10000
+    ],
+    "place": "Umeå",
+    "latitude": 63.8258471,
+    "longitude": 20.2630354,
+    "organizer": "",
+    "website": "/race-pages/sommarmilen.html",
+    "src_url": "https://www.jogg.se/Kalender/Tavlingar.aspx?aar=2024&mon=13&fdist=0&tdist=1000&type=0&country=1&region=0&tlopp=False&relay=False&surface=&tridist=0&title=1",
+    "county": "Västerbottens",
+    "id": "sommarmilen_20240723_httpswwwjoggsekalendertavlingaraspxaar2024mon13fdist0tdist1000type0country1region0tloppfalserelayfalsesurfacetridist0title1",
+    "summary": "Välkommen till årets löptävling i vår vackra stad! Oavsett om du är nybörjare eller erfaren löpare, har vi något för alla. Med en 10 km bana genom stadens gator, är detta lopp perfekt för dig som älskar löpning. Träffa vänner och familj och njut av den gemensamma kärleken till löpning. Kom och var med i denna fantastiska löpartradition och ta del av det roliga!",
+    "website_organizer": "https://m.facebook.com/events/960102081808211/",
     "new_version": true
   },
   {
@@ -1763,6 +943,26 @@
     "new_version": true
   },
   {
+    "date": "20240814",
+    "type": "road",
+    "name": "Löparnas kväll",
+    "distance": "5,00 km",
+    "distance_m": [
+      5000
+    ],
+    "place": "Umeå",
+    "latitude": 63.8258471,
+    "longitude": 20.2630354,
+    "organizer": "",
+    "website": "/race-pages/loparnas-kvall.html",
+    "src_url": "https://www.jogg.se/Kalender/Tavlingar.aspx?aar=2024&mon=13&fdist=0&tdist=1000&type=0&country=1&region=0&tlopp=False&relay=False&surface=&tridist=0&title=1",
+    "county": "Västerbottens",
+    "id": "löparnas-kväll_20240814_httpswwwjoggsekalendertavlingaraspxaar2024mon13fdist0tdist1000type0country1region0tloppfalserelayfalsesurfacetridist0title1",
+    "summary": "Kom och delta i en spännande löptävling med IFK Umeå - Friidrott! Vi erbjuder en härlig 5 km långdistanslopp längs stadens vägar, perfekt för både erfarna löpare och motionärer. Banan är tydligt skyltad och vi kommer ha vattenstationer längs vägen. Alla deltagare får en fin medalj och vi har priser för de bästa löparna i varje ålderskategori. Anmäl dig redan idag för en oförglömlig löpupplevelse längs stadens vackra vägar!",
+    "website_organizer": "https://www.ifkumea.com/?SID=18083",
+    "new_version": true
+  },
+  {
     "date": "20240815",
     "type": "track",
     "name": "Uppsala",
@@ -2136,6 +1336,26 @@
   {
     "date": "20240820",
     "type": "road",
+    "name": "Veteran-VM Terräng",
+    "distance": "8,00 km",
+    "distance_m": [
+      8000
+    ],
+    "place": "Göteborg",
+    "latitude": 57.70887,
+    "longitude": 11.97456,
+    "organizer": "",
+    "website": "/race-pages/veteran-vm-terrang.html",
+    "src_url": "https://www.jogg.se/Kalender/Tavlingar.aspx?aar=2024&mon=13&fdist=0&tdist=1000&type=0&country=1&region=0&tlopp=False&relay=False&surface=&tridist=0&title=1",
+    "county": "Västra Götalands",
+    "id": "veteran-vm-terräng_20240820_httpswwwjoggsekalendertavlingaraspxaar2024mon13fdist0tdist1000type0country1region0tloppfalserelayfalsesurfacetridist0title1",
+    "summary": "VETERAN-VM 2024 är ett spännande lopp för löpare över 35 år från hela världen. Banan sträcker sig över 8 km längs vägar och vackra landskap. Oavsett om du är erfaren eller nybörjare är du välkommen att delta och uppleva den fantastiska atmosfären och gemenskapen. Detta är en dag att minnas och vi ser fram emot att se dig på startlinjen!",
+    "website_organizer": "https://www.friidrott.se/forening-forbund/veteran-vm-2024/",
+    "new_version": true
+  },
+  {
+    "date": "20240820",
+    "type": "road",
     "name": "KM Landsväg Uddevalla SK",
     "distance": "7,20 km",
     "distance_m": [
@@ -2169,6 +1389,26 @@
     "id": "convinistafetten_20240821_httpswwwfriidrottsetavling-landslagtavlingtavlingskalendertavlingar-i-sverigelangloppsida2",
     "summary": "Välkommen till Convinistafetten 2024, Sveriges största stafett! Anmäl dig nu för en dag full av löpning, glädje och gemenskap. Oavsett om du är nybörjare eller erfaren löpare, kan du springa, jogga eller gå 5 km i fantastisk atmosfär. Alla lag bjuds på picknick och kaffe efter målgång av vår titelsponsor Convini. Vi har flera kategorier och distanser som passar alla, från individuellt deltagande till lagnivå. Vänner, familjer och kollegor uppmuntras att bilda lag och delta tillsammans. Anmäl dig nu för en stafett som fokuserar på gemenskap och skapar minnen!",
     "website_organizer": "https://stafetten.com/",
+    "new_version": true
+  },
+  {
+    "date": "20240821",
+    "type": "road",
+    "name": "Älven Runt",
+    "distance": "4,60 km",
+    "distance_m": [
+      4000
+    ],
+    "place": "Borlänge",
+    "latitude": 60.484304,
+    "longitude": 15.433969,
+    "organizer": "",
+    "website": "/race-pages/alven-runt.html",
+    "src_url": "https://www.jogg.se/Kalender/Tavlingar.aspx?aar=2024&mon=13&fdist=0&tdist=1000&type=0&country=1&region=0&tlopp=False&relay=False&surface=&tridist=0&title=1",
+    "county": "Dalarnas",
+    "id": "älven-runt_20240821_httpswwwjoggsekalendertavlingaraspxaar2024mon13fdist0tdist1000type0country1region0tloppfalserelayfalsesurfacetridist0title1",
+    "summary": "Välkommen till Älven Runt 2024! Ett spännande lopp längs älven och genom stadens vackra omgivningar. Oavsett om du är nybörjare eller erfaren löpare, så passar vår 4 km långa bana perfekt för dig. Förbättra din hastighet, uthållighet och njut av energin tillsammans med andra löpare. Anmäl dig idag på https://borlangeloparklubb.se/alvenrunt. Vi ser fram emot att välkomna dig!",
+    "website_organizer": "https://xn--lpning-wxa.se/lopp/%C3%A4lven-runt/",
     "new_version": true
   },
   {
@@ -2231,6 +1471,27 @@
     "id": "uppsala_20240823_httpswwwfriidrottsetavling-landslagtavlingtavlingskalendertavlingar-i-sverigearenatavlingarsida3",
     "summary": "Välkommen till vårt årliga löparlopp på Upsala Idrottsförening! Oavsett erfarenhet erbjuder vi distanser för alla, från 1500 meter till 5000 meter, på en bana perfekt för personliga rekord. Och glöm inte bekväm parkering för alla deltagare. Anmäl dig idag och skapa minnen för livet!",
     "website_organizer": "https://www.uiffriidrott.se/sida/?ID=250447",
+    "new_version": true
+  },
+  {
+    "date": "20240824",
+    "type": "trail",
+    "name": "prästholmsterrängen 2024",
+    "distance": "5 km, 10 km",
+    "distance_m": [
+      5000,
+      10000
+    ],
+    "place": "prästholmsterrängen 2024",
+    "latitude": 0,
+    "longitude": 0,
+    "organizer": "",
+    "website": "/race-pages/prastholmsterrangen-2024.html",
+    "src_url": "https://www.trailrunningsweden.se/trailkalendern/",
+    "county": null,
+    "id": "prästholmsterrängen-2024_20240824_httpswwwtrailrunningswedensetrailkalendern",
+    "summary": "Vi är glada att bjuda in er till Prästholmsterrängen 2024 - den ultimata terrängloppsupplevelsen! Vårt lopp kommer att erbjuda två fantastiska distanser: 5 km och 10 km. Ta på er era bästa terrängskor och utmana er själva på en dag fylld av vacker skogsterräng, slingrande stigar och utmanande kullar. Oavsett om du är erfaren traillöpare eller nybörjare, är det här loppet perfekt för dig! Efter loppet väntar aktiviteter och underhållning för en oförglömlig löpardag. Vi ser fram emot att välkomna er till Prästholmsterrängen 2024!",
+    "website_organizer": "https://docs.google.com/forms/d/e/1FAIpQLSeeaikT9-tjkzyyioMk4QWGjs7hTWSlP3vQIzK2Pjay7OtsaA/viewform?fbclid=IwZXh0bgNhZW0CMTAAAR0VPU_9EY4yDvkUkc0pBjHnCAsu_HL-wqbA8t72ttmafgIE7BBelGibE6Q_aem_NIo4o-W3w-eQhgZG-0FyAw",
     "new_version": true
   },
   {
@@ -2302,6 +1563,46 @@
   },
   {
     "date": "20240824",
+    "type": "road",
+    "name": "Frontyard 2024",
+    "distance": "3,00 km",
+    "distance_m": [
+      3000
+    ],
+    "place": "Haninge",
+    "latitude": 59.17554999999999,
+    "longitude": 18.1413702,
+    "organizer": "",
+    "website": "/race-pages/frontyard-2024.html",
+    "src_url": "https://www.jogg.se/Kalender/Tavlingar.aspx?aar=2024&mon=13&fdist=0&tdist=1000&type=0&country=1&region=0&tlopp=False&relay=False&surface=&tridist=0&title=1",
+    "county": "Stockholms",
+    "id": "frontyard-2024_20240824_httpswwwjoggsekalendertavlingaraspxaar2024mon13fdist0tdist1000type0country1region0tloppfalserelayfalsesurfacetridist0title1",
+    "summary": "Frontård 2024 är Stockholms ultimata löpartävling för äventyrslystna och uthålliga löpare. Vi erbjuder en spännande resa genom stadens vackra landskap med en mix av natursköna vägar och stadsgator. För de som söker en snabb utmaning har vi även ett 3 km landsvägsmaraton som testar din hastighet och styrka. Oavsett erfarenhetsnivå, har Frontård 2024 något för alla som älskar löpning!",
+    "website_organizer": "https://www.stockholmgerillalopare.se/frontyard-2024/",
+    "new_version": true
+  },
+  {
+    "date": "20240824",
+    "type": "track",
+    "name": "Sommarspelen",
+    "distance": "5,00 km",
+    "distance_m": [
+      5000
+    ],
+    "place": "Stockholm",
+    "latitude": 59.32932349999999,
+    "longitude": 18.0685808,
+    "organizer": "",
+    "website": "/race-pages/sommarspelen.html",
+    "src_url": "https://www.jogg.se/Kalender/Tavlingar.aspx?aar=2024&mon=13&fdist=0&tdist=1000&type=0&country=1&region=0&tlopp=False&relay=False&surface=&tridist=0&title=1",
+    "county": "Stockholms",
+    "id": "sommarspelen_20240824_httpswwwjoggsekalendertavlingaraspxaar2024mon13fdist0tdist1000type0country1region0tloppfalserelayfalsesurfacetridist0title1",
+    "summary": "Sommarspelen är tillbaka! FK Studenterna är stolta att presentera årets löpevent med en spännande 5000 meters lopp. Oavsett om du är nybörjare eller erfaren löpare, är loppet öppet för alla som vill utmana sig själva och njuta av en härlig dag på löparbanan. Med vackra omgivningar, en säker loppupplevelse och möjligheten att slå personliga rekord, är det här en löpupplevelse du inte vill missa!",
+    "website_organizer": "https://fkstudenterna.se/arrangemang/sommarspelen/",
+    "new_version": true
+  },
+  {
+    "date": "20240824",
     "type": "track",
     "name": "Karlstad",
     "distance": "event-100-m event-200-m event-400-m event-800-m event-1500-m event-100110-m-hack event-hojdhopp event-stavhopp event-langdhopp event-tresteg event-kula event-diskus event-slagga event-spjut event-300-m-hack event-60-m event-600-m event-60-m-hack event-80-m event-80-m-hack",
@@ -2362,6 +1663,26 @@
   },
   {
     "date": "20240824",
+    "type": "road",
+    "name": "KÅVER & MELLIN MARATHON",
+    "distance": "0,00 km",
+    "distance_m": [
+      0
+    ],
+    "place": "Månkarbo",
+    "latitude": 60.2267574,
+    "longitude": 17.4645615,
+    "organizer": "",
+    "website": "/race-pages/kaver-&-mellin-marathon.html",
+    "src_url": "https://www.jogg.se/Kalender/Tavlingar.aspx?aar=2024&mon=13&fdist=0&tdist=1000&type=0&country=1&region=0&tlopp=False&relay=False&surface=&tridist=0&title=1",
+    "county": "Uppsala",
+    "id": "kåver-mellin-marathon_20240824_httpswwwjoggsekalendertavlingaraspxaar2024mon13fdist0tdist1000type0country1region0tloppfalserelayfalsesurfacetridist0title1",
+    "summary": "Välkommen till Månkarbo Marathon! Vi erbjuder löpningar för alla nivåer, med distanser från 5 km till 42 km. Vår välgjorda bana tar dig genom vackra landskap och städer. Oavsett om du är nybörjare eller erfaren löpare, finns det en distans som passar dig perfekt. Anmäl dig redan idag och få gratis uppdateringar om evenemanget. Vi ser fram emot att se dig vid startlinjen!",
+    "website_organizer": "https://www.laget.se/MankarboMarathon",
+    "new_version": true
+  },
+  {
+    "date": "20240824",
     "month": "augusti",
     "day": "24",
     "type": "trail",
@@ -2382,6 +1703,26 @@
     "id": "4d1bbd8d-2e30-42c1-8e3c-0714eea076b4",
     "summary": "Idre Fjällmaraton. Att springa på fjällen ger en underbar frihetskänsla. Milslånga vyer, grönskande berg och frisk fjälluft – bättre blir det inte! Vi hoppas att du vill komma och springa på våra vackra fjäll och fantastiska banor, oavsett om det är under ett fjällmaraton eller om du bara vill löpträna.",
     "county": "Dalarnas"
+  },
+  {
+    "date": "20240824",
+    "type": "road",
+    "name": "Hägglunds Trail",
+    "distance": "6,70 km",
+    "distance_m": [
+      6000
+    ],
+    "place": "Örnsköldsvik",
+    "latitude": 63.29004740000001,
+    "longitude": 18.7166166,
+    "organizer": "",
+    "website": "/race-pages/hagglunds-trail.html",
+    "src_url": "https://www.jogg.se/Kalender/Tavlingar.aspx?aar=2024&mon=13&fdist=0&tdist=1000&type=0&country=1&region=0&tlopp=False&relay=False&surface=&tridist=0&title=1",
+    "county": "Västernorrlands",
+    "id": "hägglunds-trail_20240824_httpswwwjoggsekalendertavlingaraspxaar2024mon13fdist0tdist1000type0country1region0tloppfalserelayfalsesurfacetridist0title1",
+    "summary": "Välkommen till Hägglunds Trail i vackra Örnsköldsvik! Upplev en spännande löptävling längs Bergfinkvägen, perfekt för löpare i alla åldrar och nivåer. Vi erbjuder en 6 km bana som passar perfekt för dem som gillar löpning på väg. Anmäl dig redan idag och njut av gemenskapen och glädjen i löpning.",
+    "website_organizer": "https://pagang.7an.se/338114/Hagglunds-Trail",
+    "new_version": true
   },
   {
     "date": "20240824",
@@ -2841,6 +2182,50 @@
   },
   {
     "date": "20240901",
+    "type": "road",
+    "name": "Mölndalsloppet 10km",
+    "distance": "Tidslopp",
+    "distance_m": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "place": "Mölndal",
+    "latitude": 57.65,
+    "longitude": 12.016667,
+    "organizer": "",
+    "website": "/race-pages/molndalsloppet-10km.html",
+    "src_url": "https://www.jogg.se/Kalender/Tavlingar.aspx?aar=2024&mon=13&fdist=0&tdist=1000&type=0&country=1&region=0&tlopp=False&relay=False&surface=&tridist=0&title=1",
+    "county": "Västra Götalands",
+    "id": "mölndalsloppet-10km_20240901_httpswwwjoggsekalendertavlingaraspxaar2024mon13fdist0tdist1000type0country1region0tloppfalserelayfalsesurfacetridist0title1",
+    "summary": "Kom och spring eller gå med oss på det spännande Mölndalsloppet den 3 september 2023! Vi bjuder in dig att delta och sätta Mölndal i rörelse. Samla din familj och vänner och gör den här dagen till årets höjdpunkt! Oavsett om du springer solo eller utmanar dina vänner i en stafett, har Mölndalsloppet 2023 ett lopp för alla. Tävlingen kommer att äga rum samtidigt som idrottsdagen, så det kommer garanterat att bli en actionfylld dag med skoj och motion. Med tävlingskategorier inkluderande ett kortlopp på 850 meter och ett mellanlopp på 5 kilometer, finns det något för löpare på alla nivåer. Snöra på dig skorna och gör dig redo att ta itu med Mölndalsloppet! Anmäl dig nu och bli en del av spänningen.",
+    "website_organizer": "https://www.molndalsloppet.se/",
+    "new_version": true
+  },
+  {
+    "date": "20240901",
+    "type": "road",
+    "name": "Torskabotten Runt 2024",
+    "distance": "15,00 km",
+    "distance_m": [
+      7000,
+      15000
+    ],
+    "place": "Tollered, Lerums kommun",
+    "latitude": 57.8192649,
+    "longitude": 12.4188879,
+    "organizer": "",
+    "website": "/race-pages/torskabotten-runt-2024.html",
+    "src_url": "https://www.jogg.se/Kalender/Tavlingar.aspx?aar=2024&mon=13&fdist=0&tdist=1000&type=0&country=1&region=0&tlopp=False&relay=False&surface=&tridist=0&title=1",
+    "county": "Västra Götalands",
+    "id": "torskabotten-runt-2024_20240901_httpswwwjoggsekalendertavlingaraspxaar2024mon13fdist0tdist1000type0country1region0tloppfalserelayfalsesurfacetridist0title1",
+    "summary": "Välkommen till Torskabotten Runt 2024! En spännande löptävling med 7 km och 15 km distanser. Spring längs vackra vägar och genom stämningsfulla stadsdelar i denna road race. Oavsett om du är nybörjare eller erfaren löpare, kommer du att skapa minnen för livet. Anmäl dig i tid och utmana dig själv! Vi ser fram emot att välkomna dig till startlinjen.",
+    "website_organizer": "https://www.svenskalag.se/tolleredsif/sida/108923/torskabotten-runt-2024",
+    "new_version": true
+  },
+  {
+    "date": "20240901",
     "type": "track",
     "name": "Finspång",
     "distance": "event-100-m event-200-m event-1500-m event-kula event-spjut event-100110-m-hack event-hojdhopp event-stavhopp event-langdhopp event-diskus event-60-m event-600-m event-60-m-hack event-200-m-hack event-80-m event-300-m event-80-m-hack event-300-m-hack",
@@ -3264,6 +2649,26 @@
     "new_version": true,
     "id": "02557214-e6bb-48cd-a32e-fb6c837d1832",
     "summary": "Välkommen till Stockholm Halvmarathon! Ett av stadens populäraste lopp med en sträcka på 21 098 meter genom stadskärnan. Ett unikt och utmanande lopp för löpare i alla åldrar och erfarenhetsnivåer. Vi fokuserar på säkerhet och välbefinnande längs stadens vägar. Välkommen till en oförglömlig upplevelse mitt i Stockholm City."
+  },
+  {
+    "date": "20240907",
+    "type": "road",
+    "name": "Umemilen",
+    "distance": "10,00 km",
+    "distance_m": [
+      10000
+    ],
+    "place": "Umeå",
+    "latitude": 63.8258471,
+    "longitude": 20.2630354,
+    "organizer": "",
+    "website": "/race-pages/umemilen.html",
+    "src_url": "https://www.jogg.se/Kalender/Tavlingar.aspx?aar=2024&mon=13&fdist=0&tdist=1000&type=0&country=1&region=0&tlopp=False&relay=False&surface=&tridist=0&title=1",
+    "county": "Västerbottens",
+    "id": "umemilen_20240907_httpswwwjoggsekalendertavlingaraspxaar2024mon13fdist0tdist1000type0country1region0tloppfalserelayfalsesurfacetridist0title1",
+    "summary": "Välkommen till årets Umemil! Vi är glada att kunna presentera resultaten från årets 10 km-lopp på vägarna i Umeå. Deltagare i alla åldrar och nivåer kämpade sig igenom en spännande dag med perfekt väder och härlig stämning längs hela banan. Tack till alla som var en del av denna fantastiska händelse - vi ser redan fram emot nästa år!",
+    "website_organizer": "https://www.ifkumea.com/nyheter/?ID=171836&NID=1064285",
+    "new_version": true
   },
   {
     "date": "20240908",
@@ -3745,6 +3150,44 @@
     "new_version": true
   },
   {
+    "date": "20240915",
+    "type": "trail",
+    "name": "Brotorp trailrun",
+    "distance": "2, 7, 14 och 21 km",
+    "distance_m": [],
+    "place": "Brotorp trailrun",
+    "latitude": 59.2713824,
+    "longitude": 18.1470715,
+    "organizer": "",
+    "website": "/race-pages/brotorp-trailrun.html",
+    "src_url": "https://www.trailrunningsweden.se/trailkalendern/",
+    "county": "Stockholms",
+    "id": "brotorp-trailrun_20240915_httpswwwtrailrunningswedensetrailkalendern",
+    "summary": "Välkommen till Brotorp trailrun den 15 september 2024! Upplev vacker natur och utmanande terräng på olika distanser som passar alla löparenivåer. Med kategorier som inkluderar korta och långa lopp är detta en unik upplevelse för både nybörjare och erfarna löpare. Ta chansen att utforska spännande stigar och träffa likasinnade under detta fantastiska traillopp!",
+    "website_organizer": "https://www.facebook.com/events/skarpn%C3%A4cks-g%C3%A5rdsv%C3%A4g-100/brotorp-trailrun/1521010731785401/",
+    "new_version": true
+  },
+  {
+    "date": "20240917",
+    "type": "road",
+    "name": "Höstfemman",
+    "distance": "5,00 km",
+    "distance_m": [
+      5000
+    ],
+    "place": "Umeå",
+    "latitude": 63.8258471,
+    "longitude": 20.2630354,
+    "organizer": "",
+    "website": "/race-pages/hostfemman.html",
+    "src_url": "https://www.jogg.se/Kalender/Tavlingar.aspx?aar=2024&mon=13&fdist=0&tdist=1000&type=0&country=1&region=0&tlopp=False&relay=False&surface=&tridist=0&title=1",
+    "county": "Västerbottens",
+    "id": "höstfemman_20240917_httpswwwjoggsekalendertavlingaraspxaar2024mon13fdist0tdist1000type0country1region0tloppfalserelayfalsesurfacetridist0title1",
+    "summary": "Välkommen till vår årliga friidrottstävling! Vi erbjuder en spännande löptävling på 5 km längs stadens vägar och gator. Oavsett erfarenhet eller ålder, har vi en utmaning för alla. Kom och delta för en hälsosam och rolig löpupplevelse och skapa minnen för livet!",
+    "website_organizer": "https://www.friidrottsstatistik.se/resultsswe.php?CID=13021710&Season=2022",
+    "new_version": true
+  },
+  {
     "date": "20240921",
     "type": "trail",
     "name": "Caballo Blanco Memorial Run (CBMR)",
@@ -3976,6 +3419,26 @@
     "new_version": true
   },
   {
+    "date": "20240921",
+    "type": "road",
+    "name": "Scandicloppet 2024",
+    "distance": "Tidslopp",
+    "distance_m": [
+      0
+    ],
+    "place": "Själevad",
+    "latitude": 63.2994414,
+    "longitude": 18.5988915,
+    "organizer": "",
+    "website": "/race-pages/scandicloppet-2024.html",
+    "src_url": "https://www.jogg.se/Kalender/Tavlingar.aspx?aar=2024&mon=13&fdist=0&tdist=1000&type=0&country=1&region=0&tlopp=False&relay=False&surface=&tridist=0&title=1",
+    "county": "Västernorrlands",
+    "id": "scandicloppet-2024_20240921_httpswwwjoggsekalendertavlingaraspxaar2024mon13fdist0tdist1000type0country1region0tloppfalserelayfalsesurfacetridist0title1",
+    "summary": "Välkommen till Scandicloppet 2024! Den 21 september samlas löpare för en spännande löptävling på asfalterade vägar. Vi erbjuder 10 km för erfarna löpare, 5 km för de som föredrar kortare sträckor och 2 km för barn och familjer. Oavsett erfarenhetsnivå är alla välkomna att delta. Anmäl dig redan idag för att säkra din plats i årets lopp!",
+    "website_organizer": "https://www.moalvensibk.se/?SID=43563",
+    "new_version": true
+  },
+  {
     "date": "20240922",
     "type": "track",
     "name": "Trollhättan",
@@ -4099,6 +3562,26 @@
     "id": "östgöta-ultra-trail_20240928_httpswwwtrailrunningswedensetrailkalendern",
     "summary": "Utforska Östergötlands vackra natur till fots under Östgöta Ultra Trail - ett utmanande ultralöpningsarrangemang med tre spännande distanser att välja mellan. Ta dig an den pittoreska banan på 54k, 108k eller utmana dig själv med de hela 162 kilometerna. Denna upplevelse erbjuder en fysisk och mentalt krävande utmaning som kommer att testa dina gränser och ge dig minnen för livet. Anmäl dig till detta spännande arrangemang den 28 – 29 september 2024 och förbered dig för en oförglömlig resa genom vackra terränger och vilda marker!",
     "website_organizer": "https://www.ostgotaultratrail.com/",
+    "new_version": true
+  },
+  {
+    "date": "20240928",
+    "type": "backyard",
+    "name": "Limhamn September Backyard Ultra 2024",
+    "distance": "6,7 km",
+    "distance_m": [
+      "backyard"
+    ],
+    "place": "Limhamn September Backyard Ultra 2024",
+    "latitude": 55.5757084,
+    "longitude": 12.9199368,
+    "organizer": "",
+    "website": "/race-pages/limhamn-september-backyard-ultra-2024.html",
+    "src_url": "https://www.trailrunningsweden.se/trailkalendern/",
+    "county": "Skåne",
+    "id": "limhamn-september-backyard-ultra-2024_20240928_httpswwwtrailrunningswedensetrailkalendern",
+    "summary": "Välkommen till Limhamn September Backyard Ultra! Vårt löpningsevenemang är perfekt för äventyrslystna löpare som älskar utmaningar. Vår \"backyard\"-modell erbjuder oändliga distanser för de som vill fortsätta springa varv efter varv. Oavsett om du är en erfaren ultralöpare eller nybörjare, har vi en distans som passar dig. Anmäl dig idag och upplev den unika bakgårdsutmaningen!",
+    "website_organizer": "https://www.limhamnsff.se/sida/?ID=504342",
     "new_version": true
   },
   {
@@ -4543,6 +4026,27 @@
     "new_version": true
   },
   {
+    "date": "20241012",
+    "type": "road",
+    "name": "Umemaran",
+    "distance": "42,20 km",
+    "distance_m": [
+      21000,
+      42000
+    ],
+    "place": "Umeå",
+    "latitude": 63.8258471,
+    "longitude": 20.2630354,
+    "organizer": "",
+    "website": "/race-pages/umemaran.html",
+    "src_url": "https://www.jogg.se/Kalender/Tavlingar.aspx?aar=2024&mon=13&fdist=0&tdist=1000&type=0&country=1&region=0&tlopp=False&relay=False&surface=&tridist=0&title=1",
+    "county": "Västerbottens",
+    "id": "umemaran_20241012_httpswwwjoggsekalendertavlingaraspxaar2024mon13fdist0tdist1000type0country1region0tloppfalserelayfalsesurfacetridist0title1",
+    "summary": "Anmäl dig till den 51:a Umemaran i Umeå 2024! Upplev en hälsosam och gemensam löpningsevenemang med huvuddistanserna halvmarathon och marathon på väg. Utmana dig själv och skapa minnen för livet med vackra och varierande terrängen i Umeå. Anmäl dig redan idag och vara med och skapa minnen för livet på den prestigefyllda Umemaran 2024!",
+    "website_organizer": "https://www.jallestc.se/aktuellt/inbjudan-umemaran-2024",
+    "new_version": true
+  },
+  {
     "date": "20241013",
     "type": "road",
     "name": "Helsingborgs terränglopp",
@@ -4644,6 +4148,28 @@
     "new_version": true,
     "id": "2d3814c0-41a5-4236-be24-fb34a34e2c3e",
     "summary": "Upplev magin i nattens löprundor genom att delta i vår unika löparupplevelse, Night Trail Run. Ta dig an utmanande terräng och känna spänningen av att springa i mörkret med andra löpare. Välj mellan 5 km eller 10 km och testa dina gränser i naturen. Anmäl dig redan idag för att säkra din plats i nästa Night Trail Run i oktober 2024 och få spännande uppdateringar genom vårt nyhetsbrev."
+  },
+  {
+    "date": "20241017",
+    "type": "trail",
+    "name": "Fire Night Run",
+    "distance": "2,0 KM, 5,6 KM, 10,8 KM",
+    "distance_m": [
+      2000,
+      5000,
+      10000
+    ],
+    "place": "Fire Night Run",
+    "latitude": 60.12816100000001,
+    "longitude": 18.643501,
+    "organizer": "",
+    "website": "/race-pages/fire-night-run.html",
+    "src_url": "https://www.trailrunningsweden.se/trailkalendern/",
+    "county": "Stockholms",
+    "id": "fire-night-run_20241017_httpswwwtrailrunningswedensetrailkalendern",
+    "summary": "Fire Night Run är tillbaka den 17:e oktober på arenan vid Skultuna Mässingsbruk! Med förbättrade upplevelsestationer och fler deltagare, erbjuder loppet spännande och utmanande trail-distanser på 2 km, 5 km och 10 km. För barn och ungdomar finns också Miniloppet. Upplev den vackra miljön och utmana dina gränser på detta minnesvärda lopp!",
+    "website_organizer": "https://nightrun.vasterassok.se/",
+    "new_version": true
   },
   {
     "date": "20241019",
